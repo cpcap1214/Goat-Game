@@ -112,3 +112,18 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local OS files, Python caches, and generated demo outputs
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+/Artifacts/
+
+# Local credentials (keep example configuration files trackable)
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx

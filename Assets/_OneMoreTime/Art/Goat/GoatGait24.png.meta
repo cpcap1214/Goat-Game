@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 75047eb3156a143caaba1e006b90707f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8146690272301402161
+    second: GoatGait24_0
+  - first:
+      213: -4990080931855686489
+    second: GoatGait24_1
+  - first:
+      213: -5679564678227471914
+    second: GoatGait24_2
+  - first:
+      213: 2233341935010701749
+    second: GoatGait24_3
+  - first:
+      213: 1379623859908410529
+    second: GoatGait24_4
+  - first:
+      213: -3585097606837496633
+    second: GoatGait24_5
+  - first:
+      213: 8295798625313627009
+    second: GoatGait24_6
+  - first:
+      213: -3418957162351661669
+    second: GoatGait24_7
+  - first:
+      213: 7658570609602207279
+    second: GoatGait24_8
+  - first:
+      213: 8479566106365209582
+    second: GoatGait24_9
+  - first:
+      213: 6564076005293293674
+    second: GoatGait24_10
+  - first:
+      213: 5290090311740022702
+    second: GoatGait24_11
+  - first:
+      213: 2408165614511594759
+    second: GoatGait24_12
+  - first:
+      213: -6341590073218990894
+    second: GoatGait24_13
+  - first:
+      213: -2054276619222819367
+    second: GoatGait24_14
+  - first:
+      213: -9058495978909323515
+    second: GoatGait24_15
+  - first:
+      213: 1517301795949370805
+    second: GoatGait24_16
+  - first:
+      213: -6603721356942123751
+    second: GoatGait24_17
+  - first:
+      213: -4168956647278119466
+    second: GoatGait24_18
+  - first:
+      213: 7832681340662297414
+    second: GoatGait24_19
+  - first:
+      213: -10528482747665373
+    second: GoatGait24_20
+  - first:
+      213: -8357743819830929008
+    second: GoatGait24_21
+  - first:
+      213: 419458515125095209
+    second: GoatGait24_22
+  - first:
+      213: 1036050868815649041
+    second: GoatGait24_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GoatGait24_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 780
+        width: 205
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138c7afb3abde0170800000000000000
+      internalID: 8146690272301402161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 780
+        width: 205
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4aa40c4dbafbab0800000000000000
+      internalID: -4990080931855686489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 780
+        width: 205
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1556b44022e21b0800000000000000
+      internalID: -5679564678227471914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 780
+        width: 205
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1eb4a38ac6efe10800000000000000
+      internalID: 2233341935010701749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_4
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 780
+        width: 205
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac7e7d4798652310800000000000000
+      internalID: 1379623859908410529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_5
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 780
+        width: 205
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c41953a8bc2f3ec0800000000000000
+      internalID: -3585097606837496633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 524
+        width: 205
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b1efd85e8902370800000000000000
+      internalID: 8295798625313627009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_7
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 524
+        width: 205
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d60c3439c6d80d0800000000000000
+      internalID: -3418957162351661669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 524
+        width: 205
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e16908465b84a60800000000000000
+      internalID: 7658570609602207279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_9
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 524
+        width: 205
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb275372787da570800000000000000
+      internalID: 8479566106365209582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_10
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 524
+        width: 208
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a600c2e4958481b50800000000000000
+      internalID: 6564076005293293674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_11
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 524
+        width: 213
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafdff44c1d2a6940800000000000000
+      internalID: 5290090311740022702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 268
+        width: 217
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d164d0ed58b6120800000000000000
+      internalID: 2408165614511594759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 268
+        width: 217
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc73a67d652ef7a0800000000000000
+      internalID: -6341590073218990894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_14
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 268
+        width: 216
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd55d08c4ebd73e0800000000000000
+      internalID: -2054276619222819367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_15
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 268
+        width: 213
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f2ec1b6e1c94280800000000000000
+      internalID: -9058495978909323515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_16
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 268
+        width: 207
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bddf94c1f98e0510800000000000000
+      internalID: 1517301795949370805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_17
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 268
+        width: 205
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dddc3f96eda54a0800000000000000
+      internalID: -6603721356942123751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 12
+        width: 205
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5fbf27404e426c0800000000000000
+      internalID: -4168956647278119466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 12
+        width: 205
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643b1051e2643bc60800000000000000
+      internalID: 7832681340662297414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_20
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 12
+        width: 205
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3243dc596689adff0800000000000000
+      internalID: -10528482747665373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_21
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 12
+        width: 205
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099d24fe644530c80800000000000000
+      internalID: -8357743819830929008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_22
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 12
+        width: 205
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b4b001c4732d500800000000000000
+      internalID: 419458515125095209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatGait24_23
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 12
+        width: 205
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119ddf4a6cac06e00800000000000000
+      internalID: 1036050868815649041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GoatGait24_0: 8146690272301402161
+      GoatGait24_1: -4990080931855686489
+      GoatGait24_10: 6564076005293293674
+      GoatGait24_11: 5290090311740022702
+      GoatGait24_12: 2408165614511594759
+      GoatGait24_13: -6341590073218990894
+      GoatGait24_14: -2054276619222819367
+      GoatGait24_15: -9058495978909323515
+      GoatGait24_16: 1517301795949370805
+      GoatGait24_17: -6603721356942123751
+      GoatGait24_18: -4168956647278119466
+      GoatGait24_19: 7832681340662297414
+      GoatGait24_2: -5679564678227471914
+      GoatGait24_20: -10528482747665373
+      GoatGait24_21: -8357743819830929008
+      GoatGait24_22: 419458515125095209
+      GoatGait24_23: 1036050868815649041
+      GoatGait24_3: 2233341935010701749
+      GoatGait24_4: 1379623859908410529
+      GoatGait24_5: -3585097606837496633
+      GoatGait24_6: 8295798625313627009
+      GoatGait24_7: -3418957162351661669
+      GoatGait24_8: 7658570609602207279
+      GoatGait24_9: 8479566106365209582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

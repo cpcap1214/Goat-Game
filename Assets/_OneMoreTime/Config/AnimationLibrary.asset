@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31d4673dcc5f4d03902c3230f77b69f, type: 3}
+  m_Name: AnimationLibrary
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.AnimationLibrary
+  idle:
+  - {fileID: 21300000, guid: 39ff518fb8d264eda9a54974a488cd4d, type: 2}
+  - {fileID: 21300000, guid: a35ed8197dcf243c18f2745de1e90f66, type: 2}
+  - {fileID: 21300000, guid: 9dc9c1448ab4e47ff90d9c06d83b33cd, type: 2}
+  - {fileID: 21300000, guid: a9dcf4283ea2546ba83bc03d2cb27b82, type: 2}
+  - {fileID: 21300000, guid: 230384fe9244f458ea7ba51c1fb99b7e, type: 2}
+  - {fileID: 21300000, guid: c75bfc24a1ef34a7f8629ab635f89640, type: 2}
+  run:
+  - {fileID: 21300000, guid: eff3217c552834766b3ea9e175722caa, type: 2}
+  - {fileID: 21300000, guid: 7d7d3346d8a3f4a2da1ec8e60ce2ed6a, type: 2}
+  - {fileID: 21300000, guid: 68298d54b1d2e4cb3867610c58e6060f, type: 2}
+  - {fileID: 21300000, guid: 47d13db2ffbcd4f9baac5982a8941f74, type: 2}
+  - {fileID: 21300000, guid: 30a6c074360844350b7b5f2517743635, type: 2}
+  - {fileID: 21300000, guid: a97b78b7dfa4744a3b24d96eae3e8822, type: 2}
+  rise:
+  - {fileID: 21300000, guid: 843bd794579f741eab19d48a3a54578f, type: 2}
+  - {fileID: 21300000, guid: faa1046e6f0b3445c93e8bed714959e8, type: 2}
+  - {fileID: 21300000, guid: 5b6c5c4624b504c928df1c36814d6228, type: 2}
+  descent:
+  - {fileID: 21300000, guid: 60e027dc1d6b649708e980f2c0d58e98, type: 2}
+  - {fileID: 21300000, guid: 593e6eb5a56f3425bb72dcbe1eeb7e12, type: 2}
+  - {fileID: 21300000, guid: 24f1642fd1e354efa9634fc9b6e28242, type: 2}
+  landing:
+  - {fileID: 21300000, guid: b01acf0456bc14816a8c6fd012505934, type: 2}
+  - {fileID: 21300000, guid: 4faea9e2cbac7429b823c29d8b16816e, type: 2}
+  - {fileID: 21300000, guid: bd63294898a0c469da51f976d0a39724, type: 2}
+  - {fileID: 21300000, guid: 32c59d6cda5ea46edb7acfce72ae847e, type: 2}
+  - {fileID: 21300000, guid: cb37a49c67004452d827146cc90fd67a, type: 2}
+  - {fileID: 21300000, guid: 4ae228dccd85a49e7b2f6ddf6b912c03, type: 2}
+  jump: {fileID: 21300000, guid: faa1046e6f0b3445c93e8bed714959e8, type: 2}
+  fall: {fileID: 21300000, guid: 593e6eb5a56f3425bb72dcbe1eeb7e12, type: 2}
+  visualScale: 1
+  visualOffset: {x: 0, y: 0}

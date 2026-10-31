@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: 9521308d3afe3483ca819bfe97501ea7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -153275054482976568
+    second: GoatRun24_0
+  - first:
+      213: 2560338390480436944
+    second: GoatRun24_1
+  - first:
+      213: -8003341325714829580
+    second: GoatRun24_2
+  - first:
+      213: 4582989075648226597
+    second: GoatRun24_3
+  - first:
+      213: 1469097008526558319
+    second: GoatRun24_4
+  - first:
+      213: -499896970655850107
+    second: GoatRun24_5
+  - first:
+      213: -3481112818004573771
+    second: GoatRun24_6
+  - first:
+      213: 871106386185744683
+    second: GoatRun24_7
+  - first:
+      213: 7559672442564410530
+    second: GoatRun24_8
+  - first:
+      213: -1548562295757803213
+    second: GoatRun24_9
+  - first:
+      213: -927168614214440749
+    second: GoatRun24_10
+  - first:
+      213: 3693865344262193613
+    second: GoatRun24_11
+  - first:
+      213: -3045878825408146373
+    second: GoatRun24_12
+  - first:
+      213: -8581396844790263273
+    second: GoatRun24_13
+  - first:
+      213: 108019110930182644
+    second: GoatRun24_14
+  - first:
+      213: -3804877182295487403
+    second: GoatRun24_15
+  - first:
+      213: -2395018667428584647
+    second: GoatRun24_16
+  - first:
+      213: 1172536766761614164
+    second: GoatRun24_17
+  - first:
+      213: 85971002285081299
+    second: GoatRun24_18
+  - first:
+      213: -2356202377714221820
+    second: GoatRun24_19
+  - first:
+      213: -5832492167996394052
+    second: GoatRun24_20
+  - first:
+      213: 6002578193387049741
+    second: GoatRun24_21
+  - first:
+      213: -8755438712600545396
+    second: GoatRun24_22
+  - first:
+      213: -8291874408034524959
+    second: GoatRun24_23
+  - first:
+      213: 1248207719702646079
+    second: GoatRun24_24
+  - first:
+      213: 3182229485800757589
+    second: GoatRun24_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GoatRun24_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 771
+        width: 215
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c01d9866257fddf0800000000000000
+      internalID: -153275054482976568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 753
+        width: 228
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deb16d6336288320800000000000000
+      internalID: 2560338390480436944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 742
+        width: 216
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe4090c77b6ee090800000000000000
+      internalID: -8003341325714829580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 772
+        width: 225
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5252287584c0a9f30800000000000000
+      internalID: 4582989075648226597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_4
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 767
+        width: 229
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6480d512f7436410800000000000000
+      internalID: 1469097008526558319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_5
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 769
+        width: 228
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581a3cf8a520019f0800000000000000
+      internalID: -499896970655850107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_6
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 751
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b147c3f55a90bfc0800000000000000
+      internalID: -3481112818004573771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 525
+        width: 216
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21fc2694aac61c00800000000000000
+      internalID: 871106386185744683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 525
+        width: 231
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac7c5d980a59e860800000000000000
+      internalID: 7559672442564410530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_9
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 525
+        width: 225
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331fac0fbc6628ae0800000000000000
+      internalID: -1548562295757803213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_10
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 519
+        width: 237
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d86bd6ce090223f0800000000000000
+      internalID: -927168614214440749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_11
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 505
+        width: 233
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1cfdca5fe334330800000000000000
+      internalID: 3693865344262193613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_12
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 501
+        width: 221
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34d9a6985ddab5d0800000000000000
+      internalID: -3045878825408146373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 255
+        width: 228
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7125e9d2901c8e880800000000000000
+      internalID: -8581396844790263273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 275
+        width: 222
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f172ff1fc2cf7100800000000000000
+      internalID: 108019110930182644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_15
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 264
+        width: 221
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cc94f9c5c523bc0800000000000000
+      internalID: -3804877182295487403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 273
+        width: 241
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9336d79163f23ced0800000000000000
+      internalID: -2395018667428584647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_17
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 273
+        width: 228
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b39ec1affa54010800000000000000
+      internalID: 1172536766761614164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_18
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 257
+        width: 232
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2cf2ccb2e613100800000000000000
+      internalID: 85971002285081299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_19
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 255
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40db961db661d4fd0800000000000000
+      internalID: -2356202377714221820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 29
+        width: 214
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5b35b6643de0fa0800000000000000
+      internalID: -5832492167996394052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_21
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 31
+        width: 222
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03575950117d4350800000000000000
+      internalID: 6002578193387049741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_22
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 27
+        width: 215
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87bdb211ee6e7680800000000000000
+      internalID: -8755438712600545396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_23
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 23
+        width: 223
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e023fa78285dec80800000000000000
+      internalID: -8291874408034524959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 31
+        width: 221
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dc6cace46825110800000000000000
+      internalID: 1248207719702646079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatRun24_25
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 29
+        width: 238
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5599dee6bdc892c20800000000000000
+      internalID: 3182229485800757589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GoatRun24_0: -153275054482976568
+      GoatRun24_1: 2560338390480436944
+      GoatRun24_10: -927168614214440749
+      GoatRun24_11: 3693865344262193613
+      GoatRun24_12: -3045878825408146373
+      GoatRun24_13: -8581396844790263273
+      GoatRun24_14: 108019110930182644
+      GoatRun24_15: -3804877182295487403
+      GoatRun24_16: -2395018667428584647
+      GoatRun24_17: 1172536766761614164
+      GoatRun24_18: 85971002285081299
+      GoatRun24_19: -2356202377714221820
+      GoatRun24_2: -8003341325714829580
+      GoatRun24_20: -5832492167996394052
+      GoatRun24_21: 6002578193387049741
+      GoatRun24_22: -8755438712600545396
+      GoatRun24_23: -8291874408034524959
+      GoatRun24_24: 1248207719702646079
+      GoatRun24_25: 3182229485800757589
+      GoatRun24_3: 4582989075648226597
+      GoatRun24_4: 1469097008526558319
+      GoatRun24_5: -499896970655850107
+      GoatRun24_6: -3481112818004573771
+      GoatRun24_7: 871106386185744683
+      GoatRun24_8: 7559672442564410530
+      GoatRun24_9: -1548562295757803213
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

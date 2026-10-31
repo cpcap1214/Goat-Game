@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GTA · Goat Tower Again</title>
+<style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#102a32;color:#f7efd6;font-family:system-ui,sans-serif}body{display:grid;place-items:center}canvas{display:block;width:min(100vw,177.7778vh);height:min(100vh,56.25vw);outline:none}#loading{position:absolute;inset:0;display:grid;place-content:center;text-align:center;background:#102a32;pointer-events:none}progress{width:260px;accent-color:#7de0b5}#error{position:absolute;inset:20%;padding:24px;background:#102a32;display:none}</style></head>
+<body><canvas id="unity-canvas" width="960" height="540" tabindex="0" aria-label="GTA：Goat Tower Again 平台解謎遊戲"></canvas><div id="loading"><h1>GTA</h1><p>Goat Tower Again</p><progress id="progress" max="1" value="0"></progress><p>正在準備這一次的旅程…</p></div><div id="error" role="alert"></div>
+<script src="Build/__LOADER__?v=__VERSION__"></script><script>
+const canvas=document.getElementById('unity-canvas');
+createUnityInstance(canvas,{dataUrl:'Build/__DATA__?v=__VERSION__',frameworkUrl:'Build/__FRAMEWORK__?v=__VERSION__',codeUrl:'Build/__WASM__?v=__VERSION__',streamingAssetsUrl:'StreamingAssets',companyName:'One More Time',productName:'Goat Tower Again',productVersion:'1.0',matchWebGLToCanvasSize:true},p=>document.getElementById('progress').value=p).then(()=>{document.getElementById('loading').remove();canvas.focus();}).catch(e=>{const out=document.getElementById('error');out.textContent='載入失敗：'+e;out.style.display='block';});
+</script></body></html>

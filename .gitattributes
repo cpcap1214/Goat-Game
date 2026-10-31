@@ -1,0 +1,9 @@
+# Preserve Unity serialization; empty YAML values include trailing spaces.
+*.meta whitespace=-blank-at-eol
+*.unity whitespace=-blank-at-eol
+*.prefab whitespace=-blank-at-eol
+*.asset whitespace=-blank-at-eol
+*.anim whitespace=-blank-at-eol
+*.controller whitespace=-blank-at-eol
+# Keep the upstream font license verbatim.
+Assets/_OneMoreTime/Fonts/OFL.txt whitespace=-blank-at-eol

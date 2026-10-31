@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b947adbce22e43429ca505125da2404, type: 3}
+  m_Name: L02_Pressure
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.LevelConfig
+  layoutRevision: 2
+  cameraY: 3.5
+  doorSources: 
+  initialized: 1
+  level: 2
+  title: "\u4E00\u500B\u4F4D\u7F6E\uFF0C\u5169\u500B\u4EFB\u52D9"
+  hint: "\u5148\u767B\u4E0A\u8E0F\u677F\u77F3\u5EA7\u3002\u5B9A\u683C\u8981\u540C\u6642\u58D3\u4F4F A\uFF0C\u4E26\u8B93\u4F60\u8DF3\u4E0A\u9580\u524D\u9AD8\u53F0\u3002"
+  spawn: {x: 2, y: 0}
+  goal:
+    serializedVersion: 2
+    x: 32
+    y: 4.9
+    width: 1
+    height: 2
+  killY: -5
+  plates:
+  - {x: 12.8, y: 1.4}
+  doors:
+  - serializedVersion: 2
+    x: 15
+    y: 4.9
+    width: 0.6
+    height: 4.1
+  crumbles: []
+  hazards:
+  - serializedVersion: 2
+    x: 7
+    y: -2
+    width: 2
+    height: 0.35
+  - serializedVersion: 2
+    x: 19
+    y: -2
+    width: 3
+    height: 0.35
+  - serializedVersion: 2
+    x: 26
+    y: -2
+    width: 3
+    height: 0.35
+  terrain:
+  - serializedVersion: 2
+    x: -2
+    y: -3
+    width: 9
+    height: 3
+  - serializedVersion: 2
+    x: 9
+    y: -3
+    width: 5
+    height: 4.4
+  - serializedVersion: 2
+    x: 14
+    y: -3
+    width: 5
+    height: 7.9
+  - serializedVersion: 2
+    x: 22
+    y: -3
+    width: 4
+    height: 7.9
+  - serializedVersion: 2
+    x: 29
+    y: -3
+    width: 7
+    height: 7.9
+  - serializedVersion: 2
+    x: 14
+    y: 9
+    width: 22
+    height: 1
+  - serializedVersion: 2
+    x: -2
+    y: 0
+    width: 1
+    height: 12
+  - serializedVersion: 2
+    x: 36
+    y: 0
+    width: 1
+    height: 12
+  cameraSize: 6
+  cameraMin: 8
+  cameraMax: 29

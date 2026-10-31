@@ -1,0 +1,6 @@
+using NUnit.Framework;using UnityEngine.InputSystem;using UnityEngine.InputSystem.LowLevel;
+namespace OneMoreTime.Tests {
+public class InputTests {
+ [Test]public void HeldKeysAndResetSuppression(){var previous=Keyboard.current;var keyboard=InputSystem.AddDevice<Keyboard>();keyboard.MakeCurrent();try{var adapter=new KeyboardPlayerInput();InputSystem.QueueStateEvent(keyboard,new KeyboardState(Key.E));InputSystem.Update();Assert.IsTrue(keyboard.eKey.isPressed,"Synthetic E state must be visible");Assert.AreSame(keyboard,Keyboard.current,"Fixture keyboard must be current");adapter.Poll();Assert.IsTrue(adapter.Consume().freeze,"Initial E edge");InputSystem.Update();adapter.Poll();Assert.IsFalse(adapter.Consume().freeze);adapter.Clear();InputSystem.QueueStateEvent(keyboard,new KeyboardState(Key.Q,Key.D,Key.Space));InputSystem.Update();adapter.Poll();var blocked=adapter.Consume();Assert.IsFalse(blocked.trace);Assert.IsFalse(blocked.jump);Assert.AreEqual(0,blocked.move);InputSystem.QueueStateEvent(keyboard,new KeyboardState());InputSystem.Update();adapter.Poll();InputSystem.QueueStateEvent(keyboard,new KeyboardState(Key.Q));InputSystem.Update();adapter.Poll();Assert.IsTrue(adapter.Consume().trace);Assert.IsFalse(adapter.Consume().trace);}finally{InputSystem.RemoveDevice(keyboard);if(previous!=null)previous.MakeCurrent();}}
+}
+}

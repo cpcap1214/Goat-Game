@@ -1,0 +1,1 @@
+{"name": "OneMoreTime.PlayTests", "references": ["OneMoreTime.Runtime", "Unity.InputSystem"], "optionalUnityReferences": ["TestAssemblies"]}

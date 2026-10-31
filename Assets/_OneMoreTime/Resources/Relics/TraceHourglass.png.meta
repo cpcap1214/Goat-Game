@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: 418207ff0e8824f31b8cdf6a27cded45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5837558150786139437
+    second: TraceHourglass_0
+  - first:
+      213: -7409404738762913188
+    second: TraceHourglass_1
+  - first:
+      213: -2093555283070654065
+    second: TraceHourglass_2
+  - first:
+      213: -8257307902428137264
+    second: TraceHourglass_3
+  - first:
+      213: 3560688017493689894
+    second: TraceHourglass_4
+  - first:
+      213: 4665697130055396847
+    second: TraceHourglass_5
+  - first:
+      213: 3589541733350000367
+    second: TraceHourglass_6
+  - first:
+      213: 8081172161174147088
+    second: TraceHourglass_7
+  - first:
+      213: -3177848134681418444
+    second: TraceHourglass_8
+  - first:
+      213: 6974796905510166734
+    second: TraceHourglass_9
+  - first:
+      213: 5048251818114770832
+    second: TraceHourglass_10
+  - first:
+      213: -2008028616084285971
+    second: TraceHourglass_11
+  - first:
+      213: -5973190223518015514
+    second: TraceHourglass_12
+  - first:
+      213: 7007207310045649842
+    second: TraceHourglass_13
+  - first:
+      213: 3522390659619275365
+    second: TraceHourglass_14
+  - first:
+      213: -3729488954086569040
+    second: TraceHourglass_15
+  - first:
+      213: -2671864851706953250
+    second: TraceHourglass_16
+  - first:
+      213: 2081439797884117529
+    second: TraceHourglass_17
+  - first:
+      213: -3328837625974681086
+    second: TraceHourglass_18
+  - first:
+      213: 8856350136711870056
+    second: TraceHourglass_19
+  - first:
+      213: -1036887558818932303
+    second: TraceHourglass_20
+  - first:
+      213: -2840515365996020493
+    second: TraceHourglass_21
+  - first:
+      213: -4178081510493646551
+    second: TraceHourglass_22
+  - first:
+      213: -7113843585190380358
+    second: TraceHourglass_23
+  - first:
+      213: 7960250233457346930
+    second: TraceHourglass_24
+  - first:
+      213: 4191387877708691334
+    second: TraceHourglass_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TraceHourglass_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 870
+        height: 1230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dab4b26ac3dcfea0800000000000000
+      internalID: -5837558150786139437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_1
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 955
+        width: 79
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ac0f495a18c2990800000000000000
+      internalID: -7409404738762913188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_2
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 915
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f896eeaef8232f2e0800000000000000
+      internalID: -2093555283070654065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_3
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 831
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8beba3636286d80800000000000000
+      internalID: -8257307902428137264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_4
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 873
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62683b6f2ea1a6130800000000000000
+      internalID: 3560688017493689894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_5
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 795
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fede282e1d2efb040800000000000000
+      internalID: 4665697130055396847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 554
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe644c2303d90d130800000000000000
+      internalID: 3589541733350000367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_7
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 280
+        width: 208
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0109f83c347162070800000000000000
+      internalID: 8081172161174147088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_8
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 548
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4352d2e55f306e3d0800000000000000
+      internalID: -3177848134681418444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_9
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 198
+        width: 59
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec06d6dd4d47bc060800000000000000
+      internalID: 6974796905510166734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 71
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0976373284efe0640800000000000000
+      internalID: 5048251818114770832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_11
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 27
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de51a77dc9c0224e0800000000000000
+      internalID: -2008028616084285971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 13
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef5f579327fa1da0800000000000000
+      internalID: -5973190223518015514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_13
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 35
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb9ac63ce99e3160800000000000000
+      internalID: 7007207310045649842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 30
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562c2ca74ab02e030800000000000000
+      internalID: 3522390659619275365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_15
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 18
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb4de15e813e3cc0800000000000000
+      internalID: -3729488954086569040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_16
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 20
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1c722d211abead0800000000000000
+      internalID: -2671864851706953250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_17
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9126e3ed772c2ec10800000000000000
+      internalID: 2081439797884117529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_18
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 47
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20213dce0d79dc1d0800000000000000
+      internalID: -3328837625974681086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_19
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 47
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8667131c68318ea70800000000000000
+      internalID: 8856350136711870056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_20
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 51
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b95398424c3c91f0800000000000000
+      internalID: -1036887558818932303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_21
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 52
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcb4c603567498d0800000000000000
+      internalID: -2840515365996020493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_22
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 71
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921166ca0097406c0800000000000000
+      internalID: -4178081510493646551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_23
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 26
+        width: 236
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc390533fc864d90800000000000000
+      internalID: -7113843585190380358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_24
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2790270896d787e60800000000000000
+      internalID: 7960250233457346930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraceHourglass_25
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 0
+        width: 47
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68774be511dca2a30800000000000000
+      internalID: 4191387877708691334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TraceHourglass_0: -5837558150786139437
+      TraceHourglass_1: -7409404738762913188
+      TraceHourglass_10: 5048251818114770832
+      TraceHourglass_11: -2008028616084285971
+      TraceHourglass_12: -5973190223518015514
+      TraceHourglass_13: 7007207310045649842
+      TraceHourglass_14: 3522390659619275365
+      TraceHourglass_15: -3729488954086569040
+      TraceHourglass_16: -2671864851706953250
+      TraceHourglass_17: 2081439797884117529
+      TraceHourglass_18: -3328837625974681086
+      TraceHourglass_19: 8856350136711870056
+      TraceHourglass_2: -2093555283070654065
+      TraceHourglass_20: -1036887558818932303
+      TraceHourglass_21: -2840515365996020493
+      TraceHourglass_22: -4178081510493646551
+      TraceHourglass_23: -7113843585190380358
+      TraceHourglass_24: 7960250233457346930
+      TraceHourglass_25: 4191387877708691334
+      TraceHourglass_3: -8257307902428137264
+      TraceHourglass_4: 3560688017493689894
+      TraceHourglass_5: 4665697130055396847
+      TraceHourglass_6: 3589541733350000367
+      TraceHourglass_7: 8081172161174147088
+      TraceHourglass_8: -3177848134681418444
+      TraceHourglass_9: 6974796905510166734
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

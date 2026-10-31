@@ -1,0 +1,1 @@
+{"name":"OneMoreTime.Editor","references":["OneMoreTime.Runtime","Unity.InputSystem","Unity.ugui","UnityEditor.TestRunner","UnityEngine.TestRunner"],"includePlatforms":["Editor"]}

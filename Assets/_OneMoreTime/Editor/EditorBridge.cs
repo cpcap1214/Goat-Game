@@ -1,0 +1,11 @@
+using System;using System.IO;using System.Linq;using System.Security.Cryptography;using System.Text;using UnityEditor;using UnityEngine;
+namespace OneMoreTime.EditorTools {
+[InitializeOnLoad] public static class EditorBridge {
+ static double next;
+ static EditorBridge(){EditorApplication.update+=Poll;Directory.CreateDirectory("Artifacts/Logs");using(var hash=SHA256.Create()){var source=string.Join("",Directory.GetFiles("Assets/_OneMoreTime","*.cs",SearchOption.AllDirectories).OrderBy(p=>p,StringComparer.Ordinal).Select(File.ReadAllText));File.WriteAllText("Artifacts/Logs/compiled.sha256",BitConverter.ToString(hash.ComputeHash(Encoding.UTF8.GetBytes(source))).Replace("-","").ToLowerInvariant());}}
+ static void Poll(){if(EditorApplication.timeSinceStartup<next||EditorApplication.isCompiling||EditorApplication.isUpdating)return;next=EditorApplication.timeSinceStartup+.5;
+ const string path="Artifacts/command.txt";if(!File.Exists(path))return;string command=File.ReadAllText(path).Trim();File.Delete(path);
+ try{switch(command){case "challenge-layouts":ChallengeLayouts.Apply();break;case "open-gallery":AnimationGalleryBuilder.Open();break;case "revise-timing":DemoBuilder.ReviseTimingLayout();break;case "build-web":WebBuilder.Build();break;case "capture":ScreenCapture.CaptureScreenshot("Artifacts/Logs/editor-screen.png");break;case "open-menu":UnityEditor.SceneManagement.EditorSceneManager.OpenScene(DemoBuilder.Root+"/Scenes/MainMenu.unity");break;case "open-l4":UnityEditor.SceneManagement.EditorSceneManager.OpenScene(DemoBuilder.Root+"/Scenes/L04_Timing.unity");break;case "open-playground":UnityEditor.SceneManagement.EditorSceneManager.OpenScene(DemoBuilder.Root+"/Scenes/Dev_Playground.unity");break;case "generate":DemoBuilder.Generate();break;case "validate":DemoBuilder.Validate();break;case "play":EditorApplication.isPlaying=true;break;case "stop":EditorApplication.isPlaying=false;break;case "test-edit":TestCommands.Run(false);break;case "test-play":TestCommands.Run(true);break;default:throw new Exception("Unknown command: "+command);}File.WriteAllText("Artifacts/Logs/command-result.txt",command+" dispatched OK "+DateTime.UtcNow);}
+ catch(Exception e){File.WriteAllText("Artifacts/Logs/command-result.txt",command+" FAIL "+e);Debug.LogException(e);}}
+}
+}

@@ -1,0 +1,1 @@
+{"name": "OneMoreTime.EditTests", "references": ["OneMoreTime.Runtime", "Unity.InputSystem"], "includePlatforms": ["Editor"], "optionalUnityReferences": ["TestAssemblies"]}
