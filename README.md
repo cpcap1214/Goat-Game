@@ -10,7 +10,7 @@ Unity 2D 平台解謎遊戲，專案代號 One More Time。現行主線為「回
 
 1. 使用 Unity Hub 安裝 **Unity 6000.6.0f1**，加入此儲存庫的根目錄。
 2. 等待 Unity 匯入素材與套件。
-3. 開啟 `Assets/_OneMoreTime/Scenes/MainMenu.unity`，按 Play。
+3. 開啟 `Assets/_OneMoreTime/Scenes/MainMenu.unity`，按 Play 顯示開始畫面；按「開始旅程」後播放攝影大賽劇情，再進入第一大關。
 
 Web 建置另需該版本的 WebGL Build Support。
 

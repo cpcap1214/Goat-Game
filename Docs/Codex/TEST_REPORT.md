@@ -1,3 +1,23 @@
+# 2026-11-01 修正啟動需求：先顯示開始畫面
+
+使用者澄清要先顯示開始畫面，不要自動進攝影大賽。已撤回 MenuScreen.Awake 的自動 StartJourney，恢復按「開始旅程」／Enter 才播劇情；本機 playModeStartScene 仍指向 MainMenu，避免從第一大關直接啟動。下方上一輪自動播放紀錄已被本修訂取代。
+
+PASS：Unity CLI recompile 完成、0編譯錯誤；真實 Editor 進 Play 後 MainMenu 存在、ending=false、opening=null，確認等待開始操作。Unity 留在開始畫面供使用者操作。NOT RUN：本輪未重跑完整劇情／關卡回歸或 Web 建置；未推送。
+
+---
+
+# 2026-11-01 啟動直接播放劇情
+
+原因：Editor 目前開啟 Chapter01_EchoFoothills 且 playModeStartScene 為空，按 Play 直接進關卡；MainMenu 原先還需按開始旅程才播劇情。
+
+修改：MenuScreen.Awake 在非結尾入口自動 StartJourney，直接播攝影大賽，結束後沿用 LoadChapter。透過 Unity CLI／Pipeline 將本機 Editor 的 playModeStartScene 設為 MainMenu 並開啟該場景；此覆寫是本機 Editor 設定，不是新機 Clone 的預設，其他協作者開 MainMenu 按 Play 即可。直接試玩關卡時需清除本機覆寫。未改角色／記憶／關卡數值。
+
+PASS：`unity recompile --format json` 0 errors、0 compilation warnings；真實 Editor Play 後 wait_for 確認 frameCount 前進，讀取 opening 非空且自動播放到 5.57 秒，攝影大賽截圖已目視（Artifacts/Logs/start-opening.png）。不輸入略過／下一句，自動播放後 wait_for 找到 NostalgiaChapter，active scene 確認 Chapter01_EchoFoothills；證據 Artifacts/Logs/opening-auto-transition.json。測完停止 Play，回到 MainMenu 待使用者按 Play，runInBackground 還原 false。
+
+工具限制：CLI 回報現有 Pipeline 使用舊指令名稱；重編譯時出現工具相容性 console 記錄，本次不升級套件。不將其當成遊戲例外或宣稱 Console 全空。NOT RUN：全玩法回歸、Web 重建、瀏覽器測試；未 commit／push 本輪改動。
+
+---
+
 # 2026-11-01 GitHub 公開協作交接
 
 使用者授權同步目前專案到 GitHub，並改為 public，不需邀請協作者。新增根目錄 CONTRIBUTING.md 與 README 入口，提供 Unity 6000.6.0f1、從零 Clone／Fork、關卡分工與 PR 流程。保留既有玩法、場景及全部未提交的第一大關成果；不在本輪改寫關卡編輯器。

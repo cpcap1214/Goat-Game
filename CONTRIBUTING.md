@@ -8,7 +8,7 @@
 2. 只想試玩：在 GitHub Desktop 使用 File → Clone repository → URL，貼上 `https://github.com/cpcap1214/Goat-Game.git`。
 3. 要提交關卡：先登入 GitHub，在上述儲存庫按 **Fork** 建立自己帳號下的副本，再以 GitHub Desktop Clone 自己的 Fork。公開存取不等於有原儲存庫的推送權限。
 4. 在 Unity Hub 選 Add project from disk，選 Clone 下來、同時包含 `Assets`、`Packages`、`ProjectSettings` 的根目錄。不要建立空白專案再複製零散檔案。
-5. 等待第一次套件下載與素材匯入；需要網路。開啟 `Assets/_OneMoreTime/Scenes/MainMenu.unity` 後按 Play。也可直接開啟 `Assets/_OneMoreTime/Scenes/Chapter01_EchoFoothills.unity` 試玩。
+5. 等待第一次套件下載與素材匯入；需要網路。開啟 `Assets/_OneMoreTime/Scenes/MainMenu.unity` 後按 Play 顯示開始畫面，按「開始旅程」才播放開場劇情。也可直接開啟 `Assets/_OneMoreTime/Scenes/Chapter01_EchoFoothills.unity` 試玩。
 
 沒有原作者電腦上的任何檔案也能使用此流程。`Library`、`Temp` 等由 Unity 重建；歷史測試截圖與建置產物 `Artifacts` 不隨 Clone 提供。
 
@@ -35,6 +35,7 @@
 - `Assets/_OneMoreTime/Editor/ChapterOneBuilder.cs` 的 **Build Chapter One - Nostalgia** 會重建正式第一大關的 `Chapter One Managed` 根物件；手動編輯的內容可能被覆蓋。
 - 地形初始配置、旗幟／互動／拍照座標在 `Assets/_OneMoreTime/Runtime/ChapterOne/ChapterLayout.cs`。
 - 記憶踏板和控制台部分判定座標寫在 `Assets/_OneMoreTime/Runtime/ChapterOne/ChapterMemory.cs`；只移動畫面中的踏板不會同步改變判定位置。
+- 若 Editor 已設定 `playModeStartScene` 為 MainMenu，需先清除該本機啟動覆寫，才能直接試玩目前的設計場景。
 - 進行手動布局提案前，先在 Unity 中以 Save As 將第一大關另存為 `Assets/_OneMoreTime/Scenes/Design_Chapter01.unity`，讓 Unity 產生 `.meta`。直接開該場景按 Play 做局部檢查；主選單仍進入正式第一大關。
 - 不執行生成／重建場景選單來「開啟遊戲」。設計副本不會自動更新主線；修改後由專案負責人同步生成配置與程式判定，再做整合驗證。
 
