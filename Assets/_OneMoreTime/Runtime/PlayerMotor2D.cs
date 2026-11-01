@@ -54,7 +54,9 @@ public sealed class PlayerMotor2D : MonoBehaviour {
   Vector2 size=new Vector2(tuning.width-.004f,tuning.height-.004f);
   int n=Physics2D.BoxCast(Position+Vector2.up*tuning.height/2,size,0,dir,filter,hits,Mathf.Abs(distance)+tuning.skin);
   float allowed=Mathf.Abs(distance);Collider2D obstacle=null;
-  for(int i=0;i<n;i++){if(hits[i].collider==null||Vector2.Dot(hits[i].normal,dir)>-.5f)continue;float d=Mathf.Max(0,hits[i].distance-tuning.skin);if(d<=allowed){allowed=d;obstacle=hits[i].collider;}}
+  for(int i=0;i<n;i++){if(hits[i].collider==null||Vector2.Dot(hits[i].normal,dir)>-.5f)continue;
+   // Box2D can report a horizontal normal at an adjacent coplanar floor corner.
+   if(horizontal&&hits[i].collider.bounds.max.y<=Position.y+tuning.skin)continue;float d=Mathf.Max(0,hits[i].distance-tuning.skin);if(d<=allowed){allowed=d;obstacle=hits[i].collider;}}
   Position+=dir*allowed;if(obstacle!=null&&!horizontal&&distance<0)GroundCollider=obstacle;return obstacle!=null;
  }
 }

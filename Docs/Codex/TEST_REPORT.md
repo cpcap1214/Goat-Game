@@ -1,3 +1,95 @@
+# 2026-11-01 GitHub 公開協作交接
+
+使用者授權同步目前專案到 GitHub，並改為 public，不需邀請協作者。新增根目錄 CONTRIBUTING.md 與 README 入口，提供 Unity 6000.6.0f1、從零 Clone／Fork、關卡分工與 PR 流程。保留既有玩法、場景及全部未提交的第一大關成果；不在本輪改寫關卡編輯器。
+
+PASS（本機交付檢查）：`git ls-files -co --exclude-standard` 檔案清單與 Python 檢查顯示資產 .meta 完整、無被追蹤的快取／建置輸出、無本機路徑套件依賴；最大檔案約11.4 MiB。以 `git rev-list --objects --all`／`git cat-file --batch` 掃描既有1599個歷史blob及目前檔案，常見私鑰與token樣式未命中；此為有限樣式檢查，不宣稱全面安全稽核。Unity 原有 Force Text 與 Visible Meta Files 設定已確認。
+
+NOT RUN：本輪未重新執行 Unity 編譯、PlayMode 或新手試玩；歷史測試結果不代表全新電腦驗證。關卡生成器重建會覆蓋 managed 內容，且機關含硬編碼座標，已明列於交接教學。下一步由協作者首次匯入／試玩並在 Fork 提交設計；GitHub 遠端與全新 Clone 檢查結果由本輪完成回覆記錄。
+
+---
+
+# 2026-10-31 踏板出口鏡頭與晴空背景
+
+使用者回報第一個踏板拉遠後，通過障礙會看不到山羊，且背景與主角顏色接近。
+
+已修正：NostalgiaChapter 的定格庭院／錄影機關鏡頭，以連續權重進出廣角構圖；離開機關時逐漸回到跟隨，並依相機實際 aspect 限制角色在畫面中央安全區。原先第一區固定 x=92 直到玩家 x=121，導致出口前出框。現在不再固定到出口。
+
+已生成並匯入 PresentClearSky.png、PastClearSky.png，現在／過去皆採明亮藍天，移除原灰暗背景染色；兩張原始 Valley 素材保留。第一大關場景以 Unity plugin 重新生成。
+
+PASS：Unity 編譯；PlayMode 63/63（Artifacts/Logs/chapter-camera-sky-tests.json），含正常完整通關與新增兩機關區出口逐段視野／鏡頭連續性測試。測試範圍 x69–131、193–255，每0.25單位檢查腳底在安全區及相鄰鏡頭變化。已檢視現在出口 x116 與過去踏板 x80 的 Game view；圖片在 Artifacts/ChapterCaptures/CameraSkyRevision/UnityCaptureOutput/CameraSky/。
+
+仍待整體新版實際試玩時間，未宣稱4–5分鐘已驗收。沒有推送或發布。Unity 重新開在第一區教學預覽，按 Enter 可繼續。
+
+---
+
+# 2026-10-31 清楚教學與連續岩土（完成實作）
+
+依使用者「操作或提示不清楚」與「下方方塊要連在一起」回饋，加入三段首次進入教學、H重看、依狀態顯示下一步與E/Q動態鍵名。保存／回起點／清除前一份記憶均明確說明；末段錄製和搭乘拆兩頁。教學時固定模擬暫停、關閉清除殘留按鍵，進入同區不重複跳出。
+
+新大關非橋地形與碰撞向下連到y=-22；土層使用世界座標對齊的連續岩層與草緣，取代一格格土塊重複圖。保留解謎必需的橋與斷口。正式資產Art/ChapterOne/Terrain、生成器ChapterTerrainArt；舊四關不變。
+
+PASS：Unity plugin編譯／場景生成，PlayMode62/62，含完整新地形通關及教學暫停／重開；定格教學、接力第二頁與連續地面截圖目視。證據Artifacts/Logs/chapter-guidance-terrain-tests.json。最後岩土色調與提示位置為純視覺微調，另檢查編譯與畫面。
+
+仍待新版首次遊玩時長與理解度回饋，不將程式測試等同趣味或4–5分鐘驗收。未推送或發布。
+
+最終畫面：Artifacts/ChapterCaptures/TerrainRevision/UnityCaptureOutput/Logs/terrain-connected-final.png。Unity 留在定格庭院教學預覽，AutoTick=true；Enter 關閉教學後可操作，H 重看。已恢復 runInBackground=false。
+
+---
+
+# 2026-10-31 記憶機關邊界驗證
+
+PASS：Unity plugin編譯；PlayMode61/61，包含新版完整錄製／回放／接力路線、B→A反向訊號拒絕、中途離開本體控制台中斷序列，以及12種跳躍時點的定格無法代替末段移動回放。修正過去踏板必須由站立在踏板上的殘影觸發，不把本體站在踏板且遠處有任意殘影誤算為完成。證據 Artifacts/Logs/chapter-memory-boundaries.json。
+
+新版首次通關時長及解謎體驗待使用者回饋；原版2分7秒已確認不達時間與趣味要求，不能用舊結果驗收新版。沒有為湊時間降低走速或強制等待。此輪僅規則判定與測試改動，場景幾何不變。
+
+---
+
+# 2026-10-31 記憶解謎改版（新主線）
+
+使用者回饋原版2分7秒且過多跳台無聊。已將樹冠、河道、峰頂三段重複跳台替換為：過去年代定格壓門、錄影A→B搭配本體控制台、搭乘錄下的兩段跳躍登高。E定格、Q錄影／保存／播放／清除、F年代、X互動拍照。沿用單一記憶、最近10秒、等待保留、R保留、錄影死亡選擇；新ChapterMemory重用原Recorder／MemorySnapshot／EchoSurface與唯一PlayerMotor2D承載。
+
+PASS：Unity plugin編譯／場景生成；PlayMode58/58，含整關正常馬達路線（真正錄製、回放、乘坐，無瞬移）、單一定格無法解雙訊號、過去踏板來源、防單跳高崖、10秒與死亡保存。證據 Artifacts/Logs/chapter-memory-tests.json。定格庭院與雙影水閘實際Unity截圖已目視（Artifacts/ChapterCaptures/MemoryRevision/UnityCaptureOutput/Logs）；最後鏡頭／背景填滿與文字微調另經編譯與目視，未再重跑58項玩法測試；局部截圖定位不算手動通關。鏡頭在機關室拉遠，讓本體與殘影能同時看見。
+
+時長：新熟練解法模擬101.0351秒，不宣稱已達首次4–5分鐘；本次先修正缺乏解謎的核心問題，原版2分7秒不再代表新版。原四關保留；未更新Web／未推送。下一步為記憶版遊玩節奏與理解度回饋。
+
+---
+
+# 2026-10-31 實際輸入路徑補驗
+
+PASS：`KeyboardTutorialSimultaneousJumpFilterAndPause` 透過 Unity Input System KeyboardState，呼叫正式 Update／FixedUpdate，驗證教學 Enter、D拾取、D+Space+F同時起跳切換、長按F僅一次、暫停期間位置與時鐘不變、R回旗幟與E啟動過去機關。整體54/54 PlayMode通過，證據 Artifacts/Logs/chapter-input-playmode.json。
+
+原生視窗工具僅支援單一非修飾鍵；D+Space組合會回 keyPressIncludedMultipleNonModifierKeys，並行單鍵呼叫實際序列化。原生試走到古橋後，在第一段跳躍死亡並回到旗幟，因此不能宣稱原生鍵盤完整通關或使用該次時間證明4–5分鐘。Input System測試補足同時按鍵功能，但不代替新手時長驗證。
+
+---
+
+# 2026-10-31 第一大關：回聲山麓（可玩，時長待試玩）
+
+現行主線改為戶外大賽開場→第一大關。實作懷舊濾鏡 F、現在／過去兩套實際碰撞地形與 AI 背景、六區連續平台跳躍、兩機關、三照片及11重生旗幟。舊四小關保留。水車轉動、鐘樓拉繩、取景點出口保護及另一年代平台輪廓已加入。
+
+PASS：Unity plugin 編譯／場景生成；PlayMode 54/54（含完整正常馬達路線）；原生鍵盤拾取、年代切換、跳躍、重生與暫停；各區Unity畫面檢查。完整馬達路線103.9546秒、26切換、0死亡。詳細證據見 CHAPTER_ONE.md。
+
+工具紀錄：最新 Console 仍含 Unity Temp/FSTimeGet 檔案時間斷言及 Pipeline 的 editor status 不存在錯誤；編譯結果無 C# 錯誤，不能宣稱 Console 全空。完整摘錄 Artifacts/Logs/chapter-console.json。最新輸入層與玩法回歸54/54通過，涵蓋最後的輪廓調整。
+
+NOT RUN：新手4–5分鐘時長驗收、整關真實鍵盤通關、新Web建置。已請使用者試玩回報節奏。未推送此輪變更。下一步為首次遊玩節奏調整。
+
+---
+
+# 2026-10-31 Unity 戶外大賽與角色對話（最新）
+
+改為戶外舞台與主持人、觀眾、主角的8段對話框，保留27秒自動播放、Enter/Space下一句及Esc略過。使用 Unity plugin 的 CLI/Pipeline 連線編輯器驗證；使用者登入後授權阻礙已解決，新素材及腳本 metadata 由 Unity 產生。
+
+PASS：Unity 編譯、28/28 EditMode、六場景與字型驗證、實際 Play Mode 畫格前進、自動播放後進 L01、戶外主持人畫面目視檢查。證據 Artifacts/Logs/opening-plugin-tests.json、Artifacts/OpeningCaptures/Logs/opening-outdoor-final.png。NOT RUN：完整四關回歸、Web新版建置、逐鍵互動。詳細範圍及工具錯誤見 OPENING_CINEMATIC.md。Unity 留在第一句暫停以供預覽。
+
+---
+
+# 2026-10-31 攝影大賽前導劇情
+
+已實作 27 秒開場：山羊攝影大賽、旋轉 GTA7 獎品、登山、魔法相機；替換舊三頁對話，保留略過並自動進第一關。附可攜式 HTML 畫面預覽。詳 OPENING_CINEMATIC.md。
+
+PASS：預覽 JavaScript 語法、13 個分鏡時間點 mock canvas 檢查、diff 空白檢查。BLOCKED：Unity 無有效授權（exit 198），編譯／測試／建置均未完成；自動瀏覽器政策拒絕 file://，未進行畫面驗收。NOT RUN：真實播放／略過／進關驗證。新 metadata 待 Unity 正常匯入產生；既有 Web／ZIP 未更新。
+
+---
+
 # 2026-10-31 Git 儲存庫整理
 
 依使用者本次授權整理、提交並推送既有遊戲專案至 origin/main；不發布遊戲網站。加入 README、忽略本機快取與 Artifacts，保留既有素材 metadata、套件設定及既有刪除。未重寫歷史。

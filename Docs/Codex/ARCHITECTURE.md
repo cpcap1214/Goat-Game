@@ -1,3 +1,13 @@
+## 2026-10-31 記憶解謎更新
+
+現行第一大關已加入ChapterMemory：定格庭院、雙影水閘、搭上昨天三種解謎，E/Q記憶、F年代、X互動。場景入口與生成器不變；詳CHAPTER_ONE.md及最新TEST_REPORT.md，以下為舊版歷史。
+
+# 2026-10-31 第一大關更新
+
+新主線使用獨立 NostalgiaChapter／EraTerrain／ChapterLayout，沿用 PlayerMotor2D 與 Input System。現在與過去透過固定步切換碰撞，不重設玩家位置速度；另一年代重疊玩家時拒絕切換。照片及裝置跨重生保留；新關不啟用舊 E/Q 記憶。詳 CHAPTER_ONE.md。
+
+---
+
 # 2026-09-22 能力道具與時間軸
 
 RunManager 在 Awake 依關卡建立一個 AbilityPickup：L01 為 Freeze、L03 為 Trace，位於 spawn + (1.7, 0.85)。L02 繼承 Freeze；L04 繼承兩能力。每關直接開啟仍可玩，不依賴跨場景靜態狀態。回到 L01 開始新旅程會重新拾取。道具在本關 ResetRun／R／死亡／清除記憶後保持已拾取；無關 Scene 與配置資產無須重生。

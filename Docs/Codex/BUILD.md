@@ -1,3 +1,13 @@
+## 2026-10-31 記憶解謎更新
+
+現行第一大關已加入ChapterMemory：定格庭院、雙影水閘、搭上昨天三種解謎，E/Q記憶、F年代、X互動。場景入口與生成器不變；詳CHAPTER_ONE.md及最新TEST_REPORT.md，以下為舊版歷史。
+
+# 2026-10-31 第一大關更新
+
+Unity 6000.6.0f1。直接開啟 Assets/_OneMoreTime/Scenes/Chapter01_EchoFoothills.unity 後 Play，或由 MainMenu 開始旅程。Tools > One More Time > Build Chapter One - Nostalgia 可重建自己的 Chapter One Managed 根物件，重建前自動備份場景。WebBuilder 已納入新場景，但 Artifacts/Web 尚未重新建置。Unity plugin CLI/Pipeline 為目前驗證入口。
+
+---
+
 # 2026-09-22 回魔法塔結尾
 
 正式Web與ZIP已更新；同版本Unity獨立副本建置，0 errors／1 warning。Artifacts/Logs/tower-ending-build.txt。結尾預覽位於Artifacts/EndingPreview（非正式交付ZIP）。素材及提示詞見ENDING_CINEMATIC.md。
