@@ -4,7 +4,9 @@
 
 PASS（本機交付檢查）：`git ls-files -co --exclude-standard` 檔案清單與 Python 檢查顯示資產 .meta 完整、無被追蹤的快取／建置輸出、無本機路徑套件依賴；最大檔案約11.4 MiB。以 `git rev-list --objects --all`／`git cat-file --batch` 掃描既有1599個歷史blob及目前檔案，常見私鑰與token樣式未命中；此為有限樣式檢查，不宣稱全面安全稽核。Unity 原有 Force Text 與 Visible Meta Files 設定已確認。
 
-NOT RUN：本輪未重新執行 Unity 編譯、PlayMode 或新手試玩；歷史測試結果不代表全新電腦驗證。關卡生成器重建會覆蓋 managed 內容，且機關含硬編碼座標，已明列於交接教學。下一步由協作者首次匯入／試玩並在 Fork 提交設計；GitHub 遠端與全新 Clone 檢查結果由本輪完成回覆記錄。
+NOT RUN：本輪未重新執行 Unity 編譯、PlayMode 或新手試玩；歷史測試結果不代表全新電腦驗證。關卡生成器重建會覆蓋 managed 內容，且機關含硬編碼座標，已明列於交接教學。下一步由協作者首次匯入／試玩並在 Fork 提交設計；GitHub 遠端與全新 Clone 檢查結果見下。
+
+PASS（遠端交付）：`a316ef9` 已推送至 `origin/main`；`gh repo edit --visibility public` 後遠端為 PUBLIC。停用 Git 全域設定與 credential helper 的全新 `git clone --depth 1` 成功，1584個追蹤檔案 SHA-256 與工作區逐檔一致；無憑證 `curl` 查詢 GitHub API 回傳 `private: false`。Python urllib 的 API 檢查曾因本機 CA 憑證失敗，改以保留 TLS 驗證的 curl 完成，未停用憑證驗證。全新 Clone 未開啟 Unity，不代表已通過新機匯入／編譯。
 
 ---
 
