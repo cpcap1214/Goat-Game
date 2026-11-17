@@ -1,6 +1,8 @@
 using UnityEngine;using UnityEngine.InputSystem;using UnityEngine.SceneManagement;
 namespace OneMoreTime {
 public sealed class NostalgiaChapter:MonoBehaviour {
+ public PastLensEffect Lens{get;}=new PastLensEffect();
+ void OnDestroy(){Lens.Dispose();}
  public ChapterMemory memories;public ChapterGuidance Guidance{get;}=new ChapterGuidance();
  public PlayerMotor2D player;public PlayerVisual visual;public Camera view;public Font font;public GameAudio audioBus;
  public EraTerrain[] terrain;public SpriteRenderer presentSky,pastSky;public Transform pickup;public SpriteRenderer[] deviceArt,photoArt;public Transform[] checkpointArt;
@@ -25,7 +27,7 @@ public sealed class NostalgiaChapter:MonoBehaviour {
  public void AdvanceTutorial(){if(Tutorial==0)Tutorial=-1;else if(Tutorial==1)Tutorial=2;else Tutorial=-1;input.Clear();switchQueued=false;}
  void FixedUpdate(){if(!AutoTick)return;bool flip=switchQueued;switchQueued=false;Tick(input.Consume(),flip);}
  public void Tick(InputFrame f,bool flip=false){
-  if(Paused||Complete||Tutorial>=0||Guidance.IsOpen)return;if(memories.DeathReview){memories.Review(f);return;}Elapsed+=.02f;noticeTime-=.02f;flash=Mathf.Max(0,flash-.02f);if(noticeTime<=0)Notice="";
+  if(Paused||Complete||Tutorial>=0||Guidance.IsOpen)return;if(memories.DeathReview){memories.Review(f);return;}Lens.Tick(.02f);Elapsed+=.02f;noticeTime-=.02f;flash=Mathf.Max(0,flash-.02f);if(noticeTime<=0)Notice="";
   previous=player.Position;
   if(f.retry){Respawn();return;}
   if(flip)TrySwitch();var oldEcho=memories.Advance();player.Step(f,.02f,memories.echo.Active,oldEcho,memories.echo.Pose.position);
@@ -41,7 +43,7 @@ public sealed class NostalgiaChapter:MonoBehaviour {
   if(!Unlocked){Say("先拾取懷舊濾鏡");return false;}
   var body=new Rect(player.Position+new Vector2(-.34f,.025f),new Vector2(.68f,.95f));
   foreach(var t in terrain)if(ChapterLayout.Active(t.block,!Past,Devices)&&t.block.rect.Overlaps(body)){Say("另一個年代這裡有障礙，移開後再切換");return false;}
-  Past=!Past;Switches++;ApplyEra();flash=.22f;audioBus?.Cue(3);return true;
+  Past=!Past;Switches++;ApplyEra();Lens.Switch(Past);audioBus?.Cue(3);return true;
  }
  void UpdatePhotoGates(){for(int i=0;i<photoGates.Length;i++){photoGates[i].enabled=!Photos[i];photoGates[i].gameObject.GetComponent<SpriteRenderer>().enabled=!Photos[i];}Physics2D.SyncTransforms();}
  public void ApplyEra(){foreach(var t in terrain)t.Apply(Past,Devices);if(presentSky!=null)presentSky.enabled=!Past;if(pastSky!=null)pastSky.enabled=Past;Physics2D.SyncTransforms();}
@@ -50,7 +52,7 @@ public sealed class NostalgiaChapter:MonoBehaviour {
   for(int i=0;i<3;i++)if(Vector2.Distance(player.Position,ChapterLayout.Photos[i])<2){if(Past){Say("切回現在，拍下歲月留下的風景");return;}if(i==2&&(!Photos[0]||!Photos[1]||!Devices[0]||!Devices[1]||!memories.FreezeSolved||!memories.TraceSolved)){Say("還有旅途風景尚未拍下，請查看左上目標");return;}Photos[i]=true;UpdatePhotoGates();flash=.3f;audioBus?.Cue(6);Say("風景已收入相簿");if(i==2){Complete=true;input.Clear();}return;}
   Say("靠近發光的相機標記或機關，再按 X");
  }
- public void Respawn(){interactQueued=false;Past=false;ApplyEra();player.ResetAt(ChapterLayout.Checkpoints[Checkpoint]);previous=player.Position;input.Clear();switchQueued=false;memories.ResetRound();Say("回到最近重生點；記憶、機關與照片保留");}
+ public void Respawn(){interactQueued=false;Past=false;Lens.Reset();ApplyEra();player.ResetAt(ChapterLayout.Checkpoints[Checkpoint]);previous=player.Position;input.Clear();switchQueued=false;memories.ResetRound();Say("回到最近重生點；記憶、機關與照片保留");}
  public void Say(string s){Notice=s;noticeTime=4;}
  void Render(){visual.Pose(player.Position,player.Facing,player.VisualState,player.VisualFrame,Color.white);for(int i=0;i<deviceArt.Length;i++)deviceArt[i].color=Devices[i]?GameUI.Mint:GameUI.Gold;for(int i=0;i<photoArt.Length;i++)photoArt[i].color=Photos[i]?GameUI.Mint:Color.white;}
  void LateUpdate(){
@@ -75,7 +77,7 @@ public sealed class NostalgiaChapter:MonoBehaviour {
  void OnGUI(){
   GUI.matrix=Matrix4x4.identity;float scale=Mathf.Min(Screen.width/960f,Screen.height/540f),ox=(Screen.width-960*scale)*.5f,oy=(Screen.height-540*scale)*.5f;
   GameUI.Panel(new Rect(0,0,ox,Screen.height),Color.black);GameUI.Panel(new Rect(Screen.width-ox,0,ox,Screen.height),Color.black);GameUI.Panel(new Rect(0,0,Screen.width,oy),Color.black);GameUI.Panel(new Rect(0,Screen.height-oy,Screen.width,oy),Color.black);
-  GameUI.Begin(font);GameUI.Panel(new Rect(0,503,960,37),GameUI.Ink);GameUI.KeyLabel(10,507,"A D","移動");GameUI.KeyLabel(140,507,"Space","跳");GameUI.KeyLabel(270,507,"F","年代");GameUI.KeyLabel(380,507,"E",memories.Memory!=null&&memories.Memory.Kind==MemoryKind.Freeze?"清除":"定格");GameUI.KeyLabel(490,507,"Q",memories.Recording?"保存":memories.Memory!=null&&memories.Memory.Kind==MemoryKind.Trace?(memories.Playback==PlaybackState.Ready?"播放":"清除"):"錄影");GameUI.KeyLabel(600,507,"X","互動");GameUI.KeyLabel(720,507,"R","重試");GameUI.KeyLabel(830,507,"Esc","暫停");
+  GameUI.Begin(font);Lens.Draw();GameUI.Panel(new Rect(0,503,960,37),GameUI.Ink);GameUI.KeyLabel(10,507,"A D","移動");GameUI.KeyLabel(140,507,"Space","跳");GameUI.KeyLabel(270,507,"F","年代");GameUI.KeyLabel(380,507,"E",memories.Memory!=null&&memories.Memory.Kind==MemoryKind.Freeze?"清除":"定格");GameUI.KeyLabel(490,507,"Q",memories.Recording?"保存":memories.Memory!=null&&memories.Memory.Kind==MemoryKind.Trace?(memories.Playback==PlaybackState.Ready?"播放":"清除"):"錄影");GameUI.KeyLabel(600,507,"X","互動");GameUI.KeyLabel(720,507,"R","重試");GameUI.KeyLabel(830,507,"Esc","暫停");
   GameUI.Frame(new Rect(20,16,390,73));GameUI.Text(new Rect(34,24,360,23),"第一大關 · 回聲山麓 / "+ChapterLayout.Zones[ChapterLayout.Zone(player.Position.x)],16,GameUI.Gold);GameUI.Text(new Rect(34,51,360,25),Objective,16);
   GameUI.Frame(new Rect(754,16,186,67));GameUI.Text(new Rect(766,22,162,28),Past?"過去 · 懷舊濾鏡":"現在 · 原色",20,Past?GameUI.Gold:GameUI.Mint,TextAnchor.MiddleCenter);GameUI.Text(new Rect(768,54,158,20),$"相簿 {(Photos[0]?1:0)+(Photos[1]?1:0)+(Photos[2]?1:0)} / 3",14,GameUI.Cream,TextAnchor.MiddleCenter);
   LabelWorld(new Vector2(331.4f,2.4f),"錄影：等候 → 跳過斷口");LabelWorld(new Vector2(341.7f,3.9f),"等候 → 原地長跳 → 保存");

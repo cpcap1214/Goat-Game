@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b800eeb4d59a84eed99d78eba225e2d5, type: 3}
+  m_Name: RiverSurface
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.WaterAnimationTile
+  frames:
+  - {fileID: 21300000, guid: 9f99a641652194686a77011102552649, type: 2}
+  - {fileID: 21300000, guid: 62e3f9aab539149d1ae0ba01697f6aa1, type: 2}
+  - {fileID: 21300000, guid: 44676af6f6436465d9c3d88a675733f8, type: 2}
+  - {fileID: 21300000, guid: a5061f9b66d5747039ad9f0753bc9445, type: 2}
+  framesPerSecond: 8

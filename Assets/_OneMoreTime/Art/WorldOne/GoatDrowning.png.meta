@@ -1,0 +1,3434 @@
+fileFormatVersion: 2
+guid: dab7544e42bba4adca884247a7c2b1cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1378774071674483870
+    second: GoatDrowning_0
+  - first:
+      213: 4233540626520189836
+    second: GoatDrowning_1
+  - first:
+      213: -1032314815361826908
+    second: GoatDrowning_2
+  - first:
+      213: 2471824300806480005
+    second: GoatDrowning_3
+  - first:
+      213: 8767200170867911666
+    second: GoatDrowning_4
+  - first:
+      213: 925671118370843240
+    second: GoatDrowning_5
+  - first:
+      213: 757204470478229790
+    second: GoatDrowning_6
+  - first:
+      213: -420293167903396127
+    second: GoatDrowning_7
+  - first:
+      213: -8922113686432582213
+    second: GoatDrowning_8
+  - first:
+      213: -3700862699470505408
+    second: GoatDrowning_9
+  - first:
+      213: -6923886697840703074
+    second: GoatDrowning_10
+  - first:
+      213: 5244113885966464844
+    second: GoatDrowning_11
+  - first:
+      213: -3703474598696724589
+    second: GoatDrowning_12
+  - first:
+      213: -8671927960984515880
+    second: GoatDrowning_13
+  - first:
+      213: -7224646958697542836
+    second: GoatDrowning_14
+  - first:
+      213: 8988295497585104312
+    second: GoatDrowning_15
+  - first:
+      213: -156829293017522815
+    second: GoatDrowning_16
+  - first:
+      213: -533439963511921658
+    second: GoatDrowning_17
+  - first:
+      213: 8915790439514754256
+    second: GoatDrowning_18
+  - first:
+      213: 1695001019379053286
+    second: GoatDrowning_19
+  - first:
+      213: 6770574927831728142
+    second: GoatDrowning_20
+  - first:
+      213: 2581697463090934614
+    second: GoatDrowning_21
+  - first:
+      213: 9005839762523907992
+    second: GoatDrowning_22
+  - first:
+      213: -3794467481787267307
+    second: GoatDrowning_23
+  - first:
+      213: 2279395746387976478
+    second: GoatDrowning_24
+  - first:
+      213: 4148267979621681189
+    second: GoatDrowning_25
+  - first:
+      213: -8785516979829868054
+    second: GoatDrowning_26
+  - first:
+      213: 8811864626357318372
+    second: GoatDrowning_27
+  - first:
+      213: 8490520372929123464
+    second: GoatDrowning_28
+  - first:
+      213: -3350685507762928548
+    second: GoatDrowning_29
+  - first:
+      213: 2084045487640188759
+    second: GoatDrowning_30
+  - first:
+      213: -7196233032884666932
+    second: GoatDrowning_31
+  - first:
+      213: -724857225044367730
+    second: GoatDrowning_32
+  - first:
+      213: -2236028347910370823
+    second: GoatDrowning_33
+  - first:
+      213: 1499519377503216617
+    second: GoatDrowning_34
+  - first:
+      213: -3563250174982249609
+    second: GoatDrowning_35
+  - first:
+      213: 5347431641696986189
+    second: GoatDrowning_36
+  - first:
+      213: -2665840813569012730
+    second: GoatDrowning_37
+  - first:
+      213: -266275243427441741
+    second: GoatDrowning_38
+  - first:
+      213: 8546490368142497737
+    second: GoatDrowning_39
+  - first:
+      213: -436743644202396213
+    second: GoatDrowning_40
+  - first:
+      213: -6002759257959505759
+    second: GoatDrowning_41
+  - first:
+      213: 5490215121728710857
+    second: GoatDrowning_42
+  - first:
+      213: -7132257885761399366
+    second: GoatDrowning_43
+  - first:
+      213: 1795845919090823066
+    second: GoatDrowning_44
+  - first:
+      213: 3460959744914100239
+    second: GoatDrowning_45
+  - first:
+      213: 8668548669995483536
+    second: GoatDrowning_46
+  - first:
+      213: 4438852736284210098
+    second: GoatDrowning_47
+  - first:
+      213: 665310785525253773
+    second: GoatDrowning_48
+  - first:
+      213: -1698957466384507888
+    second: GoatDrowning_49
+  - first:
+      213: 1505636718107736386
+    second: GoatDrowning_50
+  - first:
+      213: 5896817685789376117
+    second: GoatDrowning_51
+  - first:
+      213: -4968511284674970796
+    second: GoatDrowning_52
+  - first:
+      213: 4972487728057896384
+    second: GoatDrowning_53
+  - first:
+      213: -2953165216596271891
+    second: GoatDrowning_54
+  - first:
+      213: -2672705216776381989
+    second: GoatDrowning_55
+  - first:
+      213: -8879326132589897836
+    second: GoatDrowning_56
+  - first:
+      213: 3670793774023705231
+    second: GoatDrowning_57
+  - first:
+      213: 5316251228666711441
+    second: GoatDrowning_58
+  - first:
+      213: -4943795150536441299
+    second: GoatDrowning_59
+  - first:
+      213: -5842045672902184550
+    second: GoatDrowning_60
+  - first:
+      213: 556412792198569191
+    second: GoatDrowning_61
+  - first:
+      213: -2997436730047985843
+    second: GoatDrowning_62
+  - first:
+      213: 4291669545954009340
+    second: GoatDrowning_63
+  - first:
+      213: 1749769377392022609
+    second: GoatDrowning_64
+  - first:
+      213: 1819391394747713045
+    second: GoatDrowning_65
+  - first:
+      213: 7539042116360311539
+    second: GoatDrowning_66
+  - first:
+      213: -4258215856529434728
+    second: GoatDrowning_67
+  - first:
+      213: -4227544943229755930
+    second: GoatDrowning_68
+  - first:
+      213: 8308274046893822925
+    second: GoatDrowning_69
+  - first:
+      213: -2524400146057806481
+    second: GoatDrowning_70
+  - first:
+      213: 8963295252600933405
+    second: GoatDrowning_71
+  - first:
+      213: -785627607658568283
+    second: GoatDrowning_72
+  - first:
+      213: 2596356478633731894
+    second: GoatDrowning_73
+  - first:
+      213: 3884891125408450641
+    second: GoatDrowning_74
+  - first:
+      213: -5439827624367937232
+    second: GoatDrowning_75
+  - first:
+      213: -8707601927019139920
+    second: GoatDrowning_76
+  - first:
+      213: -5653125004780198521
+    second: GoatDrowning_77
+  - first:
+      213: -5680350354118114822
+    second: GoatDrowning_78
+  - first:
+      213: 5228745271665691718
+    second: GoatDrowning_79
+  - first:
+      213: -679952623619803604
+    second: GoatDrowning_80
+  - first:
+      213: 2492620514348096026
+    second: GoatDrowning_81
+  - first:
+      213: 8848286648516321278
+    second: GoatDrowning_82
+  - first:
+      213: -2801660279188952409
+    second: GoatDrowning_83
+  - first:
+      213: 7741554797621826236
+    second: GoatDrowning_84
+  - first:
+      213: 1920410086017972094
+    second: GoatDrowning_85
+  - first:
+      213: 31321411647863513
+    second: GoatDrowning_86
+  - first:
+      213: 1559346710822633996
+    second: GoatDrowning_87
+  - first:
+      213: 1552467462962726811
+    second: GoatDrowning_88
+  - first:
+      213: -1999566838600171487
+    second: GoatDrowning_89
+  - first:
+      213: -2045539722027656932
+    second: GoatDrowning_90
+  - first:
+      213: -80404134674312805
+    second: GoatDrowning_91
+  - first:
+      213: 7365946000499774484
+    second: GoatDrowning_92
+  - first:
+      213: 3496775056001192625
+    second: GoatDrowning_93
+  - first:
+      213: 8602015802576658658
+    second: GoatDrowning_94
+  - first:
+      213: -3172763500278462184
+    second: GoatDrowning_95
+  - first:
+      213: 2747452058633636389
+    second: GoatDrowning_96
+  - first:
+      213: -7411988976500649493
+    second: GoatDrowning_97
+  - first:
+      213: -7680679959258659090
+    second: GoatDrowning_98
+  - first:
+      213: 6907720055081289605
+    second: GoatDrowning_99
+  - first:
+      213: -5119245171059285599
+    second: GoatDrowning_100
+  - first:
+      213: 7400626327715058025
+    second: GoatDrowning_101
+  - first:
+      213: 3096211737613046604
+    second: GoatDrowning_102
+  - first:
+      213: 8701431716413737654
+    second: GoatDrowning_103
+  - first:
+      213: 6498451912026671573
+    second: GoatDrowning_104
+  - first:
+      213: 8501245389175185580
+    second: GoatDrowning_105
+  - first:
+      213: 8157392316243372732
+    second: GoatDrowning_106
+  - first:
+      213: 6213563421729017661
+    second: GoatDrowning_107
+  - first:
+      213: 2342791885179560796
+    second: GoatDrowning_108
+  - first:
+      213: 2805007747394425564
+    second: GoatDrowning_109
+  - first:
+      213: 5905718443871815828
+    second: GoatDrowning_110
+  - first:
+      213: -7549756056042060362
+    second: GoatDrowning_111
+  - first:
+      213: 5730653785226642655
+    second: GoatDrowning_112
+  - first:
+      213: -2121059790130733037
+    second: GoatDrowning_113
+  - first:
+      213: 683742687496265211
+    second: GoatDrowning_114
+  - first:
+      213: -7186615029315301897
+    second: GoatDrowning_115
+  - first:
+      213: -8285734192813615699
+    second: GoatDrowning_116
+  - first:
+      213: 7250023678718594582
+    second: GoatDrowning_117
+  - first:
+      213: 9173731246685006205
+    second: GoatDrowning_118
+  - first:
+      213: -4346019089110007979
+    second: GoatDrowning_119
+  - first:
+      213: -1747951045001814875
+    second: GoatDrowning_120
+  - first:
+      213: -315673378073732263
+    second: GoatDrowning_121
+  - first:
+      213: -3640146889741134846
+    second: GoatDrowning_122
+  - first:
+      213: -5510864799404653333
+    second: GoatDrowning_123
+  - first:
+      213: 9078860524056325887
+    second: GoatDrowning_124
+  - first:
+      213: 4172888111334213232
+    second: GoatDrowning_125
+  - first:
+      213: -3400750364636110527
+    second: GoatDrowning_126
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GoatDrowning_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 1254
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bc250794c9ddce0800000000000000
+      internalID: -1378774071674483870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1127
+        width: 184
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8babe105ce80ca30800000000000000
+      internalID: 4233540626520189836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1181
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af3cf5152b7ca1f0800000000000000
+      internalID: -1032314815361826908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1162
+        width: 24
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580afb4fa1fad4220800000000000000
+      internalID: 2471824300806480005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_4
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1186
+        width: 286
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb6353da1a5ba970800000000000000
+      internalID: 8767200170867911666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_5
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1140
+        width: 312
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a255d4af4a8dc00800000000000000
+      internalID: 925671118370843240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11513d3471228a00800000000000000
+      internalID: 757204470478229790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_7
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1132
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee28913791da2af0800000000000000
+      internalID: -420293167903396127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_8
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1140
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5f882afd84e2480800000000000000
+      internalID: -8922113686432582213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a319b9bf4e3acc0800000000000000
+      internalID: -3700862699470505408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1131
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99072e8bb969ef90800000000000000
+      internalID: -6923886697840703074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1102
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4779b67bc5d6c840800000000000000
+      internalID: 5244113885966464844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_12
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1126
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397dffd697d9a9cc0800000000000000
+      internalID: -3703474598696724589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_13
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1138
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da8dbf177f17a780800000000000000
+      internalID: -8671927960984515880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1135
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b0a3f6ed5ecbb90800000000000000
+      internalID: -7224646958697542836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_15
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1120
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b59dcd0227dcbc70800000000000000
+      internalID: 8988295497585104312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_16
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1132
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d9053c694d2ddf0800000000000000
+      internalID: -156829293017522815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_17
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1132
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604efd1fd27d898f0800000000000000
+      internalID: -533439963511921658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1110
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcc917ba204bbb70800000000000000
+      internalID: 8915790439514754256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_19
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1121
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e27306527ad58710800000000000000
+      internalID: 1695001019379053286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1108
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00839a560ae5fd50800000000000000
+      internalID: 6770574927831728142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_21
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1094
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653ff0d0a2804d320800000000000000
+      internalID: 2581697463090934614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_22
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1111
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897635d8c8b2bfc70800000000000000
+      internalID: 9005839762523907992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_23
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5178c44ede7575bc0800000000000000
+      internalID: -3794467481787267307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_24
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1110
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11edf5ca5a02af10800000000000000
+      internalID: 2279395746387976478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_25
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1108
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5284a7ebfbb919930800000000000000
+      internalID: 4148267979621681189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_26
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1092
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9f311cad2931680800000000000000
+      internalID: -8785516979829868054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_27
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1092
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2bbdeb0380a4a70800000000000000
+      internalID: 8811864626357318372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_28
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88458a26b4364d570800000000000000
+      internalID: 8490520372929123464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1083
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54cdbb8849ff71d0800000000000000
+      internalID: -3350685507762928548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_30
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1084
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7579c8a44540cec10800000000000000
+      internalID: 2084045487640188759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_31
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1082
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd3af11f28d12c90800000000000000
+      internalID: -7196233032884666932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_32
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1075
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86ea5cb13ac0f5f0800000000000000
+      internalID: -724857225044367730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_33
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1092
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f94917801808f0e0800000000000000
+      internalID: -2236028347910370823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_34
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1082
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3e4e5ddec5fc410800000000000000
+      internalID: 1499519377503216617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_35
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1074
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773a55248dacc8ec0800000000000000
+      internalID: -3563250174982249609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_36
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1072
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4468080fb4e53a40800000000000000
+      internalID: 5347431641696986189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_37
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1080
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c0b7f77e7010bd0800000000000000
+      internalID: -2665840813569012730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_38
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1076
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3d60fa3100e4cf0800000000000000
+      internalID: -266275243427441741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_39
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 917
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c75e6565bb3b9670800000000000000
+      internalID: 8546490368142497737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_40
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 814
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5186538ff50f9f0800000000000000
+      internalID: -436743644202396213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_41
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 525
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0e225424ae1bca0800000000000000
+      internalID: -6002759257959505759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_42
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 407
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c82e179099213c40800000000000000
+      internalID: 5490215121728710857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 445
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab596b0cd31250d90800000000000000
+      internalID: -7132257885761399366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_44
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 425
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f4ebe39502ce810800000000000000
+      internalID: 1795845919090823066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_45
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 463
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0018811d8cc70030800000000000000
+      internalID: 3460959744914100239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_46
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 450
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0910441661fdc4870800000000000000
+      internalID: 8668548669995483536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_47
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 447
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3bd7cab09f99d30800000000000000
+      internalID: 4438852736284210098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_48
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 432
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86087c62a8ab3900800000000000000
+      internalID: 665310785525253773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_49
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 401
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c57af8f271c68e0800000000000000
+      internalID: -1698957466384507888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_50
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 407
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249b89f2e9815e410800000000000000
+      internalID: 1505636718107736386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_51
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 411
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e77ba4174b5d150800000000000000
+      internalID: 5896817685789376117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_52
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 401
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bbd669f4d4c0bb0800000000000000
+      internalID: -4968511284674970796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_53
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 401
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd41e84e33d10540800000000000000
+      internalID: 4972487728057896384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_54
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 383
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec5dbdc1ef3407d0800000000000000
+      internalID: -2953165216596271891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_55
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 256
+        width: 256
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9d5b414c4a8ead0800000000000000
+      internalID: -2672705216776381989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_56
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 392
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497d2265deb46c480800000000000000
+      internalID: -8879326132589897836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_57
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 387
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8206602d7741f230800000000000000
+      internalID: 3670793774023705231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_58
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 385
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dc965635e17c940800000000000000
+      internalID: 5316251228666711441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 389
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d220af1018c146bb0800000000000000
+      internalID: -4943795150536441299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_60
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 349
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91be09b962eceea0800000000000000
+      internalID: -5842045672902184550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_61
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 371
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec9a7b8c76c8b700800000000000000
+      internalID: 556412792198569191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_62
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 369
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4708c4dc27f666d0800000000000000
+      internalID: -2997436730047985843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_63
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 345
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf063fbb6b21f8b30800000000000000
+      internalID: 4291669545954009340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_64
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 368
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154de426afd684810800000000000000
+      internalID: 1749769377392022609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_65
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 302
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516075f75d6cf3910800000000000000
+      internalID: 1819391394747713045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_66
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 357
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f29d5c7cde00a860800000000000000
+      internalID: 7539042116360311539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_67
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 314
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89790ae4d37c7e4c0800000000000000
+      internalID: -4258215856529434728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_68
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 326
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed9acac54eb455c0800000000000000
+      internalID: -4227544943229755930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_69
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 278
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc314bdf93bec4370800000000000000
+      internalID: 8308274046893822925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_70
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 339
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6db747217787fcd0800000000000000
+      internalID: -2524400146057806481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_71
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 329
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c493cea85046c70800000000000000
+      internalID: 8963295252600933405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_72
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 337
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a565cf6ad3e815f0800000000000000
+      internalID: -785627607658568283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_73
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 339
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6376f33167c180420800000000000000
+      internalID: 2596356478633731894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_74
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 294
+        width: 71
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158c90145e7e9e530800000000000000
+      internalID: 3884891125408450641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_75
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 333
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039213ad899d184b0800000000000000
+      internalID: -5439827624367937232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 415
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc6486ae22682780800000000000000
+      internalID: -8707601927019139920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_77
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 323
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785a23b72c01c81b0800000000000000
+      internalID: -5653125004780198521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_78
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 324
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1860fd2775b21b0800000000000000
+      internalID: -5680350354118114822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_79
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 268
+        width: 78
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c03aa1f1c309840800000000000000
+      internalID: 5228745271665691718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_80
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 318
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26fb0df0b25096f0800000000000000
+      internalID: -679952623619803604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_81
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 276
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ad19db621979220800000000000000
+      internalID: 2492620514348096026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_82
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 266
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff95ab93dd6bca70800000000000000
+      internalID: 8848286648516321278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_83
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 196
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaee95e1d08e19d0800000000000000
+      internalID: -2801660279188952409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_84
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 0
+        width: 295
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2587962178f6b60800000000000000
+      internalID: 7741554797621826236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_85
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 255
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77bd286ccaa6aa10800000000000000
+      internalID: 1920410086017972094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_86
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 212
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da722f68a64f6000800000000000000
+      internalID: 31321411647863513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_87
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 256
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02c14c5299e3a510800000000000000
+      internalID: 1559346710822633996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_88
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 240
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97ce37aee87b8510800000000000000
+      internalID: 1552467462962726811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_89
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 160
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1200690fd8c1044e0800000000000000
+      internalID: -1999566838600171487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_90
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 258
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c191796e578cc93e0800000000000000
+      internalID: -2045539722027656932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_91
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 239
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91d3429dd852eef0800000000000000
+      internalID: -80404134674312805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_92
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 226
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4149f7a6cd8193660800000000000000
+      internalID: 7365946000499774484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_93
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 218
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2d560036a078030800000000000000
+      internalID: 3496775056001192625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_94
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 158
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0e0e80ccf706770800000000000000
+      internalID: 8602015802576658658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_95
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 192
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819c391186418f3d0800000000000000
+      internalID: -3172763500278462184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_96
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 194
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a06483719e02620800000000000000
+      internalID: 2747452058633636389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_97
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 194
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be15198db43532990800000000000000
+      internalID: -7411988976500649493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_98
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 136
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee60de2654eb86590800000000000000
+      internalID: -7680679959258659090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_99
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 154
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58746fa9ac62ddf50800000000000000
+      internalID: 6907720055081289605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_100
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 25
+        width: 94
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1a0ecc3a9c4f8b0800000000000000
+      internalID: -5119245171059285599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_101
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 93
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9611cd25f6e44b660800000000000000
+      internalID: 7400626327715058025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_102
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 89
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4312d1cb24f7fa20800000000000000
+      internalID: 3096211737613046604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_103
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 41
+        width: 108
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba882e3b02b1c870800000000000000
+      internalID: 8701431716413737654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_104
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 23
+        width: 78
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9ce4e65932f2a50800000000000000
+      internalID: 6498451912026671573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_105
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 51
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0e632d3ad7af570800000000000000
+      internalID: 8501245389175185580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_106
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 33
+        width: 57
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbaef278711e43170800000000000000
+      internalID: 8157392316243372732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_107
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 101
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fc48dd2030b3650800000000000000
+      internalID: 6213563421729017661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_108
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 79
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53abc29ec4438020800000000000000
+      internalID: 2342791885179560796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_109
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 62
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2d9a74fa36de620800000000000000
+      internalID: 2805007747394425564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_110
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 67
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498c37682a355f150800000000000000
+      internalID: 5905718443871815828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_111
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 63
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b542ca0ed0e93790800000000000000
+      internalID: -7549756056042060362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_112
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 31
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd48e2f514f578f40800000000000000
+      internalID: 5730653785226642655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_113
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 25
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310a4e5db5b7092e0800000000000000
+      internalID: -2121059790130733037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_114
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 53
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd5cf50a542d7900800000000000000
+      internalID: 683742687496265211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_115
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 55
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd8d2805b3044c90800000000000000
+      internalID: -7186615029315301897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_116
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 31
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5590eb6a8230d80800000000000000
+      internalID: -8285734192813615699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_117
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 33
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e413f9f124d9460800000000000000
+      internalID: 7250023678718594582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_118
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 45
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79af8fd6f3af4f70800000000000000
+      internalID: 9173731246685006205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_119
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 21
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ff7862aa6dfa3c0800000000000000
+      internalID: -4346019089110007979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_120
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 33
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acd4ed19c70eb7e0800000000000000
+      internalID: -1747951045001814875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_121
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 19
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b1ed23cb08e9bf0800000000000000
+      internalID: -315673378073732263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_122
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 9
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2049cbaa0b99b7dc0800000000000000
+      internalID: -3640146889741134846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_123
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 17
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4084aa9a97583b0800000000000000
+      internalID: -5510864799404653333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_124
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 17
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffea1b57b879efd70800000000000000
+      internalID: 9078860524056325887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_125
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 17
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076c68bd0a319e930800000000000000
+      internalID: 4172888111334213232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoatDrowning_126
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141a512bf8b1ec0d0800000000000000
+      internalID: -3400750364636110527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GoatDrowning_0: -1378774071674483870
+      GoatDrowning_1: 4233540626520189836
+      GoatDrowning_10: -6923886697840703074
+      GoatDrowning_100: -5119245171059285599
+      GoatDrowning_101: 7400626327715058025
+      GoatDrowning_102: 3096211737613046604
+      GoatDrowning_103: 8701431716413737654
+      GoatDrowning_104: 6498451912026671573
+      GoatDrowning_105: 8501245389175185580
+      GoatDrowning_106: 8157392316243372732
+      GoatDrowning_107: 6213563421729017661
+      GoatDrowning_108: 2342791885179560796
+      GoatDrowning_109: 2805007747394425564
+      GoatDrowning_11: 5244113885966464844
+      GoatDrowning_110: 5905718443871815828
+      GoatDrowning_111: -7549756056042060362
+      GoatDrowning_112: 5730653785226642655
+      GoatDrowning_113: -2121059790130733037
+      GoatDrowning_114: 683742687496265211
+      GoatDrowning_115: -7186615029315301897
+      GoatDrowning_116: -8285734192813615699
+      GoatDrowning_117: 7250023678718594582
+      GoatDrowning_118: 9173731246685006205
+      GoatDrowning_119: -4346019089110007979
+      GoatDrowning_12: -3703474598696724589
+      GoatDrowning_120: -1747951045001814875
+      GoatDrowning_121: -315673378073732263
+      GoatDrowning_122: -3640146889741134846
+      GoatDrowning_123: -5510864799404653333
+      GoatDrowning_124: 9078860524056325887
+      GoatDrowning_125: 4172888111334213232
+      GoatDrowning_126: -3400750364636110527
+      GoatDrowning_13: -8671927960984515880
+      GoatDrowning_14: -7224646958697542836
+      GoatDrowning_15: 8988295497585104312
+      GoatDrowning_16: -156829293017522815
+      GoatDrowning_17: -533439963511921658
+      GoatDrowning_18: 8915790439514754256
+      GoatDrowning_19: 1695001019379053286
+      GoatDrowning_2: -1032314815361826908
+      GoatDrowning_20: 6770574927831728142
+      GoatDrowning_21: 2581697463090934614
+      GoatDrowning_22: 9005839762523907992
+      GoatDrowning_23: -3794467481787267307
+      GoatDrowning_24: 2279395746387976478
+      GoatDrowning_25: 4148267979621681189
+      GoatDrowning_26: -8785516979829868054
+      GoatDrowning_27: 8811864626357318372
+      GoatDrowning_28: 8490520372929123464
+      GoatDrowning_29: -3350685507762928548
+      GoatDrowning_3: 2471824300806480005
+      GoatDrowning_30: 2084045487640188759
+      GoatDrowning_31: -7196233032884666932
+      GoatDrowning_32: -724857225044367730
+      GoatDrowning_33: -2236028347910370823
+      GoatDrowning_34: 1499519377503216617
+      GoatDrowning_35: -3563250174982249609
+      GoatDrowning_36: 5347431641696986189
+      GoatDrowning_37: -2665840813569012730
+      GoatDrowning_38: -266275243427441741
+      GoatDrowning_39: 8546490368142497737
+      GoatDrowning_4: 8767200170867911666
+      GoatDrowning_40: -436743644202396213
+      GoatDrowning_41: -6002759257959505759
+      GoatDrowning_42: 5490215121728710857
+      GoatDrowning_43: -7132257885761399366
+      GoatDrowning_44: 1795845919090823066
+      GoatDrowning_45: 3460959744914100239
+      GoatDrowning_46: 8668548669995483536
+      GoatDrowning_47: 4438852736284210098
+      GoatDrowning_48: 665310785525253773
+      GoatDrowning_49: -1698957466384507888
+      GoatDrowning_5: 925671118370843240
+      GoatDrowning_50: 1505636718107736386
+      GoatDrowning_51: 5896817685789376117
+      GoatDrowning_52: -4968511284674970796
+      GoatDrowning_53: 4972487728057896384
+      GoatDrowning_54: -2953165216596271891
+      GoatDrowning_55: -2672705216776381989
+      GoatDrowning_56: -8879326132589897836
+      GoatDrowning_57: 3670793774023705231
+      GoatDrowning_58: 5316251228666711441
+      GoatDrowning_59: -4943795150536441299
+      GoatDrowning_6: 757204470478229790
+      GoatDrowning_60: -5842045672902184550
+      GoatDrowning_61: 556412792198569191
+      GoatDrowning_62: -2997436730047985843
+      GoatDrowning_63: 4291669545954009340
+      GoatDrowning_64: 1749769377392022609
+      GoatDrowning_65: 1819391394747713045
+      GoatDrowning_66: 7539042116360311539
+      GoatDrowning_67: -4258215856529434728
+      GoatDrowning_68: -4227544943229755930
+      GoatDrowning_69: 8308274046893822925
+      GoatDrowning_7: -420293167903396127
+      GoatDrowning_70: -2524400146057806481
+      GoatDrowning_71: 8963295252600933405
+      GoatDrowning_72: -785627607658568283
+      GoatDrowning_73: 2596356478633731894
+      GoatDrowning_74: 3884891125408450641
+      GoatDrowning_75: -5439827624367937232
+      GoatDrowning_76: -8707601927019139920
+      GoatDrowning_77: -5653125004780198521
+      GoatDrowning_78: -5680350354118114822
+      GoatDrowning_79: 5228745271665691718
+      GoatDrowning_8: -8922113686432582213
+      GoatDrowning_80: -679952623619803604
+      GoatDrowning_81: 2492620514348096026
+      GoatDrowning_82: 8848286648516321278
+      GoatDrowning_83: -2801660279188952409
+      GoatDrowning_84: 7741554797621826236
+      GoatDrowning_85: 1920410086017972094
+      GoatDrowning_86: 31321411647863513
+      GoatDrowning_87: 1559346710822633996
+      GoatDrowning_88: 1552467462962726811
+      GoatDrowning_89: -1999566838600171487
+      GoatDrowning_9: -3700862699470505408
+      GoatDrowning_90: -2045539722027656932
+      GoatDrowning_91: -80404134674312805
+      GoatDrowning_92: 7365946000499774484
+      GoatDrowning_93: 3496775056001192625
+      GoatDrowning_94: 8602015802576658658
+      GoatDrowning_95: -3172763500278462184
+      GoatDrowning_96: 2747452058633636389
+      GoatDrowning_97: -7411988976500649493
+      GoatDrowning_98: -7680679959258659090
+      GoatDrowning_99: 6907720055081289605
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

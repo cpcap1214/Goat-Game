@@ -1,3 +1,237 @@
+# 2026-11-16 Q restarts active replay
+
+Tap Q during playback to restart from time zero in the forward direction, preserving the saved recording and live player/world. Holding Q still records a replacement after 0.5 seconds. Both debug tiers supported. PASS: Unity compilation; replay suite 10/10 including mid-forward/backward restart, preserved memory/player and existing hold behavior; git diff --check. First runner returned stale running status after exiting; retry passed. Evidence: Artifacts/Logs/replay-restart-tests.json. Manual keyboard playtest NOT RUN.
+
+# 2026-11-16 Replay playhead marker
+
+Added a warm cream circular playhead with a dark amber outline at the timeline cursor. It follows existing clamped progress in forward/backward playback and fast rewind, and stays still while held/paused. Both debug tiers use it. Display-only indicator; no drag seeking added. PASS: Unity compilation, git diff --check. No gameplay tests rerun for this drawing-only change; manual visual playtest NOT RUN.
+
+# 2026-11-16 Replay bar placement
+
+Replay timeline thickness increased from 4 to 10 UI pixels; y moved from 458 to 486, leaving 7 pixels above the gameplay viewport bottom/footer. Applies to both debug replay tiers; amber styling and width retained. PASS: git diff --check. Layout-only change; no gameplay tests rerun.
+
+# 2026-11-16 Fast-rewind tint fix
+
+RewindPlaytest.Pose now uses the shared amber ReplayColor during the fast world rewind instead of the leftover cyan tint. Live goat returns to white after rewind. Applies to both basic/upgraded debug entries. PASS: Unity compilation, git diff --check, replay suite 9/9 including rewind tint and restored normal color assertions. Initial targeted test runner failed to report completion; full-suite retry passed. Evidence: Artifacts/Logs/rewind-tint-test.json. NOT RUN: manual visual playtest.
+
+# 2026-11-16 Faster recording and warm minimal replay UI
+
+Both replay tiers now charge in 0.5 seconds. Recording film strips are 42 UI pixels high (was 24), travel at 180 pixels/second (was 28), and reveal with a soft left-to-right fade over 0.16 seconds. Header shifted down to avoid the thicker strips. Timeline reduced to only a warm amber track/fill, matching the thin trace and afterimage. Past lens unchanged per clarification.
+
+PASS: Unity compilation; RewindPlaytestTests 9/9 including 24-tick/25-tick hold boundary and warm ghost/trace assertions; git diff --check. First runner attempt hit an Editor Play mode state error; retry from Edit mode passed. Evidence: Artifacts/Logs/replay-warm-ui-tests.json. Recording and playback screenshots inspected in Artifacts/Logs/replay-warm-captures. Final strip seam cleanup compiled. NOT RUN: human full-speed input/animation playtest. Playtest entries: Debug Mode 06 Basic Replay / 07 Upgraded Replay.
+
+# 2026-11-16 Past lens presentation
+
+EchoFoothills F era switching now triggers a 0.36-second circular glass lens animation (expanding into past, contracting into present). Past view has subtle warm tint, fine grain and edge darkening beneath the HUD. Collision switches remain immediate; blocked switches do not trigger the effect. Respawn clears the effect; pause freezes its fixed-step clock.
+
+PASS: Unity compilation (zero errors/warnings), PastLensTransitionAndRespawn 1/1, git diff --check. Evidence: Artifacts/Logs/past-lens-tests.json. Keyboard regression filter returned zero tests, so NOT RUN. Captured game-view images in Artifacts/Logs/past-filter-captures; static visuals inspected, full-speed human animation/keyboard playtest NOT RUN. Final rim-opacity correction compiled successfully. Try Main Menu > Debug Mode > 05 EchoFoothills, collect the lens and press F.
+
+# 2026-11-16 Separate basic and upgraded replay
+
+Main Menu > Debug Mode now offers 06 Basic Replay and 07 Upgraded Replay. Both use Debug_Rewind with separate ability tiers; basic supports forward playback and endpoint persistence, while upgraded adds Left Shift reversal/hold pause. `ReplayUpgradeUnlocked` defaults false; `UnlockReplayUpgrade()` is the explicit later-pickup hook. No later-game pickup location or cross-room progression persistence was assigned.
+
+PASS: Unity compilation, 9/9 live RewindPlaytestTests, git diff --check. New tests exercise both real SceneFlow entry routes, basic ignoring Shift, unlocking on the existing recording, and no upgrade leakage on reload. Evidence: Artifacts/Logs/replay-tier-tests.json. NOT RUN: manual menu/keyboard playtest. Next: user playtest of entries 06 and 07.
+
+# 2026-11-16 Hold Left Shift to pause replay
+
+In Debug_Rewind, Left Shift immediately stops the replay cursor while held; the player/world keep simulating and the echo stays active. Release a hold to resume the same direction. A quick tap under 0.25 seconds toggles direction on release. HUD/timeline show PAUSED.
+
+PASS: Unity compilation with zero errors/warnings; live Pipeline RewindPlaytestTests 7/7 passed, including held cursor/pose, continued moving-platform simulation, and resuming both directions. Evidence: Artifacts/Logs/rewind-hold-tests.json. PASS: git diff --check. NOT RUN: human keyboard playtest. The initial test-launch permission review timed out; the permitted retry succeeded. Next: user playtest via Main Menu > Debug Mode > 06 Rewind.
+
+# 2026-11-16 Persistent bidirectional replay
+
+Debug_Rewind afterimages now stay active at the final frame, including support and pressure-plate interaction. Left Shift toggles forward/backward from the current cursor and resumes from a held endpoint; it never loops automatically. The timeline shows direction/HELD. Hold Q still overwrites after 1 second. Entry: Main Menu > Debug Mode > 06 Rewind.
+
+PASS: live Unity compilation (0 errors/warnings); `unity command run_tests --mode playmode --filter RewindPlaytestTests --async_tests` plus `test_status`: 6/6 passed. Coverage includes mid-playback reversal, both exact endpoints, persistent plate/gate, pause, overwrite and world rewind. Evidence: Artifacts/Logs/rewind-direction-tests.json. PASS: git diff --check. NOT RUN: human keyboard playtest or Web build. Next: user playtest.
+
+# 2026-11-15 Rewind presentation update
+
+Debug_Rewind now records after holding Q for 1 second, with a clockwise filling circle above the goat. Recording displays animated film perforations at the top/bottom, warm tint and grain. The ghost support line is hidden while its collision remains functional. The persistent trace is thinner/fainter, and a video-style timeline shows playback time, duration and progress. An opaque footer prevents stale text outside the camera viewport.
+
+PASS: real Unity compilation; 5/5 updated RewindPlaytestTests; rendered charge, recording and playback views inspected through the live Editor. Evidence: Artifacts/Logs/rewind-presentation-tests.json and Artifacts/Logs/rewind-presentation-captures/captured-assets/Logs/*.png. NOT RUN: human keyboard playtest or Web build. Start Main Menu > Debug Mode > 06 Rewind. Next: user playtest.
+
+# 2026-11-14 Hold-to-record world rewind debug playtest
+
+Implemented the new ability in `Debug_Rewind`, reachable from Main Menu > Debug Mode > 06 Rewind / 倒帶能力測試. Hold Q 1.5 seconds to record/overwrite; tap Q to finish early or auto-finish at 10 seconds. The player, pushable crates, moving platform, plate and gate visibly reverse through recorded states at 5x speed to the recording's starting state, without resetting/reloading the level. Tap Q to replay the goat trace once; the path remains visible. Holding Q can replace a playing or ready recording. All supported object components expose `affectedByRewind` in the Inspector; there are no visible affected-object labels. An opt-out object holds its end state during rewind. Original debug levels/EchoFoothills retain their existing abilities.
+
+PASS: real Unity 6000.6.0f1 compiled and generated the scene, material, metadata and Build Settings entry via `RewindPlaytestBuilder.Build`. Initial batch generation encountered Unity's unsaved untitled scene restriction; the builder now loads MainMenu first in batch mode, and the final generation exited 0. PASS: `RewindPlaytestTests` 5/5 (hold timing/release/overwrite, visible reverse and current-location restoration, crate opt-out, pause/10-second cap/one-shot playback, ghost pressure and gate). PASS: `MotorTests` 20/20. Evidence: `Artifacts/Logs/rewind-debug-build.log`, `rewind-debug-tests.xml`, `rewind-motor-regression.xml`. PASS: git diff --check. NOT RUN: human keyboard/visual playtest or Web build. This is explicitly a debug prototype, not a global rewrite of every legacy room's scripts.
+
+Play/integration notes: `Docs/Codex/REWIND_PLAYTEST.md`. Additional dynamic object types require explicit snapshot integration; arbitrary scripts and Rigidbody2D physics are not automatically rewound. The next step is the user's playtest of the new debug entry.
+
+---
+
+# 2026-11-03 Open upper boundary in every main room
+
+Removed the physical ceiling colliders from Main_Room01 and Main_Room02. Main_Room03 and Main_LiftLanding already had open tops. The camera still clamps its top edge to each scene's `roomBounds`, so the goat may jump above the visible frame without moving the camera outside the room. Updated the Room 1/2 generators and added a rerunnable Unity scene patch for all four scenes.
+
+PASS: Unity 6000.6.0f1 batch scene patch completed. PASS: focused PlayMode `MainRoomTests` 2/2, including all four main scenes with the goat above the camera while the camera top remains within `roomBounds`; the existing full Room 1 route test also passed. Evidence: `Artifacts/Logs/open-top-main-room-tests.xml` and `open-top-scene-patch.log`. PASS: no `Room ceiling`/`Ceiling` object remains in the four main scenes; `git diff --check` passed. NOT RUN: manual keyboard playtest or Web build.
+
+---
+
+# 2026-11-03 Upstream PR validation
+
+Target: cpcap1214/Goat-Game main, from W35L3YL0/Goat-Game. Includes existing commit ee84146 plus the explicit EchoFoothills debug-menu label and current documentation updates. Original tutorial/EchoFoothills scenes remain preserved.
+
+Latest real Unity VerticalRoomTests: 7 executed, 5 PASS, 2 FAIL (Artifacts/Logs/room3-pr-tests.json). HeldKeyboardMovementSurvivesShutter failed at line 23 (expected Snapping=true). SharedPlateControlsIndependentThreeAndTwentySecondTimers expected 20 but the current serialized scene has releaseDelay=15. UpperRouteExceedsDirectSingleFreezeJumpReach PASS. Preserve the current scene state for review; do not claim all tests pass. Earlier entries describe previous validation snapshots. No full-route/manual/Web validation in this PR preparation.
+
+---
+
+# 2026-11-03 EchoFoothills visible in Debug Mode
+
+Renamed the existing fifth Debug Mode entry to `05 EchoFoothills / 回聲山麓`. It continues to call SceneFlow.LoadChapter and load Chapter01_EchoFoothills. Original scene is retained in Build Settings; its F filter toggle, E/Q memory and X interaction logic remain intact. PASS: Unity recompile_status completed, no errors, compilationFailed=false. PASS: static routing/build-settings inspection and git diff --check. NOT RUN: clicking the menu in a manual playtest.
+
+Prior Room 3 黑板 9 update is saved: high grass y=31/32, new left wood step x=3..5 at y=27.5, upper timed platform y=35 with 20 seconds, right step y=36. Lift remains y=39. Lower objects preserved (Artifacts/Logs/room3-board9-preservation.json). Initial tests: 6 PASS, 1 FAIL because the new geometry assertion read empty bounds from a disabled collider. Assertion corrected to use transform/size; compiled, but rerun pending after conversation interruption. No claim of completed full-route or shortcut playtest. Evidence: Artifacts/Logs/room3-board9-tests.json.
+
+---
+
+# 2026-11-03 Room 3 upper route — 黑板 8.png
+
+Updated only the route above the y=22 timer/checkpoint terrace. Existing terrace, plate, statues, lower platforms, shuttle, pit/death threshold and entrance remain intact. One dot spacing is one unit. Added grass ledges x=2..4/y=25, x=9..11/y=25, x=5..8/y=29 and x=12..14/y=30. The existing plate controls both the relocated 3-second platform x=16..18/y=25 and new 15-second platform x=18..20/y=33. Pressure holds each at its own full time; release counts down independently. Counters remain small, centered and hidden at zero. No red lines or tips were added.
+
+Upper right step is x=23..24/y=35; exit floor and gate plate rise to y=39; room ceiling rises to y=44. Lift dock is (31,39), retaining the user's previous +2 horizontal shift. Original cliff collider remains unchanged; a 6-unit extension adds the new top. Grass remains one-way with decorative dirt pillars. Existing upward lift transition retained.
+
+The scoped Unity builder UpdateRoomThreeUpperSection saves only Main_Room03 and is safe to rerun; full generation shares UpperRoute. ApplyRoomThreePolish now preserves the lift height. Open Assets/_OneMoreTime/Scenes/Main_Room03.unity and press Play. Editor menu: Tools > One More Time > Update Room 3 Upper Section.
+
+PASS: actual Unity compilation and saved scene generation. Recompile polling briefly lost transport during domain reload; scene eval and PlayMode tests subsequently executed successfully. PASS: VerticalRoomTests 6/6, including independent 3/15-second timers, shutter keyboard continuity, lower shuttle, checkpoints/death and raised lift transfer. Evidence: Artifacts/Logs/room3-upper-tests.json. PASS: serialized comparison confirms 12 existing objects and all their own components unchanged, including original cliff collider (room3-upper-preservation.json). PASS: git diff --check. NOT RUN: complete new-route traversal, manual playtest or Web rebuild. No runtime gameplay scripts changed in this update; no push/publication.
+
+---
+
+# 2026-11-03 Room 3 cleanup and shutter input fix
+
+Removed Room 3's red control cables and all gameplay tip boxes (including checkpoint/drop-through/ability hints). Plate links still function. Moved the entire lift and gate/rails exactly +2 X, dock (29,33) → (31,33), leaving its plate in place. Countdown is centered over the wooden platform's visible middle, character size .13 → .065, and its text object is hidden with empty text at zero. Updated both the scene and generator; ApplyRoomThreePolish patches only the requested objects/settings without regenerating the layout.
+
+Fixed main-game shutter movement interruption: MainRoom no longer calls the release-all-keys reset suppression during a shutter. KeyboardPlayerInput polls held movement/Space continuously while discarding action edges during the pause. Held movement resumes, direction changes/releases during the shutter are honored, and held E does not retrigger. Legacy reset/pause/death suppression remains unchanged.
+
+PASS: Unity compile verified through recompile_status (completed, no errors, compilationFailed=false); initial polling disconnected during domain reload. PASS: real Editor ApplyRoomThreePolish saved Main_Room03 with backups. PASS: VerticalRoomTests 5/5, including Input System keyboard events through MainRoom.Update/FixedUpdate for hold/reverse/release/E-no-repeat, presentation assertions (no tips/cables, lift x=31, centered smaller hidden-zero counter), countdown, shuttle, statues/death and lift transition. Evidence Artifacts/Logs/room3-polish-tests.json. PASS: git diff --check. NOT RUN: new Web build, full-layout traversal or manual keyboard playtest.
+
+Scene: Assets/_OneMoreTime/Scenes/Main_Room03.unity. Runtime: PlayerInput.cs, MainRoom.cs, RoomPlatform.cs. Builder: MainRoomContentBuilder.cs. No publish/push.
+
+---
+
+# 2026-11-03 Room 3 replaced with IMG_8884.jpg
+
+Replaced the draft with the user's dot-grid drawing: width 32, upper cliff y=33, pit x=19..24, four grass ledges, two grayscale goat checkpoint statues, wood steps, a plate-driven vertical shuttle (top y=5↔10), a 3-second release-delay platform at y=24.5 and the plate-gated upward lift. Red control cables and pale yellow track indicate connections. Grass remains textured/one-way/drop-through with decorative, non-colliding dirt pillars. Death areas remain invisible; Room 1/2/3 thresholds are now -8.5/-4.5/-6.5 so the player falls out of view before respawning.
+
+RoomPlatform advances on MainRoom's fixed clock. PlayerMotor2D owns all rider displacement, including rising/descending relative landings, jump-off without inherited speed and Down+Space. Plate pressure from player or grounded frozen goat holds the timed platform at 3.0; release counts down, re-press refills, zero disables collision and dims art. Shutter/pause stop both motion and countdown. Retry/death retain the copy and reset mechanism state before reevaluating pressure. Both statues illuminate green and respawn uses the newest activated checkpoint. Lift/arrival transition retained.
+
+PASS: real Unity compile (`recompile_status`: completed, failed=false, compilationFailed=false). Initial status transport dropped during domain reload; subsequent status verified success. PASS: `unity command eval 'OneMoreTime.EditorTools.MainRoomContentBuilder.BuildRoomThreeLayout(); return "Room 3 reference layout saved";' --timeout 120000 --format json`. Scene generation uses Unity APIs and backs up managed scenes. PASS: VerticalRoomTests 4/4: shuttle both directions/jump/drop/retry, timer hold/release/recharge/shutter pause/expiry, two statues/offscreen death/respawn, final plate/lift/upward arrival. PASS: MotorTests 20/20, including legacy echo carrying, collision, jumping and one-way/drop-through. Total 24 PASS. The first MotorTests attempt discovered zero tests; requesting EditorUtility.RequestScriptReload refreshed discovery and the final 20 tests executed.
+
+Evidence: Artifacts/Logs/room3-layout-tests.json, room3-motor-regression.json, room3-preview.png. PASS: one rendered layout review and git diff --check. NOT RUN: full traversal of the new sketch, manual keyboard playtest, Web/browser rebuild. Mechanism tests use explicit starting-position fixtures; do not treat the draft room's previous full-route success as validation of this layout. No gaps were silently shortened.
+
+Play: Assets/_OneMoreTime/Scenes/Main_Room03.unity. Full geometry/legend in ROOM_LAYOUTS.md. New runtime files: RoomPlatform.cs, RoomCheckpoint.cs; updated MainRoom, RoomMechanisms, PlayerMotor2D and MainRoomContentBuilder. Existing opening/tutorials preserved. No publish/push. Next action is user playtesting this actual layout; the next room remains an empty lift arrival.
+
+---
+
+# 2026-11-03 Shared backgrounds, lift/wood art, grass blades, Room 3
+
+Completed all five requested items, including the optional-last vertical room. Rooms 1–3 and the arrival landing share the tutorial mountain/forest artwork with vertical/horizontal scenery motion. Room 1 grass platforms use tiled grass/roots and irregular individual grass blades; collision dimensions and decorative dirt pillars are preserved. Original pixel PNGs and reusable OldMountainLift/WoodenPlatform prefabs were generated through Unity APIs.
+
+Room 3 connects from Room 2: checkpoint at y=5, frozen-goat plate activates a y=7.5 shelf, a frozen-copy jump bridges y=10 to y=14.5, upper shelves lead to y=19.5. Final plate opens the lift entrance; a frozen goat can keep it open. Boarding latches the ride, locks movement, closes the gate and moves cabin/passenger upward 7 units before fading into Main_LiftLanding. Arrival animates upward from below and releases the goat onto an empty safe floor awaiting the next layout. Shutter is already unlocked in Room 3. Existing intro/tutorial scenes were not regenerated.
+
+PASS: final `unity recompile --format json` returned zero errors/warnings and compilationFailed=false. PASS: `unity command eval 'OneMoreTime.EditorTools.MainRoomContentBuilder.Build(); return "Final art and rooms saved";' --timeout 120000 --format json` saved sprites, prefabs, real scenes and Build Settings. PASS: `run_tests --mode playmode --filter VerticalRoomTests --async_tests` 2/2 (full input-driven climb and upward scene transfer; plate/gate and replacement-release check). PASS: MainRoomTests 1/1, full Room 1 route/camera/checkpoint/pit/exit regression. PASS: rendered art review, git diff --check. Evidence: Artifacts/Logs/vertical-room-tests.json, main-room-art-regression.json, room3-preview.png, lift-landing-preview.png.
+
+NOT RUN: separate ShutterTests regression attempts returned zero tests; recorded in shutter-art-regression.json, not a pass. Previous shutter tests remain historical evidence. No new Web/browser build, human keyboard/audio playtest, or Room 2 pit crossing test. Its exact 9-unit layout is retained.
+
+An automatic approval review briefly rejected editor_stop as if it terminated Unity. Source inspection of Pipeline PlayModeCommands.cs:28–38 proved it only sets EditorApplication.isPlaying=false; retry with that evidence was approved. Editor was never terminated. No remaining approval block, remote push or publication.
+
+Play directly: Assets/_OneMoreTime/Scenes/Main_Room03.unity. Regenerate: Tools > One More Time > Build Main Room Art and Room 3. Art: Assets/_OneMoreTime/Art/MainRooms; reusable prefabs: Assets/_OneMoreTime/Prefabs/OldMountainLift.prefab and WoodenPlatform.prefab. Detailed dimensions/design notes: ROOM_LAYOUTS.md. Next room remains an empty arrival landing pending user layout.
+
+---
+
+# 2026-11-02 Room 2 dot-grid layout and Shutter
+
+Implemented Main_Room02 with 1 unit per adjacent dot: 5-unit rise, 8-unit checkpoint plateau, 9-unit invisible pit, purple pickup and gray goat checkpoint. Room 1 transitions to Room 2; opening and independent tutorials preserved. Camera width remains 20 units.
+
+Latest user correction: every E immediately replaces the old frozen goat at the current position/pose, without resetting player, velocity, checkpoint or level. A 0.32-second dark shutter blink and click pauses room simulation; white flash removed. Frozen goat remains visible; its support marker is invisible. Death/R retain the snapshot and unlock.
+
+PASS: `unity recompile --format json`, zero errors/warnings. PASS: `unity command eval 'OneMoreTime.EditorTools.RoomTwoBuilder.Build(); return "Room 2 updated";' --timeout 120000 --format json`; saved scene and build entry through real Editor. PASS: `unity command run_tests --mode playmode --filter ShutterTests --async_tests --format json`, 2/2. Tests verify lock/pickup, exact immediate replacement, pause position/velocity, first 5-unit rise, checkpoint, death/R persistence, invisible support and Room 1 transition. Evidence: Artifacts/Logs/shutter-tests.json, room2-generation.txt, room2-preview.png.
+
+NOT RUN: full Room 2 pit traversal (9-unit gap and low ceiling raise a reachability concern; exact layout preserved pending user preference). Exit animation test deliberately starts on the far bank, not a full solution. NOT RUN: additional MainRoomTests filter returned zero tests; evidence room1-shutter-regression.json. NOT RUN: new Web build, browser and manual keyboard/audio playtest. No publish or push.
+
+Open Assets/_OneMoreTime/Scenes/Main_Room02.unity and press Play, or proceed from Room 1. Details: ROOM_LAYOUTS.md. Room 3 remains unspecified.
+
+---
+
+# 2026-11-02 下方向鍵＋跳躍穿下草平台
+
+KeyboardPlayerInput 新增 DownArrow＋Space 單次 drop 事件；PlayerMotor2D 僅在站立於 OneWayPlatform 時暫時忽略該 Collider、清空起跳緩衝與 coyote，不向上跳。下降仍碰撞其他平台／地面，離開原平台或 ResetAt 後恢復碰撞。不修改世界 Collider 的 enabled，避免影響其他角色。草平台上新增對應按鍵提示，README 與 ROOM_LAYOUTS 同步。
+
+PASS：Unity CLI recompile，0編譯錯誤。PASS：Pipeline `run_tests --mode playmode --filter MotorTests --async_tests`，20/20（含穿下後落到下一平台、跳回原平台、重置恢復、實體地板與既有承載回歸）。結果 Artifacts/Logs/drop-through-motor.json。NOT RUN：Pipeline 個別方法與 InputTests 類別篩選均回傳 total=0，不視為通過；新按鍵測試已加入，保留 Artifacts/Logs/drop-through-input.json。
+NOT RUN：Web 建置與人工按鍵試玩。無場景布局或資產引用變更，不需重建房間。未推送或發布。
+
+---
+
+# 2026-11-02 待處理布局已套用，鏡頭寬20單位
+
+先前 automatic approval usage limit 阻擋已解除。Unity 真實 Editor 已重新生成並保存 Main_Room01，包含全部待處理布局：場寬76.4、坑寬4.4、平台5.3/7.3/9.8、出口12.4、主線跳高3、草平台由下可穿越、教學式跟隨鏡頭。最新鏡頭水平寬20單位取代先前10單位要求。
+
+PASS：`unity run . --no-tail --log-file Artifacts/Logs/room1-resize.log -- -executeMethod OneMoreTime.EditorTools.MainRoomBuilder.Build`。PASS：`unity test . --mode PlayMode --filter 'OneMoreTime.Tests.MainRoomTests;OneMoreTime.Tests.MotorTests' --output Artifacts/Logs/room1-resize-tests.xml --format json`，19/19、0失敗。包含新版整關真正馬達通關、坑死亡／存檔、出口動畫、20單位視寬斷言、單向平台由下穿越與下降著地，以及既有角色碰撞／承載測試。
+
+PASS：Unity 渲染入口預覽 Artifacts/Logs/room1-preview.png 與 git diff --check。新 MainRoomPlayerTuning 資產與 meta 由 Unity 生成，教學共用 PlayerTuning 保持原數值。
+NOT RUN：Web重建／瀏覽器與人工整關試玩。沒有推送或發布。
+
+---
+
+# 2026-11-02 Room 1 尺寸／鏡頭／單向平台修訂（來源完成，場景待生成）
+
+最新使用者修訂取代上一輪高度要求：跳高3單位、三草平台依前一層 +2.5/+2/+2.5、全場寬度2倍、鏡頭水平10單位。使用者已確認坑寬維持4.4、出口y=12.4。場寬76.4、地面第二層y=2.8、草平台y=5.3/7.3/9.8；入口／石像／提示／出口與邊界同步更新。
+
+MainRoom 改為教學式固定步插值、前視跟隨、邊界限制與入出場鎖鏡；主線獨立 PlayerTuning（jumpSpeed=14.178182），不改教學共享資產。OneWayPlatform marker 由 PlayerMotor2D BoxCast 過濾，僅下降且腳底原在平台頂上時碰撞；普通實體地形及舊關不加此 marker。新增單向平台驗證案例，更新主線路線測試。
+
+PASS：Python 以相同0.02秒半隱式積分計算，最高3.000000、同高度落地跑動5.28／靜止起跳5.04單位、滯空0.88秒。碰撞尺寸0.7寬×1高。PASS：git diff --check。
+BLOCKED：Unity Pipeline 已找到 running Editor，但後續命令被 automatic approval review 以 usage limit 拒絕；沒有繞過拒絕。最新場景生成、Unity編譯／PlayMode／渲染全部 NOT RUN。現有 Main_Room01.unity 尚為前一次布局，不宣稱已更新。待工具可用或使用者在 Editor 執行 Tools > One More Time > Build Main Room 1，再跑 MainRoomTests 與 OneWayPlatformPassesUpwardAndSupportsDescendingFeet。未推送／未發布。
+
+---
+
+# 2026-11-02 隱藏坑底死亡區
+
+依使用者要求，從 Room 1 生成器移除 Pit danger 紅色條與 Pit ember 裝飾。MainRoom 的 deathY 與死亡／檢查點重生邏輯不變。
+
+PASS：Unity CLI 真實 Editor 重新生成與保存；場景不再包含 Pit danger／Pit ember，deathY 仍為 -3.1。命令：`unity run . --no-tail --log-file Artifacts/Logs/room1-invisible-pit.log -- -executeMethod OneMoreTime.EditorTools.MainRoomBuilder.Build`。PASS：git diff --check。NOT RUN：此次純視覺移除，未重跑玩法測試或 Web 建置。
+
+---
+
+# 2026-11-02 檢查點石像改為灰階玩家
+
+依使用者要求，Room 1 石像改用現有玩家 idle 第 0 幀、同一縮放與腳底 pivot，移除積木造型與底座。專用 CheckpointGrayscale shader 即時轉灰階，原玩家圖檔不變。綠眼仍由既有檢查點狀態控制，位置對齊 idle sprite 的眼睛。
+
+PASS：Unity CLI 真實 Editor 生成／編譯與 RenderPipeline 渲染，目視 room1-preview.png 確認石像為玩家灰階圖。命令：`unity run . --no-tail --log-file Artifacts/Logs/room1-statue.log -- -executeMethod OneMoreTime.EditorTools.MainRoomBuilder.Build`。PASS：git diff --check。NOT RUN：此次僅視覺替換，未重跑關卡路線或 Web 建置。
+
+---
+
+# 2026-11-02 主線 Room 1：使用者手繪布局
+
+已實作 `Assets/_OneMoreTime/Scenes/Main_Room01.unity`，開始旅程保留攝影大賽開場，完成／略過後接入新房間。Tutorials 五個既有關卡保持獨立且可進入。
+
+Room 1：固定全房鏡頭／等比留邊、淡入與自動走入、A/D／方向鍵移動提示、Space 跳躍提示、山羊石像接近存檔與綠眼、落坑死亡回檢查點、三個草平台與無碰撞背景土柱、上層出口走出鏡頭並淡出。沿用原 PlayerMotor2D 與數值，沒有改記憶玩法。Room 2 未指定，淡出後顯示 To be continued；`nextRoomScene` 留空，供之後銜接。
+
+生成器 `Assets/_OneMoreTime/Editor/MainRoomBuilder.cs` 使用 Unity API 保存真正 Scene／meta，僅管理 Room 1 Managed 根物件。新房間使用獨立 unlit sprite 材質，修正預設 lit 材質預覽出現錯誤貼圖的問題；沒有改使用者原 URP 設定。Build Settings 加入遊戲入口、教學及 Room 1，保留 SampleScene；WebBuilder 也包含新房間。
+
+PASS：Unity CLI `unity run . --no-tail --log-file Artifacts/Logs/room1-build.log -- -executeMethod OneMoreTime.EditorTools.MainRoomBuilder.Build` 真實 Editor 編譯／生成。
+PASS：`unity test . --mode PlayMode --filter 'RoomOneRouteCheckpointPitAndExit;MainJourneyKeepsIntroAndLoadsRoomOne;TutorialMenuLoadsAllFiveExistingLevels' --output Artifacts/Logs/room1-tests.xml --format json`，3/3。含實際 motor 輸入走完整路線、綠眼、落坑重生、淡出走出邊界，無傳送到終點；主選單開場接 Room 1、五個教學入口也通過。最終材質修正後重做生成／渲染，未重複無關機關測試。
+PASS：目視 `Artifacts/Logs/room1-preview.png`（Unity RenderPipeline 渲染，非手繪模擬）。PASS：`git diff --check`。
+
+初次生成因 batch 啟動的未命名場景不能加法建場而失敗，已限定 batch 模式先開 MainMenu 解決。初次路線測試從中層平台正下方起跳被頂住，改為由最低平台右側跳上後正常通過；沒有為測試降低碰撞或更改角色能力。
+NOT RUN：人工鍵盤整關試玩、遊戲 HUD 視覺檢查、Web 建置／瀏覽器。此次依使用者要求僅進行必要路線驗證，不做完整舊關回歸。
+
+標記 0–6 的後續共用規則及配置見 `Docs/Codex/ROOM_LAYOUTS.md`。下一步等待 Room 2 布局。未推送或發布。
+
+---
+
+# 2026-11-02 教學區與主線分離
+
+使用者要求現有關卡移至主選單獨立教學區；新主線暫留空，等待後續布局指示。MainMenu 新增「教學關卡 / Tutorials」，可個別進入 L01–L04 與 Chapter01_EchoFoothills。原場景路徑、生成器、機關及關卡串接保留；沒有搬動資產或重建關卡。
+
+「開始旅程」保留完整攝影大賽 OpeningCinematic。自然播完、逐句完成或略過後，顯示無關卡的主線等待畫面，可按 Esc／按鈕返回主選單；不再自動載入回聲山麓。等待畫面使用 MenuScreen 狀態，沒有新建主線關卡或擅自設計布局。主選單手冊顯示時停用背後按鈕，避免點穿。
+
+PASS：Unity CLI 真實 Editor 編譯與 PlayMode 2/2（`unity test . --mode PlayMode --filter 'MainJourneyKeepsIntroAndEndsWithoutLoadingATutorial;TutorialMenuLoadsAllFiveExistingLevels' --output Artifacts/Logs/tutorial-menu.xml --format json`）。驗證開場建立、主線等待畫面無場景跳轉、回選單可重新播放，以及五個教學選項各自載入原場景與相應控制器、最後返回 MainMenu。PASS：`git diff --check`；原五個關卡及開場腳本無修改。
+
+先前誤把新流程測試放在 EditMode，因執行期 cinematic 的 Destroy 呼叫而 FAIL；已將該測試移到 PlayMode 後通過，沒有更動開場內容。該次既有四項 OpeningTests（27秒、逐句推進、略過、素材）全部 PASS；歷史失敗報告 Artifacts/Logs/tutorial-opening.xml 保留。
+
+NOT RUN：本次未手動目視新版選單、未重跑完整機關回歸或 Web 建置。互動 Editor 的 Pipeline server 未連上；改用 Unity CLI batch 真實 Editor 執行測試成功，不將其當作人工試玩。下一步：等待使用者提供主線布局。沒有推送或發布。
+
+---
+
 # 2026-11-01 修正啟動需求：先顯示開始畫面
 
 使用者澄清要先顯示開始畫面，不要自動進攝影大賽。已撤回 MenuScreen.Awake 的自動 StartJourney，恢復按「開始旅程」／Enter 才播劇情；本機 playModeStartScene 仍指向 MainMenu，避免從第一大關直接啟動。下方上一輪自動播放紀錄已被本修訂取代。
@@ -494,3 +728,17 @@ Web第三關自動輸入曾跳早，透過同一快照R重試、稍延後第二�
 沒有必要阻塞。可選UI-05無獨立新手測試者，未量測初玩10–15分鐘；Safari／Firefox與其他裝置未測。Web存在非必要URP後處理shader警告；瀏覽器工具環境有無來源MutationObserver錯誤，來源未確認但不影響完整通關，詳TEST_REPORT。未宣稱主控台零錯誤或跨瀏覽器完全驗證。
 
 下一個可直接執行動作：開啟MainMenu.unity按Play，或開目前HTTP預覽親自試玩；需要重建時依BUILD.md執行。若日後發布itch.io，使用已驗證ZIP，由使用者決定並操作，本次沒有待批准步驟。
+
+## 2026-11-17 — World 1 forest/waterfall art pack
+- Implemented four animated water tile types (4 frames each), river/waterfall prefabs, tall elevation-aware forest/mountain backdrop, six-frame goat drowning sequence, and optional deep-water respawn integration.
+- Completed stone-goat checkpoint last: dormant gray statue, cracking activation, green eyes/cracks and looping green aura. Connected via RoomCheckpoint.stoneVisual.
+- Added Debug Mode entry 08 and `Assets/_OneMoreTime/Scenes/Debug_WorldOneArt.unity`; Up/Down elevation, Space drowning, C statue, Esc menu.
+- PASS: real Unity 6000.6.0f1 compilation/build APIs and two focused Play mode tests. Visually checked actual camera renders of animated water, goat drowning and activated statue.
+- Existing room layouts were preserved. New water hazards/backdrop/statue are reusable prefabs for placement during the World 1 layout pass. No remote push/publication.
+- Usage/provenance: `Docs/Codex/WORLD_ONE_ART.md`. Next: place these assets in the World 1 layouts when specified.
+
+### 2026-11-17 — Drowning redraw
+Replaced the rejected opening poses: horizontal goat silhouette, no upright torso/arm-like forelegs, submerged legs hidden, restrained splash, progressive sinking. Re-sliced all six frames using measured water-surface pivots, keeping existing sprite references. Visually inspected all six frames at game scale in Unity. Exact built-in imagegen prompt: `Docs/Codex/DROWNING_REDRAW_PROMPT.md`.
+
+### 2026-11-17 — Gameplay-looping forest background
+Added ForestWaterfallLoop.png and OneMoreTime/Looping Forest shader. The background prefab now repeats in both axes with adjustable parallax, repeat size and edge overlap, and no climb bounds. Original scenic image retained. Debug preview Up/Down scrolling is unlimited. PASS: 3/3 WorldOneArtTests in real Unity Play mode; actual camera render checked with both wrap boundaries in view. Usage: WORLD_ONE_ART.md; exact built-in imagegen prompt: BACKGROUND_LOOP_PROMPT.md.

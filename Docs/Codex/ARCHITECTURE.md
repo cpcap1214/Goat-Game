@@ -1,3 +1,21 @@
+## Replay ability tiers (2026-11-16)
+
+Debug menu 06 selects basic and 07 selects upgraded replay using the same Debug_Rewind practice scene. SceneFlow passes a one-use upgrade request consumed in Awake; direct scene loads default to basic. `ReplayUpgradeUnlocked` gates both direction toggles and playback hold. `UnlockReplayUpgrade()` enables the later-game upgrade without replacing the recording. Both tiers retain endpoint afterimages. The future pickup location and cross-room save integration remain unassigned.
+
+## Rewind debug prototype (2026-11-14)
+
+`RewindPlaytest` is the opt-in controller for `Debug_Rewind`; the legacy tutorials and EchoFoothills retain their original memory flow. At 50 Hz, a Q hold reaching 0.5 seconds clears the previous echo/path and captures the recording's initial world frame at the player's current location. Releasing the initiating hold does not finish recording. A later Q tap, the 10-second/501-frame limit, or recording death starts a 5x visible reverse pass. No scene reload occurs. At the end, the exact first world frame is restored; tap Q to replay the original world-coordinate goat trace. Hold Q to overwrite even during playback. Pause freezes the clock; R during recording finishes/rewinds, while R outside recording restores the debug room's initial world and retains the saved trace.
+
+World frames contain full `PlayerMotor2D.RewindState` (position, velocity, facing, animation phase, grounding/coyote/buffer/drop state), `RoomPlatform.RewindState` (position, home, endpoint direction/distance, timer, activation and previous carrying data), crate positions, plate pressure-source count and door state. These objects are the dynamic simulation participants in the debug scene. Music is not rewound. Playback ghosts reuse EchoSurface/MemorySnapshot and contain no live input/controller. PlayerMotor2D remains the sole owner of rider displacement. EchoPath stays visible after recording; playback clamps at either endpoint with an active stationary echo. Holding Left Shift freezes only the replay cursor while world simulation continues. A tap under 0.25 seconds toggles direction on release; releasing a longer hold resumes the same direction. Left Shift taps toggle the signed playback clock from the current cursor and resumes a held endpoint. Input presses are buffered until the fixed tick and cleared on pause; recording resets direction to forward. This supersedes the legacy one-shot fade only in Debug_Rewind.
+
+`affectedByRewind` is a public Inspector bool on `RewindCrate`, `RoomPlatform`, `PressurePlate` and `LinkedDoor`. False skips restoration during the reverse pass, holding that object's end state while the rest of the world reverses; it resumes normal simulation afterward. An explicit R restart still restores all debug objects. There are no in-game affected-object labels. Additional dynamic object types must provide their own state capture/restore and be registered in the controller before they are rewindable; arbitrary scripts/Rigidbody2D objects are not automatically recorded.
+
+Scene generation: `Tools > One More Time > Build Rewind Playtest` (`RewindPlaytestBuilder.Build`). The builder manages only the debug root/scene, its trace material, and its Build Settings entry. Existing player/echo prefabs, art and the Input System are reused.
+
+## Main-room mechanisms (2026-11-03)
+
+`MainRoom.Step` evaluates pressure sources, ticks `RoomPlatform` once, syncs world transforms, then advances `PlayerMotor2D`. The motor owns platform carrying (excluding the carrying collider from its own displacement casts), relative-top landing, jumping without inherited velocity, and drop-through. Platforms do not move the player independently. `RoomPlatform` supports optional endpoint travel and release-delay countdown; disabled platforms remain faintly visible with no collision. No Update/coroutine timer runs outside the room clock. `RoomCheckpoint[]` stores multiple once-activated statues; `checkpoint` becomes the newest saved feet position. Retry/death retain Shutter and reset mechanisms, then reevaluate preserved pressure sources.
+
 ## 2026-10-31 記憶解謎更新
 
 現行第一大關已加入ChapterMemory：定格庭院、雙影水閘、搭上昨天三種解謎，E/Q記憶、F年代、X互動。場景入口與生成器不變；詳CHAPTER_ONE.md及最新TEST_REPORT.md，以下為舊版歷史。

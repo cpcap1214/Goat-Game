@@ -6,7 +6,46 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/MainMenu.unity
+    guid: 1eb886511a4a74a4f861d1b682d4be57
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/L01_Freeze.unity
+    guid: e5b660ae4b7e241d78042249b2e66426
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/L02_Pressure.unity
+    guid: f53c536f983454ef18bbd1124c3894a9
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/L03_Trace.unity
+    guid: 3791903b63a1c4fcbaa3286c07778837
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/L04_Timing.unity
+    guid: 854a00a44ba1e49ff978bcdf8a20f28f
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/Ending.unity
+    guid: b1dc09ce3e3d947f5bf7b9f9858e9879
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/Chapter01_EchoFoothills.unity
+    guid: 08bbf178829db450a8979803020db757
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/Main_Room01.unity
+    guid: 88fd81daeb70a47be94af1bb19bf396e
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/Main_Room02.unity
+    guid: bbca50905fb1644d9975627accefc30c
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/Main_Room03.unity
+    guid: d2acde47fdf064f0983ad21227c02a43
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/Main_LiftLanding.unity
+    guid: 8dc14ceb1950e455790d271947020b77
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/Debug_Rewind.unity
+    guid: 323b0285cfc4642999c1c88a6e643112
+  - enabled: 1
+    path: Assets/_OneMoreTime/Scenes/Debug_WorldOneArt.unity
+    guid: 848d119c8c79b4003944623f80b27f7c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

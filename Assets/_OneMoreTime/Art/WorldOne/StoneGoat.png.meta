@@ -1,0 +1,4916 @@
+fileFormatVersion: 2
+guid: 7525bce18e97c4956908430d3aaac0c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2779761304268594379
+    second: StoneGoat_0
+  - first:
+      213: 6508971098778968307
+    second: StoneGoat_1
+  - first:
+      213: 3173711104609455026
+    second: StoneGoat_2
+  - first:
+      213: -6802130509733925517
+    second: StoneGoat_3
+  - first:
+      213: 1089425909306248930
+    second: StoneGoat_4
+  - first:
+      213: 1129780127311036623
+    second: StoneGoat_5
+  - first:
+      213: 4821664460768500372
+    second: StoneGoat_6
+  - first:
+      213: 8132456772673063404
+    second: StoneGoat_7
+  - first:
+      213: -2084250283826807402
+    second: StoneGoat_8
+  - first:
+      213: 408887447523350235
+    second: StoneGoat_9
+  - first:
+      213: -7178313596418422323
+    second: StoneGoat_10
+  - first:
+      213: 5019504741300500740
+    second: StoneGoat_11
+  - first:
+      213: -4699462182715652971
+    second: StoneGoat_12
+  - first:
+      213: 1694665847895083939
+    second: StoneGoat_13
+  - first:
+      213: 39259327851387268
+    second: StoneGoat_14
+  - first:
+      213: 7986228468246499431
+    second: StoneGoat_15
+  - first:
+      213: -3051020851136112437
+    second: StoneGoat_16
+  - first:
+      213: -6182624137305490252
+    second: StoneGoat_17
+  - first:
+      213: -1941620197084076414
+    second: StoneGoat_18
+  - first:
+      213: 7818318613782718479
+    second: StoneGoat_19
+  - first:
+      213: 8327215817223043893
+    second: StoneGoat_20
+  - first:
+      213: 8358832559330833814
+    second: StoneGoat_21
+  - first:
+      213: 7028782604592111981
+    second: StoneGoat_22
+  - first:
+      213: -8125819520897510576
+    second: StoneGoat_23
+  - first:
+      213: -7117840838909467947
+    second: StoneGoat_24
+  - first:
+      213: -548381767587261738
+    second: StoneGoat_25
+  - first:
+      213: 2890554298820252362
+    second: StoneGoat_26
+  - first:
+      213: -2209726575481283955
+    second: StoneGoat_27
+  - first:
+      213: 8693650255859992206
+    second: StoneGoat_28
+  - first:
+      213: 4956130039215901778
+    second: StoneGoat_29
+  - first:
+      213: 4968086572840434960
+    second: StoneGoat_30
+  - first:
+      213: 5459661118411168310
+    second: StoneGoat_31
+  - first:
+      213: -8883050896389120444
+    second: StoneGoat_32
+  - first:
+      213: -5234420906619992776
+    second: StoneGoat_33
+  - first:
+      213: 1961271680266764320
+    second: StoneGoat_34
+  - first:
+      213: -490680853791966533
+    second: StoneGoat_35
+  - first:
+      213: 8538201475559640257
+    second: StoneGoat_36
+  - first:
+      213: -4532710671217942173
+    second: StoneGoat_37
+  - first:
+      213: 7544503567600602550
+    second: StoneGoat_38
+  - first:
+      213: -9125963511715308285
+    second: StoneGoat_39
+  - first:
+      213: -6070945746216159399
+    second: StoneGoat_40
+  - first:
+      213: 591244551053695961
+    second: StoneGoat_41
+  - first:
+      213: 4385270321381656792
+    second: StoneGoat_42
+  - first:
+      213: 5651383699570781906
+    second: StoneGoat_43
+  - first:
+      213: -2538105073843626066
+    second: StoneGoat_44
+  - first:
+      213: 7975054243273096235
+    second: StoneGoat_45
+  - first:
+      213: -841385177227057825
+    second: StoneGoat_46
+  - first:
+      213: -8201566455553334011
+    second: StoneGoat_47
+  - first:
+      213: -8455007287038693316
+    second: StoneGoat_48
+  - first:
+      213: -5178985985409578241
+    second: StoneGoat_49
+  - first:
+      213: -4283165282432189212
+    second: StoneGoat_50
+  - first:
+      213: 6714737121636781165
+    second: StoneGoat_51
+  - first:
+      213: -6076192914106538872
+    second: StoneGoat_52
+  - first:
+      213: -6998973014803796941
+    second: StoneGoat_53
+  - first:
+      213: 1177424834828378859
+    second: StoneGoat_54
+  - first:
+      213: -1401828906633859277
+    second: StoneGoat_55
+  - first:
+      213: 8310817627789444053
+    second: StoneGoat_56
+  - first:
+      213: -352520272245094689
+    second: StoneGoat_57
+  - first:
+      213: -6013154595801091400
+    second: StoneGoat_58
+  - first:
+      213: 2557010698954745071
+    second: StoneGoat_59
+  - first:
+      213: 7827803258618592228
+    second: StoneGoat_60
+  - first:
+      213: -6285380164468807583
+    second: StoneGoat_61
+  - first:
+      213: 6187865417364296766
+    second: StoneGoat_62
+  - first:
+      213: -3959257084262971507
+    second: StoneGoat_63
+  - first:
+      213: 5989606159830117797
+    second: StoneGoat_64
+  - first:
+      213: -4411185141640601539
+    second: StoneGoat_65
+  - first:
+      213: -3495838724878770627
+    second: StoneGoat_66
+  - first:
+      213: -1194058791201359747
+    second: StoneGoat_67
+  - first:
+      213: 611684144699117193
+    second: StoneGoat_68
+  - first:
+      213: 4364193034514962742
+    second: StoneGoat_69
+  - first:
+      213: 1084405837041101506
+    second: StoneGoat_70
+  - first:
+      213: -8601310111253701051
+    second: StoneGoat_71
+  - first:
+      213: -3571584488462948764
+    second: StoneGoat_72
+  - first:
+      213: -8418118930548266414
+    second: StoneGoat_73
+  - first:
+      213: 6328483586016175866
+    second: StoneGoat_74
+  - first:
+      213: 4514198999114455155
+    second: StoneGoat_75
+  - first:
+      213: 5119005420216222241
+    second: StoneGoat_76
+  - first:
+      213: 5482646351581988934
+    second: StoneGoat_77
+  - first:
+      213: 2886376707223212095
+    second: StoneGoat_78
+  - first:
+      213: 3364939925486858315
+    second: StoneGoat_79
+  - first:
+      213: 4670853257907321346
+    second: StoneGoat_80
+  - first:
+      213: -2042059047780581933
+    second: StoneGoat_81
+  - first:
+      213: 3744153572519329476
+    second: StoneGoat_82
+  - first:
+      213: -7996857859861333401
+    second: StoneGoat_83
+  - first:
+      213: -5057641046256622565
+    second: StoneGoat_84
+  - first:
+      213: 4577066151819425223
+    second: StoneGoat_85
+  - first:
+      213: -838829537471738704
+    second: StoneGoat_86
+  - first:
+      213: 7435669698237368484
+    second: StoneGoat_87
+  - first:
+      213: -2159359123799119302
+    second: StoneGoat_88
+  - first:
+      213: 6058291268202939594
+    second: StoneGoat_89
+  - first:
+      213: 579324649589531097
+    second: StoneGoat_90
+  - first:
+      213: 4220838033647000925
+    second: StoneGoat_91
+  - first:
+      213: -7115409472184921482
+    second: StoneGoat_92
+  - first:
+      213: -6068131502973295497
+    second: StoneGoat_93
+  - first:
+      213: 2500943210106112770
+    second: StoneGoat_94
+  - first:
+      213: 2519038754672117319
+    second: StoneGoat_95
+  - first:
+      213: 2197135882341925073
+    second: StoneGoat_96
+  - first:
+      213: -7434714685522432989
+    second: StoneGoat_97
+  - first:
+      213: 5597598461393223248
+    second: StoneGoat_98
+  - first:
+      213: -3233597896543066416
+    second: StoneGoat_99
+  - first:
+      213: -5971460573384957152
+    second: StoneGoat_100
+  - first:
+      213: -2627632192918226577
+    second: StoneGoat_101
+  - first:
+      213: -7461719111090713495
+    second: StoneGoat_102
+  - first:
+      213: -117067113163867378
+    second: StoneGoat_103
+  - first:
+      213: -4163139463971841526
+    second: StoneGoat_104
+  - first:
+      213: -5426572880670453005
+    second: StoneGoat_105
+  - first:
+      213: -4907678136421154694
+    second: StoneGoat_106
+  - first:
+      213: 824593813724976251
+    second: StoneGoat_107
+  - first:
+      213: 3277328116528474602
+    second: StoneGoat_108
+  - first:
+      213: -5519304269627749344
+    second: StoneGoat_109
+  - first:
+      213: -1176859828118124963
+    second: StoneGoat_110
+  - first:
+      213: -7027714566338804972
+    second: StoneGoat_111
+  - first:
+      213: -71226136809021515
+    second: StoneGoat_112
+  - first:
+      213: 1173092033434881850
+    second: StoneGoat_113
+  - first:
+      213: 4775836299496329723
+    second: StoneGoat_114
+  - first:
+      213: -5968647100940302373
+    second: StoneGoat_115
+  - first:
+      213: -5146038213250525912
+    second: StoneGoat_116
+  - first:
+      213: -8868420897884269771
+    second: StoneGoat_117
+  - first:
+      213: 410441344798089761
+    second: StoneGoat_118
+  - first:
+      213: -1136781112991345002
+    second: StoneGoat_119
+  - first:
+      213: 4668249805516686631
+    second: StoneGoat_120
+  - first:
+      213: -2519556669835123840
+    second: StoneGoat_121
+  - first:
+      213: 851383373107118026
+    second: StoneGoat_122
+  - first:
+      213: 6874188510555251807
+    second: StoneGoat_123
+  - first:
+      213: 7566962033049086000
+    second: StoneGoat_124
+  - first:
+      213: -6879528048910201892
+    second: StoneGoat_125
+  - first:
+      213: 30427963854962016
+    second: StoneGoat_126
+  - first:
+      213: -7290483270800684059
+    second: StoneGoat_127
+  - first:
+      213: -6670877636434265686
+    second: StoneGoat_128
+  - first:
+      213: -503849032449517606
+    second: StoneGoat_129
+  - first:
+      213: 4989367099180443104
+    second: StoneGoat_130
+  - first:
+      213: 8784634151020011406
+    second: StoneGoat_131
+  - first:
+      213: -8559132186134437843
+    second: StoneGoat_132
+  - first:
+      213: 5510217731862520767
+    second: StoneGoat_133
+  - first:
+      213: -2820734954367592838
+    second: StoneGoat_134
+  - first:
+      213: -7055074202933498856
+    second: StoneGoat_135
+  - first:
+      213: 805649665819522343
+    second: StoneGoat_136
+  - first:
+      213: 6254112715419078010
+    second: StoneGoat_137
+  - first:
+      213: 1627044848047418823
+    second: StoneGoat_138
+  - first:
+      213: -3807609393098038364
+    second: StoneGoat_139
+  - first:
+      213: 8557881422149168171
+    second: StoneGoat_140
+  - first:
+      213: 6385047521970714859
+    second: StoneGoat_141
+  - first:
+      213: -8883548514042204090
+    second: StoneGoat_142
+  - first:
+      213: 1562676082028785634
+    second: StoneGoat_143
+  - first:
+      213: 4398103972359664760
+    second: StoneGoat_144
+  - first:
+      213: -8843083222648544748
+    second: StoneGoat_145
+  - first:
+      213: 6004146556922002338
+    second: StoneGoat_146
+  - first:
+      213: -6863304507977333548
+    second: StoneGoat_147
+  - first:
+      213: 3456333615301146809
+    second: StoneGoat_148
+  - first:
+      213: -2936313462454078874
+    second: StoneGoat_149
+  - first:
+      213: 1591743653223206630
+    second: StoneGoat_150
+  - first:
+      213: 1099526799423966146
+    second: StoneGoat_151
+  - first:
+      213: 4388207364406168059
+    second: StoneGoat_152
+  - first:
+      213: 472824893323729484
+    second: StoneGoat_153
+  - first:
+      213: -5876490237473071184
+    second: StoneGoat_154
+  - first:
+      213: -3455639054297585290
+    second: StoneGoat_155
+  - first:
+      213: 955353357016000200
+    second: StoneGoat_156
+  - first:
+      213: 4951755726503406627
+    second: StoneGoat_157
+  - first:
+      213: -7986379509444155319
+    second: StoneGoat_158
+  - first:
+      213: 7115009696773526961
+    second: StoneGoat_159
+  - first:
+      213: 5189331514524404849
+    second: StoneGoat_160
+  - first:
+      213: -7483305553901114232
+    second: StoneGoat_161
+  - first:
+      213: 5549013743117068674
+    second: StoneGoat_162
+  - first:
+      213: 2158234910294041433
+    second: StoneGoat_163
+  - first:
+      213: -1249494113835035683
+    second: StoneGoat_164
+  - first:
+      213: -4366515528883488741
+    second: StoneGoat_165
+  - first:
+      213: -6984237589636745081
+    second: StoneGoat_166
+  - first:
+      213: -2595647243488192447
+    second: StoneGoat_167
+  - first:
+      213: -209519627242220292
+    second: StoneGoat_168
+  - first:
+      213: 3327860680495599079
+    second: StoneGoat_169
+  - first:
+      213: -3697111344041884169
+    second: StoneGoat_170
+  - first:
+      213: -4643856305776943340
+    second: StoneGoat_171
+  - first:
+      213: -3814324878637959721
+    second: StoneGoat_172
+  - first:
+      213: -5484706681886364840
+    second: StoneGoat_173
+  - first:
+      213: 768658259161433166
+    second: StoneGoat_174
+  - first:
+      213: -5171791457074710722
+    second: StoneGoat_175
+  - first:
+      213: 7021171510091401595
+    second: StoneGoat_176
+  - first:
+      213: -2031463307994390665
+    second: StoneGoat_177
+  - first:
+      213: 1213850976839281320
+    second: StoneGoat_178
+  - first:
+      213: 1324891441822956865
+    second: StoneGoat_179
+  - first:
+      213: -3016382628522091872
+    second: StoneGoat_180
+  - first:
+      213: 7699872810742389397
+    second: StoneGoat_181
+  - first:
+      213: 5556452543087016868
+    second: StoneGoat_182
+  - first:
+      213: -9065146071234704347
+    second: StoneGoat_183
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StoneGoat_0
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1107
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc5e4dad22b39620800000000000000
+      internalID: 2779761304268594379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1213
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f021047ab2845a50800000000000000
+      internalID: 6508971098778968307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1197
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb85f14f694b0c20800000000000000
+      internalID: 3173711104609455026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1226
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d6673375af991a0800000000000000
+      internalID: -6802130509733925517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1209
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee4e4da71b6e1f00800000000000000
+      internalID: 1089425909306248930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1239
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc08baa3a09cdaf00800000000000000
+      internalID: 1129780127311036623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1189
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a5b32e74ef9e240800000000000000
+      internalID: 4821664460768500372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_7
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1217
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9c56ed85a4cd070800000000000000
+      internalID: 8132456772673063404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_8
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1164
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dfe71e8614313e0800000000000000
+      internalID: -2084250283826807402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_9
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1205
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6deb697f8aca500800000000000000
+      internalID: 408887447523350235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_10
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1205
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc98f1ff0d1816c90800000000000000
+      internalID: -7178313596418422323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_11
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1191
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409fa9db7fcd8a540800000000000000
+      internalID: 5019504741300500740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_12
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1237
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5940adb2b0828ceb0800000000000000
+      internalID: -4699462182715652971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_13
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1207
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abc5c42c99a48710800000000000000
+      internalID: 1694665847895083939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_14
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1082
+        width: 132
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489d3b2962a7b8000800000000000000
+      internalID: 39259327851387268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_15
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1211
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760d1f0aa78c4de60800000000000000
+      internalID: 7986228468246499431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_16
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1116
+        width: 92
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8d8bd63b898a5d0800000000000000
+      internalID: -3051020851136112437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_17
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1144
+        width: 65
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc7624aa18e23aa0800000000000000
+      internalID: -6182624137305490252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_18
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1126
+        width: 55
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2866418c7bafd05e0800000000000000
+      internalID: -1941620197084076414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_19
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1191
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08e7532b5f308c60800000000000000
+      internalID: 7818318613782718479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_20
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1183
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bf7919aa6309370800000000000000
+      internalID: 8327215817223043893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1164
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69532ebfce9800470800000000000000
+      internalID: 8358832559330833814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_22
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1195
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61682ee9804b8160800000000000000
+      internalID: 7028782604592111981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_23
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1190
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05318fbb23a4b3f80800000000000000
+      internalID: -8125819520897510576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_24
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1189
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2680d0879583d90800000000000000
+      internalID: -7117840838909467947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_25
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1156
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d219a510b1c368f0800000000000000
+      internalID: -548381767587261738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_26
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1116
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2d829e1df4d1820800000000000000
+      internalID: 2890554298820252362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_27
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1155
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a92b123697551e0800000000000000
+      internalID: -2209726575481283955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_28
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1114
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86c406c8dc06a870800000000000000
+      internalID: 8693650255859992206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_29
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1130
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c4b101306b7c440800000000000000
+      internalID: 4956130039215901778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_30
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1123
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dba8b7a6032f440800000000000000
+      internalID: 4968086572840434960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_31
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1138
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ad8e45cdc94cb40800000000000000
+      internalID: 5459661118411168310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_32
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1136
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ed20f264019b480800000000000000
+      internalID: -8883050896389120444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_33
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1157
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83589082be99b57b0800000000000000
+      internalID: -5234420906619992776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_34
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1179
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0208552b336d73b10800000000000000
+      internalID: 1961271680266764320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_35
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1169
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaf4abfc50c039f0800000000000000
+      internalID: -490680853791966533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_36
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1126
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccc2733109cd7670800000000000000
+      internalID: 8538201475559640257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_37
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1146
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361ae6ce8a39811c0800000000000000
+      internalID: -4532710671217942173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_38
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1162
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd4081b50673b860800000000000000
+      internalID: 7544503567600602550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1078
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d580b99801a5180800000000000000
+      internalID: -9125963511715308285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1144
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957fd12520bafbba0800000000000000
+      internalID: -6070945746216159399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_41
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1148
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbd0f069c5843800800000000000000
+      internalID: 591244551053695961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_42
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1148
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d844068f1c9bdc30800000000000000
+      internalID: 4385270321381656792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_43
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1140
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de695e488fbd6e40800000000000000
+      internalID: 5651383699570781906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1126
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf1feef1e6d6ccd0800000000000000
+      internalID: -2538105073843626066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_45
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1132
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cb3c2a4951dae60800000000000000
+      internalID: 7975054243273096235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_46
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1102
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f552a10a3acc254f0800000000000000
+      internalID: -841385177227057825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_47
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1124
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505ebfe23ce2e2e80800000000000000
+      internalID: -8201566455553334011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_48
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1130
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3038b24ba7c9aa80800000000000000
+      internalID: -8455007287038693316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_49
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1131
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa8fea8fab8028b0800000000000000
+      internalID: -5178985985409578241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_50
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1126
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecf75a6ed32f84c0800000000000000
+      internalID: -4283165282432189212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_51
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1108
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c0a4ff5d98f2d50800000000000000
+      internalID: 6714737121636781165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_52
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1122
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8842fe7dcb60daba0800000000000000
+      internalID: -6076192914106538872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_53
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1108
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c231c0027aede90800000000000000
+      internalID: -6998973014803796941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_54
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 608
+        width: 433
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be22ba526ad075010800000000000000
+      internalID: 1177424834828378859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_55
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1044
+        width: 49
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fe6306904bb8ce0800000000000000
+      internalID: -1401828906633859277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_56
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1114
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3c1719994f55370800000000000000
+      internalID: 8310817627789444053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_57
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1104
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd605bc1ea89b1bf0800000000000000
+      internalID: -352520272245094689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 395
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2b4c111cbfc8ca0800000000000000
+      internalID: -6013154595801091400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_59
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1072
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4221edea35c7320800000000000000
+      internalID: 2557010698954745071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_60
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1098
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb3b991791f1ac60800000000000000
+      internalID: 7827803258618592228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_61
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1100
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168ec82ba08d5c8a0800000000000000
+      internalID: -6285380164468807583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_62
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1095
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e345ce7ffc6bfd550800000000000000
+      internalID: 6187865417364296766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_63
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1096
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d878e0ea8a4ed09c0800000000000000
+      internalID: -3959257084262971507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_64
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 526
+        width: 423
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad6a2d611b5f1350800000000000000
+      internalID: 5989606159830117797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_65
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1100
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30e7023c7258c2c0800000000000000
+      internalID: -4411185141640601539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1074
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3edb8393394c7fc0800000000000000
+      internalID: -3495838724878770627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_67
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1060
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78b2851bd9dd6fe0800000000000000
+      internalID: -1194058791201359747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_68
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1004
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e878f1d732d7800800000000000000
+      internalID: 611684144699117193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_69
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1079
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6399f71417ab09c30800000000000000
+      internalID: 4364193034514962742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_70
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1044
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cae1350d559c0f00800000000000000
+      internalID: 1084405837041101506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_71
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1044
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e5fb7860202a880800000000000000
+      internalID: -8601310111253701051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_72
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1034
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466eedfa4de2f6ec0800000000000000
+      internalID: -3571584488462948764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_73
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1012
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25aedab0f65dc2b80800000000000000
+      internalID: -8418118930548266414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_74
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1026
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6626faa4a43d750800000000000000
+      internalID: 6328483586016175866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_75
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1012
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37814ab8218a5ae30800000000000000
+      internalID: 4514198999114455155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_76
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 744
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122894bde4c5a0740800000000000000
+      internalID: 5119005420216222241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_77
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 746
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648c227fec5461c40800000000000000
+      internalID: 5482646351581988934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_78
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 728
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30500292587e0820800000000000000
+      internalID: 2886376707223212095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_79
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 714
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b407c25b80ba2be20800000000000000
+      internalID: 3364939925486858315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_80
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 666
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20aba837a4432d040800000000000000
+      internalID: 4670853257907321346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_81
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 660
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd7aa68d1629a3e0800000000000000
+      internalID: -2042059047780581933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_82
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 654
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce368a36d7e5f330800000000000000
+      internalID: 3744153572519329476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_83
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 660
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76abca74524750190800000000000000
+      internalID: -7996857859861333401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_84
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 630
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b146074d346afc9b0800000000000000
+      internalID: -5057641046256622565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_85
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 626
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c539ac2a61058f30800000000000000
+      internalID: 4577066151819425223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_86
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 628
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc44efdaf0eb54f0800000000000000
+      internalID: -838829537471738704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_87
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 616
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a80396d13ec03760800000000000000
+      internalID: 7435669698237368484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_88
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 644
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a6473515a6802e0800000000000000
+      internalID: -2159359123799119302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_89
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 642
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4461b6fcf531450800000000000000
+      internalID: 6058291268202939594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_90
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 626
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1696c03bc2a0800800000000000000
+      internalID: 579324649589531097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_91
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 590
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ddcf124dd639a30800000000000000
+      internalID: 4220838033647000925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_92
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 618
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672d7fab8ccf04d90800000000000000
+      internalID: -7115409472184921482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_93
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 626
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7746be26c8aa9cba0800000000000000
+      internalID: -6068131502973295497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_94
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 612
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bccc9599225b220800000000000000
+      internalID: 2500943210106112770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_95
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 434
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7468ca3a66c65f220800000000000000
+      internalID: 2519038754672117319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_96
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 491
+        width: 67
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0414ea17bcd7e10800000000000000
+      internalID: 2197135882341925073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_97
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 590
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c2e03626692d890800000000000000
+      internalID: -7434714685522432989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_98
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 578
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ebd9ea42aaead40800000000000000
+      internalID: 5597598461393223248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_99
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 602
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6a91e68d3ff13d0800000000000000
+      internalID: -3233597896543066416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_100
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 598
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023a3252f3c112da0800000000000000
+      internalID: -5971460573384957152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_101
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 610
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f697abc3176c88bd0800000000000000
+      internalID: -2627632192918226577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_102
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 596
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cc1b99006a27890800000000000000
+      internalID: -7461719111090713495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_103
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 592
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bbcf0b418106ef0800000000000000
+      internalID: -117067113163867378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_104
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 598
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a5c8bf6be8936c0800000000000000
+      internalID: -4163139463971841526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_105
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 576
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f29edb57b0f0b4b0800000000000000
+      internalID: -5426572880670453005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_106
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 578
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a708aa6acbc64ebb0800000000000000
+      internalID: -4907678136421154694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_107
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 570
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74df0764bb817b00800000000000000
+      internalID: 824593813724976251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_108
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 562
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae96416de886b7d20800000000000000
+      internalID: 3277328116528474602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_109
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 562
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c8a81620e7763b0800000000000000
+      internalID: -5519304269627749344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_110
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 538
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56879ab834faafe0800000000000000
+      internalID: -1176859828118124963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_111
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 517
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413898a16da887e90800000000000000
+      internalID: -7027714566338804972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_112
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 546
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf56c8b434f20ff0800000000000000
+      internalID: -71226136809021515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_113
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 536
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f0ab53df8a74010800000000000000
+      internalID: 1173092033434881850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_114
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 23
+        width: 397
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf115e89fcd274240800000000000000
+      internalID: 4775836299496329723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_115
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 511
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7c9ceb51b1b2da0800000000000000
+      internalID: -5968647100940302373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_116
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 453
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825dd9a82899598b0800000000000000
+      internalID: -5146038213250525912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_117
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 513
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53315f62e2a0de480800000000000000
+      internalID: -8868420897884269771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_118
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 515
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122e2dd7a3e22b500800000000000000
+      internalID: 410441344798089761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_119
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 507
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69617c4c9975930f0800000000000000
+      internalID: -1136781112991345002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_120
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 473
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725cb94f674f8c040800000000000000
+      internalID: 4668249805516686631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_121
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 520
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083e207de8cb80dd0800000000000000
+      internalID: -2519556669835123840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_122
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 469
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf39b1caa8b0db00800000000000000
+      internalID: 851383373107118026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_123
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 425
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54a7b28706066f50800000000000000
+      internalID: 6874188510555251807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_124
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 431
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03822c8a0ef330960800000000000000
+      internalID: 7566962033049086000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_125
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 411
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb0f5650b10780a0800000000000000
+      internalID: -6879528048910201892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_126
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 410
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d30d8621a1c6000800000000000000
+      internalID: 30427963854962016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_127
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 204
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb4ff2871003da90800000000000000
+      internalID: -7290483270800684059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_128
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 208
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9fc3c22284c63a0800000000000000
+      internalID: -6670877636434265686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_129
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 180
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad71c6879f7f109f0800000000000000
+      internalID: -503849032449517606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_130
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 184
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5eba021facd3540800000000000000
+      internalID: 4989367099180443104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_131
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 162
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f1055a73a49e970800000000000000
+      internalID: 8784634151020011406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_132
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 136
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2028dbff9ad73980800000000000000
+      internalID: -8559132186134437843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_133
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 115
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb369be25d9387c40800000000000000
+      internalID: 5510217731862520767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_134
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 113
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76546ff08cbad8d0800000000000000
+      internalID: -2820734954367592838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_135
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 87
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c602e4467571e90800000000000000
+      internalID: -7055074202933498856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_136
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 107
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725b5904a1e3e2b00800000000000000
+      internalID: 805649665819522343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_137
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 111
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dcec301621bc650800000000000000
+      internalID: 6254112715419078010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_138
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 85
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdee793bac649610800000000000000
+      internalID: 1627044848047418823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_139
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 95
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a363f83e67a82bc0800000000000000
+      internalID: -3807609393098038364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_140
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cad15dfc3b3c670800000000000000
+      internalID: 8557881422149168171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_141
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 105
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be87d0d44ee3c9850800000000000000
+      internalID: 6385047521970714859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_142
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 99
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640b09b81bb47b480800000000000000
+      internalID: -8883548514042204090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_143
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 55
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef23500e9dbfa510800000000000000
+      internalID: 1562676082028785634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_144
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 89
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8747bbdb244390d30800000000000000
+      internalID: 4398103972359664760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_145
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 106
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41221d269ae074580800000000000000
+      internalID: -8843083222648544748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_146
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 97
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab78b07b73035350800000000000000
+      internalID: 6004146556922002338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_147
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 95
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d48ca0d9e4a0c0a0800000000000000
+      internalID: -6863304507977333548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_148
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 78
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b834455c1d57ff20800000000000000
+      internalID: 3456333615301146809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_149
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 83
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6623a31967e1047d0800000000000000
+      internalID: -2936313462454078874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_150
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee0adf4b62071610800000000000000
+      internalID: 1591743653223206630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_151
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 79
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb00bc6ccd424f00800000000000000
+      internalID: 1099526799423966146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_152
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 87
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9ce24295b06ec30800000000000000
+      internalID: 4388207364406168059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_153
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 89
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ad58f3cbfcf8600800000000000000
+      internalID: 472824893323729484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_154
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 79
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfdd559343827ea0800000000000000
+      internalID: -5876490237473071184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_155
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 75
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67920a0c69a1b00d0800000000000000
+      internalID: -3455639054297585290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_156
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 70
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c66ae701d8124d00800000000000000
+      internalID: 955353357016000200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_157
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 65
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cedb4099b28b440800000000000000
+      internalID: 4951755726503406627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_158
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 69
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9486f1a562eaa2190800000000000000
+      internalID: -7986379509444155319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_159
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 73
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b555ad4f979db260800000000000000
+      internalID: 7115009696773526961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_160
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 49
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c87f8a485340840800000000000000
+      internalID: 5189331514524404849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_161
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 79
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c240a3f35f52890800000000000000
+      internalID: -7483305553901114232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_162
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 13
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289e044799e020d40800000000000000
+      internalID: 5549013743117068674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_163
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 69
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9536ce1573793fd10800000000000000
+      internalID: 2158234910294041433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_164
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 59
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3dbeb39b7e8aee0800000000000000
+      internalID: -1249494113835035683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_165
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 57
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b183ca2e2450763c0800000000000000
+      internalID: -4366515528883488741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_166
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 61
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78875c29ae0031f90800000000000000
+      internalID: -6984237589636745081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_167
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 65
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1481aa995986afbd0800000000000000
+      internalID: -2595647243488192447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_168
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 47
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf451c45203a71df0800000000000000
+      internalID: -209519627242220292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_169
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 57
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed0eea38afee2e20800000000000000
+      internalID: 3327860680495599079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_170
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 31
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5015b12d831bcc0800000000000000
+      internalID: -3697111344041884169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_171
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 41
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f153a4b45bd8fb0800000000000000
+      internalID: -4643856305776943340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_172
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 44
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d579d66bbbc01bc0800000000000000
+      internalID: -3814324878637959721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_173
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 36
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ba3f0055862e3b0800000000000000
+      internalID: -5484706681886364840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_174
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 43
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44ccfa3d92daaa00800000000000000
+      internalID: 768658259161433166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_175
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 18
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3779a4321b1a38b0800000000000000
+      internalID: -5171791457074710722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_176
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 37
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b794716e946307160800000000000000
+      internalID: 7021171510091401595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_177
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 37
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f11c072eacec3e0800000000000000
+      internalID: -2031463307994390665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_178
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 37
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa24cc380778d010800000000000000
+      internalID: 1213850976839281320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_179
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 29
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dffcb2fb5f26210800000000000000
+      internalID: 1324891441822956865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_180
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 15
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa18481bf7a326d0800000000000000
+      internalID: -3016382628522091872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_181
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 33
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a1df396817bda60800000000000000
+      internalID: 7699872810742389397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_182
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab740a062c7c1d40800000000000000
+      internalID: 5556452543087016868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneGoat_183
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 15
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c070b6da1223280800000000000000
+      internalID: -9065146071234704347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StoneGoat_0: 2779761304268594379
+      StoneGoat_1: 6508971098778968307
+      StoneGoat_10: -7178313596418422323
+      StoneGoat_100: -5971460573384957152
+      StoneGoat_101: -2627632192918226577
+      StoneGoat_102: -7461719111090713495
+      StoneGoat_103: -117067113163867378
+      StoneGoat_104: -4163139463971841526
+      StoneGoat_105: -5426572880670453005
+      StoneGoat_106: -4907678136421154694
+      StoneGoat_107: 824593813724976251
+      StoneGoat_108: 3277328116528474602
+      StoneGoat_109: -5519304269627749344
+      StoneGoat_11: 5019504741300500740
+      StoneGoat_110: -1176859828118124963
+      StoneGoat_111: -7027714566338804972
+      StoneGoat_112: -71226136809021515
+      StoneGoat_113: 1173092033434881850
+      StoneGoat_114: 4775836299496329723
+      StoneGoat_115: -5968647100940302373
+      StoneGoat_116: -5146038213250525912
+      StoneGoat_117: -8868420897884269771
+      StoneGoat_118: 410441344798089761
+      StoneGoat_119: -1136781112991345002
+      StoneGoat_12: -4699462182715652971
+      StoneGoat_120: 4668249805516686631
+      StoneGoat_121: -2519556669835123840
+      StoneGoat_122: 851383373107118026
+      StoneGoat_123: 6874188510555251807
+      StoneGoat_124: 7566962033049086000
+      StoneGoat_125: -6879528048910201892
+      StoneGoat_126: 30427963854962016
+      StoneGoat_127: -7290483270800684059
+      StoneGoat_128: -6670877636434265686
+      StoneGoat_129: -503849032449517606
+      StoneGoat_13: 1694665847895083939
+      StoneGoat_130: 4989367099180443104
+      StoneGoat_131: 8784634151020011406
+      StoneGoat_132: -8559132186134437843
+      StoneGoat_133: 5510217731862520767
+      StoneGoat_134: -2820734954367592838
+      StoneGoat_135: -7055074202933498856
+      StoneGoat_136: 805649665819522343
+      StoneGoat_137: 6254112715419078010
+      StoneGoat_138: 1627044848047418823
+      StoneGoat_139: -3807609393098038364
+      StoneGoat_14: 39259327851387268
+      StoneGoat_140: 8557881422149168171
+      StoneGoat_141: 6385047521970714859
+      StoneGoat_142: -8883548514042204090
+      StoneGoat_143: 1562676082028785634
+      StoneGoat_144: 4398103972359664760
+      StoneGoat_145: -8843083222648544748
+      StoneGoat_146: 6004146556922002338
+      StoneGoat_147: -6863304507977333548
+      StoneGoat_148: 3456333615301146809
+      StoneGoat_149: -2936313462454078874
+      StoneGoat_15: 7986228468246499431
+      StoneGoat_150: 1591743653223206630
+      StoneGoat_151: 1099526799423966146
+      StoneGoat_152: 4388207364406168059
+      StoneGoat_153: 472824893323729484
+      StoneGoat_154: -5876490237473071184
+      StoneGoat_155: -3455639054297585290
+      StoneGoat_156: 955353357016000200
+      StoneGoat_157: 4951755726503406627
+      StoneGoat_158: -7986379509444155319
+      StoneGoat_159: 7115009696773526961
+      StoneGoat_16: -3051020851136112437
+      StoneGoat_160: 5189331514524404849
+      StoneGoat_161: -7483305553901114232
+      StoneGoat_162: 5549013743117068674
+      StoneGoat_163: 2158234910294041433
+      StoneGoat_164: -1249494113835035683
+      StoneGoat_165: -4366515528883488741
+      StoneGoat_166: -6984237589636745081
+      StoneGoat_167: -2595647243488192447
+      StoneGoat_168: -209519627242220292
+      StoneGoat_169: 3327860680495599079
+      StoneGoat_17: -6182624137305490252
+      StoneGoat_170: -3697111344041884169
+      StoneGoat_171: -4643856305776943340
+      StoneGoat_172: -3814324878637959721
+      StoneGoat_173: -5484706681886364840
+      StoneGoat_174: 768658259161433166
+      StoneGoat_175: -5171791457074710722
+      StoneGoat_176: 7021171510091401595
+      StoneGoat_177: -2031463307994390665
+      StoneGoat_178: 1213850976839281320
+      StoneGoat_179: 1324891441822956865
+      StoneGoat_18: -1941620197084076414
+      StoneGoat_180: -3016382628522091872
+      StoneGoat_181: 7699872810742389397
+      StoneGoat_182: 5556452543087016868
+      StoneGoat_183: -9065146071234704347
+      StoneGoat_19: 7818318613782718479
+      StoneGoat_2: 3173711104609455026
+      StoneGoat_20: 8327215817223043893
+      StoneGoat_21: 8358832559330833814
+      StoneGoat_22: 7028782604592111981
+      StoneGoat_23: -8125819520897510576
+      StoneGoat_24: -7117840838909467947
+      StoneGoat_25: -548381767587261738
+      StoneGoat_26: 2890554298820252362
+      StoneGoat_27: -2209726575481283955
+      StoneGoat_28: 8693650255859992206
+      StoneGoat_29: 4956130039215901778
+      StoneGoat_3: -6802130509733925517
+      StoneGoat_30: 4968086572840434960
+      StoneGoat_31: 5459661118411168310
+      StoneGoat_32: -8883050896389120444
+      StoneGoat_33: -5234420906619992776
+      StoneGoat_34: 1961271680266764320
+      StoneGoat_35: -490680853791966533
+      StoneGoat_36: 8538201475559640257
+      StoneGoat_37: -4532710671217942173
+      StoneGoat_38: 7544503567600602550
+      StoneGoat_39: -9125963511715308285
+      StoneGoat_4: 1089425909306248930
+      StoneGoat_40: -6070945746216159399
+      StoneGoat_41: 591244551053695961
+      StoneGoat_42: 4385270321381656792
+      StoneGoat_43: 5651383699570781906
+      StoneGoat_44: -2538105073843626066
+      StoneGoat_45: 7975054243273096235
+      StoneGoat_46: -841385177227057825
+      StoneGoat_47: -8201566455553334011
+      StoneGoat_48: -8455007287038693316
+      StoneGoat_49: -5178985985409578241
+      StoneGoat_5: 1129780127311036623
+      StoneGoat_50: -4283165282432189212
+      StoneGoat_51: 6714737121636781165
+      StoneGoat_52: -6076192914106538872
+      StoneGoat_53: -6998973014803796941
+      StoneGoat_54: 1177424834828378859
+      StoneGoat_55: -1401828906633859277
+      StoneGoat_56: 8310817627789444053
+      StoneGoat_57: -352520272245094689
+      StoneGoat_58: -6013154595801091400
+      StoneGoat_59: 2557010698954745071
+      StoneGoat_6: 4821664460768500372
+      StoneGoat_60: 7827803258618592228
+      StoneGoat_61: -6285380164468807583
+      StoneGoat_62: 6187865417364296766
+      StoneGoat_63: -3959257084262971507
+      StoneGoat_64: 5989606159830117797
+      StoneGoat_65: -4411185141640601539
+      StoneGoat_66: -3495838724878770627
+      StoneGoat_67: -1194058791201359747
+      StoneGoat_68: 611684144699117193
+      StoneGoat_69: 4364193034514962742
+      StoneGoat_7: 8132456772673063404
+      StoneGoat_70: 1084405837041101506
+      StoneGoat_71: -8601310111253701051
+      StoneGoat_72: -3571584488462948764
+      StoneGoat_73: -8418118930548266414
+      StoneGoat_74: 6328483586016175866
+      StoneGoat_75: 4514198999114455155
+      StoneGoat_76: 5119005420216222241
+      StoneGoat_77: 5482646351581988934
+      StoneGoat_78: 2886376707223212095
+      StoneGoat_79: 3364939925486858315
+      StoneGoat_8: -2084250283826807402
+      StoneGoat_80: 4670853257907321346
+      StoneGoat_81: -2042059047780581933
+      StoneGoat_82: 3744153572519329476
+      StoneGoat_83: -7996857859861333401
+      StoneGoat_84: -5057641046256622565
+      StoneGoat_85: 4577066151819425223
+      StoneGoat_86: -838829537471738704
+      StoneGoat_87: 7435669698237368484
+      StoneGoat_88: -2159359123799119302
+      StoneGoat_89: 6058291268202939594
+      StoneGoat_9: 408887447523350235
+      StoneGoat_90: 579324649589531097
+      StoneGoat_91: 4220838033647000925
+      StoneGoat_92: -7115409472184921482
+      StoneGoat_93: -6068131502973295497
+      StoneGoat_94: 2500943210106112770
+      StoneGoat_95: 2519038754672117319
+      StoneGoat_96: 2197135882341925073
+      StoneGoat_97: -7434714685522432989
+      StoneGoat_98: 5597598461393223248
+      StoneGoat_99: -3233597896543066416
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

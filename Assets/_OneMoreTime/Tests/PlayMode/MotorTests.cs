@@ -6,6 +6,21 @@ public class MotorTests {
  void Box(Rect r){var g=new GameObject("World");g.transform.SetParent(root.transform);g.layer=31;g.transform.position=r.center;g.AddComponent<BoxCollider2D>().size=r.size;Physics2D.SyncTransforms();}
  void Tick(InputFrame f,int n=1){for(int i=0;i<n;i++){motor.Step(f,.02f);f.jump=false;Physics2D.SyncTransforms();}}
  [TearDown]public void Teardown(){Object.DestroyImmediate(root);Object.DestroyImmediate(tuning);}
+ [Test]public void OneWayPlatformPassesUpwardAndSupportsDescendingFeet(){
+  var platform=new GameObject("One-way");platform.transform.SetParent(root.transform);platform.layer=31;platform.transform.position=new Vector2(0,1.8f);platform.AddComponent<BoxCollider2D>().size=new Vector2(4,.2f);platform.AddComponent<OneWayPlatform>();Physics2D.SyncTransforms();
+  Tick(new InputFrame{jump=true,held=true});float highest=0;
+  for(int i=0;i<65;i++){highest=Mathf.Max(highest,motor.Position.y);Tick(new InputFrame{held=true});}
+  Assert.Greater(highest,2.8f);Assert.IsTrue(motor.Grounded);Assert.That(motor.Position.y,Is.EqualTo(1.9f).Within(.01f));
+ }
+ [Test]public void DropThroughOnlyCurrentPlatformThenLandAndJumpBack(){
+  foreach(float top in new[]{1.9f,3.9f}){var platform=new GameObject("One-way stack");platform.transform.SetParent(root.transform);platform.layer=31;platform.transform.position=new Vector2(0,top-.1f);platform.AddComponent<BoxCollider2D>().size=new Vector2(4,.2f);platform.AddComponent<OneWayPlatform>();}
+  Physics2D.SyncTransforms();motor.ResetAt(new Vector2(0,3.9f));Tick(default,2);Assert.IsTrue(motor.Grounded);
+  Tick(new InputFrame{drop=true,jump=true,held=true});Assert.Less(motor.Velocity.y,0);Assert.IsFalse(motor.Grounded);
+  Tick(new InputFrame{held=true},50);Assert.IsTrue(motor.Grounded);Assert.That(motor.Position.y,Is.EqualTo(1.9f).Within(.01f));
+  Tick(new InputFrame{jump=true,held=true});Tick(new InputFrame{held=true},60);Assert.That(motor.Position.y,Is.EqualTo(3.9f).Within(.01f));
+  Tick(new InputFrame{drop=true,jump=true,held=true});motor.ResetAt(new Vector2(0,3.9f));Tick(default,3);Assert.IsTrue(motor.Grounded);
+ }
+ [Test]public void DownJumpDoesNotDisableSolidGround(){Tick(new InputFrame{drop=true,jump=true,held=true});Assert.Greater(motor.Velocity.y,0);Tick(new InputFrame{held=true},70);Assert.IsTrue(motor.Grounded);Assert.That(motor.Position.y,Is.EqualTo(0).Within(.01f));}
  [Test] public void LongShortAndNoDoubleJump(){Tick(new InputFrame{jump=true,held=true});float high=0;for(int i=0;i<100;i++){Tick(new InputFrame{held=true,jump=i%5==0&&i<35});high=Mathf.Max(high,motor.Position.y);}Assert.That(high,Is.InRange(2.8f,3.1f));motor.ResetAt(Vector2.zero);Tick(default,2);Tick(new InputFrame{jump=true,held=true});Tick(default,5);Assert.Less(motor.Position.y,high/2);}
  [Test]public void VisualPosesFollowMotionAndSnapshotFreezesExactFrame(){Tick(default,20);Assert.AreEqual(0,motor.VisualState);Tick(new InputFrame{move=1},10);Assert.AreEqual(1,motor.VisualState);Tick(default,10);Tick(new InputFrame{jump=true,held=true},1);Assert.AreEqual(2,motor.VisualState);var saved=new MemorySnapshot(new RecordedFrame(.02f,motor),1);int frame=saved.FreezePose.frame;Tick(new InputFrame{held=true},27);Assert.AreEqual(3,motor.VisualState);for(int i=0;i<50&&!motor.Grounded;i++)Tick(new InputFrame{held=true});Assert.AreEqual(4,motor.VisualState);Tick(default,20);Assert.AreEqual(0,motor.VisualState);Assert.AreEqual(2,saved.FreezePose.state);Assert.AreEqual(frame,saved.FreezePose.frame);}
  [Test] public void MeasureJump(){Tick(new InputFrame{move=1,held=true},10);float start=motor.Position.x,max=0;Tick(new InputFrame{move=1,jump=true,held=true});for(int i=0;i<100;i++){max=Mathf.Max(max,motor.Position.y);if(motor.Grounded)break;Tick(new InputFrame{move=1,held=true});}Directory.CreateDirectory("Artifacts/Logs");File.WriteAllText("Artifacts/Logs/jump-measurement.txt",$"Unity={Application.unityVersion}; dt=.02; H={max:F5}; D={motor.Position.x-start:F5}; B={tuning.backHeight}; feet={motor.Position}");Assert.That(max,Is.InRange(2.8f,3.1f));}
