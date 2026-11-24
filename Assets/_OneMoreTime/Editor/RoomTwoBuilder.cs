@@ -31,13 +31,15 @@ public static class RoomTwoBuilder {
   MainRoomBuilder.Statue(root.transform,room);
   var ability=root.AddComponent<ShutterAbility>();ability.room=room;room.shutter=ability;
   var pickup=new GameObject("Purple camera - unlock Shutter");pickup.transform.SetParent(root.transform);pickup.transform.position=new Vector2(12.4f,.55f);ability.pickup=pickup.transform;
-  Image(pickup.transform,"Camera body",new Vector2(12.4f,.55f),new Vector2(1,.7f),new Color(.64f,.17f,.78f));
-  Image(pickup.transform,"Camera top",new Vector2(12.16f,.96f),new Vector2(.3f,.14f),new Color(.85f,.48f,.95f));
-  Image(pickup.transform,"Lens rim",new Vector2(12.5f,.55f),new Vector2(.43f,.43f),new Color(.86f,.65f,1),6);
-  Image(pickup.transform,"Camera lens",new Vector2(12.5f,.55f),new Vector2(.24f,.24f),GameUI.Ink,7);
+  // Raise only the visual reference so the enlarged camera clears the grass.
+  Image(pickup.transform,"Camera body",new Vector2(12.4f,.9f),new Vector2(1,.7f),new Color(.64f,.17f,.78f));
+  Image(pickup.transform,"Camera top",new Vector2(12.16f,1.31f),new Vector2(.3f,.14f),new Color(.85f,.48f,.95f));
+  Image(pickup.transform,"Lens rim",new Vector2(12.5f,.9f),new Vector2(.43f,.43f),new Color(.86f,.65f,1),6);
+  Image(pickup.transform,"Camera lens",new Vector2(12.5f,.9f),new Vector2(.24f,.24f),GameUI.Ink,7);
   var echo=(GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>(Root+"/Prefabs/FreezeEcho.prefab"),scene);echo.transform.SetParent(root.transform);echo.name="Shutter frozen player";ability.echo=echo.GetComponent<EchoSurface>();ability.echo.support.enabled=false;echo.SetActive(false);
-  var sign=DemoBuilder.Sprite("Environment/props/sign.png");if(sign!=null)PresentationBuilder.Image(root.transform,"Exit trail marker",sign,new Vector2(42.7f,5.4f),new Vector2(.7f,.8f),4,Color.white);
+  ExitSignBuilder.Patch(scene,2);
   MainRoomArtBuilder.Background(root,room);
+  AbilityArt.ReplacePickup(ability.pickup,AbilityArt.ShutterCamera);
   MainRoomBuilder.ApplyMaterials(root);EditorSceneManager.SaveScene(scene,Path);AssetDatabase.SaveAssets();
   // One overview render, separate from the saved 20-unit gameplay camera.
   var original=camera.transform.position;float size=camera.orthographicSize;camera.transform.position=new Vector3(22,4,-10);camera.orthographicSize=7;

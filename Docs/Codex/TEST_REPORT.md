@@ -822,3 +822,480 @@ HTTP server：`python3 -m http.server 8765 --bind 127.0.0.1 --directory Artifact
 - PASS: `unity command run_tests --mode playmode --filter WorldOneArtTests --async_tests --format json`: 3 passed / 0 failed, duration 0.35s. Checks full-repeat phase equivalence on both axes, negative/high travel (-1000 to 2000), camera coverage and existing animation/respawn behaviors.
 - PASS: actual camera render inspected with both wrap boundaries centered (`Artifacts/Logs/background-loop-wrap.png`). Edge overlap avoids a hard image cut; overlapping scenery has a soft mist-like blend in the joining strips.
 - NOT RUN: standalone build; extended human gameplay session.
+
+### 2026-11-17 — Art preview navigation
+PASS: real Unity compilation and saved preview camera orthographic size 7. Arrow/WASD movement uses existing preview Update input path on both axes. No new automated tests added for this small preview-only adjustment; manual keyboard interaction not verified.
+
+### 2026-11-17 — Water loop revision
+- PASS: real Unity compilation and builder import of replacement atlas/material/sideways tiles/prefab/gallery.
+- PASS: WorldOneArtTests 3/3, 0 failed, duration 0.38s. Expanded checks cover Looping Water shader support, 4 poses/second, shared source frames and 90-degree side-flow orientation, no tile collision.
+- PASS: actual camera render checked for vertical/horizontal waterfall assemblies, transparency and preview layout (`Artifacts/Logs/water-loop-redraw.png`).
+- Temporal smoothing uses shader interpolation around all four transitions; frame count remains four, cycle is now one second. Snapshot inspection is not a human review of motion quality. No standalone player build run.
+
+### 2026-11-18 — Background zoom
+PASS: original forest scale verified from PresentationBuilder (176px over 10 units). Unity API saved loop dimensions 62.6999969 and returned target density 17.6px/unit. Actual camera render inspected (`Artifacts/Logs/background-pixel-scale.png`). No new automated tests for this visual configuration change; full regression not rerun. Automatic approval initially misclassified editor_stop as terminating Unity; read-only inspection showed Editor was already in Edit mode, so no stop action was needed.
+
+## 2026-11-18 Wooden suspension bridge
+
+Created transparent bridge art and separate BridgeLeftEnd, BridgeMiddle and BridgeRightEnd sprites. WoodenSuspensionBridge prefab uses a tiled middle and adjustable middleTiles (default 2, total width 8 units). Deck collision follows the configured width; ropes/posts are visual only. Uses the existing OneWayPlatform convention for jumping through and dropping down. Added beneath the goat/statue in Debug_WorldOneArt. Existing main-room layouts unchanged.
+
+PASS: real Unity compilation/build via WorldOneArtBuilder.Build; prefab resize to 12 units and surface/one-way marker assertions; alpha corner zero; rendered preview inspected (Artifacts/Logs/wooden-bridge.png); git diff --check. Recompile wrapper disconnected during domain reload, subsequent compiled builder executed successfully. NOT RUN: manual goat traversal.
+
+## 2026-11-18 Inward tapered grass/dirt ledge
+Created GrassDirtLedge.png with a broad grassy walking surface and inverted triangular soil underside, referencing the current Sunny Land palette. Added standalone sprite, decorative Tile asset (no tile collider), and 4-unit-wide one-way platform prefab; origin is the grass surface. Added preview below the bridge. PASS: Unity compilation zero errors/warnings, WorldOneArtBuilder.Build, prefab width/one-way/alpha assertions, actual camera screenshot inspection (Artifacts/Logs/grass-ledge.png). NOT RUN: manual traversal.
+
+## 2026-11-18 Pixel density and forest palette correction
+Replaced the oversized blurry background with ForestWaterfallPixel.png, then revised its excessive cyan cast to muted green foliage, earth-gray cliffs and blue-white water per user feedback. Added Terrain Pixel Scale shader/materials for World One sprites at 16 effective pixels/world unit, matching original terrain; water uses 16×16 sampling per tile. Background samples a 384-cell grid at 16 pixels/unit, 21.12-unit repeat including edge overlap, instead of 62.7. Preserves source textures and platform geometry. Raised importer max size to 4096 to avoid rounding unequal bridge thirds.
+PASS: Unity compilation (0 errors/warnings), real asset rebuild, WorldOneArtTests 3/3 with new pixel-density assertions, loop/animation/drowning regression, git diff --check, final green-palette Unity render inspection (Artifacts/Logs/pixel-scale-green.png). Initial density test caught bridge import downscaling and passed after fixing import dimensions. Palette-only final edit imported and visually verified after the passing suite. NOT RUN: full human playthrough or standalone build. Built-in imagegen prompts: PIXEL_SCALE_BACKGROUND_PROMPT.md and FOREST_PALETTE_PROMPT.md.
+
+## 2026-11-18 Restore Tuesday background selection
+User selected the background completed Tuesday around 02:26. Restored ForestWaterfallLoop.png (generated Nov 17 02:23:45, copied into project 02:24:36) in the builder, shared background sprite and prefab/gallery. Retained the corrected 16-pixel rendering grid, 21.12-unit repeat and overlapping-edge loop shader. Later background image retained as an unused alternative. PASS: Unity compilation zero errors/warnings; asset rebuild and assertion of ForestWaterfallLoop texture reference; git diff --check. No new loop or gameplay test run for this texture selection change; prior 3/3 suite passed.
+
+## 2026-11-18 Wide background extension
+Created ForestWaterfallWide.png via built-in imagegen outpainting: 3:1 panorama with new scenery on both sides of the selected Tuesday composition. Original square retained. Builder/prefab/gallery use new texture; horizontal repeat 63.36 units, vertical 21.12. Aspect-correct shader grid 1152×384 maintains prior pixel scale, with both-axis overlap wrapping. Generated center is composition-preserving, not pixel-identical. PASS: Unity compilation zero errors/warnings, asset rebuild, WorldOneArtTests 3/3 (including 3:1 texture/world aspect and full-cycle wrap/negative travel), source visual inspection, git diff --check. NOT RUN: human seam inspection during scrolling or standalone build. Prompt: WIDE_BACKGROUND_PROMPT.md.
+
+## 2026-11-18 Room 4 implementation and validation
+
+Implemented Main_Room04 from the supplied layout: existing Room 3 lift connection, basic replay pickup and anti-bypass wall, segmented bridge destruction, gravity fall and camera zoom, suspended tutorial waiting for actual 0.5-second Q recording activation, water/platform route, rewindable floating crate pool, and room completion. Existing movement tuning and Room 1–3 layouts are preserved. Full file inventory, reused assets, Inspector defaults, persistence, assumptions and rebuild instructions: [ROOM_FOUR.md](ROOM_FOUR.md). No manual scene setup required; Main Menu → Debug Mode → 09 Room 4.
+
+PASS — real Unity compilation, zero errors/warnings; RoomFourTests 5/5; full PlayMode suite 98/99; entrance/fall/composited tutorial screenshot inspection. Tests cover real recording activation, camera restoration, natural landing, unchanged-jump traversal through the crate route, buoyancy/carry, spawn/despawn rewind, bounded pool, reload/new-journey semantics and lift wiring.
+FAIL (pre-existing, outside Room 4 scope) — VerticalRoomTests.SharedPlateControlsIndependentThreeAndTwentySecondTimers expects 20 seconds, but the unchanged Room 3 scene has 15 seconds. Confirmed the same 15-second serialized value in HEAD; left unchanged to preserve Room 3.
+NOT RUN — standalone build and full human playthrough. Automated traversal is not a substitute for human difficulty testing. Unlock persistence is session/journey only; no disk save system was introduced. A stationary rescue crate supports the first recording handoff, and Room 4 ends with a placeholder completion screen because Room 5 is undefined.
+
+Commands: `unity recompile --format json`; `unity command run_tests --mode playmode --filter OneMoreTime.Tests.RoomFourTests --async_tests --format json`; `unity command run_tests --mode playmode --filter OneMoreTime.Tests --async_tests --format json`; `unity command test_status --format json`. Two unfiltered discovery attempts returned zero tests and were not counted as passes. Evidence: `Artifacts/Logs/room4-full-playmode-final.json` (99 total, 98 passed), `room4-entrance.png`, `room4-tutorial.png`, `room4-tutorial-ui.png`. Earlier initial suite results are retained separately. All changes are local; nothing pushed or published.
+
+## 2026-11-18 Room 4 visual / checkpoint / slow-motion revision
+
+Updated the existing scene in place, not a rebuild. Added the existing stone-goat checkpoint at (26,4), three units before the *6 bank edge as clarified by the user. Added decorative soil columns and full-depth water using reusable atlas-sliced assets and Water Volume shader; wall ledges now extend horizontally from their banks. Removed the first-pit rescue crate and gated later crate spawning until actual recording activation. Near-water slowdown eases to 0.12 over 0.5 s, freezes at approximately 0.08 units above water, and restores speed in 0.45 s after the real 0.5-second Q hold. Global time and movement tuning are unchanged. Existing checkpoint save/green-eye/crack animation and retry semantics are reused.
+
+PASS: real Unity batch compilation and targeted scene patch; final RoomFourTests **8/8**; rendered overview inspected with no gap between water surface and body; git diff --check. Room 3 scene diff is identical to its pre-update state. Earlier two new-test failures (late slowdown onset and owned-entry speed ramp) were fixed before the final run.
+
+Full PlayMode regression: **97/102 PASS, 5 FAIL**. One is the previously documented Room 3 15-versus-20-second timer mismatch. Four are keyboard-edge tests: ChapterOneTests.KeyboardTutorialSimultaneousJumpFilterAndPause; InputTests.DownJumpIsConsumedOnce; InputTests.HeldKeysAndResetSuppression; VerticalRoomTests.HeldKeyboardMovementSurvivesShutter. The two unchanged InputTests also fail in an isolated batch run without loading Room 4 (0/2); synthetic held state is visible but expected pressed-frame edges are not. This indicates a batch input-fixture issue, but its exact cause and interactive verification remain unresolved. Unrelated input mechanics/tests were not changed to mask these failures.
+
+NOT RUN: interactive keyboard playthrough, human difficulty assessment, standalone build. Interactive Editor launch exited without establishing Pipeline; validation used the installed Unity 6000.6.0f1 through unity-cli batch commands instead. No claim of live interactive validation. Source compilation succeeded; existing obsolete-API warnings/bridge OnValidate warnings were observed during initial imports.
+
+Commands: `unity run . --log-file /tmp/room4-update-final-editor.log --no-tail --format json -- -executeMethod OneMoreTime.EditorTools.RoomFourUpdate.ApplyAndCaptureReview`; `unity test . --mode PlayMode --filter OneMoreTime.Tests.RoomFourTests --output Artifacts/Logs/room4-update-final-tests.xml --format json`; full suite uses `--filter OneMoreTime.Tests`; isolated keyboard check uses `--filter OneMoreTime.Tests.InputTests`.
+
+Evidence: Artifacts/Logs/room4-update-final-tests.xml, room4-update-full-tests.xml, room4-update-input-isolation.xml, room4-update-overview.png, room4-update-final-editor.log. Exact file/script/asset/scene-object inventory and tuning: [ROOM_FOUR.md](ROOM_FOUR.md). No prefab files or source PNGs changed in this revision. No manual setup needed; open Main_Room04 or Main Menu → Debug Mode → 09 Room 4. All changes local.
+
+## 2026-11-18 Room 4 latest sketch correction
+Removed unrequested pit/wall stepping ledges; only the two drawn bank bevels remain, using triangular sprites sampled from the existing dirt/grass tiles and bank polygon outlines. Rebuilt grassy-platform visuals using the actual older main-room grass-cap and muted decorative-pillar code. Added the wooden lift landing/open shaft. Upper stream extended to 24 units (x40–64), with synchronized surface/fill/hazard/current/source. Crates drift left at 1 unit/s and spawn every 8 seconds, limit six. See ROOM_FOUR.md latest section for coordinates and exact changed-file inventory.
+
+PASS: real interactive Unity/Pipeline compilation (0 errors/warnings), in-place patch and repeated patch without duplicate scene objects, rendered overview inspection, RoomFourTests 9/9, git diff --check. A first traversal test identified an unreachable wooden-step edge; moving that existing step half a unit left to x39.5…42.5 resolved it without extra platforms or movement changes. Dedicated test verifies displacement of one unit in one simulated second and second spawn at eight seconds. Other focused tests verify statue/retry, tutorial slowdown/hold, platform access, crate rewind/carry/disposal, and lift wiring. NOT RUN: full human replay-puzzle completion, full regression rerun and standalone build; previous full-suite limitations remain documented above.
+
+Evidence: Artifacts/Logs/room4-layout-tests.json, room4-layout-overview.png. Commands: unity recompile; unity command eval invoking RoomFourUpdate.ApplyAndCaptureReview; unity command run_tests --mode playmode --filter OneMoreTime.Tests.RoomFourTests --async_tests. User's running Editor was preserved; Play mode was exited for edits, then the saved Room 4 scene reopened. No remote push.
+
+## 2026-11-18 Water remake / 0.25-second hold
+PASS — `unity recompile --format json`: zero errors/warnings. `unity command run_tests --mode playmode --filter OneMoreTime.Tests.RewindPlaytestTests --async_tests --format json`: 10/10. `WorldOneArtTests` with the same command: 4/4. New GPU render check verifies animated changes, 0.0/1.0-second image equality for all three water shaders, and transparent air/opaque water across the diagonal. Shared frame references guarantee the diagonal's palette/animation phases derive from the river. Existing drowning, statue and scrolling-background tests also pass. Screenshot: water-remake-preview.png.
+
+Initial submerged-water animation check failed; sampling band was corrected and the suite then passed. Several subsequent runner calls reported zero tests; those are NOT passes. Test discovery recovered after requesting script compilation. No standalone build, full gameplay regression or human playthrough claimed. Exact result JSONs: Artifacts/Logs/water-rewind-tests.json and water-art-tests.json. `git diff --check` passed.
+
+Final RoomFourTests: PASS 9/9, including the 0.25-second tutorial handoff, crate cadence, checkpoint/retry and existing route. Evidence: Artifacts/Logs/water-room4-tests.json.
+
+## 2026-11-18 Imaginary cutscene rewind / background variants
+PASS — unity recompile: zero errors/warnings. RoomFourTests 9/9 via real Editor/Pipeline, including actual Q threshold, no handoff teleport, final safe-bank position, synthetic trace endpoints, bridge remains broken, crate activation, statue behind player and existing Room 4 behavior. Results: Artifacts/Logs/room4-imaginary-rewind-tests.json.
+PASS — Editor asset assertions: 41 background prefabs have no Collider2D/MonoBehaviour and renderer order -20. All generated background tiles have no collider and dark tint; original water animation data is delegated. Initial required-component removal issue on bridges corrected before final validation. Evidence: background-variant-validation.txt. git diff --check passed. NOT RUN: full human visual/timing playtest, full suite and standalone build.
+
+## 2026-11-18 Flow / natural acquisition path / object traces
+PASS — RoomFourTests 9/9: crate displacement 2 units in one simulated second, second crate after 10 seconds, acquisition trace passes pickupFeet at deck height, exact original start/end snapshots, bank return and existing Room 4 regressions. PASS — RewindPlaytestTests 10/10: dashed tiled object line renderer with repeating texture, lower alpha/narrower width than player path; world restore/opt-out, replay direction and input behavior preserved. Commands: `unity command run_tests --mode playmode --filter OneMoreTime.Tests.RoomFourTests --async_tests --format json` and same with RewindPlaytestTests. Evidence: room4-flow-natural-rewind-tests.json, rewind-object-trace-tests.json in Artifacts/Logs.
+
+Initial curved-path test found sub-pixel endpoint roundoff; endpoint snapshots now explicitly retain their exact coordinates. Empty combined/second-suite runs were discarded; requested script compilation to recover discovery. Unity compilation passed; occasional status RPC disconnects during domain reload were followed by successful compiled tests. git diff --check PASS. NOT RUN: human visual playthrough, full regression and standalone build.
+
+## 2026-11-19 Crates participate in replay, no tint
+PASS — RoomFourTests 11/11, RewindPlaytestTests 10/10 through real Editor/Pipeline. New tests record across crate despawn/spawn, verify exact end/start states under forward/backward playback, held playback freezes crate positions, moving replay crates carry the player by their per-tick displacement, automatic rewind visibly reverses their movement, and crate sprite colors stay unchanged. Existing replay control and opt-out regressions pass. Commands: `unity command run_tests --mode playmode --filter OneMoreTime.Tests.RoomFourTests --async_tests --format json`, then same with RewindPlaytestTests. Script compilation requested between suites to refresh discovery. Evidence: Artifacts/Logs/crate-replay-room4-tests.json and crate-replay-controls-tests.json.
+PASS — Unity compilation confirmed up to date with no errors; git diff --check. A recompile-status request disconnected during domain reload; subsequent Editor verification and compiled tests succeeded. NOT RUN — full human playthrough, full regression suite and standalone build.
+
+## 2026-11-19 Forest expansion validation
+
+- PASS — Unity 6000.6.0f1/Pipeline compilation: 0 errors and 0 warnings after adapting the migration validator to GetEntityId and EditorJsonUtility. The user's Editor process was preserved.
+- PASS — GrassyPlatformBuilder.Validate and ForestExpansionBuilder.Validate: native 16-pixel rectangular terrain, one-way top/background collision invariants, 32 props, 32 dark variants and 64 decorative Tile assets. Evidence: Artifacts/Logs/forest-expansion-validation.txt.
+- PASS — Main Rooms 1–4 migration: 3/0/8/3 grass columns respectively; collider counts 11/7/23/25 and serialized data unchanged. Evidence: Artifacts/Logs/grassy-column-migration.txt. Room 2 was left unchanged.
+- PASS — WaterFeatureTests 3/3. GPU checks verify that all five shapes animate and close the one-second loop, foreground opacity stays at or below 38%, and a known palette swatch renders correctly. Also checks prefab layers/collision and fixed accent bounds. Evidence: Artifacts/Logs/water-expansion-tests.json. An initial frame-alignment failure caused by the 1254-pixel sheet not dividing evenly into quarters was fixed with equal frame rectangles.
+- PASS — FloatingTimberTests 3/3: all four platforms/source pools/backgrounds, actual raft carrying/drop-through, and log automatic rewind/forward/reverse/held playback without tint. Evidence: Artifacts/Logs/floating-timber-tests.json. An initial width assertion failed on floating-point rounding (2.69999981); fixed its tolerance without changing gameplay dimensions.
+- Visual review found overly dark water caused by sRGB/linear palette comparison. Corrected the shared shader and added a GPU color assertion. The new grand-waterfall atlas supplies broader light bands. Initial WaterFeature OnValidate warnings were fixed by deferring refresh.
+- Commands: `unity recompile --format json`; `unity command eval` invoking the four builders and validators; `unity command run_tests --mode playmode --filter OneMoreTime.Tests.WaterFeatureTests --async_tests --format json` (also FloatingTimberTests). A large initial build exceeded the RPC's five-second timeout but completed; explicit validators checked the resulting assets. A recompile status call disconnected during domain reload; subsequent compilation and test results establish the actual status.
+- NOT RUN: standalone build, new-room human playthrough (Rooms 5–7 are not created), and the full unrelated regression suite.
+
+Final regression: PASS WorldOneArtTests **4/4**, preserving original water/background loops, pixel scale, drowning and checkpoint activation; evidence: Artifacts/Logs/forest-expansion-art-regression.json. PASS RoomFourTests **11/11**, including unchanged traversal, water/current/crate timing, replay and the new grass hierarchy; evidence: Artifacts/Logs/forest-expansion-room4-tests.json. Total **21/21** targeted tests passed. Repeated GrassyPlatformBuilder.ApplyToMainRooms confirmed the same 14 columns and unchanged collider serialization; Room 2 has no diff. Final real Unity renders inspected at Artifacts/Logs/forest-expansion-1.png through -5.png, including the bright giant waterfall, transparent foreground streams, rectangular grass columns, props and timber. `git diff --check` passed. The art gallery was reopened after tests.
+
+## 2026-11-19 Main-room expansion decoration
+
+- PASS: real Unity 6000.6.0f1/Pipeline compilation of the new Editor decorator (recompile reported zero errors/warnings). One intermediate recompile-status RPC disconnected during domain reload; subsequent compilation and executed checks completed normally.
+- PASS: art-only scene migration and repeat application. Rooms 1–4 have 29 / 22 / 28 / 33 managed decoration groups. All 1,008 pre-existing component/transform records remained unchanged. The new layer contains only Transform, SpriteRenderer, and visual-only WaterFeature components: no additional collision, hazards, input, plates, platforms, or rewind objects.
+- PASS: normal 20-unit-width Unity camera renders reviewed for all four rooms. Captures isolate each room from other loaded scenes; initial additive captures that included the art gallery were discarded and replaced. Review moved Room 3 braces inside the cliff, removed Room 4's misleading beam/unanchored cascade, and aligned eddies with the water surface.
+- PASS: existing MainRoomTests 2/2, including route/checkpoint/pit/exit and bounded cameras/open room tops. Evidence: `Artifacts/Logs/main-room-decoration-playmode.json`.
+- PASS: existing RoomFourTests 11/11, including crate forward/reverse/held playback, visible rewind, spawn cadence, water/platform traversal, acquisition, checkpoints and lift wiring. Evidence: `Artifacts/Logs/main-room-decoration-room4-tests.json`. Total **13/13 targeted PlayMode tests**.
+- NOT RUN: complete human playthrough, full unrelated regression suite, standalone build. No new level or difficulty balance is claimed.
+
+Commands: `unity recompile --format json`; `unity command eval 'OneMoreTime.EditorTools.MainRoomDecorationBuilder.Build(); return "done";' --format json`; per-room `MainRoomDecorationBuilder.Capture(1)` through `(4)`; `unity command run_tests --mode playmode --filter OneMoreTime.Tests.MainRoomTests --async_tests --format json`; same command with `OneMoreTime.Tests.RoomFourTests`.
+
+Preservation log: `Artifacts/Logs/main-room-decoration-validation.txt`. Render files: `Artifacts/Logs/main-room-1-decorated-1.png` through `main-room-4-decorated-3.png` (Rooms 1/2 have two views, Rooms 3/4 three). Usage and ownership: [MAIN_ROOM_DECORATION.md](MAIN_ROOM_DECORATION.md).
+
+
+## 2026-11-19 Rooms 5–8 implementation
+
+- **PASS — real Unity compilation:** 6000.6.0f1, running Editor/Pipeline port 7800; final compilation has zero errors/warnings. Initial `title`/`roomTitle` integration error was corrected before building.
+- **PASS — scene generation:** `ChapterOneExpansionBuilder.BuildRoom(5..8)` creates scene assets and enabled build entries; core refs, checkpoints, supported sprite materials, missing scripts and non-colliding scenery validated. Repeated generation replaces the one managed root; Room 4 only receives its destination reference.
+- **PASS — visual review:** overview and normal 20-unit-camera renders in all four rooms. Moved Room 6 framing waterfalls inward after the first capture placed them outside the gameplay view. Uses the existing forest/water/wood/grass art. Room 8's cavern and foreground curtain are visible environmental cues for the next area.
+- **PASS — ChapterOneRoomsTests 9/9:** one simulation clock, bounded cameras/open tops, era collision/safe switching/rewind restoration and unchanged art colors; checkpoint/retry retains memory; plates work with shutter and replay; floating timber forward/backward/held playback and later-upgrade persistence; actual approaching-log boarding, upstream reverse carry and final bank jump; collapse timer/debris/collision restoration; finale does not try to load a nonexistent Chapter 2 scene.
+- **PASS — ChapterClimbTraversalTests 2/2:** actual E placement and jump onto Room 6's plate-driven shuttle, carried ascent, arrival-beam jump; tight east-to-west normal jump. Tests reposition only to the relevant starting dry platform and use `ChapterOneRoom.Step` thereafter.
+- **PASS — RoomFourTests 12/12:** prior water/acquisition/crate/checkpoint regressions and real exit walk/fade/load into Room 5 with preserved unlock progress. Pause freezes transition movement and the pause menu draws above the transition fade.
+- **PASS — source initialization review:** saved scene pools remain empty; first live tick spawns a single item. Preview-only seeding avoids a duplicated initial log caused by saving an active pool item without its runtime spawn timer.
+- **PASS — whitespace:** `git diff --check`.
+- **NOT RUN:** complete human playthrough of all four new routes, standalone build, full unrelated regression suite. Existing historical failures above were not changed or claimed fixed.
+
+Total **23/23 targeted tests**. Evidence: `Artifacts/Logs/chapter1-rooms-playmode.json`, `chapter1-climb-traversal-tests.json`, `chapter1-room4-transition-tests.json`. Initial 8/8 suite retained separately as `chapter1-new-rooms-tests-initial.json`; it is not counted twice. One climb-suite discovery returned zero tests, was discarded, and rerun after `AssetDatabase.Refresh`/script compilation. The refresh RPC timed out during reload; the subsequent actual test run completed normally.
+
+Commands: `unity recompile --format json`; `unity command eval` invoking `ChapterOneExpansionBuilder.BuildRoom`, `ConnectRoomFour`, and `Capture`; `unity command run_tests --mode playmode --filter OneMoreTime.Tests.ChapterOneRoomsTests --async_tests --format json`, with separate filters for `ChapterClimbTraversalTests` and `RoomFourTests`. Review renders: `Artifacts/Logs/chapter1-room5-overview.png` through `chapter1-room8-view4.png`. New scene paths, provisional layouts and regeneration ownership: [ROOMS_5_TO_8.md](ROOMS_5_TO_8.md).
+
+Final scene audit: PASS, exactly one managed root in each room, all four scenes enabled in build settings, and saved floating pools empty. Evidence: `Artifacts/Logs/chapter1-scene-validation.txt`. The multi-scene audit exceeded the five-second RPC response timeout but wrote the full validation file and finished opening Room 5; a separate read-only state check confirmed completion.
+
+## 2026-11-19 Replay puzzle design library
+
+- PASS — source audit of recording/restart/reverse/hold, endpoint support, plate eligibility, shared floating-object playback, live platform timers, manual era switching and checkpoint handling. Source references are linked in [REPLAY_PUZZLE_LIBRARY.md](REPLAY_PUZZLE_LIBRARY.md).
+- PASS — twelve unique design cards P01–P12, each with layout, recording target, solution, recovery and implementation boundary. Nine use existing mechanism types; P09/P10/P12 explicitly require new logic. Single memory, 0.25-second hold, ten-second recording limit and later reverse upgrade are retained.
+- PASS — local document links, card inventory and whitespace checks. These checks validate documentation, not Unity behavior or puzzle solvability.
+- NOT RUN — Unity compilation, scene generation, automated traversal, human difficulty/bypass testing or standalone build for these designs. No executable changes were made in this design task. Prior room test results do not validate these twelve proposed layouts.
+
+Review explicitly considers permanent endpoints, repeated Q, E staircase alternatives, recorded object lifetimes and the fact that normal machinery keeps running during held playback. Proposed dimensions and schedules remain prototype targets, not measured or proven solutions.
+
+
+## 2026-11-19 Keyboard settings
+
+- **PASS — real Editor compilation:** Unity 6000.6.0f1/Input System 1.20.0, running Editor/Pipeline port 7800. Final recompile reports zero errors/warnings. An initial new-file source-registration issue was resolved by moving the plain C# menu class to `ControlsMenu.cs` through AssetDatabase; its real Unity-generated metadata was preserved.
+- **PASS — EditMode suite 35/35:** all existing EditMode tests plus four prompt-formatting tests and three key-capture/menu tests. Covers both presets, Chinese prompts, preserved plate labels, non-cascading custom swaps, Esc capture cancellation, reserved keys, and capture save/close behavior.
+- **PASS — KeyBindingTests 11/11 (PlayMode):** both presets, configurable keyboard reads, persistence/reload, conflict swapping, invalid preferences, reserved keys, obsolete key isolation, and suppression/release behavior across menus/entry animations. The real Debug_Rewind scene integration drives custom Tab/Right Ctrl keys through controller Update/FixedUpdate: 0.24 s does not record, 0.26 s records, release continues recording, a short press saves, multi-tick visible rewind finishes, replay starts, held playback freezes its cursor/echo while live machinery continues, and release resumes it.
+- **PASS — InputTests 2/2 (PlayMode):** one-shot Down+Jump consumption and held-input/reset suppression.
+- **PASS — legacy keyboard regressions 2/2 (PlayMode):** `ChapterOneTests.KeyboardTutorialSimultaneousJumpFilterAndPause` and `VerticalRoomTests.HeldKeyboardMovementSurvivesShutter` use the selected bindings and isolated keyboard fixtures.
+- **PASS — rendered UI review:** actual MainMenu and keybinding overlay drawn at 1280×720. Both preset buttons, all action labels, current bindings and Back fit the existing game UI. The overlay was opened through its runtime API for the capture; capture/cancellation/conflict logic was tested automatically, not claimed as a manual mouse playthrough.
+- **PASS — whitespace:** `git diff --check`.
+- **NOT RUN:** standalone build, full human playthrough of every room, or the entire unrelated PlayMode suite.
+
+Final total: **50/50 tests**, counted once. Evidence: `Artifacts/Logs/keybindings-editor-tests.json` (35), `keybindings-input-tests.json` (11), `keybindings-adapter-tests.json` (2), `keybindings-room-keyboard-tests.json` (2), and `keybindings-menu.png`. Initial Editor run was 40/45: five synthetic keyboard edge tests failed because Editor input updates did not exercise the gameplay press/release counters. Those tests were moved to PlayMode and the installed InputTestFixture without weakening their assertions; all passed, with an additional real-room integration test. Initial evidence retained separately in `keybindings-editor-tests-initial.json`. A zero-discovery adapter run was discarded; RequestScriptCompilation refreshed discovery before the actual 2/2 run.
+
+Commands: `unity recompile --format json`; `unity command run_tests --mode editor --filter OneMoreTime.EditTests --filter_type assembly --async_tests --format json`; separate PlayMode filters `OneMoreTime.Tests.KeyBindingTests`, `OneMoreTime.Tests.InputTests`, and `Keyboard`; `unity command capture_game_view --source screen --save_path Artifacts/Logs/keybindings-menu.png`. Pipeline writes that screenshot under `Assets/Artifacts/Logs`; it was copied to the evidence directory. Test preferences are restored by fixture teardown. MainMenu is left clean and open in Edit mode. Implementation and controls: [KEY_BINDINGS.md](KEY_BINDINGS.md).
+
+
+## 2026-11-19 Chapter 2 flashlight
+
+- **PASS — compilation:** running Unity 6000.6.0f1/Input System 1.20.0/Pipeline, final recompile returned zero errors/warnings. No package or Unity-version changes.
+- **PASS — generation and repeat application:** generator produces the new debug scene and three prefab assets through Unity APIs. Repeated generation leaves one managed root, exactly two volumes and the enabled debug build entry, while preserving unrelated scenes. Ability prefab is locked, sandbox ability unlocked, shader refs serialized. Initial build exceeded the five-second RPC response timeout but finished; subsequent scene tests and successful repeat build confirmed completion. No timeout was counted as a successful command by itself.
+- **PASS — five FlashlightTests:** lock defaults, activation/expiry/recharge, refusal to extend or spam bursts, fade timing on fixed ticks, invalid dt guards, nearby/facing/range masking, custom physical key input, holding without repeat, pause/retry and input suppression, camera width/bounds, and scene volume/reference wiring. Integration loads the real debug scene and invokes controller Update/FixedUpdate with InputTestFixture; it is not just a direct state test.
+- **PASS — ChapterTwoObscurityTests 1/1:** GPU-rendered alpha/query parity, clear near/facing cone, obscurity behind/out of range/off-angle, soft volume edges, changed facing, expiry, paused manual-clock stability, and actual mist density variation. Final rerun includes the wisp refinement and unchanged darkness opacity. An empty discovery run was discarded and rerun after script compilation; no zero-test result is treated as verification.
+- **PASS — KeyBindingTests 15/15:** both presets, rebind/conflict/suppression/persistence behavior, old ten-action preset migration, custom I/V collision fallback without losing bindings, and the existing custom-key recording/visible rewind/replay/hold integration.
+- **PASS — EditMode suite 36/36:** prior checks plus menu capture of the new flashlight action; includes dynamic prompts and custom binding swaps/cancellation.
+- **PASS — game-view review:** 1280×720 Unity captures of darkness unlit/lit and final mist. Initial flat mist was refined to drifting translucent ribbons and wider feathering before final GPU rerun/render review. HUD shows active/recharge time and the current physical key. Captures use runtime API positioning/activation, not a claimed manual full-lane playthrough.
+- **PASS — whitespace:** `git diff --check`.
+- **NOT RUN:** standalone build, entire unrelated PlayMode suite, complete human playthrough or final Chapter 2 balance/acquisition/puzzle tests.
+
+Total **57 distinct tests passed**: 36 EditMode + 15 keybinding + 5 flashlight + 1 GPU. The `Flashlight` substring run contains seven results because it also selects two binding tests; those two are not counted again. Evidence: `Artifacts/Logs/flashlight-playmode-tests.json`, `flashlight-keybindings-tests.json`, `flashlight-editor-tests.json`, `flashlight-obscurity-gpu-tests.json`. Final shader/visual changes were recompiled and GPU-tested; gameplay/keybinding source was unchanged after its successful tests.
+
+Commands: `unity recompile --format json`; `unity command eval 'return OneMoreTime.EditorTools.ChapterTwoFlashlightBuilder.Build();' --format json`; `unity command run_tests --mode playmode --filter Flashlight --async_tests --format json`; separate filters `ChapterTwoObscurityTests` and `OneMoreTime.Tests.KeyBindingTests`; `unity command run_tests --mode editor --filter OneMoreTime.EditTests --filter_type assembly --async_tests --format json`; `unity command capture_game_view --source screen --save_path Artifacts/Logs/flashlight-...png --format json`. Capture files initially land under `Assets/Artifacts/Logs` and were copied to the evidence directory. Final reviewed captures: `flashlight-dark-off.png`, `flashlight-dark-on.png`, `flashlight-mist-on-final.png`; pre-refinement mist captures remain named `flashlight-mist-off.png` / `flashlight-mist-on.png`.
+
+Source/authoring guide: [CHAPTER_TWO_FLASHLIGHT.md](CHAPTER_TWO_FLASHLIGHT.md). Existing chapter scenes were not regenerated. The new sandbox is open clean in Edit mode, normal AutoTick restored by leaving the review Play session; nothing pushed or published.
+
+## 2026-11-19 Top-left filter lens transition
+
+- **PASS — actual Editor compilation:** Unity 6000.6.0f1/Pipeline reports zero errors/warnings.
+- **PASS — existing PlayMode tests 6/6:** `PastLens` filter 1/1 covers transition completion and respawn; `Filter` filter 5/5 covers simultaneous keyboard actions, airborne momentum, safe collision switching, era/rewind restoration and embedding refusal. Evidence: `Artifacts/Logs/lens-swing-transition-tests.json` and `lens-swing-filter-tests.json`.
+- **PASS — runtime reversal check:** applying for 0.09 seconds then switching back retains the current tint amount and gives 0.09 seconds of reverse travel; another 0.09 seconds reaches zero remaining time and zero past amount. Checked through Editor eval; not counted as an NUnit test.
+- **PASS — actual Game-view review:** Main_Room05 captures at 0.09, 0.18 and 0.29 seconds show upper-left entry, rotation into place, then expanding glass. HUD stays upright and outside the clipped lens effect. Captures use controlled runtime timing, not a claimed manual playthrough: `Artifacts/Logs/lens-swing-entry.png`, `lens-swing-middle.png`, `lens-swing-zoom.png`.
+- **PASS — whitespace:** `git diff --check`.
+- **NOT RUN:** standalone build, full unrelated suite or complete human playthrough. Existing room geometry/camera settings were not changed.
+
+Commands: `unity recompile --format json`; `unity command run_tests --mode playmode --filter PastLens --async_tests --format json`; same command with `--filter Filter`; `unity command capture_game_view --source screen --save_path Artifacts/Logs/lens-swing-...png --format json`. Test discovery was refreshed with RequestScriptCompilation between runs. Captures initially land under `Assets/Artifacts/Logs` and were copied to the evidence directory. The temporary Play session was stopped, restoring normal ticking; Main_Room05 remains open in Edit mode.
+
+
+## 2026-11-19 Past filter background
+
+- **PASS — compilation and shader import:** running Unity 6000.6.0f1/Pipeline; compilation completed with zero errors/warnings and ShaderUtil reported no Looping Forest shader messages. Final recompile was up to date.
+- **PASS — PastBackgroundTests 3/3:** real Room 5 integration verifies incremental blending follows the lens, pause stops it, reversing mid-transition does not jump, collision refusal keeps present mode, recording/world rewind/retry restore the correct era and preserve the memory. Isolated GPU rendering verifies the temporary treatment differs visibly, replacement artwork actually renders, and turning the filter off restores identical present pixels. Texture, scroll phase, span and geometry remain stable.
+- **PASS — existing loop regression 1/1:** `WorldOneArtTests.BackgroundRepeatsBeyondOldBoundsAndHandlesNegativeTravel` checks the wide aspect ratio, repeated camera travel, negative/far positions, and camera-filling bounds.
+- **PASS — visual review:** 1280×720 actual Room 5 Game-view captures of present and past were inspected. Used runtime API activation and controlled ticks, not a full manual playthrough. Background visibly becomes warm/faded without shifting; bridges follow their existing era states.
+- **PASS — whitespace:** `git diff --check`.
+- **NOT RUN:** standalone build, entire unrelated suite or full human playthrough. Final past illustration is intentionally pending the user's choice.
+
+Commands: `unity recompile --format json`; `unity command run_tests --mode playmode --filter PastBackground --async_tests --format json`; same command with `--filter BackgroundRepeatsBeyondOldBoundsAndHandlesNegativeTravel`; `unity command capture_game_view --source screen --save_path Artifacts/Logs/filter-background-present.png --format json` and `filter-background-past.png`. Discovery was refreshed between suites with RequestScriptCompilation. Evidence: `Artifacts/Logs/filter-background-tests.json` (3), `filter-background-loop-test.json` (1), `filter-background-present.png`, `filter-background-past.png`. A preview eval was interrupted by a script reload; its retry confirmed past=true and blend=1 before the final past capture. Screenshots initially landed under `Assets/Artifacts/Logs` and were copied to the evidence directory. Tests finished in Edit mode with Main_Room05 clean/open; no scene regeneration or remote operations.
+
+
+## 2026-11-19 Statue revival
+
+- **PASS — actual Unity compilation:** Unity 6000.6.0f1/Pipeline, zero errors/warnings after final input cleanup. Evidence: `Artifacts/Logs/statue-revival-compilation.json`.
+- **PASS — revival integration:** `Statue` filter 7/7, including five new integration tests plus existing Room 3/4 statue checks. Verifies original Room 1 statues, exact narrow Room 3 spawn, no added colliders, renderer restoration, four-repeat cleanup, checkpoint activation versus revival, saved replay retention, pause, recording completion/death/retry exclusions, ignored actions and floating-world suspension through the final tick. Room 4 covers drowning followed by revival and preserved memory.
+- **PASS — checkpoint regressions:** `Checkpoint` filter 8/8. Includes Rooms 5–8 scene wiring, chapter checkpoint retry, Room 1 traversal/pit/exit, Room 2 Shutter, and existing art/checkpoint checks. Three tests overlap the Statue filter and are counted only once. Initial run was 7/8 because the existing Shutter test immediately pressed Shutter on the death tick while the new revival intentionally blocked input. It now explicitly asserts revival, waits for completion, then runs all prior snapshot and exit assertions. Initial result retained as `statue-revival-checkpoint-tests-initial.json`.
+- **PASS — replay regressions:** `RewindPlaytestTests` 10/10, including hold threshold/overwrite, visible world reversal, object opt-out, plate operation, upgrade separation, reverse/hold/endpoints, Q restart and persistent playback.
+- **PASS — Game-view evaluation:** actual Main_Room05 captures at 1280×720, controlled fixed ticks at 0.12 s (charge), 0.30 s (breakout), and after completion. Initial bulky, green-edged fragments were replaced with smaller cropped stone fragments, behind-player sorting and earlier fade; final breakout leaves the goat clearly visible. Final render restores the player in front of the persistent statue. These are runtime API/timing captures, not a claimed manual full-room playthrough.
+- **PASS — source review and whitespace:** reviewed explicit retry event ownership, pause and cancellation/mesh cleanup. Corrected wrapper input cleanup to clear retained movement as well as action edges, preventing stale movement during multiple FixedUpdates before Update. `git diff --check` passes.
+- **NOT RUN:** standalone build, full unrelated PlayMode suite, manual art-gallery keyboard walkthrough, complete human playthrough or repeated-death pacing study.
+
+Final total: **22 distinct tests passed** (7 + 8 + 10 minus 3 overlaps). Evidence: `Artifacts/Logs/statue-revival-tests.json`, `statue-revival-checkpoint-tests.json`, `statue-revival-replay-tests.json`. Final reviewed images: `statue-revive-charge-final.png`, `statue-revive-breakout-final.png`, `statue-revive-settled-final.png`; initial preview images remain without the `-final` suffix. Capture files initially land under `Assets/Artifacts/Logs` and were copied to `Artifacts/Logs`.
+
+Commands: `unity recompile --format json`; `unity command run_tests --mode playmode --filter Statue --async_tests --format json`, repeated with filters `Checkpoint` and `RewindPlaytestTests`; `unity command eval` for controlled runtime timing; `unity command capture_game_view --source screen --save_path Artifacts/Logs/statue-revive-...png --format json`. Test discovery refreshed with RequestScriptCompilation between runs. Temporary Play review was stopped, restoring normal automatic ticking; Main_Room05 remains clean/open in Edit mode. Usage and evaluation: [STATUE_REVIVAL.md](STATUE_REVIVAL.md). No scene regeneration, push or publication.
+
+
+## 2026-11-19 Pause-menu reset
+
+- **PASS — real Unity compilation:** Unity 6000.6.0f1/Pipeline. Successful compile response reported zero errors/warnings. Two CLI compile-status polls lost their connection during Editor reload; neither failed response was treated as compilation evidence. The persisted final compile status reports completed/no errors, and the new five-test assembly subsequently ran successfully. Evidence: `Artifacts/Logs/pause-reset-compilation.json`.
+- **PASS — PauseResetTests 5/5:** Room 3 real pause keyboard edge during exit-lift travel, cancellation of travel, exact checkpoint restoration, death counting, repeated-call guard and reset during revival; Room 5 shared HUD reset while drowning with saved replay preserved; Room 4 AwaitRecord reset clears tutorial/slow-motion state and resumes movement/crate spawning safely; original L04 recording death review and subsequent saved-memory reset; replay debug single-frame recovery plus valid recording death → visible rewind → Ready and retained memory.
+- **PASS — Game-view review:** 1280×720 Main_Room05 pause menu shows Resume, Reset and Back to main menu with no overlap/clipping. Captured with runtime pause API, not a claimed mouse walkthrough. `Artifacts/Logs/pause-reset-menu.png` (copied from Pipeline's `Assets/Artifacts/Logs` output).
+- **PASS — code review / whitespace:** reset dispatch uses the owning room director so drowning/entry/exit/tutorial phases cannot remain active after respawn; lift is docked with matching gate state, existing shutter snapshot stays intact; `git diff --check` passes.
+- **NOT RUN:** standalone build, full unrelated test suite, individual mouse activation of every menu or full human playthrough. EchoFoothills and flashlight reset paths were source-reviewed and compiled; their new button behavior is not separately PlayMode-tested in this run.
+
+Commands: `unity recompile --format json`; `unity command run_tests --mode playmode --filter PauseResetTests --async_tests --format json`; `unity command eval` to pause the running room; `unity command capture_game_view --source screen --save_path Artifacts/Logs/pause-reset-menu.png --format json`. Evidence: `Artifacts/Logs/pause-reset-tests.json` (5/5). Runtime sources: MainRoom.cs, RewindPlaytest.cs / RewindPlaytestHUD.cs, ChapterOneRoom.cs, RoomFour/Room4AbilityTutorial.cs, RoomLift.cs, ShutterAbility.cs, RunManager.cs, ChapterOne/NostalgiaChapter.cs and ChapterTwoFlashlightPlaytest.cs. New tests: `Assets/_OneMoreTime/Tests/PlayMode/PauseResetTests.cs`. Temporary Play session stopped after review; Main_Room05 restored to Edit mode, normal automatic ticking unchanged. No scene regeneration or remote operations.
+
+
+## 2026-11-19 Main-game death counter
+
+- **PASS — actual Unity compilation:** Unity 6000.6.0f1/Pipeline completed successfully; no compilation errors. Evidence: `Artifacts/Logs/death-counter-compilation.json`.
+- **PASS — DeathCounterTests 4/4:** cumulative Room 1 → Room 5 deaths and New Game reset; ordinary Retry/recording completion excluded while a recording death survives world rewind; Room 4 water death counts once even when pause Reset skips drowning, with a later living-player Reset counted separately; actual Debug menu launch of Room 4 leaves the journey total unchanged under water deaths and Reset.
+- **PASS — Game-view review:** real Main_Room05 at 1280×720 shows the cream code-drawn pixel skull and `x 3` below the buttons at the pause panel's bottom-right. Three runtime Reset calls produced the count. Unpausing removes the counter entirely. Captures use controlled runtime APIs, not a claimed manual mouse/full-room playthrough. Evidence: `Artifacts/Logs/death-counter-paused.png`, `death-counter-gameplay.png`, copied from Pipeline's `Assets/Artifacts/Logs` output.
+- **PASS — review / whitespace:** independent review of main-session gating, scene transitions, death-versus-retry events, drowning deduplication, rewind exclusion and pause-only rendering found no issue. `git diff --check` passes.
+- **NOT RUN:** standalone build, full unrelated regression suite or complete human playthrough.
+
+Commands: `unity recompile --format json`; `unity command run_tests --mode playmode --filter DeathCounterTests --async_tests --format json`; `unity command eval` for controlled Reset/pause calls; `unity command capture_game_view --source screen --save_path Artifacts/Logs/death-counter-...png --format json`; `unity command editor_stop --format json`. The last command only exits Play mode; it does not terminate Unity. Main_Room05 is left in Edit mode. Runtime ownership: `RoomFour/MainGameProgress.cs` stores the session total; `MenuScreen.cs` / `SceneFlow.cs` gate main-game versus debug/tutorial sessions; `MainRoom.cs`, `RewindPlaytest.cs`, `ChapterOneRoom.cs`, `RoomFour/Room4AbilityTutorial.cs` report deaths; `GameUI.cs` / `RewindPlaytestHUD.cs` render the pause statistic. Tests: `Assets/_OneMoreTime/Tests/PlayMode/DeathCounterTests.cs`. No scene generation, push or publication.
+
+
+## 2026-11-19 Room 4 menu-return reset
+
+- **PASS — actual Unity compilation:** Unity 6000.6.0f1/Pipeline, zero errors/warnings. Evidence: `Artifacts/Logs/room4-menu-reset-compilation.json`.
+- **PASS — RoomFourTests 13/13:** new `ReturningToMenuRestartsCompletedAndInterruptedAcquisition` completes the cutscene, exits through the actual `SceneFlow.Load(0)` menu path, enters Debug Room 4 through `MenuScreen.OpenTutorial(9)`, verifies the pickup/blocker/intact bridge/no crates/no memory, and reaches the acquisition prompt again. Repeats the exit while the cutscene is awaiting record. Both returns clear replay unlock flags, retain the death total and leave debug tracking disabled. Existing tests verify pickup/hold/rewind/camera, checkpoint death/retry, owned reload and Room 4 → 5 progression, crate replay/current and terrain references.
+- **PASS — DeathCounterTests 4/4:** main-room accumulation/New Game reset, debug exclusion, recording death versus normal rewind and drowning deduplication remain correct. The first second-suite request returned zero discovered tests; this was not counted as a pass. Refreshing discovery with `CompilationPipeline.RequestScriptCompilation()` then rerunning produced all four passing tests.
+- **PASS — source review and whitespace:** all runtime menu exits use `SceneFlow.Load(0)`; clearing both replay flags preserves their dependency, while deaths/room changes do not use this reset. `git diff --check` passes.
+- **NOT RUN:** standalone build, full unrelated suite or manual visual/mouse walkthrough. No animation assets or timings changed, so no new render comparison was needed.
+
+Commands: `unity recompile --format json`; `unity command run_tests --mode playmode --filter RoomFourTests --async_tests --format json`; same command with `--filter DeathCounterTests`; `unity command eval` to refresh discovery and inspect final Editor state. Evidence: `Artifacts/Logs/room4-menu-reset-tests.json` (13), `room4-menu-reset-death-tests.json` (4), `room4-menu-reset-compilation.json`. No scenes regenerated, push or publication.
+
+
+## 2026-11-19 Camera ability art and pause equipment
+
+- **PASS — real Unity compilation:** Unity 6000.6.0f1/Pipeline completed successfully; no compilation errors. Evidence: `Artifacts/Logs/camera-ability-compilation.json`.
+- **PASS — AbilityArtTests 7/7:** five resource cases check transparent artwork, small Point-filtered textures, no mipmaps, source aspect and approximately one-unit world canvas. Replacement integration checks original root/collision preservation, correct aspect under nonuniform parent scaling, sorting, disabled old visuals and idempotency. Actual Room 4 acquisition shows then hides the cassette through existing pickup logic. The first run was 2/7: source PPU=64 caused oversized imported bounds. Deriving source PPU from source dimensions fixed the issue; final results cover all five sprites. Initial evidence remains in `camera-ability-art-tests-initial.json`.
+- **PASS — CameraEquipmentTests 3/3:** actual Room 2/4 pickup gating; local basic/advanced replay separation despite unrelated campaign upgrade flags; filter and flashlight availability follow their owning room. Equipment rendering does not grant abilities.
+- **PASS — actual Game-view review:** normal Room 5 assembly, fully upgraded assembly and Room 4 cassette pickup inspected at 1280×720. Adjusted the lens anchor to sit over the optical lens and enlarged the camera after the first preview. The all-module view uses temporary runtime preview flags/components; no campaign or scene progression change. Final screenshots: `camera-equipment-room5.png`, `camera-equipment-all-modules.png`, `camera-ability-room4-pickup.png`, copied from Pipeline's `Assets/Artifacts/Logs` output to `Artifacts/Logs`.
+- **PASS — whitespace:** `git diff --check`.
+- **NOT RUN:** standalone build, full unrelated suite, complete human playthrough or individual mouse walkthrough of every pause context. No scene regeneration or remote operations.
+
+Commands: `unity recompile --format json`; `unity command run_tests --mode playmode --filter AbilityArtTests --async_tests --format json`; same command with `--filter CameraEquipmentTests`; `unity command eval` for import refresh and controlled preview state; `unity command capture_game_view --source screen --save_path Artifacts/Logs/camera-...png --format json`; `unity command editor_stop --format json`. The first combined regex filter discovered zero tests and was not counted as a pass; separate filters produced all ten. Discovery was refreshed between filters with RequestScriptCompilation. A forced-reimport eval exceeded its response timeout, but actual import completion and final asset properties were verified by the passing tests. The temporary Play session was stopped, leaving Main_Room05 in Edit mode. Exact generated-art prompts and usage: [CAMERA_ABILITY_ART_PROMPTS.md](CAMERA_ABILITY_ART_PROMPTS.md), [CAMERA_ABILITY_ART.md](CAMERA_ABILITY_ART.md).
+
+
+## 2026-11-19 Plain modular ability sprites
+
+Replaced all five PNG resources in `Assets/_OneMoreTime/Resources/AbilityArt/` with charcoal/silver equipment, preserving filenames and GUIDs. The magic lens retains a luminous teal spiral and etched runes per the follow-up request. `CameraEquipment.cs` now crops source padding for the pause display and uses shared cassette mounting geometry, a top flash shoe and an aligned optical filter, with visible silver connector pieces. Upgrades assemble visually; no crafting interface or ability-rule changes were introduced.
+
+PASS: Unity 6000.6.0f1 compilation, seven AbilityArtTests (imports/transparency/scale, pickup preservation and Room 4 acquisition), `git diff --check`, actual all-module pause-screen visual review. Pipeline's stale connection was restored through Window → Pipeline Stop/Start Server without closing the Editor. NOT RUN: CameraEquipmentTests returned zero discovered tests; this is not a pass. Standalone build and full human playthrough were not run.
+
+Evidence: `Artifacts/Logs/plain-ability-compilation.json`, `plain-ability-art-tests.json`, `plain-camera-equipment-tests.json`; Game-view capture `Assets/Artifacts/Logs/plain-camera-all-modules.png`. Open `Assets/_OneMoreTime/Scenes/Main_Room05.unity`, Play, then Esc to inspect acquired modules. All-module review used temporary Play Mode unlocks only; Editor restored to Edit mode. Next: normal pickup/playtest review; no scene regeneration, remote push or publishing.
+
+
+## 2026-11-23 Chapter UI, ability scope, shutter and checkpoint fixes
+
+- **PASS — Unity compilation:** actual Unity 6000.6.0f1/Pipeline compilation completed with zero errors/warnings reported. Evidence: `Artifacts/Logs/chapter-fixes-compilation.json`.
+- **PASS — 67/67 PlayMode tests:** `ChapterOneRegression` category covers CameraEquipment (3), ChapterAbilityScope (3), ChapterBasicTraversal (1), ChapterClimbTraversal (2), ChapterOneRooms (9), DeathCounter (4), PastBackground (3), PauseReset (5), RewindPlaytest (11), RoomFour (13), Shutter (4), and StatueRevival (9). Evidence: `Artifacts/Logs/chapter-regressions-tests.json`. Tests exercise actual room loads and fixed-step gameplay, including Room 7's first downstream crossing from its real entrance without teleporting or advanced powers. They do not constitute a complete human traversal of all rooms.
+- **PASS — Game-view review:** ordinary Room 5 has no top-left tips panel or filter control; pause shows only shutter and its attached basic cassette. Respawn restores the authored right-facing direction from a left-facing setup, removes the statue body and leaves its painted base. Modern and legacy base persistence also receives real-frame test coverage. Evidence: `Artifacts/Logs/chapter-fixes-gameplay.png`, `chapter-fixes-equipment.png`, `chapter-fixes-statue-before.png`, `chapter-fixes-statue-after-final.png`, `chapter-fixes-base-visible-final.png`, `chapter-fixes-visual-state.json`. Review uses controlled runtime calls, not a claimed full mouse/keyboard playthrough.
+- **PASS — independent source review:** campaign/debug transition boundaries, local assembly availability, single-memory switching, route span activation and downstream disposal reviewed. `git diff --check` passes.
+- **PASS — read-only decoration audit:** 178 loose managed props identified; 52/54 proposed placements supported by existing ground and clear of interactions. Per-room accepted counts: 8/4/7/8/5/8/6/6. Two Room 2 placements were omitted for clearances. Evidence: `Artifacts/Logs/chapter-decoration-audit.json`. No geometry or scene object was changed by this audit.
+- **BLOCKED / NOT APPLIED — saved decoration cleanup:** automatic approval review rejected a loop saving Rooms 1–8 because the user said “current level,” leaving multi-room scope unclear. A concrete 178→52 cleanup was prepared, audited and presented for scope clarification. No scene cleanup has been saved; application, idempotency, rollback and visual validation remain NOT RUN.
+- **NOT RUN:** standalone build, complete human chapter traversal or the full unrelated test suite.
+
+Failure history: the initial combined run was 53/66. Twelve failures exposed pedestal mesh coordinate handling; the remaining failure was an older debug test assuming campaign replay carried into debug. After corrections, 66/66 passed, but Game-view review caught the full statue reappearing after mesh regeneration. Replacing mesh clipping with a cropped Sprite rectangle and adding an across-frame test produced the final 67/67 pass. Initial failure evidence is retained in `chapter-regressions-tests-initial.json`. Empty per-filter discovery attempts were not counted as passes. One final run setup stalled in Unity's `ExitPlayModeTask`; it was cancelled, actual Edit Mode was confirmed, and the successful 67-test run was started cleanly.
+
+Commands: `unity recompile --json`; `unity command run_tests --mode playmode --filter ChapterOneRegression --filter_type category --async_tests true --json`; `unity command test_status --json`; `unity command eval` for controlled scene/state review and read-only `ChapterDecorationCleanup.Audit`; `unity command capture_game_view --source screen --save_path Artifacts/Logs/chapter-fixes-….png --json`; `unity command editor_stop --json`. Pipeline captures were copied from its `Assets/Artifacts/Logs` output into `Artifacts/Logs`. Background ticking was enabled only in the temporary review session; saved project settings were not changed.
+
+Final Editor state: Main_Room05 in Edit Mode, no scene save/regeneration, original automatic ticking retained. No push or publishing. Current source rules: [ROOMS_5_TO_8.md](ROOMS_5_TO_8.md), [CAMERA_ABILITY_ART.md](CAMERA_ABILITY_ART.md), [STATUE_REVIVAL.md](STATUE_REVIVAL.md), [MAIN_ROOM_DECORATION.md](MAIN_ROOM_DECORATION.md).
+
+
+## 2026-11-23 Room 5 complete drawing and whirlpool
+
+- **PASS — Unity compilation:** Unity 6000.6.0f1/Pipeline, final compile reported zero errors/warnings. Two earlier CLI status polls disconnected during domain reload; they were not treated as success. Persisted compile status and subsequent test runs confirmed successful compilation. Evidence: `Artifacts/Logs/room5-layout-compilation.json`.
+- **PASS — seven RoomFiveLayoutTests:** normal/debug Room 5 has only basic abilities and seven permanent background bridge spans without colliders; two grassy islands have only thin one-way top collision, soil reaches below water and scaffold walls add no collision; central checkpoint saves; actual shutter input holds the plate and replacing its image releases it immediately; an actual motor-input route boards/rides the shuttle, jumps to the lower red approach and walks to the checkpoint without teleporting after initial plate setup; crates move 2.5 units in one second and spawn ten seconds apart; the real source sends crates to a visible downward sink; the camera is 20 units wide and its upper bound is nonphysical.
+- **PASS — three WhirlpoolCrateTests:** captured drain trajectory resumes deterministically, backward playback visibly restores a sunk crate, reuse clears sinking state, old immediate-disposal sources remain unchanged, foreign crates are ignored, and actual recording/world rewind/forward/reverse/held playback include the sink without a color change.
+- **PASS — chapter regressions, 77 distinct final passing tests:** category run initially passed 75/77. Two old statue tests indexed a second Room 5 checkpoint; the supplied layout intentionally has one. Moved only those multi-statue fixtures to Room 6; all nine StatueRevivalTests then passed. Existing filter/era fixtures were moved to explicit Debug Room 8 because the replacement Room 5 intentionally has no era groups. No assertions were removed to grant unavailable abilities or add an extra statue. Final regeneration changed only water-art alignment; the seven Room 5 tests passed again. Evidence: `room5-layout-regressions-initial.json`, `room5-layout-statue-regressions.json`, `room5-layout-tests.json`.
+- **PASS — render review:** full-room and five 20-unit-wide Editor camera renders checked for the supplied geometry, bridge foreground/background distinction, soil, supports and stepped water. Initial overlapping supports were changed to share lower scaffold walls. Actual 1280×720 Game view checked a live crate entering the whirlpool; the goat was positioned for inspection, so this is not a claimed manual traversal. The final water-art offset corrects the painted crest relative to buoyancy; final overview renders were reinspected. `room5-layout-overview.png`, `room5-layout-view1.png` through `view5.png`, and `room5-whirlpool-gameview.png` (before that final art alignment).
+- **PASS — generation/preservation:** repeated managed-root builds retain one checkpoint, one shuttle, one source and zero era groups. Scene and EditorBuildSettings hashes changed only for `Main_Room05.unity`; see `Artifacts/Room5Layout/preservation-check.json`. Old scene backup and source drawing are in that directory. No manual Unity YAML or GUID edits. Final Editor state: Room 5, clean, not playing, AutoTick=true.
+- **PASS — whitespace:** `git diff --check`.
+- **NOT RUN:** standalone build, full unrelated suite, complete human room traversal or long-gap difficulty/bypass study. Traversal evidence covers the plate → shuttle → checkpoint section, not a complete room-clear proof.
+
+Commands: `unity recompile --format json`; `unity command eval 'return OneMoreTime.EditorTools.ChapterOneExpansionBuilder.BuildRoom(5);' --format json`; `unity command run_tests --mode playmode --filter ChapterOneRegression --filter_type category --async_tests --format json`; focused reruns with `--filter StatueRevivalTests` and `--filter RoomFiveLayoutTests`; `unity command eval 'return OneMoreTime.EditorTools.ChapterOneExpansionBuilder.Capture(5);' --format json`; `unity command capture_game_view --source screen --save_path Artifacts/Logs/room5-whirlpool-gameview.png --format json`; `unity command editor_stop --format json`. An initial zero-test discovery result was discarded; compilation refresh produced the real runs above. No other rooms regenerated and no remote operations.
+
+## 2026-11-23 Official Room 6 layout
+
+| Check | Result | Evidence |
+|---|---|---|
+| Actual Editor compilation | PASS — zero errors/warnings, Unity 6000.6.0f1 | `Artifacts/Logs/room6-layout-final-compilation.json` |
+| Scoped generation | PASS — Room 6, 0 statues, 1 controlled platform, 1 log source | `Artifacts/Logs/room6-layout-generation.json` |
+| Final ChapterOneRegression PlayMode run | PASS — 89/89, 10.96 sec | `Artifacts/Logs/room6-layout-final-regressions.json` |
+| New RoomSixMechanismTests | PASS — 6 tests: endpoint parking, solid return, midpoint reversal/restore, old pingpong behavior, one log per press at 2 units/sec, rewind/playback edge state and interval-source regression | Included in final regression results |
+| New RoomSixLayoutTests | PASS — 6 tests: authored collision/ability/camera policy; actual source cadence and motion; log boarding and carry; shutter-held endpoint and returning rider; recording→rewind→replay log birth; automatic lift ascent/fade into actual Room 7 | Included in final regression results |
+| Checkpoints / prior layouts | PASS — absent-statue fallback fixed; legacy statue tests and Room 7 multi-statue tests pass; old traversal coverage moved to existing Room 8 fixtures | Included in final regression results |
+| Visual review | PASS — actual Game view at log plate, overview, and mechanism/lift closeups inspected; five 20-unit-scale views captured | `room6-log-gameview.png`, `chapter1-room6-overview.png`, `chapter1-room6-view1.png`–`view5.png` in `Artifacts/Logs` |
+| Scope preservation | PASS — only Main_Room06 scene differs, other scenes/build settings unchanged | `Artifacts/Room6Layout/preservation-check.json` |
+| Whitespace check | PASS | `git diff --check` |
+| Full human traversal / jump balance / standalone build | NOT RUN | Mechanism tests and controlled captures do not replace full human playtesting |
+
+Commands: `/Users/wesley/.unity/bin/unity recompile --format json`; `unity command eval 'return OneMoreTime.EditorTools.ChapterOneExpansionBuilder.BuildRoom(6);' --format json`; `unity command run_tests --mode playmode --filter ChapterOneRegression --filter_type category --async_tests --format json`, with actual completion read from `Temp/pipeline_test_status.json` (not the initial zero-result acknowledgement). Visuals used `ChapterOneExpansionBuilder.Capture(6)` and `capture_game_view --source screen`. One initial 89/89 run preceded the final phantom-checkpoint fix; the final 89/89 run covers the completed code.
+
+## 2026-11-23 Frozen world objects awaiting replay
+
+- **PASS** — actual Unity compilation, 0 errors / 0 warnings: `Artifacts/Logs/rewind-wait-compilation.json`.
+- **PASS** — **99/99** ChapterOneRegression PlayMode tests, 8.82 seconds: `Artifacts/Logs/rewind-wait-regressions.json`.
+- **PASS** — ten new `RewindWaitingTests`: affected platforms/push crates stay fixed while the goat moves; no stale carry for platform/log riders; nonaffected platform keeps simulating; overwrite/retry/shutter lifecycle; Room 6 log position, bob clock and spawning freeze; replay resumes log carrying; chapter plate/controller state holds; Room 8 crumble countdown resumes only after replay.
+- **PASS** — existing Room 4 imaginary-acquisition test now explicitly checks zero spawning while waiting and spawning on replay; disposal check verifies frozen objects cannot be removed; existing gate test checks preserved rewound state before playback. Existing upgraded reverse/hold and endpoint behaviors remain covered.
+- **PASS** — `git diff --check`; no scene/prefab writes were needed.
+- **NOT RUN** — full human chapter playthrough and standalone build.
+
+Commands: `unity recompile --format json`; `unity command run_tests --mode playmode --filter ChapterOneRegression --filter_type category --async_tests --format json`. Results above are from completed `Temp/pipeline_test_status.json`, not the initial asynchronous acknowledgement.
+
+## 2026-11-23 — Room 7 official layout verification
+
+| Check | Result | Evidence |
+|---|---|---|
+| Real Editor compile | PASS — 0 errors, 0 warnings | `Artifacts/Logs/room7-compilation.json` |
+| Scene generation | PASS — 2 checkpoints, 14 moving/pool platforms, no era spans or obsolete floating sources | `room7-generation.json` |
+| Chapter PlayMode suite | PASS — 116/116, 0 skipped | `room7-regressions.json` |
+| Loop/shuttle periods and rewind | PASS — exact 6s full laps and 4s full round trips, carry delta cleared during waiting | `RoomSevenMechanismTests`, `RoomSevenLayoutTests` |
+| Dual plate unlock | PASS — simultaneous live goat + shutter, count/color, permanent latch after release/rewind/retry | Same fixtures |
+| Dispatch | PASS — one per press, 4s cooldown, endpoint cleanup/reuse, recording lifetimes and waiting | Same fixtures |
+| Trapdoor and camera | PASS — gameplay/recording/decks freeze, pause works, camera x stays 10, zoom returns, opening excluded from rewind | `RoomTrapdoorTests`, `RoomSevenLayoutTests` |
+| Room transitions | PASS — Room 6 lift arrives into 7, opened shaft accepts airborne upward exit into 8 | `RoomSixLayoutTests`, `RoomSevenLayoutTests` |
+| River replay regression preservation | PASS — original basic/reverse board/carry/dismount and revival clock coverage moved to Room 8 high stream | `ChapterBasicTraversalTests`, `ChapterOneRoomsTests`, `StatueRevivalTests` |
+| Visual review | PASS — actual Editor overview + live counter/reveal screenshots inspected | `chapter1-room7-overview.png`, `room7-paired-live.png`, `room7-trapdoor-reveal.png` |
+| Scene scope | PASS — only Room 7 changed; all other scenes and build settings retain pre-turn SHA256 | `room7-scene-scope.json` |
+| Human full-route playthrough | NOT RUN — mechanism tests use explicit setup positions; full difficulty assessment still requires playing the tower | — |
+
+Executed through Unity CLI Pipeline: `unity recompile --format json`, `unity command eval 'return OneMoreTime.EditorTools.ChapterOneExpansionBuilder.BuildRoom(7);' --format json`, and `unity command run_tests --mode playmode --filter ChapterOneRegression --filter_type category --async_tests --format json`. The completed test-status file, not the initial asynchronous acknowledgement, supplies the 116/116 result. An initial run was 108/109 due to a stale Room 7 floating-source test; it was migrated to Room 8, then the full suite passed.
+
+## 2026-11-23 Official Room 8 verification
+
+| Check | Result | Evidence |
+|---|---|---|
+| Actual Editor compilation and only-Room-8 generation | PASS; final reload status has no compile errors. Existing deprecated Unity API warnings remain | `room8-compilation-final.json`, `room8-generation.json` |
+| Chapter regressions | PASS — **129/129**, including 13 new Room 8 tests | `room8-regressions.json` |
+| Final cave/water visual adjustment | PASS — regenerated Room 8 and reran **7/7** scene tests | `room8-final-layout-tests.json` |
+| Two crate streams / loops | PASS — 2 units/sec left, 6-second spawns, normal crate colors, both complete loop cycles 6 seconds | `RoomEightLayoutTests` |
+| Remote plate reveal | PASS — pans to carrier and back; motor, recording, decks, sources and floating crates stay still; pause respected | `RoomEightLayoutTests` |
+| Traveling statue | PASS — one-way 10 seconds, carry, endpoint parking, active checkpoint follows; ordinary recording/rewind holds correctly | `RoomEightMovingCheckpointTests`, `RoomEightLayoutTests` |
+| Death/reset | PASS — fall, water, pause reset and all recording-death paths home the carrier before revival or after visible rewind, preserve memory | Same two test classes |
+| Existing scene protection | PASS — only Main_Room08 differs from pre-task hashes; build settings unchanged | `room8-scene-preservation.json` |
+| Art and cave readability | PASS — overview and 20-unit camera captures inspected; darkened cave threshold, removed incidental grass, strengthened foreground curtain | `chapter1-room8-overview.png`, `chapter1-room8-view7.png` |
+| End-to-end human route, difficulty, standalone build | NOT RUN | Mechanism setups use explicit placement; they are not a complete player traversal |
+
+Commands ran through the connected Unity 6000.6.0f1 Editor/Pipeline: `unity recompile --format json`; `unity command eval 'return OneMoreTime.EditorTools.ChapterOneExpansionBuilder.BuildRoom(8);'`; `unity command run_tests --mode playmode --filter ChapterOneRegression --filter_type category --async_tests`; final `--filter RoomEightLayoutTests`. Completed result files supply pass counts, not async launch acknowledgements. One compile client timed out after domain reload; the independent status and updated builder confirmed compilation, and a subsequent `unity recompile` returned up_to_date with no errors.
+
+The old Room 8 prototype was copied through Unity AssetDatabase to `Assets/_OneMoreTime/Tests/Fixtures/Main_Room08.unity`. Legacy era, crumble and raft traversal checks use that fixture with their original assertions; official Room 8 checks use the real new scene. The fixture is absent from build settings and menus. Room 7 upward exit and the current Room 8 finale remain covered against the real scenes.
+
+Final rendered Play-mode camera check: goat remains legible through the foreground curtain (`Artifacts/Logs/room8-foreground-camera.png`). A screen-source capture returned the previous arrival backbuffer, so the current camera was rendered directly; this image excludes overlay HUD. Unity was returned to Edit mode with Main_Room08 open.
+
+## 2026-11-24 Room 8 corrections and shutter collision
+
+- **PASS — 137/137 ChapterOneRegression PlayMode tests** through the live Unity Editor. Evidence: `Artifacts/Logs/room8-fixes-final-tests.json`.
+- **PASS:** entrance arc stays outside bank/walls and lands on the existing floor; two plates are required simultaneously; single remote plate still triggers its camera reveal; carrier keeps its 10-second one-way/death reset behavior.
+- **PASS:** new shutter copy cannot support the player until its full body clears it; stationary repeated replacements do not climb; cleared copies can be landed on; plate holding is immediate; normal replay support remains intact. Four new real-scene tests cover MainRoom and chapter simulation paths.
+- **PASS:** GPU render tests for crate/log submersion verify clipping below the waterline, unchanged pixels above, fully hidden but still active sinking, exact visual restoration on rewind, and pooled reuse.
+- **PASS:** room-only generation, opening/cave render review, scene hash protection and whitespace check. No new helper ledges. Waterfall continues above camera, clear cave floor remains y47.3.
+- Initial run passed 136/137: the new entrance overlap query counted resting-floor contact at the final landing. All prior airborne frames cleared; the assertion now permits floor contact while rejecting body/wall penetration. Final full run passed. A zero-test discovery result after script refresh was discarded and rerun. Compile client timed out around domain reload; independent status reported no errors and actual updated scene/test execution succeeded.
+- **NOT RUN:** full human chapter traversal or standalone build. Final artifacts: `room8-fixes-generation.json`, `room8-fixes-compile-status.json`, `room8-fixes-scene-scope.json`, `chapter1-room8-view1.png`, `chapter1-room8-view7.png`.
+
+
+## 2026-11-24 Pause keybinding options
+
+- **PASS — 19/19 KeyBindingTests PlayMode:** selected preset/custom keys, preference persistence, no held-input leaks, and four new real-scene pause-settings cases in Main_Room01, Main_Room04, Main_Room08 and Debug_Rewind. Escape cancels capture, closes settings while retaining pause, and resumes only from pause. Player, moving platforms and floating-object source clocks remain frozen during capture; new movement/record keys work after resume.
+- **PASS — 36/36 EditMode tests:** shared menu capture/conflict rules, control prompts, and full-height 16:9 viewport without the old reserved footer.
+- **PASS — Unity compilation:** independent Pipeline recompile_status reports idle, failed=false, no errors; new integration tests execute the new code. The recompile client itself timed out after 40s around domain reload, so its timeout is not counted as a pass.
+- Commands: `unity recompile --timeout 40 --format json`; `unity command recompile_status --format json`; `unity command run_tests --mode playmode --filter KeyBindingTests --async_tests --format json`; `unity command run_tests --mode editmode --async_tests --format json`. Saved results are completed reports, not launch acknowledgements.
+- Evidence: `Artifacts/Logs/pause-controls-compile-status.json`, `pause-controls-playmode-tests.json`, `pause-controls-editmode-tests.json`. PASS: Room 8 pause panel and keybinding settings captured and visually inspected (`pause-controls-menu.png`, `pause-controls-settings.png`); preset buttons and all binding rows are legible, no footer strip remains. No scene generation/level layout changes.
+- **NOT RUN:** standalone build and full gameplay regression suite; focused input/UI tests were used for this change.
+
+
+## 2026-11-24 Room 8 lower bridge restored
+
+- **PASS:** saved real one-way bridge at x=19.7–24.7, y=2.9 plus decorative scaffold beams; restored through the existing Unity bridge helper. Entrance whirlpool arrows remain free of bridges. Builder updated so future regeneration preserves the restored span.
+- **PASS — 9/9 RoomEightLayoutTests** in live Unity PlayMode, including the restored bridge's exact bounds and collision. The first post-refresh discovery returned zero tests and was discarded; completed rerun passed.
+- **PASS:** Unity compile status idle/no errors, whitespace check, and scene/build-setting hashes: only Main_Room08 changed.
+- Evidence: `Artifacts/Logs/room8-bridge-restored.json`, `room8-bridge-restore-tests.json`, `room8-bridge-restore-compile.json`, `room8-bridge-restore-scope.json`. Command: `unity command run_tests --mode playmode --filter RoomEightLayoutTests --async_tests --format json`. Full traversal/build NOT RUN for this local layout correction.
+
+
+## 2026-11-24 Room 7 route / camera and Room 8 counter
+
+- **PASS — 147 distinct ChapterOneRegression checks:** full suite initially 146/147; subsequent RoomEightLayoutTests 9/9 after correcting only a new Color-vs-Color32 assertion. Combined latest-result summary: `Artifacts/Logs/room7-route-update-verification.json`; complete source runs: `room7-route-update-regressions-initial.json`, `room7-route-update-room8-tests.json`. This is coverage across two runs, not a claim that the first full run passed unchanged.
+- **PASS:** either Room 7 paired plate triggers the one-time platform reveal; player, recording and platforms stay frozen; both plates are still required for the permanent unlock. Legacy Room 8 single reveal trigger is preserved.
+- **PASS:** four dispatched decks move at 3 units/sec, cooldown remains 4; their collider fits the centered left slot and passes under the lowered east wall, while motor/carry simulation blocks the goat at both obstacles. Two small decks top y56.1, trapdoor y62.7, following step y63.7.
+- **PASS:** normal width stays 20 and horizontal center stays x10; camera top never exceeds y65 even during trapdoor focus/zoom or a jump above the room. No ceiling collision added.
+- **PASS:** Room 8 carrier displays white 0/2 and 1/2, green 2/2, needs both plates, and retains its one-way trip. Restored x19.7–24.7 lower bridge remains present.
+- **PASS:** actual Unity compilation (idle, failed=false, no errors), generation of only Rooms 7 and 8, saved-scene SHA256 scope, and whitespace check. Static Editor route renders inspected; their fixed capture camera positions are not evidence for runtime camera clamping, which is covered by the PlayMode checks.
+- Runner recovery: the first launch stalled before reporting any tests and was cancelled, then restarted from Edit mode. It is not counted as a pass. The earlier compile client timed out around domain reload; independent status and execution of updated code provide compilation evidence.
+- Commands: `unity command run_tests --mode playmode --filter ChapterOneRegression --filter_type category --async_tests --format json`; `unity command run_tests --mode playmode --filter RoomEightLayoutTests --async_tests --format json`; `unity command recompile_status --format json`. Only completed reports supply counts.
+- **NOT RUN:** uninterrupted human traversal, complete difficulty assessment, standalone build. Unity left in clean Edit mode on Main_Room07; evidence `room7-route-update-ready.json`. No other scenes or build settings saved.
+
+
+## 2026-11-24 Main rooms 4–6 reordered
+
+- **PASS — 150/150 ChapterOneRegression PlayMode tests**, zero failures/skips: `Artifacts/RoomOrder/chapter-regressions.json`. Includes Room 4 campaign/debug recording lock and shutter, Room 5 pickup/cutscene, remapped controls/equipment/death checks, Room 4→5 horizontal exit, Room 5→6 walk transition and Room 6→7 lift transition.
+- **PASS — 1/1 VerticalRoomTests.FinalPlateOpensLiftAndTransfersUpward**, actual Room 3 lift arrival into new Room 4: `Artifacts/RoomOrder/room3-lift-transition.json`. Two zero-discovery attempts were discarded; after refreshing discovery the completed exact-filter run passed. Total: 151 distinct passing checks across these two completed runs.
+- **PASS — actual Unity compilation:** recompile_status idle, failed=false, compilationFailed=false, no errors (`Artifacts/RoomOrder/compilation.json`); updated code/scenes executed in the live Editor.
+- **PASS — migration/scope:** old 6→4, 4→5, 5→6 scene GUIDs preserved through Unity AssetDatabase.MoveAsset. SHA256 comparison identifies only Main_Room04/05/06, their metadata, and EditorBuildSettings among existing scene/build files; intro/tutorial/Rooms 1–3/7–8 unchanged (`scene-scope.json`, `migration.json`). Old river rewind-only checks use the Unity-created Tests/Fixtures/Main_Room06 scene, absent from Build Settings; actual Room 4 ability lock has dedicated checks.
+- **PASS — visual review:** new Room 4 lift arrival/right bank, Room 5 walk-in and Room 6 exit lift rendered using the real scene cameras (`room4-capture.json`, `room5-room6-captures.json`; images under `Artifacts/Logs/chapter1-room4/5/6-view*.png`). These static renders are not claimed as continuous gameplay.
+- Commands: `unity command run_tests --mode playmode --filter ChapterOneRegression --filter_type category --async_tests --format json`; exact-filter PlayMode run for `VerticalRoomTests.FinalPlateOpensLiftAndTransfersUpward`; `unity command recompile_status --format json`; `git diff --check`. Completed results, rather than launch acknowledgements, provide the pass counts.
+- **NOT RUN:** uninterrupted human chapter traversal, first-player balance/timing and standalone build. Editor left on clean Main_Room04 (`Artifacts/RoomOrder/ready.json`). No push or publication.
+
+
+## 2026-11-24 Room 4 log cooldown
+
+- **PASS — 17/17 focused RoomSix PlayMode tests**, zero failures/skips. Tests keep their historical names but use current Main_Room04 for gameplay. New cases prove rejection during cooldown, no queued spawn while held through expiry, a successful fresh press afterward, and rewind/playback restoration of countdown plus plate-edge state. Existing source, movement, boarding, return-platform and ability-lock cases also pass.
+- **PASS — actual Unity compilation**, no errors (`Artifacts/Room4LogCooldown/compilation.json`), saved Room 4 plateCooldown=4/speed=2 (`scene-update.json`), scene/build-setting hash scope (only Main_Room04 changed), `git diff --check`. No cooldown text, bar, or other gameplay UI was added.
+- Evidence: `Artifacts/Room4LogCooldown/completed-report.json`, `scene-scope.json`. Command: `unity command run_tests --mode playmode --filter RoomSix --async_tests --format json`.
+- Runner recovery: initial launch waited on Unity's scene-save dialog, which was resolved without discarding changes; that launch was cancelled. A zero-discovery retry is not counted as success. After `list_tests` refreshed discovery, all 17 executed and passed. Recompile client's reload timeout is not counted as success; independent compile status and new test execution verify the compiled code.
+- **NOT RUN:** full human traversal and standalone build; focused tests are appropriate for this timing-only change.
+
+
+## 2026-11-24 Room 5–6 bridge / prompt / drain update
+
+- **PASS — 155/155 ChapterOneRegression PlayMode tests**, no failures/skips (`Artifacts/Room56Polish/playmode-tests.json`). New tests verify 0→0.88 eased prompt opacity, pause behavior, transition from record/rewind to replay wording, dismissal after use, single functional drain swirl, actual crate sinking/pooling, waterline clipping/material restoration and unchanged tint. Existing acquisition/replay lifetime checks now allow time for complete sinking; no gameplay assertions were removed.
+- **PASS — 4/4 ControlPromptTests EditMode**, including WASD preset K and arrows preset X for the new wording (`editmode-tests.json`).
+- **PASS — real Unity compile status**, idle/no errors (`compilation.json`); actual updated code executed. The recompile client's domain-reload timeout is not itself counted as success.
+- **PASS — targeted scene patch and visual review:** 23 Room 5 and 29 Room 6 collider components were compared before/after and unchanged. Saved renders show continuous uprights/crossbars and no repeated timber-frame stone feet. Existing bitmap art was reused through two Unity Sprite slices, not replaced. Evidence: `scene-update.json`, `captures.json`, `Artifacts/Logs/chapter1-room5-view2.png`, `chapter1-room6-view1.png`, `chapter1-room6-view3.png`.
+- **PASS — scene/build hashes:** only Main_Room05/06 changed (`scene-scope.json`); Room 4 cooldown and all other saved scenes/build settings retained. `git diff --check` passed.
+- Commands: `unity command run_tests --mode playmode --filter ChapterOneRegression --filter_type category --async_tests --format json`; `unity command run_tests --mode editmode --filter ControlPromptTests --async_tests --format json`. Initial PlayMode setup threw inside Unity Test Framework PlayModeRunTask after domain reload, before reporting checks; cancelled it, restored saved Room 5, and reran. Only completed reports provide counts.
+- **NOT RUN:** uninterrupted human traversal, full difficulty tuning, standalone build. Clean Main_Room05 left open (`ready.json`).
+
+
+## 2026-11-24 Wooden exit signs
+
+- **PASS — live Unity compilation:** recompile_status reports idle, failed=false, compilationFailed=false, errors empty; helper executed successfully. Initial recompile client timed out during domain reload, so that response alone was not treated as success. Evidence: Artifacts/ExitSigns/compile-status.json.
+- **PASS — targeted placement:** each of Rooms 1–8 was patched twice, with exactly one exit sign and no sign colliders. All pre-existing Collider2D and MonoBehaviour serialized values compared equal before/after; a failed comparison would abort before saving. Evidence: placement.json. No room rebuild was run.
+- **PASS — rendered review:** room1-exit.png through room8-exit.png inspected at a 20-unit-wide view. Post feet align with the authored ground; Room 7 arrow fits below the camera top; Room 8 sign is readable on the cave floor beyond the water. Actual transparent alpha confirmed; 64px point-filtered Unity imports; sorting order 5 below goat and foreground water. Evidence: render-review.json. Goat positions in captures were posed for scale only and not saved.
+- **PASS — scope:** scene-scope.json shows changes only to Main_Room01–08 among existing scenes/build settings. No tutorial/intro/debug scene or gameplay edits. git diff --check passed.
+- **NOT RUN:** new gameplay suite, human traversal, standalone build; this change adds decorative SpriteRenderers only. Saved scene setup restored cleanly.
+
+
+## 2026-11-24 Ability pickup sizing
+
+- **PASS:** live Unity compilation reports no errors; `AbilityArtTests` 7/7 passed, including artwork loading/transparency, preserved collision/aspect/root, duplicate prevention and actual recording-item acquisition. Command: `unity command run_tests --mode playmode --filter AbilityArtTests --async_tests --format json`. Evidence: Artifacts/AbilityPickupSize/playmode-tests.json and compile-status.json.
+- **PASS:** Room 2 replacement applied twice with stable 1.35 × 1.35 sprite canvas (the user revised the original doubled-size request to about 90% of the goat), unchanged pickup root position/scale and ShutterAbility serialization. New camera saved in Main_Room02; legacy purple renderers disabled. A visual-only 0.35-unit lift clears the grass. RoomTwoBuilder retains this placement for future generation. Evidence: room2-update.json, clearance.json, final-size.json, room2-pickup.png.
+- **PASS:** git diff --check. No bitmap/import/UI changes or new tests were needed. **NOT RUN:** human full traversal or standalone build. Initial scene patch was blocked by the user's active Play preview; stopped Play mode, then saved successfully.
+
+
+## 2026-11-24 Room 7 waterfall width
+
+- **PASS:** Unity compilation idle/no errors; both saved WaterFeature widths are 1.5 units after reload, with roots at x=0 and18.5. Prefab overrides recorded for sizes/renderers/transforms.
+- **PASS:** 119 pre-existing Collider2D and non-water MonoBehaviour serialized values unchanged; no collision or hazard expansion.
+- **PASS:** normal 20-unit-wide view inspected; two wider edge curtains are visible inward. Height/outer room edges unchanged. RoomSevenLayout generator matches saved scene.
+- Evidence: Artifacts/Room7WaterfallWidth/update.json, compile-status.json, verification.json, preview.png. git diff --check passed.
+- **NOT RUN:** new gameplay tests, manual traversal, standalone build (art-only sizing change).
+
+
+## 2026-11-24 Room 7 outer waterfall coverage
+
+PASS: both saved waterfalls reload at width2.5, west root−1/east18.5; interior edges remain1.5/18.5. Twenty-unit camera render inspected: water covers both outer screen edges. Unity compiled without errors; 119 collision/gameplay components preserved. Builder matches saved scene; git diff --check passed. Evidence: Artifacts/Room7WaterfallEdges/{update,verification,compile-status}.json and preview.png. NOT RUN: gameplay suite, human traversal or standalone build (decorative adjustment only).
+
+
+## 2026-11-24 Room 7 endpoint waiting
+
+- **PASS:** real Unity compilation, no errors. The completion step now clears InTransit while retaining Active, preserving the completed deck's collider and art. Existing Launch resets position and carry delta only on a valid new launch-plate press.
+- **PASS:** `unity command run_tests --mode playmode --filter RoomSeven --async_tests --format json`: 22/22 checks passed. Covers the goat standing on the saved Room 7 endpoint, fresh-press reuse, held/early press rejection, rewind of moving and parked decks, reset, existing camera/reveal mechanisms and room transitions.
+- Initial run: 21/22; the new scene assertion compared the platform's center with its top surface (0.09-unit difference). Corrected the assertion to collider bounds; completed rerun passed. Evidence: Artifacts/Room7PlatformWaiting/first-run.json and playmode-tests.json.
+- **PASS:** git diff --check. No saved scene or art edits were necessary. **NOT RUN:** uninterrupted human traversal or standalone build.
+
+
+## 2026-11-24 Room 7 five-second countdown
+
+NOT RUN: tests, gameplay verification and standalone build, per the user's explicit instruction to add the features and leave testing to them. Runtime/builder and Main_Room07 updated for five-second endpoint expiry with a centered countdown and a two-unit increase to the upper-west small deck. Existing tests retain the previous endpoint-wait expectations; no test edits made this turn.

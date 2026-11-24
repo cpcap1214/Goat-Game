@@ -17,4 +17,5 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 62e3f9aab539149d1ae0ba01697f6aa1, type: 2}
   - {fileID: 21300000, guid: 44676af6f6436465d9c3d88a675733f8, type: 2}
   - {fileID: 21300000, guid: a5061f9b66d5747039ad9f0753bc9445, type: 2}
-  framesPerSecond: 8
+  framesPerSecond: 4
+  rotationDegrees: 0

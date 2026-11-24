@@ -156,7 +156,7 @@ Tilemap:
       - {fileID: 21300000, guid: 62e3f9aab539149d1ae0ba01697f6aa1, type: 2}
       - {fileID: 21300000, guid: 44676af6f6436465d9c3d88a675733f8, type: 2}
       - {fileID: 21300000, guid: a5061f9b66d5747039ad9f0753bc9445, type: 2}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 1, y: 0, z: 0}
@@ -167,7 +167,7 @@ Tilemap:
       - {fileID: 21300000, guid: 62e3f9aab539149d1ae0ba01697f6aa1, type: 2}
       - {fileID: 21300000, guid: 44676af6f6436465d9c3d88a675733f8, type: 2}
       - {fileID: 21300000, guid: a5061f9b66d5747039ad9f0753bc9445, type: 2}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 2, y: 0, z: 0}
@@ -178,7 +178,7 @@ Tilemap:
       - {fileID: 21300000, guid: 62e3f9aab539149d1ae0ba01697f6aa1, type: 2}
       - {fileID: 21300000, guid: 44676af6f6436465d9c3d88a675733f8, type: 2}
       - {fileID: 21300000, guid: a5061f9b66d5747039ad9f0753bc9445, type: 2}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 3, y: 0, z: 0}
@@ -189,7 +189,7 @@ Tilemap:
       - {fileID: 21300000, guid: 62e3f9aab539149d1ae0ba01697f6aa1, type: 2}
       - {fileID: 21300000, guid: 44676af6f6436465d9c3d88a675733f8, type: 2}
       - {fileID: 21300000, guid: a5061f9b66d5747039ad9f0753bc9445, type: 2}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 4, y: 0, z: 0}
@@ -200,7 +200,7 @@ Tilemap:
       - {fileID: 21300000, guid: 62e3f9aab539149d1ae0ba01697f6aa1, type: 2}
       - {fileID: 21300000, guid: 44676af6f6436465d9c3d88a675733f8, type: 2}
       - {fileID: 21300000, guid: a5061f9b66d5747039ad9f0753bc9445, type: 2}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 5, y: 0, z: 0}
@@ -211,7 +211,7 @@ Tilemap:
       - {fileID: 21300000, guid: 62e3f9aab539149d1ae0ba01697f6aa1, type: 2}
       - {fileID: 21300000, guid: 44676af6f6436465d9c3d88a675733f8, type: 2}
       - {fileID: 21300000, guid: a5061f9b66d5747039ad9f0753bc9445, type: 2}
-      m_AnimationSpeed: 8
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:

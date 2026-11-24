@@ -6,17 +6,18 @@ using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
 using UnityEditor.SceneManagement;
 namespace OneMoreTime.Tests {
+[Category("ChapterOneRegression")]
 public class RewindPlaytestTests {
  RewindPlaytest room;
  IEnumerator Load(bool upgraded=true){EditorSceneManager.LoadSceneInPlayMode("Assets/_OneMoreTime/Scenes/Debug_Rewind.unity",new LoadSceneParameters(LoadSceneMode.Single));yield return null;room=Object.FindAnyObjectByType<RewindPlaytest>();room.AutoTick=false;if(upgraded)room.UnlockReplayUpgrade();}
  void Step(bool q=false,float move=0,bool jump=false){room.Step(new InputFrame{move=move,jump=jump,held=true},q);}
- void Hold(){for(int i=0;i<25;i++)Step(true);Assert.AreEqual(RewindPlaytest.Mode.Recording,room.State);Step();}
+ void Hold(){for(int i=0;i<13;i++)Step(true);Assert.AreEqual(RewindPlaytest.Mode.Recording,room.State);Step();}
  void Finish(){Step(true);Step();Assert.AreEqual(RewindPlaytest.Mode.Rewinding,room.State);for(int i=0;i<110&&room.State==RewindPlaytest.Mode.Rewinding;i++)Step();Assert.AreEqual(RewindPlaytest.Mode.Ready,room.State);}
  [UnityTest]public IEnumerator HoldThresholdReleaseAndOverwrite(){
-  yield return Load();for(int i=0;i<24;i++)Step(true);Assert.AreEqual(RewindPlaytest.Mode.Idle,room.State);Assert.IsTrue(room.Charging);Assert.That(room.HoldProgress,Is.EqualTo(.96f).Within(.001f));Step(true);Assert.AreEqual(RewindPlaytest.Mode.Recording,room.State);Assert.IsFalse(room.Charging);Step();Assert.AreEqual(RewindPlaytest.Mode.Recording,room.State);
+  Assert.AreEqual(.25f,RewindPlaytest.HoldSeconds);yield return Load();for(int i=0;i<12;i++)Step(true);Assert.AreEqual(RewindPlaytest.Mode.Idle,room.State);Assert.IsTrue(room.Charging);Assert.That(room.HoldProgress,Is.EqualTo(.96f).Within(.001f));Step(true);Assert.AreEqual(RewindPlaytest.Mode.Recording,room.State);Assert.IsFalse(room.Charging);Step();Assert.AreEqual(RewindPlaytest.Mode.Recording,room.State);
   for(int i=0;i<50;i++)Step(move:1);Finish();var memory=room.Memory;Assert.NotNull(memory);Assert.Greater(room.path.GetComponent<LineRenderer>().positionCount,2);
   Step(true);Step();Assert.AreEqual(RewindPlaytest.Mode.Playing,room.State);Assert.IsFalse(room.echo.support.enabled);Assert.Greater(room.PlaybackProgress,0);Assert.AreEqual(RewindPlaytest.ReplayColor,room.echo.visual.renderer2D.color);Assert.Greater(room.path.GetComponent<LineRenderer>().startColor.r,room.path.GetComponent<LineRenderer>().startColor.b);
-  for(int i=0;i<25;i++)Step(true);Assert.AreEqual(RewindPlaytest.Mode.Recording,room.State);Assert.IsNull(room.Memory);Assert.IsFalse(room.echo.Active);Assert.AreEqual(0,room.path.GetComponent<LineRenderer>().positionCount);Step();Assert.AreEqual(RewindPlaytest.Mode.Recording,room.State);
+  for(int i=0;i<13;i++)Step(true);Assert.AreEqual(RewindPlaytest.Mode.Recording,room.State);Assert.IsNull(room.Memory);Assert.IsFalse(room.echo.Active);Assert.AreEqual(0,room.path.GetComponent<LineRenderer>().positionCount);Step();Assert.AreEqual(RewindPlaytest.Mode.Recording,room.State);
  }
  [UnityTest]public IEnumerator TapQRestartsMidPlaybackWithoutReplacingMemory(){
   yield return Load(false);Hold();for(int i=0;i<80;i++)Step(move:1);Finish();var saved=room.Memory;
@@ -30,6 +31,7 @@ public class RewindPlaytestTests {
   for(int i=0;i<80;i++)Step(move:1);Assert.Greater(room.crates[0].transform.position.x,crate.x+.5f);float endX=room.player.Position.x;
   Step(true);Step();Assert.AreEqual(RewindPlaytest.Mode.Rewinding,room.State);Assert.AreEqual(RewindPlaytest.ReplayColor,room.visual.renderer2D.color);Assert.Greater(room.player.Position.x,original.x+.5f,"Visible rewind must take multiple ticks");
   for(int i=0;i<110&&room.State==RewindPlaytest.Mode.Rewinding;i++)Step();Assert.AreEqual(RewindPlaytest.Mode.Ready,room.State);
+  var objectLines=room.transform.Find("Object replay traces").GetComponentsInChildren<LineRenderer>();Assert.Greater(objectLines.Length,0);foreach(var line in objectLines){Assert.AreEqual(LineTextureMode.Tile,line.textureMode);Assert.Less(line.startColor.a,room.path.GetComponent<LineRenderer>().startColor.a);Assert.Less(line.startWidth,room.path.GetComponent<LineRenderer>().startWidth);Assert.AreEqual(TextureWrapMode.Repeat,line.sharedMaterial.mainTexture.wrapMode);}
   Assert.AreEqual(Color.white,room.visual.renderer2D.color);Assert.That(room.player.Position.x,Is.EqualTo(original.x).Within(.001f));Assert.AreNotEqual(room.spawn.x,room.player.Position.x);Assert.That(Vector3.Distance(crate,room.crates[0].transform.position),Is.LessThan(.001f));
   // The two ticks after the first captured frame are deliberately excluded.
   Assert.That(Vector2.Distance(platform.position,room.platforms[0].transform.position),Is.LessThan(.07f));
@@ -77,9 +79,17 @@ public class RewindPlaytestTests {
   room.Step(default,false,true);Assert.IsTrue(room.PlaybackBackwards);Assert.Less(room.PlaybackSeconds,cursor);
   yield return Load(false);Assert.IsFalse(room.ReplayUpgradeUnlocked,"Upgrade must not leak into a fresh basic room");
  }
+ [UnityTest]public IEnumerator DisablingDebugUpgradeRestoresForwardBasicPlayback(){
+  yield return Load();Hold();for(int i=0;i<60;i++)Step();Finish();Step(true);Step();for(int i=0;i<20;i++)Step();
+  room.Step(default,false,true,true);Assert.IsTrue(room.PlaybackBackwards);Assert.IsTrue(room.PlaybackHeld);
+  var memory=room.Memory;float cursor=room.PlaybackSeconds;room.SetReplayUpgradeAvailable(false);
+  Assert.IsFalse(room.ReplayUpgradeUnlocked);Assert.IsFalse(room.PlaybackBackwards);Assert.IsFalse(room.PlaybackHeld);
+  room.Step(default,false,true,true);Assert.AreSame(memory,room.Memory);Assert.Greater(room.PlaybackSeconds,cursor);
+  Assert.IsFalse(room.PlaybackBackwards);Assert.IsFalse(room.PlaybackHeld);
+ }
  [UnityTest]public IEnumerator ReplayOperatesPlateAndGateWithoutResettingPlayer(){
   yield return Load();room.player.ResetAt(new Vector2(17,0));Step();Hold();for(int i=0;i<100;i++)Step();Finish();Assert.IsTrue(room.plate.Pressed);Assert.IsTrue(room.door.Open);
-  room.player.ResetAt(new Vector2(20,0));Step();Assert.IsFalse(room.door.Open);Step(true);Step();Assert.IsTrue(room.echo.Active);Assert.IsTrue(room.plate.Pressed);Assert.IsTrue(room.door.Open);Assert.That(room.player.Position.x,Is.EqualTo(20).Within(.001f));
+  room.player.ResetAt(new Vector2(20,0));Step();Assert.IsTrue(room.AwaitingReplay);Assert.IsTrue(room.door.Open,"The rewound gate stays in its recorded state until replay starts");Step(true);Step();Assert.IsTrue(room.echo.Active);Assert.IsTrue(room.plate.Pressed);Assert.IsTrue(room.door.Open);Assert.That(room.player.Position.x,Is.EqualTo(20).Within(.001f));
   for(int i=0;i<110;i++)Step();Assert.IsTrue(room.echo.Active);Assert.IsTrue(room.door.Open);
  }
 }

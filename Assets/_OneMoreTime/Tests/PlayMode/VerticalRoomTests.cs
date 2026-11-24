@@ -16,15 +16,17 @@ public class VerticalRoomTests {
  IEnumerator Load(){EditorSceneManager.LoadSceneInPlayMode("Assets/_OneMoreTime/Scenes/"+MainRoom.RoomThreeScene+".unity",new LoadSceneParameters(LoadSceneMode.Single));yield return null;room=Object.FindAnyObjectByType<MainRoom>();room.AutoTick=false;for(int i=0;i<160&&room.Phase==MainRoom.RoomPhase.Entering;i++)Step();Step();}
  [UnityTest]public IEnumerator HeldKeyboardMovementSurvivesShutter(){
   yield return Load();Assert.IsFalse(room.showTips);Assert.IsEmpty(room.Prompt);Assert.AreEqual(0,room.GetComponentsInChildren<LineRenderer>(true).Length);Assert.AreEqual(31,room.lift.dock.x);
+  // Isolate native focus/update clocks: Editor updates do not provide gameplay button edges.
+  var fixture=new InputTestFixture();fixture.Setup();KeyBindings.Reload();
   var previous=Keyboard.current;var keyboard=InputSystem.AddDevice<Keyboard>();keyboard.MakeCurrent();room.AutoTick=true;
   void Keys(params Key[] keys){InputSystem.QueueStateEvent(keyboard,new KeyboardState(keys));InputSystem.Update();room.SendMessage("Update");room.SendMessage("FixedUpdate");Physics2D.SyncTransforms();}
   try{
-   Keys();for(int i=0;i<10;i++)Keys(Key.D);Assert.Greater(room.player.Velocity.x,0);
-   Keys(Key.D,Key.E);Assert.IsTrue(room.shutter.Snapping);var captured=room.shutter.Position;
-   for(int i=0;i<24;i++)Keys(Key.D,Key.E);Assert.IsFalse(room.shutter.Snapping);Assert.Greater(room.player.Position.x,captured.x+.1f);Assert.AreEqual(captured,room.shutter.Position,"Held E must not repeat");
-   Keys(Key.D);Keys(Key.D,Key.E);Assert.IsTrue(room.shutter.Snapping);for(int i=0;i<28;i++)Keys(Key.A);Assert.Less(room.player.Velocity.x,0,"Direction can change during snap");
-   Keys(Key.A,Key.E);Assert.IsTrue(room.shutter.Snapping);for(int i=0;i<28;i++)Keys();Assert.AreEqual(0,room.player.Velocity.x,"Released movement must not remain latched");
-  }finally{room.AutoTick=false;InputSystem.RemoveDevice(keyboard);if(previous!=null)previous.MakeCurrent();}
+   Keys();for(int i=0;i<10;i++)Keys(KeyBindings.Get(GameAction.MoveRight));Assert.Greater(room.player.Velocity.x,0);
+   Keys(KeyBindings.Get(GameAction.MoveRight),KeyBindings.Get(GameAction.Shutter));Assert.IsTrue(room.shutter.Snapping);var captured=room.shutter.Position;
+   for(int i=0;i<24;i++)Keys(KeyBindings.Get(GameAction.MoveRight),KeyBindings.Get(GameAction.Shutter));Assert.IsFalse(room.shutter.Snapping);Assert.Greater(room.player.Position.x,captured.x+.1f);Assert.AreEqual(captured,room.shutter.Position,"Held shutter must not repeat");
+   Keys(KeyBindings.Get(GameAction.MoveRight));Keys(KeyBindings.Get(GameAction.MoveRight),KeyBindings.Get(GameAction.Shutter));Assert.IsTrue(room.shutter.Snapping);for(int i=0;i<28;i++)Keys(KeyBindings.Get(GameAction.MoveLeft));Assert.Less(room.player.Velocity.x,0,"Direction can change during snap");
+   Keys(KeyBindings.Get(GameAction.MoveLeft),KeyBindings.Get(GameAction.Shutter));Assert.IsTrue(room.shutter.Snapping);for(int i=0;i<28;i++)Keys();Assert.AreEqual(0,room.player.Velocity.x,"Released movement must not remain latched");
+  }finally{room.AutoTick=false;InputSystem.RemoveDevice(keyboard);if(previous!=null)previous.MakeCurrent();fixture.TearDown();KeyBindings.Reload();}
  }
  [UnityTest]public IEnumerator ShuttleCarriesBothDirectionsAndAllowsJumpAndDrop(){
   yield return Load();var p=room.mechanisms.platforms[0];Assert.IsFalse(p.Active);
@@ -79,7 +81,13 @@ public class VerticalRoomTests {
  [UnityTest]public IEnumerator FinalPlateOpensLiftAndTransfersUpward(){
   yield return Load();Assert.IsFalse(room.lift.Open);Place(new Vector2(25.5f,39));Snap();
   for(int i=0;i<100&&room.Phase==MainRoom.RoomPhase.Playing;i++)Step(1);Assert.AreEqual(MainRoom.RoomPhase.Exiting,room.Phase);float y=room.player.Position.y;for(int i=0;i<12;i++)Step(-1,true);Assert.Greater(room.player.Position.y,y);
-  for(int i=0;i<150&&room.Phase!=MainRoom.RoomPhase.Complete;i++)Step();yield return null;Assert.AreEqual(MainRoom.LiftLandingScene,SceneManager.GetActiveScene().name);room=Object.FindAnyObjectByType<MainRoom>();room.AutoTick=false;for(int i=0;i<160&&room.Phase==MainRoom.RoomPhase.Entering;i++)Step();Assert.AreEqual(MainRoom.RoomPhase.Playing,room.Phase);Assert.That(room.player.Position.y,Is.EqualTo(0).Within(.02f));
+  for(int i=0;i<150&&room.Phase!=MainRoom.RoomPhase.Complete;i++)Step();yield return null;
+  Assert.AreEqual("Main_Room04",SceneManager.GetActiveScene().name);
+  var arrival=Object.FindAnyObjectByType<ChapterOneRoom>();Assert.IsNotNull(arrival);arrival.AutoTick=false;
+  Assert.AreEqual(4,arrival.roomNumber);Assert.IsTrue(arrival.room.lift.arrival);Assert.AreEqual(new Vector2(2,1),arrival.room.lift.dock);
+  for(int i=0;i<300&&arrival.CurrentPhase==ChapterOneRoom.Phase.Entering;i++)arrival.Step(default,false);
+  Assert.AreEqual(ChapterOneRoom.Phase.Playing,arrival.CurrentPhase);Assert.IsFalse(arrival.room.lift.Riding);
+  Assert.That(arrival.room.player.Position.y,Is.EqualTo(1).Within(.02f));Assert.IsFalse(arrival.ReplayAvailable);
  }
 }
 }

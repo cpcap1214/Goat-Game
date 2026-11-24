@@ -86,3 +86,68 @@ RunManager 在每次遊玩模擬前保留角色與殘影的位置，LateUpdate �
 ## 2026-09-22 操作列與世界視野分區
 
 RunManager.LateUpdate 依 GameUI.GameplayViewport 設定攝影機 normalized rect。960×540 UI 的底部37單位專供操作列，上方503單位顯示世界；保持 orthographicSize，因此不裁掉原本世界上下界。矩形使用與 GameUI 相同的等比縮放與置中，適用寬/高視窗。操作列改為不透明底色。其他選單場景不使用此 viewport。
+
+
+## 2026-11-19 Main Rooms 5–8
+
+`ChapterOneRoom` orchestrates the new room sequence, entry/exit fades, the past-view lens, checkpoints, hazards, and plate/door evaluation. It disables the old `MainRoom` and `RewindPlaytest` automatic loops: `RewindPlaytest.Step` remains the single 0.02-second simulation clock for the player, moving platforms, floating sources, and rewind participants. Shared movement tuning is unchanged.
+
+`ChapterEraGroup` keeps authored colors/sorting in serialized baseline arrays, so entering, reloading and rewinding never repeatedly darkens a bridge. Inactive spans retain a dark background image but disable collision; switching refuses to embed the player in an emerging span. `ChapterOneRoom` snapshots era/plate/door state as a state-only `RewindParticipant`. The new `HasTransformHistory` property defaults to true; state-only controllers and collapsing bridges opt out of decorative transform paths/tints while retaining rewind state.
+
+`ChapterCrumbleBridge` records its warning timer, collision and falling artwork. Floating timber uses the existing `CrateSpawner` pools and replay carry; sources remain empty in the saved scenes and spawn one item on the first live tick. Preview rendering seeds temporary items without saving them. The reverse-playback pickup in Room 7 uses session-level `MainGameProgress.ReplayUpgradeUnlocked`; Room 8 enables that upgrade for independent debug testing. No disk save or Chapter 2 scene is introduced.
+
+The partial `ChapterOneExpansionBuilder` owns only `Room N Expansion Managed` in Scenes 05–08 and the Room 4 destination reference. Layout coordinates are separated into `ChapterOneRooms56.cs` and `ChapterOneRooms78.cs`. Rebuilding replaces each managed root and preserves other roots; loaded dirty target scenes are rejected.
+
+
+## 2026-11-23 Chapter ability scope and shared memory switching
+
+`MainGameProgress.IsDebugMode` is initialized only by the Debug menu and cleared by New Game or menu return. Chapter Rooms 5–8 capture that scope in `ChapterOneRoom`: normal play hides the advanced cassette, masks reverse/hold input, disables the filter, enables both authored bridge-span sets and sends floating sources downstream from the left bank. Debug entry preserves the original filter and upstream/reverse layouts. Runtime defaults do not rewrite serialized scenes. `CrateDisposalTrigger.disposeToRight` supports the downstream endpoint while retaining the previous leftward default.
+
+`CameraEquipment.For` derives every visible module from the local acquisition state and chapter scope. The camera body itself requires the shutter pickup; before acquiring any ability, the assembly is empty. The top-left replay status/tips panel has been removed from `RewindPlaytestHUD`.
+
+`RewindPlaytest.TryUseShutter` centralizes switching from a saved replay to a shutter image for both Room 4 and later chapter rooms. Only a successful shutter capture discards replay memory, paths and playback controls; recording, world rewind and pause reject the switch. Player position/velocity and the owned upgrade are retained. Starting another recording still replaces shutter, keeping a single memory slot.
+
+## 2026-11-23 Waiting between world rewind and replay
+
+`RewindPlaytest.AwaitingReplay` is true when a saved memory is Ready and its echo is inactive. This deliberately excludes an active echo parked at either playback endpoint. The fixed simulation clock holds all affected platforms/crates/participants while waiting; player simulation and nonaffected objects continue. Plate/door evaluation in both the replay driver and `ChapterOneRoom` respects the same per-object flags. The saved snapshot is not reapplied to the player each tick.
+
+`RoomPlatform.HoldFrame()` clears carrier delta and updates the stationary top plane without evaluating activation, changing shuttle direction, or consuming time. `RewindParticipant.HoldFrame()` supplies an optional equivalent hook; floating sources use it to clear each object's carrier delta. `Tick(0)` is intentionally not used because it can still spawn items or change mechanism state. Crate disposal callbacks also respect waiting. All velocities, bob clocks, activation edges, timers and recorded frames are preserved for resumption.
+
+A replay key tap releases the wait via the existing Play transition; holding to record again and successful shutter replacement clear the saved memory and release it too. Retry preserves memory and re-enters waiting. The Room 4 imaginary acquisition has no recorded crate movement, but now also waits before its ordinary source simulation starts. No camera/UI/ability-tier changes were introduced.
+
+### Room 7 tower mechanisms (2026-11-23)
+
+`RoomPlatform` retains its default plate-controlled shuttle behavior and adds explicit `ClosedRoute`/`DispatchedRoute` modes, local waypoint offsets, full-cycle durations, simultaneous plate requirements, and a permanent activation latch. Motion and collider carry remain owned by the shared replay clock; route progress, pooled deck existence, press edges and cooldown are captured in rewind snapshots. `PlatformDispatcher` only launches from an active pool and never advances a deck a second time. Waiting for replay calls existing hold behavior.
+
+`RoomTrapdoor` deliberately does not implement `RewindParticipant`; its source plate sets `affectedByRewind=false`. `ChapterOneRoom` evaluates the triggering plate and consumes the entire reveal step before any gameplay/recording clocks. The door separates its leaves, disables their colliders when fully open, and overlays a vertical camera pan/zoom while x remains 10. The once-only opening persists through retry and world rewind. `exitUpwards` gates the airborne exit on the opened door and animates the goat upward before loading the next room.
+
+## 2026-11-23 Room 8 traveling checkpoint and reveal
+
+`RoomPlatform.Motion.OneWayTravel` appends a serialized enum value, preserving older motion modes. A plate latches the trip, `journeySeconds` controls its linear duration, and the platform parks solid at the endpoint. Its existing rewind snapshot contains journey state; the existing simulation/carry path remains the only movement owner.
+
+`MovingRoomCheckpoint` parents the statue to the deck and synchronizes `MainRoom.ActiveCheckpoint` by object identity. `RewindPlaytest.RetryRestored` runs after world restoration but before the ordinary `Retried` revival callback; this allows the platform, statue and player to return home before revival begins. `WorldRewindFinished` handles recording deaths after their visible rewind. Ordinary rewinds do not invoke the death reset. Saved memory is retained.
+
+`RoomPlatformReveal` is driven by `ChapterOneRoom.Step`, using only a presentation timer while gameplay simulation, recording, platform movement and floating-object clocks are paused. It pans to the remote carrier and returns, respects pause, and resets on death. Decorative water shaders retain their existing rendering-time animation. Room 8's `enterFromBelow` handles the upward arrival without modifying Room 7's exit.
+
+`RoomEightLayout` owns official geometry; `RoomEightScenery` owns noncolliding scaffold and waterfall/cave art. The original Room 8 scene was copied by AssetDatabase into `Tests/Fixtures/Main_Room08.unity` to retain earlier era/crumble/river tests; it is excluded from Build Settings.
+
+### 2026-11-24 Shutter clearance and sinking visuals
+
+`EchoSurface.WaitForPlayerToExit` captures the new shutter body's bounds. `CanSupport` arms it only after the complete live player body exits; `Active` remains available to pressure plates. Both MainRoom and replay's shutter fallback consult this gate. `PlayerMotor2D.ReleaseEchoSupport` clears stale support/coyote state when replacing a copy, preventing upward snapping. Recorded replay echoes retain their existing support rules.
+
+`FloatingObject2D` snapshots the whirlpool's waterline and applies a cached per-renderer `FloatingSubmersion` shader only while sinking. World-space clipping hides pixels below the surface without recoloring the visible sprite; restoring a nonsinking state restores its original material. Pool lifetime and collision remain driven by existing simulation. The shader is in Resources so builds include it.
+
+
+## 2026-11-24 Current room order and acquisition gate
+
+This section supersedes room numbers and destination references in the earlier dated architecture records. Physical scene assets were moved with GUIDs preserved: the former Room 6 riverworks is `Scenes/Main_Room04.unity`, the former Room 4 acquisition is `Scenes/Main_Room05.unity`, and the former Room 5 broken crossing is `Scenes/Main_Room06.unity`. Campaign order remains 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8. Debug entries 9/10/11 now open riverworks/acquisition/bridges respectively; entries 12/13 remain Rooms 7/8.
+
+`ChapterOneExpansionBuilder.BuildRoom(4)` builds riverworks through `Layout4` in the retained `ChapterOneRooms56.cs`. `BuildRoom(6)` builds the broken crossing through `Layout6` in the retained `RoomFiveLayout.cs`. `BuildRoom(5)` delegates to `RoomFourBuilder.Build()`; stable legacy `RoomFour*` class/script/prefab names avoid breaking references. Its output and managed root are now `Main_Room05.unity` / `Room 5 Managed`, and the Editor menu commands read **Build Main Room 5** and **Update Existing Room 5**. The broader generator command is **Build Chapter 1 Rooms 4–8**. Builders continue to reject unsaved target-scene edits and only manage their own generated content.
+
+`ChapterOneRoom.ReplayAvailable` requires `roomNumber > 4` and the session's basic-replay unlock. Room 4 does not grant that unlock, and both normal and Debug entry gate held-record, replay-direction/hold input, replay HUD and the pause camera's cassette. It retains the shared `RewindPlaytest.Step` simulation for movement, logs and platforms, and Shutter still works. Merely using that backend does not grant the player recording. The acquisition remains the explicit unlock point in Room 5; later rooms may grant basic replay on direct entry for independent playtesting. Existing past/advanced ability scope is unchanged.
+
+Room 4 receives Room 3's lift at dock **(2,1)**, traveling **7 units at 3 units/sec**. Its one-way landing x=0.5–4 stays open underneath; solid entrance bank begins at x=4 and ends at x=8. The three final timber steps are unchanged. A bank with top y=12, body x=92–97 and inward bevel x=91–92 replaces the old high exit lift. Trigger x=95–97 starts the horizontal exit to Room 5.
+
+`Room4AbilityTutorial.SceneName` is now `Main_Room05`, with `nextRoomScene=Main_Room06`. When `room.lift` is null, the controller starts at **(0.5,4)** and walks to **(2,4)** while fading in; once arrived it captures the retry anchor and starts Approach or Playing according to acquisition ownership. Its optional lift branch remains compatible. Tape pickup, bridge collapse, slow fall, 0.25-second record hold, imaginary rewind and menu-return reset retain their previous behavior. Room 6's new automatic exit lift docks at **(88,9)** and travels **8 units at 4 units/sec**, fading into Room 7.
+
+The current user-facing layout guide is `ROOMS_5_TO_8.md` despite its retained filename. `ROOM_FOUR.md` begins with current Room 5 instructions and preserves its older dated implementation/test records below a superseded notice. Test results for this reorder are recorded separately in `STATUS.md` and `TEST_REPORT.md`.

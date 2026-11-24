@@ -1,0 +1,2004 @@
+fileFormatVersion: 2
+guid: 2b22b275b33c840ac9e57d01b4c31018
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2836702842334546444
+    second: FloatingTimber_0
+  - first:
+      213: 2639661913265825204
+    second: FloatingTimber_1
+  - first:
+      213: 6904688426381919685
+    second: FloatingTimber_2
+  - first:
+      213: -8300286717870280975
+    second: FloatingTimber_3
+  - first:
+      213: -3716358820747728919
+    second: FloatingTimber_4
+  - first:
+      213: -851401880815023885
+    second: FloatingTimber_5
+  - first:
+      213: 3006179703344643374
+    second: FloatingTimber_6
+  - first:
+      213: -2105717989380489096
+    second: FloatingTimber_7
+  - first:
+      213: 2443618099712163131
+    second: FloatingTimber_8
+  - first:
+      213: -2325925944086835409
+    second: FloatingTimber_9
+  - first:
+      213: 7800341022769473483
+    second: FloatingTimber_10
+  - first:
+      213: 83440449631063134
+    second: FloatingTimber_11
+  - first:
+      213: -141752643764891840
+    second: FloatingTimber_12
+  - first:
+      213: 158763042849771785
+    second: FloatingTimber_13
+  - first:
+      213: -3568158061002201723
+    second: FloatingTimber_14
+  - first:
+      213: -5919564879694038723
+    second: FloatingTimber_15
+  - first:
+      213: 6915334216465331526
+    second: FloatingTimber_16
+  - first:
+      213: -6698894076290847543
+    second: FloatingTimber_17
+  - first:
+      213: 3545919776325189766
+    second: FloatingTimber_18
+  - first:
+      213: 8955418026167668547
+    second: FloatingTimber_19
+  - first:
+      213: 6420985794376510759
+    second: FloatingTimber_20
+  - first:
+      213: 106634302079352388
+    second: FloatingTimber_21
+  - first:
+      213: -3143774336041792151
+    second: FloatingTimber_22
+  - first:
+      213: -1842040096800419918
+    second: FloatingTimber_23
+  - first:
+      213: -8256977247227775877
+    second: FloatingTimber_24
+  - first:
+      213: -116674352092576340
+    second: FloatingTimber_25
+  - first:
+      213: 1005727412060804542
+    second: FloatingTimber_26
+  - first:
+      213: 9164766548521998356
+    second: FloatingTimber_27
+  - first:
+      213: -5628593276680140120
+    second: FloatingTimber_28
+  - first:
+      213: -4196778773045697653
+    second: FloatingTimber_29
+  - first:
+      213: 5587316947612920764
+    second: FloatingTimber_30
+  - first:
+      213: 8955127319860988521
+    second: FloatingTimber_31
+  - first:
+      213: 5549628717351886860
+    second: FloatingTimber_32
+  - first:
+      213: -5558304285219991839
+    second: FloatingTimber_33
+  - first:
+      213: 2796326611974719399
+    second: FloatingTimber_34
+  - first:
+      213: -2407816846150441341
+    second: FloatingTimber_35
+  - first:
+      213: -7463913762878250612
+    second: FloatingTimber_36
+  - first:
+      213: -8739028568253309822
+    second: FloatingTimber_37
+  - first:
+      213: -1475640347935177899
+    second: FloatingTimber_38
+  - first:
+      213: 3354180502091290945
+    second: FloatingTimber_39
+  - first:
+      213: -6015166529387278376
+    second: FloatingTimber_40
+  - first:
+      213: -3885861109896540197
+    second: FloatingTimber_41
+  - first:
+      213: -9143272179549673764
+    second: FloatingTimber_42
+  - first:
+      213: -3055219450136423156
+    second: FloatingTimber_43
+  - first:
+      213: 7057461975428803210
+    second: FloatingTimber_44
+  - first:
+      213: 8017012472582537951
+    second: FloatingTimber_45
+  - first:
+      213: -6890713422481724657
+    second: FloatingTimber_46
+  - first:
+      213: 7254621177471496634
+    second: FloatingTimber_47
+  - first:
+      213: 5504549827936884582
+    second: FloatingTimber_48
+  - first:
+      213: -6954724327758918829
+    second: FloatingTimber_49
+  - first:
+      213: 1180850875575691847
+    second: FloatingTimber_50
+  - first:
+      213: 4661450417331695077
+    second: FloatingTimber_51
+  - first:
+      213: 5792541330988673171
+    second: FloatingTimber_52
+  - first:
+      213: 4642462158604159107
+    second: FloatingTimber_53
+  - first:
+      213: -8504437470353381718
+    second: FloatingTimber_54
+  - first:
+      213: -5187757410328143845
+    second: FloatingTimber_55
+  - first:
+      213: 8100597025573373051
+    second: FloatingTimber_56
+  - first:
+      213: -8425165570907552545
+    second: FloatingTimber_57
+  - first:
+      213: -9121522713606128814
+    second: FloatingTimber_58
+  - first:
+      213: 3672676322789000291
+    second: FloatingTimber_59
+  - first:
+      213: 8382436308837435989
+    second: FloatingTimber_60
+  - first:
+      213: 8426102969334520952
+    second: FloatingTimber_61
+  - first:
+      213: -8570280678726616964
+    second: FloatingTimber_62
+  - first:
+      213: -2257518191364895417
+    second: FloatingTimber_63
+  - first:
+      213: 5004133818950994364
+    second: FloatingTimber_64
+  - first:
+      213: -945932118165637826
+    second: FloatingTimber_65
+  - first:
+      213: -2405136108935222219
+    second: FloatingTimber_66
+  - first:
+      213: 2806970575660854707
+    second: FloatingTimber_67
+  - first:
+      213: -5205586487731805378
+    second: FloatingTimber_68
+  - first:
+      213: 4670125654552132378
+    second: FloatingTimber_69
+  - first:
+      213: 3754347095354038663
+    second: FloatingTimber_70
+  - first:
+      213: -3651910865124213964
+    second: FloatingTimber_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FloatingTimber_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 538
+        width: 162
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5fe4d5bc102a8d0800000000000000
+      internalID: -2836702842334546444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 455
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5665b4686f1a420800000000000000
+      internalID: 2639661913265825204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 463
+        width: 200
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5ce3b8a8162df50800000000000000
+      internalID: 6904688426381919685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 516
+        width: 235
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fee277f4357fcc80800000000000000
+      internalID: -8300286717870280975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_4
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 75
+        width: 743
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e72177b757dc6cc0800000000000000
+      internalID: -3716358820747728919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_5
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 596
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8cbe410863f24f0800000000000000
+      internalID: -851401880815023885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_6
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 592
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2db8d4438818b920800000000000000
+      internalID: 3006179703344643374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_7
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 594
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87083dd25acf6c2e0800000000000000
+      internalID: -2105717989380489096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_8
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 592
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dfe0007b979e120800000000000000
+      internalID: 2443618099712163131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_9
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 594
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fc6d85da6a8bfd0800000000000000
+      internalID: -2325925944086835409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_10
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 457
+        width: 204
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7e41d05d0604c60800000000000000
+      internalID: 7800341022769473483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_11
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 538
+        width: 100
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c882895a0782100800000000000000
+      internalID: 83440449631063134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_12
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 564
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fcb66b8b4680ef0800000000000000
+      internalID: -141752643764891840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_13
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 578
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9015584752a043200800000000000000
+      internalID: 158763042849771785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_14
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 553
+        width: 76
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585648ff52b5b7ec0800000000000000
+      internalID: -3568158061002201723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_15
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 536
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3975f8ea1b79dda0800000000000000
+      internalID: -5919564879694038723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_16
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 550
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6453583b4d338ff50800000000000000
+      internalID: 6915334216465331526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 518
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc27b2745fb803a0800000000000000
+      internalID: -6698894076290847543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 126
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68045eddf33a53130800000000000000
+      internalID: 3545919776325189766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_19
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 122
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f8ad83f39084c70800000000000000
+      internalID: 8955418026167668547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_20
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 128
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d24a56f8ceb1950800000000000000
+      internalID: 6420985794376510759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 128
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ebf403557da7100800000000000000
+      internalID: 106634302079352388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_22
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 119
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d4d36d5e11f54d0800000000000000
+      internalID: -3143774336041792151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 277
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf4f20aa42cf66e0800000000000000
+      internalID: -1842040096800419918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_24
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 148
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b747184e0f2596d80800000000000000
+      internalID: -8256977247227775877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 120
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca58f118b4d716ef0800000000000000
+      internalID: -116674352092576340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_26
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 121
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5d1c0b0cf05fd00800000000000000
+      internalID: 1005727412060804542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 275
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418590e6e9acf2f70800000000000000
+      internalID: 9164766548521998356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 120
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa04568c3833e1b0800000000000000
+      internalID: -5628593276680140120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8326bff0fb02c5c0800000000000000
+      internalID: -4196778773045697653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_30
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 167
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbecf539232a8d40800000000000000
+      internalID: 5587316947612920764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_31
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 190
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ac5b2e9d0074c70800000000000000
+      internalID: 8955127319860988521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_32
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 184
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00e01d4aed340d40800000000000000
+      internalID: 5549628717351886860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_33
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 144
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee4ee5a3bfecd2b0800000000000000
+      internalID: -5558304285219991839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_34
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 130
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a789beec3c8ec620800000000000000
+      internalID: 2796326611974719399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_35
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 97
+        width: 518
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3866009e557b59ed0800000000000000
+      internalID: -2407816846150441341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_36
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 118
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c812e796af9da6890800000000000000
+      internalID: -7463913762878250612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_37
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 116
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c554b81dbb8b680800000000000000
+      internalID: -8739028568253309822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_38
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 127
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553071dfbe8758be0800000000000000
+      internalID: -1475640347935177899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_39
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 114
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14951bb35617c8e20800000000000000
+      internalID: 3354180502091290945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_40
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df4d0749e5d58ca0800000000000000
+      internalID: -6015166529387278376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_41
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 112
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf8c12a8e5a21ac0800000000000000
+      internalID: -3885861109896540197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_42
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 100
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6ea3555629c1180800000000000000
+      internalID: -9143272179549673764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_43
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 97
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0511cbe81ea995d0800000000000000
+      internalID: -3055219450136423156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_44
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 95
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8aa24d464421f160800000000000000
+      internalID: 7057461975428803210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_45
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 115
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2882c2e56224f60800000000000000
+      internalID: 8017012472582537951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_46
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 130
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0be5fb96a44f50a0800000000000000
+      internalID: -6890713422481724657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_47
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 130
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1f63736879da460800000000000000
+      internalID: 7254621177471496634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_48
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 111
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6679d9677e6146c40800000000000000
+      internalID: 5504549827936884582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_49
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 97
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b8925521bdb7f90800000000000000
+      internalID: -6954724327758918829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_50
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 160
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ae56b6d99336010800000000000000
+      internalID: 1180850875575691847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_51
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 112
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ede627057cc0b040800000000000000
+      internalID: 4661450417331695077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_52
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398295c76ad336050800000000000000
+      internalID: 5792541330988673171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_53
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 208
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3884bc68cb65d6040800000000000000
+      internalID: 4642462158604159107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_54
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 184
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6a01ddd2b2af980800000000000000
+      internalID: -8504437470353381718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_55
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 103
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b189d780f126108b0800000000000000
+      internalID: -5187757410328143845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_56
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 103
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7403e1731a1b6070800000000000000
+      internalID: 8100597025573373051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_57
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 104
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4443c3d8cc31b80800000000000000
+      internalID: -8425165570907552545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_58
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b79dc7b67d96180800000000000000
+      internalID: -9121522713606128814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_59
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36483da28a7f7f230800000000000000
+      internalID: 3672676322789000291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_60
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 104
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a879c2965645470800000000000000
+      internalID: 8382436308837435989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_61
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 98
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c5c08d1088fe470800000000000000
+      internalID: 8426102969334520952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_62
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 176
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c783b17412f301980800000000000000
+      internalID: -8570280678726616964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_63
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 97
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d86b17a2faba0e0800000000000000
+      internalID: -2257518191364895417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_64
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 112
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9c71ff131427540800000000000000
+      internalID: 5004133818950994364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_65
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 127
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35ba1310cf5fd2f0800000000000000
+      internalID: -945932118165637826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_66
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 279
+        width: 488
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c637ea37d3f9ed0800000000000000
+      internalID: -2405136108935222219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_67
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 112
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd2d39dddc54f620800000000000000
+      internalID: 2806970575660854707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_68
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 39
+        width: 222
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e332c277baa02c7b0800000000000000
+      internalID: -5205586487731805378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_69
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 114
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bb4081a8e9fc040800000000000000
+      internalID: 4670125654552132378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_70
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 81
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789d816bace1a1430800000000000000
+      internalID: 3754347095354038663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingTimber_71
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 146
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bb1e4ba6ec15dc0800000000000000
+      internalID: -3651910865124213964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FloatingTimber_0: -2836702842334546444
+      FloatingTimber_1: 2639661913265825204
+      FloatingTimber_10: 7800341022769473483
+      FloatingTimber_11: 83440449631063134
+      FloatingTimber_12: -141752643764891840
+      FloatingTimber_13: 158763042849771785
+      FloatingTimber_14: -3568158061002201723
+      FloatingTimber_15: -5919564879694038723
+      FloatingTimber_16: 6915334216465331526
+      FloatingTimber_17: -6698894076290847543
+      FloatingTimber_18: 3545919776325189766
+      FloatingTimber_19: 8955418026167668547
+      FloatingTimber_2: 6904688426381919685
+      FloatingTimber_20: 6420985794376510759
+      FloatingTimber_21: 106634302079352388
+      FloatingTimber_22: -3143774336041792151
+      FloatingTimber_23: -1842040096800419918
+      FloatingTimber_24: -8256977247227775877
+      FloatingTimber_25: -116674352092576340
+      FloatingTimber_26: 1005727412060804542
+      FloatingTimber_27: 9164766548521998356
+      FloatingTimber_28: -5628593276680140120
+      FloatingTimber_29: -4196778773045697653
+      FloatingTimber_3: -8300286717870280975
+      FloatingTimber_30: 5587316947612920764
+      FloatingTimber_31: 8955127319860988521
+      FloatingTimber_32: 5549628717351886860
+      FloatingTimber_33: -5558304285219991839
+      FloatingTimber_34: 2796326611974719399
+      FloatingTimber_35: -2407816846150441341
+      FloatingTimber_36: -7463913762878250612
+      FloatingTimber_37: -8739028568253309822
+      FloatingTimber_38: -1475640347935177899
+      FloatingTimber_39: 3354180502091290945
+      FloatingTimber_4: -3716358820747728919
+      FloatingTimber_40: -6015166529387278376
+      FloatingTimber_41: -3885861109896540197
+      FloatingTimber_42: -9143272179549673764
+      FloatingTimber_43: -3055219450136423156
+      FloatingTimber_44: 7057461975428803210
+      FloatingTimber_45: 8017012472582537951
+      FloatingTimber_46: -6890713422481724657
+      FloatingTimber_47: 7254621177471496634
+      FloatingTimber_48: 5504549827936884582
+      FloatingTimber_49: -6954724327758918829
+      FloatingTimber_5: -851401880815023885
+      FloatingTimber_50: 1180850875575691847
+      FloatingTimber_51: 4661450417331695077
+      FloatingTimber_52: 5792541330988673171
+      FloatingTimber_53: 4642462158604159107
+      FloatingTimber_54: -8504437470353381718
+      FloatingTimber_55: -5187757410328143845
+      FloatingTimber_56: 8100597025573373051
+      FloatingTimber_57: -8425165570907552545
+      FloatingTimber_58: -9121522713606128814
+      FloatingTimber_59: 3672676322789000291
+      FloatingTimber_6: 3006179703344643374
+      FloatingTimber_60: 8382436308837435989
+      FloatingTimber_61: 8426102969334520952
+      FloatingTimber_62: -8570280678726616964
+      FloatingTimber_63: -2257518191364895417
+      FloatingTimber_64: 5004133818950994364
+      FloatingTimber_65: -945932118165637826
+      FloatingTimber_66: -2405136108935222219
+      FloatingTimber_67: 2806970575660854707
+      FloatingTimber_68: -5205586487731805378
+      FloatingTimber_69: 4670125654552132378
+      FloatingTimber_7: -2105717989380489096
+      FloatingTimber_70: 3754347095354038663
+      FloatingTimber_71: -3651910865124213964
+      FloatingTimber_8: 2443618099712163131
+      FloatingTimber_9: -2325925944086835409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

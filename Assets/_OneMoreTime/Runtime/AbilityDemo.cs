@@ -20,7 +20,7 @@ public sealed class AbilityDemo {
  void Ground(float x,float y,float width){GameUI.Panel(new Rect(x,y,width,400-y),new Color(.25f,.22f,.19f));GameUI.Panel(new Rect(x,y,width,7),GameUI.Mint);}
  public int Draw(AnimationLibrary library){
   GameUI.Shade();GameUI.Frame(new Rect(70,35,820,465));
-  GameUI.Text(new Rect(100,55,660,34),Kind==MemoryKind.Freeze?"定格懷錶 · 操作示範":"回溯沙漏 · 操作示範",25);
+  GameUI.Text(new Rect(100,55,660,34),Kind==MemoryKind.Freeze?"定格相機 · 操作示範":"回溯錄影帶 · 操作示範",25);
 
   GameUI.Panel(new Rect(100,185,760,222),new Color(.07f,.15f,.18f));
   string caption,key;
@@ -47,10 +47,10 @@ public sealed class AbilityDemo {
    if(Time>=8){for(int i=0;i<19;i++)GameUI.Panel(new Rect(190+i*20,378,7,3),GameUI.Muted);}
    if(Time>=10&&Time<21)Goat(library,echoX,370,true,Time>=12&&Time<16);
    Goat(library,x,y,false,Time>=2&&Time<6);
-   GameUI.Text(new Rect(120,190,420,25),Time<8?$"錄製示意  {Time:F1} / 10 秒":Time<10?"已保存 · 等待你按 Q":Time<21?"播放一次":"播放結束",15,GameUI.Gold);
+   GameUI.ControlText(new Rect(120,190,420,25),Time<8?$"錄製示意  {Time:F1} / 10 秒":Time<10?"已保存 · 等待你按 Q":Time<21?"播放一次":"播放結束",15,GameUI.Gold);
   }
-  GameUI.Text(new Rect(120,112,710,32),caption,19,GameUI.Cream,TextAnchor.MiddleCenter);
-  GameUI.Key(new Rect(355,150,250,28),key);
+  GameUI.ControlText(new Rect(120,112,710,32),caption,19,GameUI.Cream,TextAnchor.MiddleCenter);
+  GameUI.ControlKey(new Rect(355,150,250,28),key);
   GameUI.Panel(new Rect(100,414,760,4),GameUI.Border);GameUI.Panel(new Rect(100,414,760*Time/Duration,4),GameUI.Gold);
   if(GameUI.Button(new Rect(100,442,200,36),"重播示範"))return 1;
   if(GameUI.Button(new Rect(625,442,235,36),Finished?"換我試試":"略過示範",true,Finished?"Enter":"Esc"))return 2;

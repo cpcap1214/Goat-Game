@@ -40,7 +40,7 @@ public static class MainRoomBuilder {
   Solid(root.transform,"Left room boundary",new Rect(-3.5f,-10,.5f,31),layer);
   Solid(root.transform,"Right room boundary",new Rect(80.4f,-10,.5f,31),layer);
   Statue(root.transform,room);
-  var sign=DemoBuilder.Sprite("Environment/props/sign.png");if(sign!=null)PresentationBuilder.Image(root.transform,"Exit trail marker",sign,new Vector2(75,12.8f),new Vector2(.7f,.8f),4,Color.white);
+  ExitSignBuilder.Patch(scene,1);
   MainRoomArtBuilder.Background(root,room);
   ApplyMaterials(root);
   EditorSceneManager.SaveScene(scene,Path);
@@ -73,10 +73,7 @@ public static class MainRoomBuilder {
  static void Platform(Transform root,string name,Rect rect,int layer){
   var g=Solid(root,name,rect,layer);
   g.AddComponent<OneWayPlatform>();
-  var column=new GameObject("Dirt pillar - visual only");column.transform.SetParent(root);var r=new Rect(rect.xMin,-7,rect.width,rect.yMax+7);column.transform.position=r.center;
-  PresentationBuilder.TerrainSkin(column,r,"Ground");
-  foreach(var renderer in column.GetComponentsInChildren<SpriteRenderer>()){renderer.sortingOrder=-5;renderer.color=new Color(.65f,.73f,.65f);}
-  MainRoomArtBuilder.Grass(g.transform,rect);
+  GrassyPlatformBuilder.Attach(g.transform,rect,-7);
  }
  public static GameObject Statue(Transform root,MainRoom room){
   var statue=new GameObject("Goat statue checkpoint");statue.transform.SetParent(root);Vector2 p=room.checkpoint;statue.transform.position=p;
