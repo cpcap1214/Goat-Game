@@ -9,14 +9,15 @@ public sealed class ShutterAbility : MonoBehaviour {
  public bool Unlocked {get;private set;}
  public bool Snapping {get;private set;}
  public bool HasSnapshot=>echo!=null&&echo.Active;
+ public bool SupportReady=>HasSnapshot&&echo.CanSupport(room.player);
  public const float SnapDuration=.32f;
  public float SnapProgress=>Mathf.Clamp01(snapTime/SnapDuration);
  public Vector2 Position=>HasSnapshot?echo.Pose.position:Vector2.zero;
- public string Hint=>notice>0?"Shutter unlocked! Jump and press [E] to freeze a copy.":!Unlocked?"Collect the purple camera to unlock Shutter":HasSnapshot?"[E] Replace frozen copy · [R] Retry (keeps copy)":"Jump and press [E] to leave a frozen copy. No reset.";
+ public string Hint=>notice>0?"Shutter unlocked! Jump and press [E] to freeze a copy.":!Unlocked?"Collect the camera to unlock Shutter":HasSnapshot?"[E] Replace frozen copy · [R] Retry (keeps copy)":"Jump and press [E] to leave a frozen copy. No reset.";
  float snapTime,notice;
  RecordedFrame captured;
  AudioSource sound;AudioClip click;
- void Awake(){Unlocked=unlockedOnEntry;echo.Clear();sound=gameObject.AddComponent<AudioSource>();sound.playOnAwake=false;
+ void Awake(){AbilityArt.ReplacePickup(pickup,AbilityArt.ShutterCamera);Unlocked=unlockedOnEntry;echo.Clear();sound=gameObject.AddComponent<AudioSource>();sound.playOnAwake=false;
   const int rate=22050;var samples=new float[(int)(rate*.16f)];uint seed=1297;
   for(int i=0;i<samples.Length;i++){seed=1664525*seed+1013904223;float noise=((seed>>8)&65535)/32767.5f-1;float t=i/(float)rate;float env=Mathf.Exp(-t*100)+(t>.065f?Mathf.Exp(-(t-.065f)*125)*.65f:0);samples[i]=noise*env*.6f;}
   click=AudioClip.Create("Synthesized camera shutter",samples.Length,1,rate,false);click.SetData(samples,0);
@@ -30,9 +31,13 @@ public sealed class ShutterAbility : MonoBehaviour {
  }
  public bool Press(){
   if(!Unlocked||Snapping)return false;
-  captured=new RecordedFrame(0,room.player);echo.Show(captured,true);echo.support.enabled=false;
+  captured=new RecordedFrame(0,room.player);echo.Show(captured,true);echo.WaitForPlayerToExit(room.player);echo.support.enabled=false;
+  // Replacing the deck under our feet must not carry its old grounded flag
+  // onto the new, higher copy before the clearance gate has armed.
+  room.player.ReleaseEchoSupport();
   snapTime=0;Snapping=true;notice=0;sound.PlayOneShot(click,GameAudio.EffectsVolume);return true;
  }
+ public void CancelSnap(){Snapping=false;snapTime=0;sound?.Stop();}
  public void DrawOverlay(){if(!Snapping)return;float t=SnapProgress;
   GUI.matrix=Matrix4x4.identity;
   float close=Mathf.Sin(t*Mathf.PI);float h=Screen.height*.5f*close;

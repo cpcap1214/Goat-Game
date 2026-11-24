@@ -1,0 +1,7594 @@
+fileFormatVersion: 2
+guid: edd5bc7aa8e504ee5a44882f39212683
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3808092860490567215
+    second: WaterAccents_0
+  - first:
+      213: -8407675091147790444
+    second: WaterAccents_1
+  - first:
+      213: 1988413769749897465
+    second: WaterAccents_2
+  - first:
+      213: -786895631717181995
+    second: WaterAccents_3
+  - first:
+      213: 1787581518633822376
+    second: WaterAccents_4
+  - first:
+      213: 6826596214558484026
+    second: WaterAccents_5
+  - first:
+      213: -6118337184303437052
+    second: WaterAccents_6
+  - first:
+      213: 3667759270026315393
+    second: WaterAccents_7
+  - first:
+      213: 3655918149237259092
+    second: WaterAccents_8
+  - first:
+      213: -6981859544507951193
+    second: WaterAccents_9
+  - first:
+      213: 6451969402976146521
+    second: WaterAccents_10
+  - first:
+      213: 4769865479320697753
+    second: WaterAccents_11
+  - first:
+      213: -3486366014259861812
+    second: WaterAccents_12
+  - first:
+      213: 7145055655484507892
+    second: WaterAccents_13
+  - first:
+      213: -7533281853538518528
+    second: WaterAccents_14
+  - first:
+      213: -2329147613480540802
+    second: WaterAccents_15
+  - first:
+      213: 2392275866730483873
+    second: WaterAccents_16
+  - first:
+      213: 7131507088402519365
+    second: WaterAccents_17
+  - first:
+      213: 4224515184199067149
+    second: WaterAccents_18
+  - first:
+      213: 7187255015957021906
+    second: WaterAccents_19
+  - first:
+      213: -7464832260099375463
+    second: WaterAccents_20
+  - first:
+      213: 8564926682474728920
+    second: WaterAccents_21
+  - first:
+      213: 8377015955317882928
+    second: WaterAccents_22
+  - first:
+      213: -3302040316083194758
+    second: WaterAccents_23
+  - first:
+      213: 8730707144355855166
+    second: WaterAccents_24
+  - first:
+      213: 1714966376040855255
+    second: WaterAccents_25
+  - first:
+      213: -8733202145638710540
+    second: WaterAccents_26
+  - first:
+      213: 478369150901566622
+    second: WaterAccents_27
+  - first:
+      213: -8870776421810744865
+    second: WaterAccents_28
+  - first:
+      213: 2503679206558161486
+    second: WaterAccents_29
+  - first:
+      213: 6183326758517377246
+    second: WaterAccents_30
+  - first:
+      213: -9083777433302809315
+    second: WaterAccents_31
+  - first:
+      213: 3761320031181059931
+    second: WaterAccents_32
+  - first:
+      213: -5173174933706527140
+    second: WaterAccents_33
+  - first:
+      213: 4570572319668996289
+    second: WaterAccents_34
+  - first:
+      213: -436166574327237315
+    second: WaterAccents_35
+  - first:
+      213: -6212581884955970124
+    second: WaterAccents_36
+  - first:
+      213: 5555986759671768210
+    second: WaterAccents_37
+  - first:
+      213: -709505874116845590
+    second: WaterAccents_38
+  - first:
+      213: 4425789412678850871
+    second: WaterAccents_39
+  - first:
+      213: 1322038283117234653
+    second: WaterAccents_40
+  - first:
+      213: 1615244649386781278
+    second: WaterAccents_41
+  - first:
+      213: 1617421832530753323
+    second: WaterAccents_42
+  - first:
+      213: 7827620541648771319
+    second: WaterAccents_43
+  - first:
+      213: 3320152764717084156
+    second: WaterAccents_44
+  - first:
+      213: 2549970898007248335
+    second: WaterAccents_45
+  - first:
+      213: 2793359801860221262
+    second: WaterAccents_46
+  - first:
+      213: 1293956935165524926
+    second: WaterAccents_47
+  - first:
+      213: -2035691150815635066
+    second: WaterAccents_48
+  - first:
+      213: -5672866856227084001
+    second: WaterAccents_49
+  - first:
+      213: -4121128291804123799
+    second: WaterAccents_50
+  - first:
+      213: 2803577923589226325
+    second: WaterAccents_51
+  - first:
+      213: -8499593238637551708
+    second: WaterAccents_52
+  - first:
+      213: -5510012347365090794
+    second: WaterAccents_53
+  - first:
+      213: 1683763493785452879
+    second: WaterAccents_54
+  - first:
+      213: 9123573646281827919
+    second: WaterAccents_55
+  - first:
+      213: 4933107474769648136
+    second: WaterAccents_56
+  - first:
+      213: -4892324193898053035
+    second: WaterAccents_57
+  - first:
+      213: 6081564778077762255
+    second: WaterAccents_58
+  - first:
+      213: 1968872532601966904
+    second: WaterAccents_59
+  - first:
+      213: 1268884926452054525
+    second: WaterAccents_60
+  - first:
+      213: -2567812097340400485
+    second: WaterAccents_61
+  - first:
+      213: -3838969725108088006
+    second: WaterAccents_62
+  - first:
+      213: 8449275352453623387
+    second: WaterAccents_63
+  - first:
+      213: 265589315180234802
+    second: WaterAccents_64
+  - first:
+      213: 1605110096158825833
+    second: WaterAccents_65
+  - first:
+      213: -883152266112358113
+    second: WaterAccents_66
+  - first:
+      213: -326882907667113388
+    second: WaterAccents_67
+  - first:
+      213: 7218508583222730785
+    second: WaterAccents_68
+  - first:
+      213: 940214594209335862
+    second: WaterAccents_69
+  - first:
+      213: 5386371785506235939
+    second: WaterAccents_70
+  - first:
+      213: -4976207557812479443
+    second: WaterAccents_71
+  - first:
+      213: 3631326373858139097
+    second: WaterAccents_72
+  - first:
+      213: 4040646829982035085
+    second: WaterAccents_73
+  - first:
+      213: -1268025758871032509
+    second: WaterAccents_74
+  - first:
+      213: 1512174946446783160
+    second: WaterAccents_75
+  - first:
+      213: -400923921829231541
+    second: WaterAccents_76
+  - first:
+      213: 4995658463045875505
+    second: WaterAccents_77
+  - first:
+      213: -5948632878409078722
+    second: WaterAccents_78
+  - first:
+      213: -4897618471646850259
+    second: WaterAccents_79
+  - first:
+      213: 5151386070005397539
+    second: WaterAccents_80
+  - first:
+      213: 1208584001695334156
+    second: WaterAccents_81
+  - first:
+      213: 1397891071237048430
+    second: WaterAccents_82
+  - first:
+      213: -5000014388286144315
+    second: WaterAccents_83
+  - first:
+      213: 6005392180341246308
+    second: WaterAccents_84
+  - first:
+      213: 3597782914514434810
+    second: WaterAccents_85
+  - first:
+      213: 1378452697349295495
+    second: WaterAccents_86
+  - first:
+      213: -7452269051236241401
+    second: WaterAccents_87
+  - first:
+      213: -5742670934066662366
+    second: WaterAccents_88
+  - first:
+      213: -8644073573319175459
+    second: WaterAccents_89
+  - first:
+      213: -3876051726820359903
+    second: WaterAccents_90
+  - first:
+      213: -2593813621568161706
+    second: WaterAccents_91
+  - first:
+      213: 5701861063914909947
+    second: WaterAccents_92
+  - first:
+      213: 6340791825263497945
+    second: WaterAccents_93
+  - first:
+      213: -2642669330245869435
+    second: WaterAccents_94
+  - first:
+      213: 2011533047103007643
+    second: WaterAccents_95
+  - first:
+      213: -1014087175599492311
+    second: WaterAccents_96
+  - first:
+      213: -6229834196258310762
+    second: WaterAccents_97
+  - first:
+      213: 6191766751492258914
+    second: WaterAccents_98
+  - first:
+      213: -8095852189021030440
+    second: WaterAccents_99
+  - first:
+      213: 2119436963240768138
+    second: WaterAccents_100
+  - first:
+      213: -6999818674668043687
+    second: WaterAccents_101
+  - first:
+      213: -5653726704435470877
+    second: WaterAccents_102
+  - first:
+      213: 7713828284080240947
+    second: WaterAccents_103
+  - first:
+      213: 4778486590961353890
+    second: WaterAccents_104
+  - first:
+      213: -5058318613887067730
+    second: WaterAccents_105
+  - first:
+      213: 6933173394354214218
+    second: WaterAccents_106
+  - first:
+      213: -3223731201231079154
+    second: WaterAccents_107
+  - first:
+      213: 8965990807581105278
+    second: WaterAccents_108
+  - first:
+      213: 5017201019817098165
+    second: WaterAccents_109
+  - first:
+      213: 8990454605795027883
+    second: WaterAccents_110
+  - first:
+      213: -7270238180417422031
+    second: WaterAccents_111
+  - first:
+      213: -1557061573674579356
+    second: WaterAccents_112
+  - first:
+      213: 5372381829268065199
+    second: WaterAccents_113
+  - first:
+      213: -6875230104228490833
+    second: WaterAccents_114
+  - first:
+      213: -8075755688405893256
+    second: WaterAccents_115
+  - first:
+      213: 1380982190863827849
+    second: WaterAccents_116
+  - first:
+      213: 5202890405743471895
+    second: WaterAccents_117
+  - first:
+      213: 1994193286494859619
+    second: WaterAccents_118
+  - first:
+      213: -2460772775656286249
+    second: WaterAccents_119
+  - first:
+      213: 1324600382676310253
+    second: WaterAccents_120
+  - first:
+      213: -6925275588148044842
+    second: WaterAccents_121
+  - first:
+      213: 3280973204323760457
+    second: WaterAccents_122
+  - first:
+      213: 8421786761386039871
+    second: WaterAccents_123
+  - first:
+      213: -1062210853057069528
+    second: WaterAccents_124
+  - first:
+      213: -1660210243891084320
+    second: WaterAccents_125
+  - first:
+      213: -784064126081369394
+    second: WaterAccents_126
+  - first:
+      213: 4308317052253668922
+    second: WaterAccents_127
+  - first:
+      213: 3920240186478739898
+    second: WaterAccents_128
+  - first:
+      213: 135158130135541376
+    second: WaterAccents_129
+  - first:
+      213: 4074825427722747824
+    second: WaterAccents_130
+  - first:
+      213: 4028170166847549870
+    second: WaterAccents_131
+  - first:
+      213: -6257206256616557705
+    second: WaterAccents_132
+  - first:
+      213: 2180676935192045864
+    second: WaterAccents_133
+  - first:
+      213: -8133267346005593315
+    second: WaterAccents_134
+  - first:
+      213: -9222330338752539100
+    second: WaterAccents_135
+  - first:
+      213: -1535206239124792837
+    second: WaterAccents_136
+  - first:
+      213: 4540805516034208847
+    second: WaterAccents_137
+  - first:
+      213: -6569346746602243214
+    second: WaterAccents_138
+  - first:
+      213: -1978859609728615533
+    second: WaterAccents_139
+  - first:
+      213: -434772774983556989
+    second: WaterAccents_140
+  - first:
+      213: -1208210714969063743
+    second: WaterAccents_141
+  - first:
+      213: 3831810047753401959
+    second: WaterAccents_142
+  - first:
+      213: 5545884878566716842
+    second: WaterAccents_143
+  - first:
+      213: 4573352866458754260
+    second: WaterAccents_144
+  - first:
+      213: -604744070517008770
+    second: WaterAccents_145
+  - first:
+      213: 8230727159235435040
+    second: WaterAccents_146
+  - first:
+      213: 2383853967269223295
+    second: WaterAccents_147
+  - first:
+      213: 9196346528734162544
+    second: WaterAccents_148
+  - first:
+      213: 6724230504127390278
+    second: WaterAccents_149
+  - first:
+      213: -6527161874813672743
+    second: WaterAccents_150
+  - first:
+      213: 2677244535736108553
+    second: WaterAccents_151
+  - first:
+      213: 8527438129680651205
+    second: WaterAccents_152
+  - first:
+      213: 3402843302598274851
+    second: WaterAccents_153
+  - first:
+      213: -7155781786549821012
+    second: WaterAccents_154
+  - first:
+      213: -5931653540614672747
+    second: WaterAccents_155
+  - first:
+      213: -1764563419046899964
+    second: WaterAccents_156
+  - first:
+      213: -1635806249912888785
+    second: WaterAccents_157
+  - first:
+      213: -1252684696460503902
+    second: WaterAccents_158
+  - first:
+      213: 4290993751313334885
+    second: WaterAccents_159
+  - first:
+      213: 9215150191628536307
+    second: WaterAccents_160
+  - first:
+      213: 5515864078545647521
+    second: WaterAccents_161
+  - first:
+      213: -6234040348662510521
+    second: WaterAccents_162
+  - first:
+      213: 7011817734838023928
+    second: WaterAccents_163
+  - first:
+      213: 5365678877005131473
+    second: WaterAccents_164
+  - first:
+      213: 4286146011772968107
+    second: WaterAccents_165
+  - first:
+      213: 8461788161815481928
+    second: WaterAccents_166
+  - first:
+      213: -7130126080836171111
+    second: WaterAccents_167
+  - first:
+      213: 3065441708268006490
+    second: WaterAccents_168
+  - first:
+      213: -489443662630702058
+    second: WaterAccents_169
+  - first:
+      213: -3373102803487985705
+    second: WaterAccents_170
+  - first:
+      213: 177174050431287737
+    second: WaterAccents_171
+  - first:
+      213: -3415017445106082308
+    second: WaterAccents_172
+  - first:
+      213: -918110109128053207
+    second: WaterAccents_173
+  - first:
+      213: 6070934470810240626
+    second: WaterAccents_174
+  - first:
+      213: -8293932460425693121
+    second: WaterAccents_175
+  - first:
+      213: 7034875372003386794
+    second: WaterAccents_176
+  - first:
+      213: 8763122359356542819
+    second: WaterAccents_177
+  - first:
+      213: 4044600724097259602
+    second: WaterAccents_178
+  - first:
+      213: -8212457688509597748
+    second: WaterAccents_179
+  - first:
+      213: 5694568927672698339
+    second: WaterAccents_180
+  - first:
+      213: -2298770598419257208
+    second: WaterAccents_181
+  - first:
+      213: 8799523913002956790
+    second: WaterAccents_182
+  - first:
+      213: 3874007343013808401
+    second: WaterAccents_183
+  - first:
+      213: 5950893957937440101
+    second: WaterAccents_184
+  - first:
+      213: 4866866831806796982
+    second: WaterAccents_185
+  - first:
+      213: 2905157566886024675
+    second: WaterAccents_186
+  - first:
+      213: -1547024801596782644
+    second: WaterAccents_187
+  - first:
+      213: -1391271873321456142
+    second: WaterAccents_188
+  - first:
+      213: -1329684145951250882
+    second: WaterAccents_189
+  - first:
+      213: 459342229680519901
+    second: WaterAccents_190
+  - first:
+      213: -3020968723139688523
+    second: WaterAccents_191
+  - first:
+      213: -1120324522391219704
+    second: WaterAccents_192
+  - first:
+      213: -1012116505479341431
+    second: WaterAccents_193
+  - first:
+      213: -6684769425557970117
+    second: WaterAccents_194
+  - first:
+      213: 1902446739348664123
+    second: WaterAccents_195
+  - first:
+      213: -7157777478777932798
+    second: WaterAccents_196
+  - first:
+      213: -6566328285274717952
+    second: WaterAccents_197
+  - first:
+      213: 204264626138564784
+    second: WaterAccents_198
+  - first:
+      213: 5515437794502923180
+    second: WaterAccents_199
+  - first:
+      213: 1711736727359369688
+    second: WaterAccents_200
+  - first:
+      213: -7614800372252279671
+    second: WaterAccents_201
+  - first:
+      213: 6864978212075059540
+    second: WaterAccents_202
+  - first:
+      213: 2980860968029225851
+    second: WaterAccents_203
+  - first:
+      213: 5535533693245381070
+    second: WaterAccents_204
+  - first:
+      213: 3073147404747056791
+    second: WaterAccents_205
+  - first:
+      213: 5151178857575879654
+    second: WaterAccents_206
+  - first:
+      213: 3214486004150333688
+    second: WaterAccents_207
+  - first:
+      213: -5935832878659132177
+    second: WaterAccents_208
+  - first:
+      213: -7831235037179334876
+    second: WaterAccents_209
+  - first:
+      213: -1013484488932383315
+    second: WaterAccents_210
+  - first:
+      213: -5898495326095709928
+    second: WaterAccents_211
+  - first:
+      213: -8294028737001955058
+    second: WaterAccents_212
+  - first:
+      213: 1895708331290917674
+    second: WaterAccents_213
+  - first:
+      213: -4872591645203764704
+    second: WaterAccents_214
+  - first:
+      213: 4890484810120355951
+    second: WaterAccents_215
+  - first:
+      213: 1179207993127573527
+    second: WaterAccents_216
+  - first:
+      213: -2049204977505557328
+    second: WaterAccents_217
+  - first:
+      213: -2478620422139853392
+    second: WaterAccents_218
+  - first:
+      213: 5782561665999848723
+    second: WaterAccents_219
+  - first:
+      213: -4373580754203778593
+    second: WaterAccents_220
+  - first:
+      213: 87991147991373375
+    second: WaterAccents_221
+  - first:
+      213: -8817349629883341181
+    second: WaterAccents_222
+  - first:
+      213: 6234375937785017323
+    second: WaterAccents_223
+  - first:
+      213: 93596972445241432
+    second: WaterAccents_224
+  - first:
+      213: -8614110461160225083
+    second: WaterAccents_225
+  - first:
+      213: 5557548512780532737
+    second: WaterAccents_226
+  - first:
+      213: -924853103940774726
+    second: WaterAccents_227
+  - first:
+      213: -4675027432838007632
+    second: WaterAccents_228
+  - first:
+      213: -5434811040103286284
+    second: WaterAccents_229
+  - first:
+      213: -5834831108148727436
+    second: WaterAccents_230
+  - first:
+      213: -500512553649259784
+    second: WaterAccents_231
+  - first:
+      213: 3772449142107434240
+    second: WaterAccents_232
+  - first:
+      213: -6698593128328431894
+    second: WaterAccents_233
+  - first:
+      213: -2132415345567705931
+    second: WaterAccents_234
+  - first:
+      213: 6190556627917457367
+    second: WaterAccents_235
+  - first:
+      213: -5590774280380296993
+    second: WaterAccents_236
+  - first:
+      213: 2843312946847924069
+    second: WaterAccents_237
+  - first:
+      213: 8064706800389291263
+    second: WaterAccents_238
+  - first:
+      213: -8495113828706025051
+    second: WaterAccents_239
+  - first:
+      213: -1059447505842678650
+    second: WaterAccents_240
+  - first:
+      213: 5843799359056379257
+    second: WaterAccents_241
+  - first:
+      213: 649018455136585066
+    second: WaterAccents_242
+  - first:
+      213: -6154876403514833058
+    second: WaterAccents_243
+  - first:
+      213: 102531335938591198
+    second: WaterAccents_244
+  - first:
+      213: -6326772676383658325
+    second: WaterAccents_245
+  - first:
+      213: 265290068480347742
+    second: WaterAccents_246
+  - first:
+      213: -24809483831941085
+    second: WaterAccents_247
+  - first:
+      213: 1723049853457335945
+    second: WaterAccents_248
+  - first:
+      213: 7391963780607213028
+    second: WaterAccents_249
+  - first:
+      213: 6059065287512105753
+    second: WaterAccents_250
+  - first:
+      213: -4883852045567061813
+    second: WaterAccents_251
+  - first:
+      213: 606893571756450647
+    second: WaterAccents_252
+  - first:
+      213: -4761891131715442189
+    second: WaterAccents_253
+  - first:
+      213: -3411281581943988701
+    second: WaterAccents_254
+  - first:
+      213: -481646232585101923
+    second: WaterAccents_255
+  - first:
+      213: -8988300316720746785
+    second: WaterAccents_256
+  - first:
+      213: 1268550970302600430
+    second: WaterAccents_257
+  - first:
+      213: 3115887317732053109
+    second: WaterAccents_258
+  - first:
+      213: 2891057546899097400
+    second: WaterAccents_259
+  - first:
+      213: 4225918266529810655
+    second: WaterAccents_260
+  - first:
+      213: -3487202051887394963
+    second: WaterAccents_261
+  - first:
+      213: 2254353669749034949
+    second: WaterAccents_262
+  - first:
+      213: 1127870411378750744
+    second: WaterAccents_263
+  - first:
+      213: 6526250575519487126
+    second: WaterAccents_264
+  - first:
+      213: 2193508865207077844
+    second: WaterAccents_265
+  - first:
+      213: -2975759783199031094
+    second: WaterAccents_266
+  - first:
+      213: -7759628200636505894
+    second: WaterAccents_267
+  - first:
+      213: 4793168665226599626
+    second: WaterAccents_268
+  - first:
+      213: 3926478348305985432
+    second: WaterAccents_269
+  - first:
+      213: 7450671143508340421
+    second: WaterAccents_270
+  - first:
+      213: 6957752195416569760
+    second: WaterAccents_271
+  - first:
+      213: 1372278379092390063
+    second: WaterAccents_272
+  - first:
+      213: -531755907777917378
+    second: WaterAccents_273
+  - first:
+      213: -3137198566219056249
+    second: WaterAccents_274
+  - first:
+      213: 4197009305975935990
+    second: WaterAccents_275
+  - first:
+      213: -8138264536062367915
+    second: WaterAccents_276
+  - first:
+      213: 773823377877182257
+    second: WaterAccents_277
+  - first:
+      213: -3525948134110324463
+    second: WaterAccents_278
+  - first:
+      213: 7439745149945457326
+    second: WaterAccents_279
+  - first:
+      213: -7006286125359424554
+    second: WaterAccents_280
+  - first:
+      213: 3833886451908444591
+    second: WaterAccents_281
+  - first:
+      213: -1715630244455241109
+    second: WaterAccents_282
+  - first:
+      213: -5992017205781351031
+    second: WaterAccents_283
+  - first:
+      213: -8547456004707211663
+    second: WaterAccents_284
+  - first:
+      213: -5284178869234872832
+    second: WaterAccents_285
+  - first:
+      213: -8002661966613559180
+    second: WaterAccents_286
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WaterAccents_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1124
+        width: 67
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ecd3dc74019d430800000000000000
+      internalID: 3808092860490567215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1099
+        width: 134
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4976c35ec00f15b80800000000000000
+      internalID: -8407675091147790444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0207cd9c3489b10800000000000000
+      internalID: 1988413769749897465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1144
+        width: 90
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5d03497926415f0800000000000000
+      internalID: -786895631717181995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1193
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8e8319be3cec810800000000000000
+      internalID: 1787581518633822376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1130
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36e8c99611fcbe50800000000000000
+      internalID: 6826596214558484026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1171
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ba7894fbc471ba0800000000000000
+      internalID: -6118337184303437052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1138
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186809b9f9f76e230800000000000000
+      internalID: 3667759270026315393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_8
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1107
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bb035df2e6cb230800000000000000
+      internalID: 3655918149237259092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1116
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7dee95cb37b1f90800000000000000
+      internalID: -6981859544507951193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_10
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1183
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954151eecfff98950800000000000000
+      internalID: 6451969402976146521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_11
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1155
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bfe41b167f13240800000000000000
+      internalID: 4769865479320697753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_12
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1124
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6eb03e490fd9fc0800000000000000
+      internalID: -3486366014259861812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_13
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1203
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6cc853346582360800000000000000
+      internalID: 7145055655484507892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_14
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1201
+        width: 91
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ab0f63118647790800000000000000
+      internalID: -7533281853538518528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_15
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1140
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e752b0df5943dafd0800000000000000
+      internalID: -2329147613480540802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_16
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 928
+        width: 629
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0d539d932133120800000000000000
+      internalID: 2392275866730483873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_17
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1136
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545996d99e338f260800000000000000
+      internalID: 7131507088402519365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_18
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1124
+        width: 138
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06ed667d2e70aa30800000000000000
+      internalID: 4224515184199067149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_19
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1126
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d443487b524eb360800000000000000
+      internalID: 7187255015957021906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_20
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1128
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e76ec1c96976890800000000000000
+      internalID: -7464832260099375463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_21
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1169
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddcb24507bbcd670800000000000000
+      internalID: 8564926682474728920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_22
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1124
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0308086c0a3214470800000000000000
+      internalID: 8377015955317882928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_23
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1159
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74b7d5d3dbcc22d0800000000000000
+      internalID: -3302040316083194758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_24
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1189
+        width: 102
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bbb49f3e3b92970800000000000000
+      internalID: 8730707144355855166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_25
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1156
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d677ad25d8ccc710800000000000000
+      internalID: 1714966376040855255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_26
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1124
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f286854bee6dc680800000000000000
+      internalID: -8733202145638710540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_27
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1124
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c3efe453283a600800000000000000
+      internalID: 478369150901566622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_28
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1126
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd15f0008dba4e480800000000000000
+      internalID: -8870776421810744865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_29
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1140
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a5e6a29fadeb220800000000000000
+      internalID: 2503679206558161486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_30
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1154
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8889b1de69fc550800000000000000
+      internalID: 6183326758517377246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_31
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1130
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15c6456d80ffe180800000000000000
+      internalID: -9083777433302809315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_32
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1124
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57bb19d3a4e23430800000000000000
+      internalID: 3761320031181059931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_33
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1116
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ea7737ec03538b0800000000000000
+      internalID: -5173174933706527140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_34
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1126
+        width: 107
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c88a1e0f4fed6f30800000000000000
+      internalID: 4570572319668996289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1106
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d357352cfcc62f9f0800000000000000
+      internalID: -436166574327237315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_36
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 933
+        width: 303
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b53c29f0b978c9a0800000000000000
+      internalID: -6212581884955970124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 913
+        width: 307
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29462036584da1d40800000000000000
+      internalID: 5555986759671768210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_38
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1078
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef5637aa245726f0800000000000000
+      internalID: -709505874116845590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_39
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 915
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7395861a5009b6d30800000000000000
+      internalID: 4425789412678850871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_40
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 921
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd98ba460d2d85210800000000000000
+      internalID: 1322038283117234653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_41
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 943
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aac0063708a6610800000000000000
+      internalID: 1615244649386781278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_42
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 935
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27f4f3569c327610800000000000000
+      internalID: 1617421832530753323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_43
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 931
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8968df86b41ac60800000000000000
+      internalID: 7827620541648771319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_44
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 943
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd2efc395d831e20800000000000000
+      internalID: 3320152764717084156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 821
+        width: 138
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd4e4b7501536320800000000000000
+      internalID: 2549970898007248335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_46
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 930
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49ebbf90f104c620800000000000000
+      internalID: 2793359801860221262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_47
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 919
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbb1331afe05f110800000000000000
+      internalID: 1293956935165524926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_48
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 915
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6895a331fa5cfb3e0800000000000000
+      internalID: -2035691150815635066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_49
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 921
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f196f7086ade541b0800000000000000
+      internalID: -5672866856227084001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_50
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 911
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96de33d37afcec6c0800000000000000
+      internalID: -4121128291804123799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_51
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 924
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fb9ab744f48e620800000000000000
+      internalID: 2803577923589226325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_52
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 917
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af52b37bf06b0a80800000000000000
+      internalID: -8499593238637551708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_53
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 917
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a994f96f08883b0800000000000000
+      internalID: -5510012347365090794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_54
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 919
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f414ad40afded5710800000000000000
+      internalID: 1683763493785452879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_55
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 933
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f466ebc74e17d9e70800000000000000
+      internalID: 9123573646281827919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_56
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 929
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a18709c1be57440800000000000000
+      internalID: 4933107474769648136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_57
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 837
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55248a8f019fa1cb0800000000000000
+      internalID: -4892324193898053035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_58
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 592
+        width: 930
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc23ad3b1fe066450800000000000000
+      internalID: 6081564778077762255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_59
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 917
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83193c90327d25b10800000000000000
+      internalID: 1968872532601966904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_60
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 837
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9b5062e1cfb9110800000000000000
+      internalID: 1268884926452054525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_61
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 899
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c1318908c4d5cd0800000000000000
+      internalID: -2567812097340400485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_62
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 883
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33147fef5d39bac0800000000000000
+      internalID: -3838969725108088006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_63
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 821
+        width: 123
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e2678ba2bd14570800000000000000
+      internalID: 8449275352453623387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 851
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238057333109fa300800000000000000
+      internalID: 265589315180234802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_65
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 867
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d90f2d02f764610800000000000000
+      internalID: 1605110096158825833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_66
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 850
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19aacf61b96eb3f0800000000000000
+      internalID: -883152266112358113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_67
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 834
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ada553abda67bf0800000000000000
+      internalID: -326882907667113388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_68
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 826
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1206917af4b4d2460800000000000000
+      internalID: 7218508583222730785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_69
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 849
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a4c7421305c0d00800000000000000
+      internalID: 940214594209335862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 646
+        width: 325
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3262947c99c30ca40800000000000000
+      internalID: 5386371785506235939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 771
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a19fb5795f0fab0800000000000000
+      internalID: -4976207557812479443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_72
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 772
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db5251f810156230800000000000000
+      internalID: 3631326373858139097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_73
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 728
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c23e332e2431830800000000000000
+      internalID: 4040646829982035085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 172
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d62746a41176ee0800000000000000
+      internalID: -1268025758871032509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_75
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 656
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2b4391a135cf410800000000000000
+      internalID: 1512174946446783160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_76
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 616
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44896931d1af6af0800000000000000
+      internalID: -400923921829231541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_77
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 612
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137f50d67e4245540800000000000000
+      internalID: 4995658463045875505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_78
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 624
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38a73f0ae5327da0800000000000000
+      internalID: -5948632878409078722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_79
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 609
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d231910e2f9280cb0800000000000000
+      internalID: -4897618471646850259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_80
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 598
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328319366566d7740800000000000000
+      internalID: 5151386070005397539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_81
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 598
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f35460fb0c5c010800000000000000
+      internalID: 1208584001695334156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_82
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 598
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6846cfd58e466310800000000000000
+      internalID: 1397891071237048430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_83
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 407
+        width: 88
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0cc52b7616c9ab0800000000000000
+      internalID: -5000014388286144315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_84
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 584
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469062ebe50775350800000000000000
+      internalID: 6005392180341246308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_85
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 600
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa3a96bf74ede130800000000000000
+      internalID: 3597782914514434810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_86
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 593
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d0f25cc6f312310800000000000000
+      internalID: 1378452697349295495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_87
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 401
+        width: 61
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7003d6e18c8349890800000000000000
+      internalID: -7452269051236241401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_88
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 586
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224fef0263fed40b0800000000000000
+      internalID: -5742670934066662366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_89
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 593
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd218f122e41a0880800000000000000
+      internalID: -8644073573319175459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 340
+        width: 73
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12145db9d7f753ac0800000000000000
+      internalID: -3876051726820359903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_91
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 399
+        width: 61
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6583cd8f04ce00cd0800000000000000
+      internalID: -2593813621568161706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_92
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 132
+        width: 202
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf077498d64112f40800000000000000
+      internalID: 5701861063914909947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_93
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 593
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d21883f1940ff750800000000000000
+      internalID: 6340791825263497945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_94
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 597
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58020efde3a535bd0800000000000000
+      internalID: -2642669330245869435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_95
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 436
+        width: 64
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ba88616a66aeb10800000000000000
+      internalID: 2011533047103007643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_96
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 463
+        width: 71
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923fc1f261d3de1f0800000000000000
+      internalID: -1014087175599492311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_97
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 583
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695317a3ece2b89a0800000000000000
+      internalID: -6229834196258310762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_98
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 349
+        width: 75
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c35ca1e039de550800000000000000
+      internalID: 6191766751492258914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_99
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 417
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d73557e351c5af80800000000000000
+      internalID: -8095852189021030440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_100
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 431
+        width: 108
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a827cc550b0c96d10800000000000000
+      internalID: 2119436963240768138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_101
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 421
+        width: 77
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95204448006abde90800000000000000
+      internalID: -6999818674668043687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_102
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 369
+        width: 116
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eddbfc548de981b0800000000000000
+      internalID: -5653726704435470877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_103
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 583
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339b6fa64f50d0b60800000000000000
+      internalID: 7713828284080240947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_104
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 272
+        width: 123
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4083aac38905240800000000000000
+      internalID: 4778486590961353890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_105
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 530
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9d382550e3dc9b0800000000000000
+      internalID: -5058318613887067730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_106
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 483
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a451ca8f774973060800000000000000
+      internalID: 6933173394354214218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_107
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 464
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0937437d810343d0800000000000000
+      internalID: -3223731201231079154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_108
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 403
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c1a49b2299d6c70800000000000000
+      internalID: 8965990807581105278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_109
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 433
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbfce8cebda0a540800000000000000
+      internalID: 5017201019817098165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_110
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 398
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babefab94d284cc70800000000000000
+      internalID: 8990454605795027883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_111
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 405
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dbcbfe4ecea1b90800000000000000
+      internalID: -7270238180417422031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_112
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 437
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a47b79fb4346ae0800000000000000
+      internalID: -1557061573674579356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_113
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 393
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab49434fc88e8a40800000000000000
+      internalID: 5372381829268065199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_114
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 392
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1936095a64690a0800000000000000
+      internalID: -6875230104228490833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_115
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 416
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ff9b31df62def80800000000000000
+      internalID: -8075755688405893256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_116
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 401
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983449f5cfb3a2310800000000000000
+      internalID: 1380982190863827849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_117
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 381
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71da0a70241643840800000000000000
+      internalID: 5202890405743471895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_118
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 312
+        width: 53
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361bef67a3cccab10800000000000000
+      internalID: 1994193286494859619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_119
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 385
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d71e02c23499ddd0800000000000000
+      internalID: -2460772775656286249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_120
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de894cea70de16210800000000000000
+      internalID: 1324600382676310253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_121
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 345
+        width: 23
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db50c45b8a74ef90800000000000000
+      internalID: -6925275588148044842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_122
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 388
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949fa49febb588d20800000000000000
+      internalID: 3280973204323760457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_123
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 367
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a908e507230e470800000000000000
+      internalID: 8421786761386039871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_124
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 387
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ef7f26bd44241f0800000000000000
+      internalID: -1062210853057069528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_125
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 373
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e34860549fb5f8e0800000000000000
+      internalID: -1660210243891084320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_126
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 371
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecafacbd4d17e15f0800000000000000
+      internalID: -784064126081369394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_127
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 383
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36865758873acb30800000000000000
+      internalID: 4308317052253668922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_128
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 393
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1c645edad776630800000000000000
+      internalID: 3920240186478739898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_129
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 393
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0862c3f6a9d20e100800000000000000
+      internalID: 135158130135541376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_130
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 363
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfb42d1320bc8830800000000000000
+      internalID: 4074825427722747824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_131
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 284
+        width: 49
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea136c1bc6fe6e730800000000000000
+      internalID: 4028170166847549870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_132
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 361
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773b40ccf00f929a0800000000000000
+      internalID: -6257206256616557705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_133
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 359
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829620c6e12534e10800000000000000
+      internalID: 2180676935192045864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_134
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 351
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d137d02d074d02f80800000000000000
+      internalID: -8133267346005593315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_135
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 343
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426d85d3b63b30080800000000000000
+      internalID: -9222330338752539100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_136
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 351
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9d0043f0ad1bae0800000000000000
+      internalID: -1535206239124792837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_137
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 364
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f447a510f8e240f30800000000000000
+      internalID: 4540805516034208847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_138
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 316
+        width: 75
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27bb76a90fdf4d4a0800000000000000
+      internalID: -6569346746602243214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_139
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 343
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bf1cd5bada984e0800000000000000
+      internalID: -1978859609728615533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_140
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 335
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3802815f67067f9f0800000000000000
+      internalID: -434772774983556989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_141
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 254
+        width: 115
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ceb27091c29b3fe0800000000000000
+      internalID: -1208210714969063743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_142
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 347
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7663d17cfe25d2530800000000000000
+      internalID: 3831810047753401959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_143
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 304
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5fd28e9e0f6fc40800000000000000
+      internalID: 5545884878566716842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_144
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 320
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcd9cd8330d77f30800000000000000
+      internalID: 4573352866458754260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_145
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 328
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e765fc0d8748b97f0800000000000000
+      internalID: -604744070517008770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_146
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 326
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a53693eba693270800000000000000
+      internalID: 8230727159235435040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_147
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 291
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bdc739d86251120800000000000000
+      internalID: 2383853967269223295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_148
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 310
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ea89c817cff9f70800000000000000
+      internalID: 9196346528734162544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_149
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 323
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642eb5a5404415d50800000000000000
+      internalID: 6724230504127390278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_150
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 258
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d222447bdcda65a0800000000000000
+      internalID: -6527161874813672743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_151
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 278
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906086978bb772520800000000000000
+      internalID: 2677244535736108553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_152
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 262
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c39cb37ccb875670800000000000000
+      internalID: 8527438129680651205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_153
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 257
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fefa564f3593f20800000000000000
+      internalID: 3402843302598274851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_154
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 286
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1ec7ac06e81bc90800000000000000
+      internalID: -7155781786549821012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_155
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 294
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e69f438888eada0800000000000000
+      internalID: -5931653540614672747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_156
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 292
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f8f006be20387e0800000000000000
+      internalID: -1764563419046899964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_157
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 308
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f221490f1e27c49e0800000000000000
+      internalID: -1635806249912888785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_158
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 278
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a457e3d7e19d9ee0800000000000000
+      internalID: -1252684696460503902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_159
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 272
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562c378051cac8b30800000000000000
+      internalID: 4290993751313334885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_160
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 168
+        width: 107
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f944eb764ac2ef70800000000000000
+      internalID: 9215150191628536307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_161
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 295
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7fc07b7294c8c40800000000000000
+      internalID: 5515864078545647521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_162
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 262
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cc48e055d3c79a0800000000000000
+      internalID: -6234040348662510521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_163
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 231
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6fdc2641bfe4160800000000000000
+      internalID: 7011817734838023928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_164
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 286
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de25b29288b67a40800000000000000
+      internalID: 5365678877005131473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_165
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 288
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac5f27b6137b7b30800000000000000
+      internalID: 4286146011772968107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_166
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 278
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e0e9d208f4e6570800000000000000
+      internalID: 8461788161815481928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 286
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a03044b14bc0d90800000000000000
+      internalID: -7130126080836171111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_168
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 292
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c2bf40ef2aa8a20800000000000000
+      internalID: 3065441708268006490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_169
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 280
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614b45ff4952539f0800000000000000
+      internalID: -489443662630702058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_170
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 286
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df69372fd45031d0800000000000000
+      internalID: -3373102803487985705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_171
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 270
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1cf533cd2757200800000000000000
+      internalID: 177174050431287737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_172
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 262
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd90ba2abb6b90d0800000000000000
+      internalID: -3415017445106082308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_173
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 252
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e2ab858b73243f0800000000000000
+      internalID: -918110109128053207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_174
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 287
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276815b6cba404450800000000000000
+      internalID: 6070934470810240626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_175
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 288
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38be31de5806ec80800000000000000
+      internalID: -8293932460425693121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_176
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 280
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5e763e0e5e0a160800000000000000
+      internalID: 7034875372003386794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_177
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 270
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fcab85b5ddc9970800000000000000
+      internalID: 8763122359356542819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_178
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 272
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258da1aedee412830800000000000000
+      internalID: 4044600724097259602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_179
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 284
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7b5776e3d770e80800000000000000
+      internalID: -8212457688509597748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_180
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 276
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e588e2c44c270f40800000000000000
+      internalID: 5694568927672698339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_181
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 294
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888ab15f1502910e0800000000000000
+      internalID: -2298770598419257208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_182
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 292
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7b81380603e1a70800000000000000
+      internalID: 8799523913002956790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_183
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 175
+        width: 31
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119c791372d33c530800000000000000
+      internalID: 3874007343013808401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_184
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 278
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56521ea8682d59250800000000000000
+      internalID: 5950893957937440101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_185
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 146
+        width: 53
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b499f609959a8340800000000000000
+      internalID: 4866866831806796982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_186
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 170
+        width: 84
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e597c63a61315820800000000000000
+      internalID: 2905157566886024675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_187
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 271
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7ca12b32dd78ae0800000000000000
+      internalID: -1547024801596782644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_188
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 272
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdaeac3a9531bce0800000000000000
+      internalID: -1391271873321456142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_189
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 276
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e366b1170530c8de0800000000000000
+      internalID: -1329684145951250882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_190
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 256
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda717ef259ef5600800000000000000
+      internalID: 459342229680519901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_191
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 158
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b781bbb3fc5316d0800000000000000
+      internalID: -3020968723139688523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_192
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 256
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80256b958cec370f0800000000000000
+      internalID: -1120324522391219704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_193
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 254
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a1893966d34f1f0800000000000000
+      internalID: -1012116505479341431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_194
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 245
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33a938ff9dea33a0800000000000000
+      internalID: -6684769425557970117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_195
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 246
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f2af6da39d66a10800000000000000
+      internalID: 1902446739348664123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_196
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 248
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204762c7e477aac90800000000000000
+      internalID: -7157777478777932798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_197
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 236
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001c995e637bfd4a0800000000000000
+      internalID: -6566328285274717952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_198
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 248
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8ca216891b5d200800000000000000
+      internalID: 204264626138564784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_199
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 232
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca35c1ab375ca8c40800000000000000
+      internalID: 5515437794502923180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_200
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 244
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1be3ffb7f41c710800000000000000
+      internalID: 1711736727359369688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_201
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cf368086bc25690800000000000000
+      internalID: -7614800372252279671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_202
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 238
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459b789cf4d454f50800000000000000
+      internalID: 6864978212075059540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_203
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 222
+        width: 12
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b738534d1452e5920800000000000000
+      internalID: 2980860968029225851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_204
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 254
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9d814c09a22dc40800000000000000
+      internalID: 5535533693245381070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_205
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 153
+        width: 134
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796ac5a484306aa20800000000000000
+      internalID: 3073147404747056791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_206
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 256
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3105cf0e9ac7740800000000000000
+      internalID: 5151178857575879654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_207
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 244
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f078dc5df52c9c20800000000000000
+      internalID: 3214486004150333688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_208
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 256
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4207d327faf9da0800000000000000
+      internalID: -5935832878659132177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_209
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 216
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f2550b93dd15390800000000000000
+      internalID: -7831235037179334876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_210
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 99
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da521db1a316fe1f0800000000000000
+      internalID: -1013484488932383315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_211
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 222
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81963c2a0c5542ea0800000000000000
+      internalID: -5898495326095709928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_212
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 170
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01ed1eaec0b5ec80800000000000000
+      internalID: -8294028737001955058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_213
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 236
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bf754fea8ee4a10800000000000000
+      internalID: 1895708331290917674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_214
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 212
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ae71cf6b3116cb0800000000000000
+      internalID: -4872591645203764704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_215
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 208
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60eaae160e7ed340800000000000000
+      internalID: 4890484810120355951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_216
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 222
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7189baa0c636d5010800000000000000
+      internalID: 1179207993127573527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_217
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 222
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4a1db1ee2cf83e0800000000000000
+      internalID: -2049204977505557328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_218
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 218
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5435dbbdb2a9dd0800000000000000
+      internalID: -2478620422139853392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_219
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 229
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31546b9a239cf3050800000000000000
+      internalID: 5782561665999848723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_220
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 222
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1e23de97bed43c0800000000000000
+      internalID: -4373580754203778593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_221
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 198
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36976f9b7b983100800000000000000
+      internalID: 87991147991373375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_222
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 198
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386a16a5a3b72a580800000000000000
+      internalID: -8817349629883341181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_223
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 178
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be33bef52e3f48650800000000000000
+      internalID: 6234375937785017323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_224
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 204
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85096a653f58c4100800000000000000
+      internalID: 93596972445241432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_225
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 206
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c68192dc28847880800000000000000
+      internalID: -8614110461160225083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_226
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 215
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cb84e5de0602d40800000000000000
+      internalID: 5557548512780532737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_227
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 216
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4513680034a23f0800000000000000
+      internalID: -924853103940774726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_228
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 211
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4fb76b157fe1fb0800000000000000
+      internalID: -4675027432838007632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_229
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 210
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9b545672ca394b0800000000000000
+      internalID: -5434811040103286284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_230
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 200
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471756a7504860fa0800000000000000
+      internalID: -5834831108148727436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_231
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 171
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fabc1afb72dd09f0800000000000000
+      internalID: -500512553649259784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_232
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 206
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d6a88e18e6a5430800000000000000
+      internalID: 3772449142107434240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_233
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 196
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae67c1b5a01d903a0800000000000000
+      internalID: -6698593128328431894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_234
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 206
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b458dd8a832862e0800000000000000
+      internalID: -2132415345567705931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_235
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 200
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7c5f0447649e550800000000000000
+      internalID: 6190556627917457367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_236
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 200
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0da86c9649962b0800000000000000
+      internalID: -5590774280380296993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_237
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 174
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fb3268f0a757720800000000000000
+      internalID: 2843312946847924069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_238
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 202
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc71e63b189bef60800000000000000
+      internalID: 8064706800389291263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_239
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 198
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a108795bfa4b1a80800000000000000
+      internalID: -8495113828706025051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_240
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 192
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684d21c4b161c41f0800000000000000
+      internalID: -1059447505842678650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_241
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 195
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97df5372e88591150800000000000000
+      internalID: 5843799359056379257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_242
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 178
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65c617a8d6c10900800000000000000
+      internalID: 649018455136585066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_243
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 176
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57801c558c759aa0800000000000000
+      internalID: -6154876403514833058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_244
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 178
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed947f0f4b34c6100800000000000000
+      internalID: 102531335938591198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_245
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 180
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae218185c9c238a0800000000000000
+      internalID: -6326772676383658325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_246
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 178
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ec53669ef7ea300800000000000000
+      internalID: 265290068480347742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_247
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 180
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328e229e7ebd7aff0800000000000000
+      internalID: -24809483831941085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_248
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 184
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9860d9d66b089e710800000000000000
+      internalID: 1723049853457335945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_249
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 156
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed75a7e4e7859660800000000000000
+      internalID: 7391963780607213028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_250
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 125
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9132f05d6cf161450800000000000000
+      internalID: 6059065287512105753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_251
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 322
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc01968b072193cb0800000000000000
+      internalID: -4883852045567061813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_252
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 152
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753e201fc7e1c6800800000000000000
+      internalID: 606893571756450647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_253
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 166
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9a40bce3d5aedb0800000000000000
+      internalID: -4761891131715442189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_254
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 147
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e55679971b8a0d0800000000000000
+      internalID: -3411281581943988701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_255
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 152
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d1c57ad49d059f0800000000000000
+      internalID: -481646232585101923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_256
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 146
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde2457eb74234380800000000000000
+      internalID: -8988300316720746785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_257
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 299
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee41d5ce26cca9110800000000000000
+      internalID: 1268550970302600430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_258
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 126
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570509db10bdd3b20800000000000000
+      internalID: 3115887317732053109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_259
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 128
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837022c75891f1820800000000000000
+      internalID: 2891057546899097400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_260
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 124
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd80856064a75aa30800000000000000
+      internalID: 4225918266529810655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_261
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 128
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f0d35b538fa9fc0800000000000000
+      internalID: -3487202051887394963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_262
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 136
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf4d73f7b2194f10800000000000000
+      internalID: 2254353669749034949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_263
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 125
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81577e6d92007af00800000000000000
+      internalID: 1127870411378750744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_264
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 275
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69417052256e19a50800000000000000
+      internalID: 6526250575519487126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_265
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 111
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db8652f0b8e07e10800000000000000
+      internalID: 2193508865207077844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_266
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 103
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac047815e3af3b6d0800000000000000
+      internalID: -2975759783199031094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_267
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 21
+        width: 283
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad025f78343405490800000000000000
+      internalID: -7759628200636505894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_268
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 95
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc5d577181c48240800000000000000
+      internalID: 4793168665226599626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_269
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 67
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f6a012147ad7630800000000000000
+      internalID: 3926478348305985432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_270
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 97
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce611ffde9166760800000000000000
+      internalID: 7450671143508340421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_271
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 55
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7bffa02c6ee8060800000000000000
+      internalID: 6957752195416569760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_272
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 65
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa030c64aef4b0310800000000000000
+      internalID: 1372278379092390063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_273
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 47
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e8ea9b1d2de98f0800000000000000
+      internalID: -531755907777917378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_274
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 12
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bf5ae868e6674d0800000000000000
+      internalID: -3137198566219056249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_275
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f354b12ab5ce3a30800000000000000
+      internalID: 4197009305975935990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_276
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 34
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557e7d7d5831f0f80800000000000000
+      internalID: -8138264536062367915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_277
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 175
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1372345234c2dba00800000000000000
+      internalID: 773823377877182257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_278
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 13
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11917e17ad0511fc0800000000000000
+      internalID: -3525948134110324463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_279
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 196
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa2fe1ebc84f3760800000000000000
+      internalID: 7439745149945457326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_280
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 15
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db143fc3eba4ce90800000000000000
+      internalID: -7006286125359424554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_281
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 17
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa18f2b4a63b43530800000000000000
+      internalID: 3833886451908444591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_282
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 13
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a2459e16bd038e0800000000000000
+      internalID: -1715630244455241109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_283
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 17
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985bf51391418dca0800000000000000
+      internalID: -5992017205781351031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_284
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176a522dc06516980800000000000000
+      internalID: -8547456004707211663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_285
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 0
+        width: 88
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e41a1b053daa6b0800000000000000
+      internalID: -5284178869234872832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterAccents_286
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478487e5755d0f090800000000000000
+      internalID: -8002661966613559180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WaterAccents_0: 3808092860490567215
+      WaterAccents_1: -8407675091147790444
+      WaterAccents_10: 6451969402976146521
+      WaterAccents_100: 2119436963240768138
+      WaterAccents_101: -6999818674668043687
+      WaterAccents_102: -5653726704435470877
+      WaterAccents_103: 7713828284080240947
+      WaterAccents_104: 4778486590961353890
+      WaterAccents_105: -5058318613887067730
+      WaterAccents_106: 6933173394354214218
+      WaterAccents_107: -3223731201231079154
+      WaterAccents_108: 8965990807581105278
+      WaterAccents_109: 5017201019817098165
+      WaterAccents_11: 4769865479320697753
+      WaterAccents_110: 8990454605795027883
+      WaterAccents_111: -7270238180417422031
+      WaterAccents_112: -1557061573674579356
+      WaterAccents_113: 5372381829268065199
+      WaterAccents_114: -6875230104228490833
+      WaterAccents_115: -8075755688405893256
+      WaterAccents_116: 1380982190863827849
+      WaterAccents_117: 5202890405743471895
+      WaterAccents_118: 1994193286494859619
+      WaterAccents_119: -2460772775656286249
+      WaterAccents_12: -3486366014259861812
+      WaterAccents_120: 1324600382676310253
+      WaterAccents_121: -6925275588148044842
+      WaterAccents_122: 3280973204323760457
+      WaterAccents_123: 8421786761386039871
+      WaterAccents_124: -1062210853057069528
+      WaterAccents_125: -1660210243891084320
+      WaterAccents_126: -784064126081369394
+      WaterAccents_127: 4308317052253668922
+      WaterAccents_128: 3920240186478739898
+      WaterAccents_129: 135158130135541376
+      WaterAccents_13: 7145055655484507892
+      WaterAccents_130: 4074825427722747824
+      WaterAccents_131: 4028170166847549870
+      WaterAccents_132: -6257206256616557705
+      WaterAccents_133: 2180676935192045864
+      WaterAccents_134: -8133267346005593315
+      WaterAccents_135: -9222330338752539100
+      WaterAccents_136: -1535206239124792837
+      WaterAccents_137: 4540805516034208847
+      WaterAccents_138: -6569346746602243214
+      WaterAccents_139: -1978859609728615533
+      WaterAccents_14: -7533281853538518528
+      WaterAccents_140: -434772774983556989
+      WaterAccents_141: -1208210714969063743
+      WaterAccents_142: 3831810047753401959
+      WaterAccents_143: 5545884878566716842
+      WaterAccents_144: 4573352866458754260
+      WaterAccents_145: -604744070517008770
+      WaterAccents_146: 8230727159235435040
+      WaterAccents_147: 2383853967269223295
+      WaterAccents_148: 9196346528734162544
+      WaterAccents_149: 6724230504127390278
+      WaterAccents_15: -2329147613480540802
+      WaterAccents_150: -6527161874813672743
+      WaterAccents_151: 2677244535736108553
+      WaterAccents_152: 8527438129680651205
+      WaterAccents_153: 3402843302598274851
+      WaterAccents_154: -7155781786549821012
+      WaterAccents_155: -5931653540614672747
+      WaterAccents_156: -1764563419046899964
+      WaterAccents_157: -1635806249912888785
+      WaterAccents_158: -1252684696460503902
+      WaterAccents_159: 4290993751313334885
+      WaterAccents_16: 2392275866730483873
+      WaterAccents_160: 9215150191628536307
+      WaterAccents_161: 5515864078545647521
+      WaterAccents_162: -6234040348662510521
+      WaterAccents_163: 7011817734838023928
+      WaterAccents_164: 5365678877005131473
+      WaterAccents_165: 4286146011772968107
+      WaterAccents_166: 8461788161815481928
+      WaterAccents_167: -7130126080836171111
+      WaterAccents_168: 3065441708268006490
+      WaterAccents_169: -489443662630702058
+      WaterAccents_17: 7131507088402519365
+      WaterAccents_170: -3373102803487985705
+      WaterAccents_171: 177174050431287737
+      WaterAccents_172: -3415017445106082308
+      WaterAccents_173: -918110109128053207
+      WaterAccents_174: 6070934470810240626
+      WaterAccents_175: -8293932460425693121
+      WaterAccents_176: 7034875372003386794
+      WaterAccents_177: 8763122359356542819
+      WaterAccents_178: 4044600724097259602
+      WaterAccents_179: -8212457688509597748
+      WaterAccents_18: 4224515184199067149
+      WaterAccents_180: 5694568927672698339
+      WaterAccents_181: -2298770598419257208
+      WaterAccents_182: 8799523913002956790
+      WaterAccents_183: 3874007343013808401
+      WaterAccents_184: 5950893957937440101
+      WaterAccents_185: 4866866831806796982
+      WaterAccents_186: 2905157566886024675
+      WaterAccents_187: -1547024801596782644
+      WaterAccents_188: -1391271873321456142
+      WaterAccents_189: -1329684145951250882
+      WaterAccents_19: 7187255015957021906
+      WaterAccents_190: 459342229680519901
+      WaterAccents_191: -3020968723139688523
+      WaterAccents_192: -1120324522391219704
+      WaterAccents_193: -1012116505479341431
+      WaterAccents_194: -6684769425557970117
+      WaterAccents_195: 1902446739348664123
+      WaterAccents_196: -7157777478777932798
+      WaterAccents_197: -6566328285274717952
+      WaterAccents_198: 204264626138564784
+      WaterAccents_199: 5515437794502923180
+      WaterAccents_2: 1988413769749897465
+      WaterAccents_20: -7464832260099375463
+      WaterAccents_200: 1711736727359369688
+      WaterAccents_201: -7614800372252279671
+      WaterAccents_202: 6864978212075059540
+      WaterAccents_203: 2980860968029225851
+      WaterAccents_204: 5535533693245381070
+      WaterAccents_205: 3073147404747056791
+      WaterAccents_206: 5151178857575879654
+      WaterAccents_207: 3214486004150333688
+      WaterAccents_208: -5935832878659132177
+      WaterAccents_209: -7831235037179334876
+      WaterAccents_21: 8564926682474728920
+      WaterAccents_210: -1013484488932383315
+      WaterAccents_211: -5898495326095709928
+      WaterAccents_212: -8294028737001955058
+      WaterAccents_213: 1895708331290917674
+      WaterAccents_214: -4872591645203764704
+      WaterAccents_215: 4890484810120355951
+      WaterAccents_216: 1179207993127573527
+      WaterAccents_217: -2049204977505557328
+      WaterAccents_218: -2478620422139853392
+      WaterAccents_219: 5782561665999848723
+      WaterAccents_22: 8377015955317882928
+      WaterAccents_220: -4373580754203778593
+      WaterAccents_221: 87991147991373375
+      WaterAccents_222: -8817349629883341181
+      WaterAccents_223: 6234375937785017323
+      WaterAccents_224: 93596972445241432
+      WaterAccents_225: -8614110461160225083
+      WaterAccents_226: 5557548512780532737
+      WaterAccents_227: -924853103940774726
+      WaterAccents_228: -4675027432838007632
+      WaterAccents_229: -5434811040103286284
+      WaterAccents_23: -3302040316083194758
+      WaterAccents_230: -5834831108148727436
+      WaterAccents_231: -500512553649259784
+      WaterAccents_232: 3772449142107434240
+      WaterAccents_233: -6698593128328431894
+      WaterAccents_234: -2132415345567705931
+      WaterAccents_235: 6190556627917457367
+      WaterAccents_236: -5590774280380296993
+      WaterAccents_237: 2843312946847924069
+      WaterAccents_238: 8064706800389291263
+      WaterAccents_239: -8495113828706025051
+      WaterAccents_24: 8730707144355855166
+      WaterAccents_240: -1059447505842678650
+      WaterAccents_241: 5843799359056379257
+      WaterAccents_242: 649018455136585066
+      WaterAccents_243: -6154876403514833058
+      WaterAccents_244: 102531335938591198
+      WaterAccents_245: -6326772676383658325
+      WaterAccents_246: 265290068480347742
+      WaterAccents_247: -24809483831941085
+      WaterAccents_248: 1723049853457335945
+      WaterAccents_249: 7391963780607213028
+      WaterAccents_25: 1714966376040855255
+      WaterAccents_250: 6059065287512105753
+      WaterAccents_251: -4883852045567061813
+      WaterAccents_252: 606893571756450647
+      WaterAccents_253: -4761891131715442189
+      WaterAccents_254: -3411281581943988701
+      WaterAccents_255: -481646232585101923
+      WaterAccents_256: -8988300316720746785
+      WaterAccents_257: 1268550970302600430
+      WaterAccents_258: 3115887317732053109
+      WaterAccents_259: 2891057546899097400
+      WaterAccents_26: -8733202145638710540
+      WaterAccents_260: 4225918266529810655
+      WaterAccents_261: -3487202051887394963
+      WaterAccents_262: 2254353669749034949
+      WaterAccents_263: 1127870411378750744
+      WaterAccents_264: 6526250575519487126
+      WaterAccents_265: 2193508865207077844
+      WaterAccents_266: -2975759783199031094
+      WaterAccents_267: -7759628200636505894
+      WaterAccents_268: 4793168665226599626
+      WaterAccents_269: 3926478348305985432
+      WaterAccents_27: 478369150901566622
+      WaterAccents_270: 7450671143508340421
+      WaterAccents_271: 6957752195416569760
+      WaterAccents_272: 1372278379092390063
+      WaterAccents_273: -531755907777917378
+      WaterAccents_274: -3137198566219056249
+      WaterAccents_275: 4197009305975935990
+      WaterAccents_276: -8138264536062367915
+      WaterAccents_277: 773823377877182257
+      WaterAccents_278: -3525948134110324463
+      WaterAccents_279: 7439745149945457326
+      WaterAccents_28: -8870776421810744865
+      WaterAccents_280: -7006286125359424554
+      WaterAccents_281: 3833886451908444591
+      WaterAccents_282: -1715630244455241109
+      WaterAccents_283: -5992017205781351031
+      WaterAccents_284: -8547456004707211663
+      WaterAccents_285: -5284178869234872832
+      WaterAccents_286: -8002661966613559180
+      WaterAccents_29: 2503679206558161486
+      WaterAccents_3: -786895631717181995
+      WaterAccents_30: 6183326758517377246
+      WaterAccents_31: -9083777433302809315
+      WaterAccents_32: 3761320031181059931
+      WaterAccents_33: -5173174933706527140
+      WaterAccents_34: 4570572319668996289
+      WaterAccents_35: -436166574327237315
+      WaterAccents_36: -6212581884955970124
+      WaterAccents_37: 5555986759671768210
+      WaterAccents_38: -709505874116845590
+      WaterAccents_39: 4425789412678850871
+      WaterAccents_4: 1787581518633822376
+      WaterAccents_40: 1322038283117234653
+      WaterAccents_41: 1615244649386781278
+      WaterAccents_42: 1617421832530753323
+      WaterAccents_43: 7827620541648771319
+      WaterAccents_44: 3320152764717084156
+      WaterAccents_45: 2549970898007248335
+      WaterAccents_46: 2793359801860221262
+      WaterAccents_47: 1293956935165524926
+      WaterAccents_48: -2035691150815635066
+      WaterAccents_49: -5672866856227084001
+      WaterAccents_5: 6826596214558484026
+      WaterAccents_50: -4121128291804123799
+      WaterAccents_51: 2803577923589226325
+      WaterAccents_52: -8499593238637551708
+      WaterAccents_53: -5510012347365090794
+      WaterAccents_54: 1683763493785452879
+      WaterAccents_55: 9123573646281827919
+      WaterAccents_56: 4933107474769648136
+      WaterAccents_57: -4892324193898053035
+      WaterAccents_58: 6081564778077762255
+      WaterAccents_59: 1968872532601966904
+      WaterAccents_6: -6118337184303437052
+      WaterAccents_60: 1268884926452054525
+      WaterAccents_61: -2567812097340400485
+      WaterAccents_62: -3838969725108088006
+      WaterAccents_63: 8449275352453623387
+      WaterAccents_64: 265589315180234802
+      WaterAccents_65: 1605110096158825833
+      WaterAccents_66: -883152266112358113
+      WaterAccents_67: -326882907667113388
+      WaterAccents_68: 7218508583222730785
+      WaterAccents_69: 940214594209335862
+      WaterAccents_7: 3667759270026315393
+      WaterAccents_70: 5386371785506235939
+      WaterAccents_71: -4976207557812479443
+      WaterAccents_72: 3631326373858139097
+      WaterAccents_73: 4040646829982035085
+      WaterAccents_74: -1268025758871032509
+      WaterAccents_75: 1512174946446783160
+      WaterAccents_76: -400923921829231541
+      WaterAccents_77: 4995658463045875505
+      WaterAccents_78: -5948632878409078722
+      WaterAccents_79: -4897618471646850259
+      WaterAccents_8: 3655918149237259092
+      WaterAccents_80: 5151386070005397539
+      WaterAccents_81: 1208584001695334156
+      WaterAccents_82: 1397891071237048430
+      WaterAccents_83: -5000014388286144315
+      WaterAccents_84: 6005392180341246308
+      WaterAccents_85: 3597782914514434810
+      WaterAccents_86: 1378452697349295495
+      WaterAccents_87: -7452269051236241401
+      WaterAccents_88: -5742670934066662366
+      WaterAccents_89: -8644073573319175459
+      WaterAccents_9: -6981859544507951193
+      WaterAccents_90: -3876051726820359903
+      WaterAccents_91: -2593813621568161706
+      WaterAccents_92: 5701861063914909947
+      WaterAccents_93: 6340791825263497945
+      WaterAccents_94: -2642669330245869435
+      WaterAccents_95: 2011533047103007643
+      WaterAccents_96: -1014087175599492311
+      WaterAccents_97: -6229834196258310762
+      WaterAccents_98: 6191766751492258914
+      WaterAccents_99: -8095852189021030440
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

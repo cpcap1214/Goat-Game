@@ -1,0 +1,4890 @@
+fileFormatVersion: 2
+guid: 6b564ffcaff4d4326b3f47021c786953
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7687648028308964381
+    second: MountainDetails_0
+  - first:
+      213: -3531315458008452288
+    second: MountainDetails_1
+  - first:
+      213: 5993605245936271144
+    second: MountainDetails_2
+  - first:
+      213: 3012861586817101053
+    second: MountainDetails_3
+  - first:
+      213: 976254581722627325
+    second: MountainDetails_4
+  - first:
+      213: 2062899239954188410
+    second: MountainDetails_5
+  - first:
+      213: -4655994501864094644
+    second: MountainDetails_6
+  - first:
+      213: -6563528731795602479
+    second: MountainDetails_7
+  - first:
+      213: 2444772450601088902
+    second: MountainDetails_8
+  - first:
+      213: -7504144199078113446
+    second: MountainDetails_9
+  - first:
+      213: 8341914177513613191
+    second: MountainDetails_10
+  - first:
+      213: 3820055914540069241
+    second: MountainDetails_11
+  - first:
+      213: -6170297780334402112
+    second: MountainDetails_12
+  - first:
+      213: -8767626797809403597
+    second: MountainDetails_13
+  - first:
+      213: 340868743798774628
+    second: MountainDetails_14
+  - first:
+      213: 3832688034535831175
+    second: MountainDetails_15
+  - first:
+      213: 1809814355253605996
+    second: MountainDetails_16
+  - first:
+      213: -7513161606616508552
+    second: MountainDetails_17
+  - first:
+      213: 6384205822200573780
+    second: MountainDetails_18
+  - first:
+      213: 5108048771694825849
+    second: MountainDetails_19
+  - first:
+      213: 1953982129576911794
+    second: MountainDetails_20
+  - first:
+      213: -6974674156061055327
+    second: MountainDetails_21
+  - first:
+      213: 2453036124368907094
+    second: MountainDetails_22
+  - first:
+      213: -5281396990213502792
+    second: MountainDetails_23
+  - first:
+      213: 260691621330740557
+    second: MountainDetails_24
+  - first:
+      213: 616890679884972374
+    second: MountainDetails_25
+  - first:
+      213: -163434983571894331
+    second: MountainDetails_26
+  - first:
+      213: 3479009916521744804
+    second: MountainDetails_27
+  - first:
+      213: -233321608103643786
+    second: MountainDetails_28
+  - first:
+      213: 684113706541884194
+    second: MountainDetails_29
+  - first:
+      213: -6215990329163634282
+    second: MountainDetails_30
+  - first:
+      213: 1815021829084772429
+    second: MountainDetails_31
+  - first:
+      213: 9066587911872329536
+    second: MountainDetails_32
+  - first:
+      213: 5920652487036434535
+    second: MountainDetails_33
+  - first:
+      213: 3464811712211298984
+    second: MountainDetails_34
+  - first:
+      213: 4719714681076542521
+    second: MountainDetails_35
+  - first:
+      213: -1170257788100660630
+    second: MountainDetails_36
+  - first:
+      213: 779009581105429361
+    second: MountainDetails_37
+  - first:
+      213: 5032288569340757776
+    second: MountainDetails_38
+  - first:
+      213: 3063389345163358977
+    second: MountainDetails_39
+  - first:
+      213: 85718298725248669
+    second: MountainDetails_40
+  - first:
+      213: -7706966754123404710
+    second: MountainDetails_41
+  - first:
+      213: 9066207240104620125
+    second: MountainDetails_42
+  - first:
+      213: 219440950315624394
+    second: MountainDetails_43
+  - first:
+      213: -4280364830270802688
+    second: MountainDetails_44
+  - first:
+      213: 2575099956461437436
+    second: MountainDetails_45
+  - first:
+      213: 3418852007667819012
+    second: MountainDetails_46
+  - first:
+      213: -4322581524652032915
+    second: MountainDetails_47
+  - first:
+      213: 8524691310512562167
+    second: MountainDetails_48
+  - first:
+      213: 8087107818806447389
+    second: MountainDetails_49
+  - first:
+      213: -2947695545683041193
+    second: MountainDetails_50
+  - first:
+      213: -1804353705543201980
+    second: MountainDetails_51
+  - first:
+      213: 1263366893570846412
+    second: MountainDetails_52
+  - first:
+      213: -298395022624912998
+    second: MountainDetails_53
+  - first:
+      213: -5152715052564231046
+    second: MountainDetails_54
+  - first:
+      213: -4988178172804406363
+    second: MountainDetails_55
+  - first:
+      213: -6440659746257703221
+    second: MountainDetails_56
+  - first:
+      213: 7298947250125792846
+    second: MountainDetails_57
+  - first:
+      213: -233358460563862239
+    second: MountainDetails_58
+  - first:
+      213: 5892696604173039140
+    second: MountainDetails_59
+  - first:
+      213: 5341539566508314499
+    second: MountainDetails_60
+  - first:
+      213: 1172128273907030865
+    second: MountainDetails_61
+  - first:
+      213: -2606239468852811139
+    second: MountainDetails_62
+  - first:
+      213: -1363220508866270945
+    second: MountainDetails_63
+  - first:
+      213: 9010085855953213369
+    second: MountainDetails_64
+  - first:
+      213: 4831104554221352282
+    second: MountainDetails_65
+  - first:
+      213: 9112612286929233629
+    second: MountainDetails_66
+  - first:
+      213: -8469435995844616677
+    second: MountainDetails_67
+  - first:
+      213: -7977785328554598767
+    second: MountainDetails_68
+  - first:
+      213: -850497767652483512
+    second: MountainDetails_69
+  - first:
+      213: 8770371597244098309
+    second: MountainDetails_70
+  - first:
+      213: -2407215517017798497
+    second: MountainDetails_71
+  - first:
+      213: 4859361780941054525
+    second: MountainDetails_72
+  - first:
+      213: 3678787880444473019
+    second: MountainDetails_73
+  - first:
+      213: 3948147427355404296
+    second: MountainDetails_74
+  - first:
+      213: -8671630501163823464
+    second: MountainDetails_75
+  - first:
+      213: -1490262176424071206
+    second: MountainDetails_76
+  - first:
+      213: -5242613538178569683
+    second: MountainDetails_77
+  - first:
+      213: 8717736199425546392
+    second: MountainDetails_78
+  - first:
+      213: -6832687721947047049
+    second: MountainDetails_79
+  - first:
+      213: -1384209169744217595
+    second: MountainDetails_80
+  - first:
+      213: 352219054507859220
+    second: MountainDetails_81
+  - first:
+      213: 4791842384831758157
+    second: MountainDetails_82
+  - first:
+      213: 5634851524667810120
+    second: MountainDetails_83
+  - first:
+      213: 1059328179608773165
+    second: MountainDetails_84
+  - first:
+      213: 7842405484996497034
+    second: MountainDetails_85
+  - first:
+      213: 13586760804058462
+    second: MountainDetails_86
+  - first:
+      213: -6122461776571711031
+    second: MountainDetails_87
+  - first:
+      213: 7268097752699602682
+    second: MountainDetails_88
+  - first:
+      213: 3440241333609827382
+    second: MountainDetails_89
+  - first:
+      213: 7052307931022500312
+    second: MountainDetails_90
+  - first:
+      213: -2280074392422690946
+    second: MountainDetails_91
+  - first:
+      213: 2336497695977824106
+    second: MountainDetails_92
+  - first:
+      213: -6064811814241632382
+    second: MountainDetails_93
+  - first:
+      213: -1489035495139157372
+    second: MountainDetails_94
+  - first:
+      213: -2176609535159894224
+    second: MountainDetails_95
+  - first:
+      213: -3555256447140193473
+    second: MountainDetails_96
+  - first:
+      213: -3066991424131563034
+    second: MountainDetails_97
+  - first:
+      213: 1488435471680639102
+    second: MountainDetails_98
+  - first:
+      213: 4754178180496898892
+    second: MountainDetails_99
+  - first:
+      213: 4682962400264554967
+    second: MountainDetails_100
+  - first:
+      213: -6981351183258824985
+    second: MountainDetails_101
+  - first:
+      213: 7897174103451470501
+    second: MountainDetails_102
+  - first:
+      213: -6185867712019678659
+    second: MountainDetails_103
+  - first:
+      213: -2401643015258787783
+    second: MountainDetails_104
+  - first:
+      213: 4784564192062275706
+    second: MountainDetails_105
+  - first:
+      213: 3728226959958047115
+    second: MountainDetails_106
+  - first:
+      213: -1097631420553942982
+    second: MountainDetails_107
+  - first:
+      213: 4336287383366590003
+    second: MountainDetails_108
+  - first:
+      213: 1223637920888301972
+    second: MountainDetails_109
+  - first:
+      213: 1179590727025004615
+    second: MountainDetails_110
+  - first:
+      213: -9105896339866209421
+    second: MountainDetails_111
+  - first:
+      213: -8952794087833613015
+    second: MountainDetails_112
+  - first:
+      213: -5070244667814513450
+    second: MountainDetails_113
+  - first:
+      213: -469185648350511318
+    second: MountainDetails_114
+  - first:
+      213: 3125558839632811055
+    second: MountainDetails_115
+  - first:
+      213: -6403531271091559324
+    second: MountainDetails_116
+  - first:
+      213: -4297772227596885167
+    second: MountainDetails_117
+  - first:
+      213: 8887236572978803761
+    second: MountainDetails_118
+  - first:
+      213: 9182144629146920670
+    second: MountainDetails_119
+  - first:
+      213: 7505199664793266247
+    second: MountainDetails_120
+  - first:
+      213: 2505186166459867549
+    second: MountainDetails_121
+  - first:
+      213: 287293551724082898
+    second: MountainDetails_122
+  - first:
+      213: -6112769232307015143
+    second: MountainDetails_123
+  - first:
+      213: 6291299189090104235
+    second: MountainDetails_124
+  - first:
+      213: 3540833038290454429
+    second: MountainDetails_125
+  - first:
+      213: -3120579746645130117
+    second: MountainDetails_126
+  - first:
+      213: -1986141135363935170
+    second: MountainDetails_127
+  - first:
+      213: -89102091146248731
+    second: MountainDetails_128
+  - first:
+      213: 3982596325107221238
+    second: MountainDetails_129
+  - first:
+      213: -7918110834814606053
+    second: MountainDetails_130
+  - first:
+      213: -6280630127500402464
+    second: MountainDetails_131
+  - first:
+      213: -4224503216156152366
+    second: MountainDetails_132
+  - first:
+      213: 1594446946377058548
+    second: MountainDetails_133
+  - first:
+      213: 2039055789600891978
+    second: MountainDetails_134
+  - first:
+      213: 3843257000618377225
+    second: MountainDetails_135
+  - first:
+      213: 5547643039895977476
+    second: MountainDetails_136
+  - first:
+      213: 7515065692518980894
+    second: MountainDetails_137
+  - first:
+      213: 2844489330824575647
+    second: MountainDetails_138
+  - first:
+      213: -3996003635370443543
+    second: MountainDetails_139
+  - first:
+      213: 2926068252949593187
+    second: MountainDetails_140
+  - first:
+      213: -1410375553792411999
+    second: MountainDetails_141
+  - first:
+      213: -7562977565933176184
+    second: MountainDetails_142
+  - first:
+      213: 4394633187842359946
+    second: MountainDetails_143
+  - first:
+      213: 8453270703464989239
+    second: MountainDetails_144
+  - first:
+      213: 7561167367383188545
+    second: MountainDetails_145
+  - first:
+      213: -7214420365758203292
+    second: MountainDetails_146
+  - first:
+      213: -8315360291801937768
+    second: MountainDetails_147
+  - first:
+      213: 8296886348698160825
+    second: MountainDetails_148
+  - first:
+      213: 6550136255157408358
+    second: MountainDetails_149
+  - first:
+      213: 889005727954430051
+    second: MountainDetails_150
+  - first:
+      213: -8889020560090600046
+    second: MountainDetails_151
+  - first:
+      213: 4533395770418559471
+    second: MountainDetails_152
+  - first:
+      213: 2368813858541223443
+    second: MountainDetails_153
+  - first:
+      213: -2492564668995262350
+    second: MountainDetails_154
+  - first:
+      213: 5519693345477342759
+    second: MountainDetails_155
+  - first:
+      213: -3792188692696687754
+    second: MountainDetails_156
+  - first:
+      213: 2668492020964365129
+    second: MountainDetails_157
+  - first:
+      213: 6059112668442590421
+    second: MountainDetails_158
+  - first:
+      213: -3454313743921877516
+    second: MountainDetails_159
+  - first:
+      213: -2017234846168338741
+    second: MountainDetails_160
+  - first:
+      213: -2476506025166913915
+    second: MountainDetails_161
+  - first:
+      213: 931818613819417421
+    second: MountainDetails_162
+  - first:
+      213: -4105933805765440034
+    second: MountainDetails_163
+  - first:
+      213: -7235574701584399105
+    second: MountainDetails_164
+  - first:
+      213: 2353360250881017147
+    second: MountainDetails_165
+  - first:
+      213: -5843939438154045809
+    second: MountainDetails_166
+  - first:
+      213: -2709385933583320509
+    second: MountainDetails_167
+  - first:
+      213: 3918482713690772979
+    second: MountainDetails_168
+  - first:
+      213: -1243050192148915589
+    second: MountainDetails_169
+  - first:
+      213: -310660400359629312
+    second: MountainDetails_170
+  - first:
+      213: -1709114444527471979
+    second: MountainDetails_171
+  - first:
+      213: 1970261819057127485
+    second: MountainDetails_172
+  - first:
+      213: 717288473839540794
+    second: MountainDetails_173
+  - first:
+      213: -1071082645072102720
+    second: MountainDetails_174
+  - first:
+      213: 5744940465847765974
+    second: MountainDetails_175
+  - first:
+      213: -1598366356488406196
+    second: MountainDetails_176
+  - first:
+      213: 6280871349548255725
+    second: MountainDetails_177
+  - first:
+      213: -5297093744100704355
+    second: MountainDetails_178
+  - first:
+      213: 5937649036630614675
+    second: MountainDetails_179
+  - first:
+      213: 1061379468647700810
+    second: MountainDetails_180
+  - first:
+      213: 2724580172875927111
+    second: MountainDetails_181
+  - first:
+      213: -5656285184933298519
+    second: MountainDetails_182
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MountainDetails_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 913
+        width: 323
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14869d962300ba60800000000000000
+      internalID: 7687648028308964381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1143
+        width: 131
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0437f87fc4f3efec0800000000000000
+      internalID: -3531315458008452288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1236
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ff2f737309d2350800000000000000
+      internalID: 5993605245936271144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1162
+        width: 97
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc27af76a5dfc920800000000000000
+      internalID: 3012861586817101053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1234
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcbce1ae5a5c8d00800000000000000
+      internalID: 976254581722627325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_5
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 929
+        width: 355
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7884e4dde3e0ac10800000000000000
+      internalID: 2062899239954188410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1226
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4408384ba5926fb0800000000000000
+      internalID: -4655994501864094644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_7
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1197
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3c04cb469a9e4a0800000000000000
+      internalID: -6563528731795602479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_8
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1175
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6873db247939de120800000000000000
+      internalID: 2444772450601088902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_9
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1208
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f04ae0c9cebd790800000000000000
+      internalID: -7504144199078113446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1187
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7876e714fbe64c370800000000000000
+      internalID: 8341914177513613191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_11
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1159
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9717a406d90930530800000000000000
+      internalID: 3820055914540069241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_12
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1202
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c569c44cd2be5aa0800000000000000
+      internalID: -6170297780334402112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_13
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1178
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339ff5951e1235680800000000000000
+      internalID: -8767626797809403597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_14
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1218
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bd82501520bb400800000000000000
+      internalID: 340868743798774628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_15
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 894
+        width: 313
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786f5610671703530800000000000000
+      internalID: 3832688034535831175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_16
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1193
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c663b4a3190cd1910800000000000000
+      internalID: 1809814355253605996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_17
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1201
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87715814353ebb790800000000000000
+      internalID: -7513161606616508552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_18
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1195
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fee3dce51499850800000000000000
+      internalID: 6384205822200573780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_19
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1212
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9719d345b4f63e640800000000000000
+      internalID: 5108048771694825849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_20
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1189
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3a4eae460fd1b10800000000000000
+      internalID: 1953982129576911794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_21
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1198
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a622e7fecaf43f90800000000000000
+      internalID: -6974674156061055327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_22
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1185
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ba53ebb5fea0220800000000000000
+      internalID: 2453036124368907094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_23
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1199
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8c1806b65b4b6b0800000000000000
+      internalID: -5281396990213502792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_24
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1165
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45e65df5a92e9300800000000000000
+      internalID: 260691621330740557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_25
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1182
+        width: 86
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6510bcf0ec2af8800800000000000000
+      internalID: 616890679884972374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_26
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1178
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf43549fbc5bbdf0800000000000000
+      internalID: -163434983571894331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_27
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1197
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a90754261de74030800000000000000
+      internalID: 3479009916521744804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_28
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1215
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6753f8ecb3313ccf0800000000000000
+      internalID: -233321608103643786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_29
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 870
+        width: 294
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223a760aac57e7900800000000000000
+      internalID: 684113706541884194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_30
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1182
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69920f6babd5cb9a0800000000000000
+      internalID: -6215990329163634282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_31
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1149
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d487d26bcb0403910800000000000000
+      internalID: 1815021829084772429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_32
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1131
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04730044badf2dd70800000000000000
+      internalID: 9066587911872329536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_33
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1133
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768f65861126a2250800000000000000
+      internalID: 5920652487036434535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_34
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1114
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aaa7f715eb751030800000000000000
+      internalID: 3464811712211298984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_35
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1115
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c63ce0f7bcf7140800000000000000
+      internalID: 4719714681076542521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_36
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1058
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6230a4fdb862cfe0800000000000000
+      internalID: -1170257788100660630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_37
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1082
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b3a6e26199fca00800000000000000
+      internalID: 779009581105429361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_38
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1074
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01780d6aac746d540800000000000000
+      internalID: 5032288569340757776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_39
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1058
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103bd2ff068538a20800000000000000
+      internalID: 3063389345163358977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_40
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1062
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ee44aa658803100800000000000000
+      internalID: 85718298725248669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_41
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1034
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aaab4029a5b0590800000000000000
+      internalID: -7706966754123404710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_42
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1036
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50b2863373a1dd70800000000000000
+      internalID: 9066207240104620125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 868
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7acb4b16c9b0300800000000000000
+      internalID: 219440950315624394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_44
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 924
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00532ae7dd61994c0800000000000000
+      internalID: -4280364830270802688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_45
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 921
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1020654c79cb320800000000000000
+      internalID: 2575099956461437436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_46
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 921
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402eba089c3327f20800000000000000
+      internalID: 3418852007667819012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_47
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 916
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cf27e510b1304c0800000000000000
+      internalID: -4322581524652032915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_48
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 921
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffd5f6c499cd4670800000000000000
+      internalID: 8524691310512562167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_49
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 902
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d0e30c6bd2b3070800000000000000
+      internalID: 8087107818806447389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_50
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 927
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754af8dc48ea717d0800000000000000
+      internalID: -2947695545683041193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_51
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 908
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b00fb5dd5a5f6e0800000000000000
+      internalID: -1804353705543201980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_52
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 927
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce67400f71688110800000000000000
+      internalID: 1263366893570846412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_53
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 638
+        width: 335
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9982b1de43ebdbf0800000000000000
+      internalID: -298395022624912998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_54
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 905
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cc91fb5f0ed78b0800000000000000
+      internalID: -5152715052564231046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_55
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 921
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3e2ad516e66cab0800000000000000
+      internalID: -4988178172804406363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_56
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 904
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcee629b51e2e96a0800000000000000
+      internalID: -6440659746257703221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_57
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 900
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46ef0e3ad11b4560800000000000000
+      internalID: 7298947250125792846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_58
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 607
+        width: 313
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d42cc67b1f2ccf0800000000000000
+      internalID: -233358460563862239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_59
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 912
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42672e4375017c150800000000000000
+      internalID: 5892696604173039140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_60
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 912
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f0c6f5fe5f02a40800000000000000
+      internalID: 5341539566508314499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_61
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 908
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b9b65747c344010800000000000000
+      internalID: 1172128273907030865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_62
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 896
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7aec63f207c4dbd0800000000000000
+      internalID: -2606239468852811139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_63
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 906
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19af7a7b2ed41de0800000000000000
+      internalID: -1363220508866270945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_64
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 904
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7dcd739514a0d70800000000000000
+      internalID: 9010085855953213369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_65
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 896
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55b22beef78b0340800000000000000
+      internalID: 4831104554221352282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6e6422890867e70800000000000000
+      internalID: 9112612286929233629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_67
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 892
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e56c3b5d4867a80800000000000000
+      internalID: -8469435995844616677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_68
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 886
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e1e250386394190800000000000000
+      internalID: -7977785328554598767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_69
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 605
+        width: 316
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e9fc459cc6234f0800000000000000
+      internalID: -850497767652483512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_70
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 878
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507e8e1108e96b970800000000000000
+      internalID: 8770371597244098309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_71
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 872
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f988852cd3ad79ed0800000000000000
+      internalID: -2407215517017798497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_72
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 872
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32e9143bcbef6340800000000000000
+      internalID: 4859361780941054525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_73
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 872
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbea7e1161ead0330800000000000000
+      internalID: 3678787880444473019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_74
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 872
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8082460ca23aac630800000000000000
+      internalID: 3948147427355404296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_75
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 866
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e00b2e00e28a780800000000000000
+      internalID: -8671630501163823464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_76
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 858
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfea004276815be0800000000000000
+      internalID: -1490262176424071206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_77
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 868
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a663a73ce7e37b0800000000000000
+      internalID: -5242613538178569683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 5
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898d25482ee9bf870800000000000000
+      internalID: 8717736199425546392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_79
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 862
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b5c20d7ba6d21a0800000000000000
+      internalID: -6832687721947047049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_80
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 855
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50abe8e081d4acce0800000000000000
+      internalID: -1384209169744217595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_81
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 862
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d901b2d5553e400800000000000000
+      internalID: 352219054507859220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_82
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 619
+        width: 302
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fbe8fb24b008240800000000000000
+      internalID: 4791842384831758157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_83
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 844
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841a4e16b93033e40800000000000000
+      internalID: 5634851524667810120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_84
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 864
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d226426ed5d73be00800000000000000
+      internalID: 1059328179608773165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_85
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 826
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e8acddc32d5dc60800000000000000
+      internalID: 7842405484996497034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_86
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 837
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55cf534615403000800000000000000
+      internalID: 13586760804058462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_87
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 840
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c14980d375a80ba0800000000000000
+      internalID: -6122461776571711031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_88
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 815
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af68976e5687dd460800000000000000
+      internalID: 7268097752699602682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_89
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 815
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c0e6704413ebf20800000000000000
+      internalID: 3440241333609827382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_90
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 804
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d12443d2b4ded160800000000000000
+      internalID: 7052307931022500312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_91
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 824
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f4e22ab6c8b50e0800000000000000
+      internalID: -2280074392422690946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_92
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 813
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fd6437648ec6020800000000000000
+      internalID: 2336497695977824106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_93
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 811
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ff886a9c575dba0800000000000000
+      internalID: -6064811814241632382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_94
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 803
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a584e3b12e55be0800000000000000
+      internalID: -1489035495139157372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 759
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ff012f8212bc1e0800000000000000
+      internalID: -2176609535159894224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 775
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b9ace091139aec0800000000000000
+      internalID: -3555256447140193473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_97
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 775
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e10873ac8bdf65d0800000000000000
+      internalID: -3066991424131563034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_98
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 781
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e709d98ec2cf7a410800000000000000
+      internalID: 1488435471680639102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_99
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 767
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b3e6fcddb3af140800000000000000
+      internalID: 4754178180496898892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_100
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 753
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9874cdd793df040800000000000000
+      internalID: 4682962400264554967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 751
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eeca9d66124d1f90800000000000000
+      internalID: -6981351183258824985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_102
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 745
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa83ad8106689d60800000000000000
+      internalID: 7897174103451470501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_103
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 704
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a328d0712672aa0800000000000000
+      internalID: -6185867712019678659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930b33ee666abaed0800000000000000
+      internalID: -2401643015258787783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_105
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 652
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a700de078cf266240800000000000000
+      internalID: 4784564192062275706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_106
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 654
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b897556caa25db330800000000000000
+      internalID: 3728226959958047115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_107
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 260
+        width: 290
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38239bd90e64c0f0800000000000000
+      internalID: -1097631420553942982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_108
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 621
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ed29986669d2c30800000000000000
+      internalID: 4336287383366590003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_109
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 292
+        width: 331
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499ae38b43c3bf010800000000000000
+      internalID: 1223637920888301972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_110
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 632
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7409ba8348fbe5010800000000000000
+      internalID: 1179590727025004615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_111
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 626
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373beb4268b51a180800000000000000
+      internalID: -9105896339866209421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_112
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 629
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92dc577063941c380800000000000000
+      internalID: -8952794087833613015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_113
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 636
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4f892865fd2a9b0800000000000000
+      internalID: -5070244667814513450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_114
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 634
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f3b50832e1d79f0800000000000000
+      internalID: -469185648350511318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_115
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 615
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2455e86437306b20800000000000000
+      internalID: 3125558839632811055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_116
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 606
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4646b7e7c361227a0800000000000000
+      internalID: -6403531271091559324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_117
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 573
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1536c88fdee3b54c0800000000000000
+      internalID: -4297772227596885167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_118
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 613
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134f247939ec55b70800000000000000
+      internalID: 8887236572978803761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_119
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 619
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6209024e78d6f70800000000000000
+      internalID: 9182144629146920670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_120
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 619
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7482264b453d72860800000000000000
+      internalID: 7505199664793266247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_121
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 613
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91201c9b8534c220800000000000000
+      internalID: 2505186166459867549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_122
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 543
+        width: 121
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d636c096fbacf300800000000000000
+      internalID: 287293551724082898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_123
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 308
+        width: 301
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912376225c41b2ba0800000000000000
+      internalID: -6112769232307015143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_124
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 604
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba33b6d974f2f4750800000000000000
+      internalID: 6291299189090104235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_125
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 602
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97054063e0932130800000000000000
+      internalID: 3540833038290454429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_126
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 292
+        width: 281
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7440f3014971b4d0800000000000000
+      internalID: -3120579746645130117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_127
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 589
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3477d0192fcf64e0800000000000000
+      internalID: -1986141135363935170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_128
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 553
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edbb74ce1273cef0800000000000000
+      internalID: -89102091146248731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_129
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 548
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2cac9c146054730800000000000000
+      internalID: 3982596325107221238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_130
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 343
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1524bec5283d1290800000000000000
+      internalID: -7918110834814606053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_131
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 454
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0e8bcdc28b6d8a0800000000000000
+      internalID: -6280630127500402464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_132
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 421
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd648015bc8f55c0800000000000000
+      internalID: -4224503216156152366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_133
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 284
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8c20ccc0d902610800000000000000
+      internalID: 1594446946377058548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_134
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 338
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a446d50ff6e2c4c10800000000000000
+      internalID: 2039055789600891978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_135
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 320
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900446e21edf55530800000000000000
+      internalID: 3843257000618377225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_136
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 306
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40efaadb3ff2dfc40800000000000000
+      internalID: 5547643039895977476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_137
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 300
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d915a4e60ea4860800000000000000
+      internalID: 7515065692518980894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_138
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 324
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9aff23c9f7a97720800000000000000
+      internalID: 2844489330824575647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_139
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 318
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec33988dd75b88c0800000000000000
+      internalID: -3996003635370443543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_140
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 306
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cbb95b29b7b9820800000000000000
+      internalID: 2926068252949593187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_141
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 316
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6fe4408e65d6ce0800000000000000
+      internalID: -1410375553792411999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_142
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 298
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88afd4269f7ea0790800000000000000
+      internalID: -7562977565933176184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_143
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 313
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a828c7fb99fdcfc30800000000000000
+      internalID: 4394633187842359946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_144
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 308
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7324f3edaec005570800000000000000
+      internalID: 8453270703464989239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_145
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 308
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144862ce8a9aee860800000000000000
+      internalID: 7561167367383188545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_146
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 290
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a73a6a6ea31eb90800000000000000
+      internalID: -7214420365758203292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_147
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 272
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898c1cb0fd7e99c80800000000000000
+      internalID: -8315360291801937768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_148
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 304
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be01f3ec26742370800000000000000
+      internalID: 8296886348698160825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_149
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 305
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662901f4832c6ea50800000000000000
+      internalID: 6550136255157408358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_150
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 260
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368e20adff1665c00800000000000000
+      internalID: 889005727954430051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_151
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 290
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29de7aa85ead3a480800000000000000
+      internalID: -8889020560090600046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_152
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 296
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe97e0a2f6bd9ee30800000000000000
+      internalID: 4533395770418559471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_153
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 296
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e3f5167a7bfd020800000000000000
+      internalID: 2368813858541223443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_154
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 278
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27829d4c3a1a86dd0800000000000000
+      internalID: -2492564668995262350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_155
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 288
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726b3466ad3e99c40800000000000000
+      internalID: 5519693345477342759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_156
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 284
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b9f82d9707f5bc0800000000000000
+      internalID: -3792188692696687754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_157
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 274
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9439b83da53680520800000000000000
+      internalID: 2668492020964365129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_158
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 223
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcf6909eda461450800000000000000
+      internalID: 6059112668442590421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_159
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 276
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd69ce93ffcf00d0800000000000000
+      internalID: -3454313743921877516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_160
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 281
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcea89d58975104e0800000000000000
+      internalID: -2017234846168338741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_161
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 276
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ebfc524eea1add0800000000000000
+      internalID: -2476506025166913915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_162
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 0
+        width: 665
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43adcf971c7eec00800000000000000
+      internalID: 931818613819417421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_163
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 280
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd451435fac407c0800000000000000
+      internalID: -4105933805765440034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_164
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 276
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff442460523169b90800000000000000
+      internalID: -7235574701584399105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_165
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 274
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b358946fda0d8a020800000000000000
+      internalID: 2353360250881017147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_166
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 282
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86aee32b0826eea0800000000000000
+      internalID: -5843939438154045809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_167
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 280
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a735d29d3566ad0800000000000000
+      internalID: -2709385933583320509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_168
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 260
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f51c00644f316630800000000000000
+      internalID: 3918482713690772979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_169
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 207
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a9bfaaf6ccfbee0800000000000000
+      internalID: -1243050192148915589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_170
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 268
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e98c6030050bbf0800000000000000
+      internalID: -310660400359629312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592737dc7710848e0800000000000000
+      internalID: -1709114444527471979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_172
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 288
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d304a6f7fa6c75b10800000000000000
+      internalID: 1970261819057127485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_173
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 252
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a10bc011254f900800000000000000
+      internalID: 717288473839540794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_174
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 163
+        width: 39
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca34675200c221f0800000000000000
+      internalID: -1071082645072102720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_175
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 193
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db8f9a6ae02abf40800000000000000
+      internalID: 5744940465847765974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_176
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 161
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bb29c644671d9e0800000000000000
+      internalID: -1598366356488406196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 5
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de980c507332a2750800000000000000
+      internalID: 6280871349548255725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_178
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 100
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ffee01e41fc76b0800000000000000
+      internalID: -5297093744100704355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_179
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 39
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392ee4df654c66250800000000000000
+      internalID: 5937649036630614675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_180
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 23
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4993a8d007cabe00800000000000000
+      internalID: 1061379468647700810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_181
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 9
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e87565b37afc520800000000000000
+      internalID: 2724580172875927111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainDetails_182
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 72
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aefeb3b796d081b0800000000000000
+      internalID: -5656285184933298519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MountainDetails_0: 7687648028308964381
+      MountainDetails_1: -3531315458008452288
+      MountainDetails_10: 8341914177513613191
+      MountainDetails_100: 4682962400264554967
+      MountainDetails_101: -6981351183258824985
+      MountainDetails_102: 7897174103451470501
+      MountainDetails_103: -6185867712019678659
+      MountainDetails_104: -2401643015258787783
+      MountainDetails_105: 4784564192062275706
+      MountainDetails_106: 3728226959958047115
+      MountainDetails_107: -1097631420553942982
+      MountainDetails_108: 4336287383366590003
+      MountainDetails_109: 1223637920888301972
+      MountainDetails_11: 3820055914540069241
+      MountainDetails_110: 1179590727025004615
+      MountainDetails_111: -9105896339866209421
+      MountainDetails_112: -8952794087833613015
+      MountainDetails_113: -5070244667814513450
+      MountainDetails_114: -469185648350511318
+      MountainDetails_115: 3125558839632811055
+      MountainDetails_116: -6403531271091559324
+      MountainDetails_117: -4297772227596885167
+      MountainDetails_118: 8887236572978803761
+      MountainDetails_119: 9182144629146920670
+      MountainDetails_12: -6170297780334402112
+      MountainDetails_120: 7505199664793266247
+      MountainDetails_121: 2505186166459867549
+      MountainDetails_122: 287293551724082898
+      MountainDetails_123: -6112769232307015143
+      MountainDetails_124: 6291299189090104235
+      MountainDetails_125: 3540833038290454429
+      MountainDetails_126: -3120579746645130117
+      MountainDetails_127: -1986141135363935170
+      MountainDetails_128: -89102091146248731
+      MountainDetails_129: 3982596325107221238
+      MountainDetails_13: -8767626797809403597
+      MountainDetails_130: -7918110834814606053
+      MountainDetails_131: -6280630127500402464
+      MountainDetails_132: -4224503216156152366
+      MountainDetails_133: 1594446946377058548
+      MountainDetails_134: 2039055789600891978
+      MountainDetails_135: 3843257000618377225
+      MountainDetails_136: 5547643039895977476
+      MountainDetails_137: 7515065692518980894
+      MountainDetails_138: 2844489330824575647
+      MountainDetails_139: -3996003635370443543
+      MountainDetails_14: 340868743798774628
+      MountainDetails_140: 2926068252949593187
+      MountainDetails_141: -1410375553792411999
+      MountainDetails_142: -7562977565933176184
+      MountainDetails_143: 4394633187842359946
+      MountainDetails_144: 8453270703464989239
+      MountainDetails_145: 7561167367383188545
+      MountainDetails_146: -7214420365758203292
+      MountainDetails_147: -8315360291801937768
+      MountainDetails_148: 8296886348698160825
+      MountainDetails_149: 6550136255157408358
+      MountainDetails_15: 3832688034535831175
+      MountainDetails_150: 889005727954430051
+      MountainDetails_151: -8889020560090600046
+      MountainDetails_152: 4533395770418559471
+      MountainDetails_153: 2368813858541223443
+      MountainDetails_154: -2492564668995262350
+      MountainDetails_155: 5519693345477342759
+      MountainDetails_156: -3792188692696687754
+      MountainDetails_157: 2668492020964365129
+      MountainDetails_158: 6059112668442590421
+      MountainDetails_159: -3454313743921877516
+      MountainDetails_16: 1809814355253605996
+      MountainDetails_160: -2017234846168338741
+      MountainDetails_161: -2476506025166913915
+      MountainDetails_162: 931818613819417421
+      MountainDetails_163: -4105933805765440034
+      MountainDetails_164: -7235574701584399105
+      MountainDetails_165: 2353360250881017147
+      MountainDetails_166: -5843939438154045809
+      MountainDetails_167: -2709385933583320509
+      MountainDetails_168: 3918482713690772979
+      MountainDetails_169: -1243050192148915589
+      MountainDetails_17: -7513161606616508552
+      MountainDetails_170: -310660400359629312
+      MountainDetails_171: -1709114444527471979
+      MountainDetails_172: 1970261819057127485
+      MountainDetails_173: 717288473839540794
+      MountainDetails_174: -1071082645072102720
+      MountainDetails_175: 5744940465847765974
+      MountainDetails_176: -1598366356488406196
+      MountainDetails_177: 6280871349548255725
+      MountainDetails_178: -5297093744100704355
+      MountainDetails_179: 5937649036630614675
+      MountainDetails_18: 6384205822200573780
+      MountainDetails_180: 1061379468647700810
+      MountainDetails_181: 2724580172875927111
+      MountainDetails_182: -5656285184933298519
+      MountainDetails_19: 5108048771694825849
+      MountainDetails_2: 5993605245936271144
+      MountainDetails_20: 1953982129576911794
+      MountainDetails_21: -6974674156061055327
+      MountainDetails_22: 2453036124368907094
+      MountainDetails_23: -5281396990213502792
+      MountainDetails_24: 260691621330740557
+      MountainDetails_25: 616890679884972374
+      MountainDetails_26: -163434983571894331
+      MountainDetails_27: 3479009916521744804
+      MountainDetails_28: -233321608103643786
+      MountainDetails_29: 684113706541884194
+      MountainDetails_3: 3012861586817101053
+      MountainDetails_30: -6215990329163634282
+      MountainDetails_31: 1815021829084772429
+      MountainDetails_32: 9066587911872329536
+      MountainDetails_33: 5920652487036434535
+      MountainDetails_34: 3464811712211298984
+      MountainDetails_35: 4719714681076542521
+      MountainDetails_36: -1170257788100660630
+      MountainDetails_37: 779009581105429361
+      MountainDetails_38: 5032288569340757776
+      MountainDetails_39: 3063389345163358977
+      MountainDetails_4: 976254581722627325
+      MountainDetails_40: 85718298725248669
+      MountainDetails_41: -7706966754123404710
+      MountainDetails_42: 9066207240104620125
+      MountainDetails_43: 219440950315624394
+      MountainDetails_44: -4280364830270802688
+      MountainDetails_45: 2575099956461437436
+      MountainDetails_46: 3418852007667819012
+      MountainDetails_47: -4322581524652032915
+      MountainDetails_48: 8524691310512562167
+      MountainDetails_49: 8087107818806447389
+      MountainDetails_5: 2062899239954188410
+      MountainDetails_50: -2947695545683041193
+      MountainDetails_51: -1804353705543201980
+      MountainDetails_52: 1263366893570846412
+      MountainDetails_53: -298395022624912998
+      MountainDetails_54: -5152715052564231046
+      MountainDetails_55: -4988178172804406363
+      MountainDetails_56: -6440659746257703221
+      MountainDetails_57: 7298947250125792846
+      MountainDetails_58: -233358460563862239
+      MountainDetails_59: 5892696604173039140
+      MountainDetails_6: -4655994501864094644
+      MountainDetails_60: 5341539566508314499
+      MountainDetails_61: 1172128273907030865
+      MountainDetails_62: -2606239468852811139
+      MountainDetails_63: -1363220508866270945
+      MountainDetails_64: 9010085855953213369
+      MountainDetails_65: 4831104554221352282
+      MountainDetails_66: 9112612286929233629
+      MountainDetails_67: -8469435995844616677
+      MountainDetails_68: -7977785328554598767
+      MountainDetails_69: -850497767652483512
+      MountainDetails_7: -6563528731795602479
+      MountainDetails_70: 8770371597244098309
+      MountainDetails_71: -2407215517017798497
+      MountainDetails_72: 4859361780941054525
+      MountainDetails_73: 3678787880444473019
+      MountainDetails_74: 3948147427355404296
+      MountainDetails_75: -8671630501163823464
+      MountainDetails_76: -1490262176424071206
+      MountainDetails_77: -5242613538178569683
+      MountainDetails_78: 8717736199425546392
+      MountainDetails_79: -6832687721947047049
+      MountainDetails_8: 2444772450601088902
+      MountainDetails_80: -1384209169744217595
+      MountainDetails_81: 352219054507859220
+      MountainDetails_82: 4791842384831758157
+      MountainDetails_83: 5634851524667810120
+      MountainDetails_84: 1059328179608773165
+      MountainDetails_85: 7842405484996497034
+      MountainDetails_86: 13586760804058462
+      MountainDetails_87: -6122461776571711031
+      MountainDetails_88: 7268097752699602682
+      MountainDetails_89: 3440241333609827382
+      MountainDetails_9: -7504144199078113446
+      MountainDetails_90: 7052307931022500312
+      MountainDetails_91: -2280074392422690946
+      MountainDetails_92: 2336497695977824106
+      MountainDetails_93: -6064811814241632382
+      MountainDetails_94: -1489035495139157372
+      MountainDetails_95: -2176609535159894224
+      MountainDetails_96: -3555256447140193473
+      MountainDetails_97: -3066991424131563034
+      MountainDetails_98: 1488435471680639102
+      MountainDetails_99: 4754178180496898892
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

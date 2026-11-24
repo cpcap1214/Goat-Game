@@ -1,0 +1,728 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2691600138071362572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4060927418640615145}
+  - component: {fileID: 4646473274848731260}
+  m_Layer: 0
+  m_Name: Current - configure world bounds and surface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4060927418640615145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2691600138071362572}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5875520331607984725}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4646473274848731260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2691600138071362572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93084e7d85649448980a033b7494045a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.WaterCurrent2D
+  surfaceY: 0
+  left: -10
+  right: 10
+  velocity: -2
+--- !u!1 &3419009186950469940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4263516961321922191}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4263516961321922191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3419009186950469940}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.5, y: 0.28, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5875520331607984725}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7207985421120044281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5875520331607984725}
+  - component: {fileID: 5119637140267162870}
+  m_Layer: 0
+  m_Name: FloatingTimberPlankSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5875520331607984725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7207985421120044281}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4060927418640615145}
+  - {fileID: 4263516961321922191}
+  - {fileID: 9139712925375956856}
+  - {fileID: 6043079169990579003}
+  - {fileID: 3844366482907519484}
+  - {fileID: 5821251332268338198}
+  - {fileID: 3160354381065414703}
+  - {fileID: 8027991987740186315}
+  - {fileID: 8430060217686313019}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5119637140267162870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7207985421120044281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7a5bbc8e10749698c5a66aa4b605f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.CrateSpawner
+  affectedByRewind: 1
+  spawnInterval: 10
+  spawningEnabled: 1
+  initialHorizontalVelocity: -2
+  maximumActiveCrates: 6
+  spawnPoint: {fileID: 4263516961321922191}
+  water: {fileID: 4646473274848731260}
+  disposal: {fileID: 1285341258623424789}
+  pool:
+  - {fileID: 819525343948865937}
+  - {fileID: 7915977374318431062}
+  - {fileID: 597818452379893436}
+  - {fileID: 8311683491454106245}
+  - {fileID: 4029584377925518433}
+  - {fileID: 3206363455334455953}
+--- !u!1 &7794721285970210430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9139712925375956856}
+  - component: {fileID: 3853454370386214234}
+  - component: {fileID: 1285341258623424789}
+  m_Layer: 0
+  m_Name: Disposal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9139712925375956856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7794721285970210430}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5875520331607984725}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &3853454370386214234
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7794721285970210430}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 6}
+  m_EdgeRadius: 0
+--- !u!114 &1285341258623424789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7794721285970210430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5bb1f393be2a4e30bbff7d5bdb33445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.CrateDisposalTrigger
+  owner: {fileID: 5119637140267162870}
+  boundaryX: -10
+--- !u!1001 &308849284396842406
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5875520331607984725}
+    m_Modifications:
+    - target: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: water
+      value: 
+      objectReference: {fileID: 4646473274848731260}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_Name
+      value: FloatingTimberPlank pooled 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+--- !u!114 &819525343948865937 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 308849284396842406}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4f9387e1bdc40c09f7dcfaf368f2b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.FloatingObject2D
+--- !u!4 &6043079169990579003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 308849284396842406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &530626012126184075
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5875520331607984725}
+    m_Modifications:
+    - target: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: water
+      value: 
+      objectReference: {fileID: 4646473274848731260}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_Name
+      value: FloatingTimberPlank pooled 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+--- !u!114 &597818452379893436 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 530626012126184075}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4f9387e1bdc40c09f7dcfaf368f2b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.FloatingObject2D
+--- !u!4 &5821251332268338198 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 530626012126184075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2551715455401911974
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5875520331607984725}
+    m_Modifications:
+    - target: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: water
+      value: 
+      objectReference: {fileID: 4646473274848731260}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_Name
+      value: FloatingTimberPlank pooled 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+--- !u!114 &3206363455334455953 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 2551715455401911974}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4f9387e1bdc40c09f7dcfaf368f2b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.FloatingObject2D
+--- !u!4 &8430060217686313019 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 2551715455401911974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4106505061476939862
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5875520331607984725}
+    m_Modifications:
+    - target: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: water
+      value: 
+      objectReference: {fileID: 4646473274848731260}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_Name
+      value: FloatingTimberPlank pooled 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+--- !u!114 &4029584377925518433 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 4106505061476939862}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4f9387e1bdc40c09f7dcfaf368f2b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.FloatingObject2D
+--- !u!4 &8027991987740186315 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 4106505061476939862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7119621772170524513
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5875520331607984725}
+    m_Modifications:
+    - target: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: water
+      value: 
+      objectReference: {fileID: 4646473274848731260}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_Name
+      value: FloatingTimberPlank pooled 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+--- !u!4 &3844366482907519484 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 7119621772170524513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7915977374318431062 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 7119621772170524513}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4f9387e1bdc40c09f7dcfaf368f2b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.FloatingObject2D
+--- !u!1001 &8957590552120018610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5875520331607984725}
+    m_Modifications:
+    - target: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: water
+      value: 
+      objectReference: {fileID: 4646473274848731260}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_Name
+      value: FloatingTimberPlank pooled 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309644702680622242, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+--- !u!4 &3160354381065414703 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6310691747106303645, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 8957590552120018610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8311683491454106245 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1087277623871798327, guid: bf8789a2d8e1e45eb9b1f02473be2001, type: 3}
+  m_PrefabInstance: {fileID: 8957590552120018610}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4f9387e1bdc40c09f7dcfaf368f2b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.FloatingObject2D

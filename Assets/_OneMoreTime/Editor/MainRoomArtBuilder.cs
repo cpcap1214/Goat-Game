@@ -41,8 +41,8 @@ public static class MainRoomArtBuilder {
   for(int x=-5;x<=8;x++)PresentationBuilder.Image(b.forest,"Tutorial forest",DemoBuilder.Sprite("Environment/middle.png"),new Vector2(x*9,-6),new Vector2(10,20.91f),-30,new Color(.70f,.88f,.82f));
  }
  public static void Grass(Transform parent,Rect rect){
-  var g=new GameObject("Grass blades and roots");g.transform.SetParent(parent);g.transform.position=new Vector2(rect.center.x,rect.yMax-.5f);var sr=g.AddComponent<SpriteRenderer>();sr.sprite=AssetDatabase.LoadAssetAtPath<Sprite>(DemoBuilder.Root+"/Generated/GrassEdgeSeamless.asset");sr.drawMode=SpriteDrawMode.Tiled;sr.size=new Vector2(rect.width,1);sr.sortingOrder=5;
-  if(Art("GrassBlades")==null)Generate();var fringe=new GameObject("Individual grass blades");fringe.transform.SetParent(g.transform);fringe.transform.position=new Vector2(rect.center.x,rect.yMax-.065f);var blades=fringe.AddComponent<SpriteRenderer>();blades.sprite=Art("GrassBlades");blades.drawMode=SpriteDrawMode.Tiled;blades.size=new Vector2(rect.width,10f/32);blades.sortingOrder=6;
+  var room=parent.GetComponentInParent<MainRoom>();float bottom=room!=null?room.roomBounds.yMin:rect.yMax-6;
+  GrassyPlatformBuilder.Attach(parent,rect,bottom);
  }
  public static void Wood(Transform parent,Rect rect){var g=new GameObject("Weathered timber");g.transform.SetParent(parent);g.transform.position=new Vector2(rect.center.x,rect.yMax-.25f);var sr=g.AddComponent<SpriteRenderer>();sr.sprite=Art("WeatheredWoodPlatform");sr.drawMode=SpriteDrawMode.Tiled;sr.size=new Vector2(rect.width,.5f);sr.sortingOrder=5;}
 }

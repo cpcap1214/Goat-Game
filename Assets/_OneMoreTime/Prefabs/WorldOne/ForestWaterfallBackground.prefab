@@ -47,8 +47,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: OneMoreTime.Runtime::OneMoreTime.WorldOneBackdrop
   view: {fileID: 0}
   scenery: {fileID: 4030998024637123649}
-  repeatWidth: 30
-  repeatHeight: 30
+  repeatWidth: 63.36
+  repeatHeight: 21.12
   parallax: {x: 0.2, y: 0.35}
   edgeBlend: 0.12
 --- !u!212 &4030998024637123649
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd4031eb809154fe395c6ec07488cd95, type: 2}
+  - {fileID: 2100000, guid: 26c2c1022080c4fe5a4e73505c190917, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,7 +105,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 12.54, y: 12.54}
+  m_Size: {x: 21.72, y: 7.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

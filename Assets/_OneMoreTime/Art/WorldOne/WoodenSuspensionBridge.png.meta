@@ -1,0 +1,1562 @@
+fileFormatVersion: 2
+guid: bd99216d5119b4dd59b75d54f20b2eb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7184650582101978249
+    second: WoodenSuspensionBridge_0
+  - first:
+      213: 7655144418648876962
+    second: WoodenSuspensionBridge_1
+  - first:
+      213: -4733144971055271224
+    second: WoodenSuspensionBridge_2
+  - first:
+      213: 7591698312044296322
+    second: WoodenSuspensionBridge_3
+  - first:
+      213: -5146007736763925093
+    second: WoodenSuspensionBridge_4
+  - first:
+      213: -7011921547113572969
+    second: WoodenSuspensionBridge_5
+  - first:
+      213: 4202893545936913747
+    second: WoodenSuspensionBridge_6
+  - first:
+      213: -5593499617724803020
+    second: WoodenSuspensionBridge_7
+  - first:
+      213: 1064144117471658112
+    second: WoodenSuspensionBridge_8
+  - first:
+      213: 8764534333989619785
+    second: WoodenSuspensionBridge_9
+  - first:
+      213: -2148493136735127915
+    second: WoodenSuspensionBridge_10
+  - first:
+      213: 5527391695956405741
+    second: WoodenSuspensionBridge_11
+  - first:
+      213: -1298491496334330047
+    second: WoodenSuspensionBridge_12
+  - first:
+      213: -8760141542781120992
+    second: WoodenSuspensionBridge_13
+  - first:
+      213: 8689897426391387990
+    second: WoodenSuspensionBridge_14
+  - first:
+      213: 5857801143744237978
+    second: WoodenSuspensionBridge_15
+  - first:
+      213: -5245136651243926177
+    second: WoodenSuspensionBridge_16
+  - first:
+      213: 3530325362055464150
+    second: WoodenSuspensionBridge_17
+  - first:
+      213: 2527508416766373891
+    second: WoodenSuspensionBridge_18
+  - first:
+      213: -3677825113396432434
+    second: WoodenSuspensionBridge_19
+  - first:
+      213: -4882036908765127992
+    second: WoodenSuspensionBridge_20
+  - first:
+      213: 7229385192599787567
+    second: WoodenSuspensionBridge_21
+  - first:
+      213: -6049777882943182644
+    second: WoodenSuspensionBridge_22
+  - first:
+      213: -778816117633652253
+    second: WoodenSuspensionBridge_23
+  - first:
+      213: 7809728852393102606
+    second: WoodenSuspensionBridge_24
+  - first:
+      213: 5312545638505611314
+    second: WoodenSuspensionBridge_25
+  - first:
+      213: 5945289702111980068
+    second: WoodenSuspensionBridge_26
+  - first:
+      213: 2943754779953140367
+    second: WoodenSuspensionBridge_27
+  - first:
+      213: -499412962978102837
+    second: WoodenSuspensionBridge_28
+  - first:
+      213: 7783128992676936409
+    second: WoodenSuspensionBridge_29
+  - first:
+      213: -6874426818129310119
+    second: WoodenSuspensionBridge_30
+  - first:
+      213: 413601776383057887
+    second: WoodenSuspensionBridge_31
+  - first:
+      213: 9149133496289540750
+    second: WoodenSuspensionBridge_32
+  - first:
+      213: -5409315691719604313
+    second: WoodenSuspensionBridge_33
+  - first:
+      213: 8540210985850064892
+    second: WoodenSuspensionBridge_34
+  - first:
+      213: 170005725575558083
+    second: WoodenSuspensionBridge_35
+  - first:
+      213: 8177511588985737718
+    second: WoodenSuspensionBridge_36
+  - first:
+      213: 983910942953131887
+    second: WoodenSuspensionBridge_37
+  - first:
+      213: 5829968090570401015
+    second: WoodenSuspensionBridge_38
+  - first:
+      213: 1626428538129665857
+    second: WoodenSuspensionBridge_39
+  - first:
+      213: -4108412678391607551
+    second: WoodenSuspensionBridge_40
+  - first:
+      213: -5182665323027111249
+    second: WoodenSuspensionBridge_41
+  - first:
+      213: 4629297257010980792
+    second: WoodenSuspensionBridge_42
+  - first:
+      213: -7258279297485085938
+    second: WoodenSuspensionBridge_43
+  - first:
+      213: -5931713909668413872
+    second: WoodenSuspensionBridge_44
+  - first:
+      213: -5926815609433523334
+    second: WoodenSuspensionBridge_45
+  - first:
+      213: -2754897706180836373
+    second: WoodenSuspensionBridge_46
+  - first:
+      213: 2962355386230155665
+    second: WoodenSuspensionBridge_47
+  - first:
+      213: -3702853598933963555
+    second: WoodenSuspensionBridge_48
+  - first:
+      213: 3985819854109768301
+    second: WoodenSuspensionBridge_49
+  - first:
+      213: 7173999239354472653
+    second: WoodenSuspensionBridge_50
+  - first:
+      213: -6084359571316527061
+    second: WoodenSuspensionBridge_51
+  - first:
+      213: -4122246557353388631
+    second: WoodenSuspensionBridge_52
+  - first:
+      213: 3686199832151346232
+    second: WoodenSuspensionBridge_53
+  - first:
+      213: -1000170739397586498
+    second: WoodenSuspensionBridge_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 2172
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773128a8c5efa4c90800000000000000
+      internalID: -7184650582101978249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_1
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 626
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a761e14a498c3a60800000000000000
+      internalID: 7655144418648876962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 618
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2f2d1e9bd705eb0800000000000000
+      internalID: -4733144971055271224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_3
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 596
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288355b64612b5960800000000000000
+      internalID: 7591698312044296322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_4
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 600
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d36c66a35b598b0800000000000000
+      internalID: -5146007736763925093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_5
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 594
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795536fe086a0be90800000000000000
+      internalID: -7011921547113572969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_6
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 591
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3550a52896da35a30800000000000000
+      internalID: 4202893545936913747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_7
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 596
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438da3abbb5ef52b0800000000000000
+      internalID: -5593499617724803020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_8
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 596
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08048bfcf6994ce00800000000000000
+      internalID: 1064144117471658112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_9
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 594
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9488a2f4a81e1a970800000000000000
+      internalID: 8764534333989619785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_10
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 597
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596b98610e40f22e0800000000000000
+      internalID: -2148493136735127915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_11
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 596
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedeceb467d35bc40800000000000000
+      internalID: 5527391695956405741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_12
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 593
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14770212dd4dafde0800000000000000
+      internalID: -1298491496334330047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_13
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 596
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e83681ea9bd6680800000000000000
+      internalID: -8760141542781120992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_14
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 594
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fc3a21ba7b89870800000000000000
+      internalID: 8689897426391387990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_15
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 588
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9190c1ba171b4150800000000000000
+      internalID: 5857801143744237978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_16
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 594
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d493071088537b0800000000000000
+      internalID: -5245136651243926177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_17
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 593
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d44eda563c3ef030800000000000000
+      internalID: 3530325362055464150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_18
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 592
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3007b248383831320800000000000000
+      internalID: 2527508416766373891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_19
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 598
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1bef99b8db5fcc0800000000000000
+      internalID: -3677825113396432434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_20
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 594
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca55b03c458f3cb0800000000000000
+      internalID: -4882036908765127992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_21
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 596
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28116d978fe35460800000000000000
+      internalID: 7229385192599787567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_22
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 594
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8282d811fda0ca0800000000000000
+      internalID: -6049777882943182644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_23
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 594
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9e81b0ed61135f0800000000000000
+      internalID: -778816117633652253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_24
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 594
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d8207730bb16c60800000000000000
+      internalID: 7809728852393102606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_25
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 592
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2308d247c14f9b940800000000000000
+      internalID: 5312545638505611314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_26
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 594
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a2c2d0c79e18250800000000000000
+      internalID: 5945289702111980068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_27
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 578
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8217fc20615ad820800000000000000
+      internalID: 2943754779953140367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_28
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 592
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc107716e8ab119f0800000000000000
+      internalID: -499412962978102837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_29
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 578
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da7d81059a330c60800000000000000
+      internalID: 7783128992676936409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_30
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 580
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ecbfe2b312990a0800000000000000
+      internalID: -6874426818129310119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_31
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 578
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf58cfcf986db500800000000000000
+      internalID: 413601776383057887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 564
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a37f0d07048fe70800000000000000
+      internalID: 9149133496289540750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_33
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 550
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a74b15c9004ee4b0800000000000000
+      internalID: -5409315691719604313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_34
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 546
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff4b76c4ace48670800000000000000
+      internalID: 8540210985850064892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 548
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3b6b28e4bfb5200800000000000000
+      internalID: 170005725575558083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_36
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 548
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f19220c67b5c7170800000000000000
+      internalID: 8177511588985737718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_37
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 530
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f47552acd87ad00800000000000000
+      internalID: 983910942953131887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_38
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 530
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4af42071538e050800000000000000
+      internalID: 5829968090570401015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_39
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 534
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fc6c3632c329610800000000000000
+      internalID: 1626428538129665857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_40
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 530
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fc1c1bf6cfbf6c0800000000000000
+      internalID: -4108412678391607551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_41
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 500
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2eb3ff8597318b0800000000000000
+      internalID: -5182665323027111249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_42
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 529
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b764d304519e3040800000000000000
+      internalID: 4629297257010980792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_43
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 530
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0364d85f69654b90800000000000000
+      internalID: -7258279297485085938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_44
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 528
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e78f070a15eada0800000000000000
+      internalID: -5931713909668413872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_45
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 528
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b7976da98bfbda0800000000000000
+      internalID: -5926815609433523334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_46
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 532
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be38d8ed123a4c9d0800000000000000
+      internalID: -2754897706180836373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_47
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 516
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199a6be47866c1920800000000000000
+      internalID: 2962355386230155665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_48
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 502
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddca3443542dc9cc0800000000000000
+      internalID: -3702853598933963555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_49
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 510
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a79ee1a0a705730800000000000000
+      internalID: 3985819854109768301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_50
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 509
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc855a87c4a2f8360800000000000000
+      internalID: 7173999239354472653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_51
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 504
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b203ee9c433009ba0800000000000000
+      internalID: -6084359571316527061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_52
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 516
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5df50c896dac6c0800000000000000
+      internalID: -4122246557353388631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_53
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 515
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c4c7e8733082330800000000000000
+      internalID: 3686199832151346232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodenSuspensionBridge_54
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 47
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1977bf20eae12f0800000000000000
+      internalID: -1000170739397586498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WoodenSuspensionBridge_0: -7184650582101978249
+      WoodenSuspensionBridge_1: 7655144418648876962
+      WoodenSuspensionBridge_10: -2148493136735127915
+      WoodenSuspensionBridge_11: 5527391695956405741
+      WoodenSuspensionBridge_12: -1298491496334330047
+      WoodenSuspensionBridge_13: -8760141542781120992
+      WoodenSuspensionBridge_14: 8689897426391387990
+      WoodenSuspensionBridge_15: 5857801143744237978
+      WoodenSuspensionBridge_16: -5245136651243926177
+      WoodenSuspensionBridge_17: 3530325362055464150
+      WoodenSuspensionBridge_18: 2527508416766373891
+      WoodenSuspensionBridge_19: -3677825113396432434
+      WoodenSuspensionBridge_2: -4733144971055271224
+      WoodenSuspensionBridge_20: -4882036908765127992
+      WoodenSuspensionBridge_21: 7229385192599787567
+      WoodenSuspensionBridge_22: -6049777882943182644
+      WoodenSuspensionBridge_23: -778816117633652253
+      WoodenSuspensionBridge_24: 7809728852393102606
+      WoodenSuspensionBridge_25: 5312545638505611314
+      WoodenSuspensionBridge_26: 5945289702111980068
+      WoodenSuspensionBridge_27: 2943754779953140367
+      WoodenSuspensionBridge_28: -499412962978102837
+      WoodenSuspensionBridge_29: 7783128992676936409
+      WoodenSuspensionBridge_3: 7591698312044296322
+      WoodenSuspensionBridge_30: -6874426818129310119
+      WoodenSuspensionBridge_31: 413601776383057887
+      WoodenSuspensionBridge_32: 9149133496289540750
+      WoodenSuspensionBridge_33: -5409315691719604313
+      WoodenSuspensionBridge_34: 8540210985850064892
+      WoodenSuspensionBridge_35: 170005725575558083
+      WoodenSuspensionBridge_36: 8177511588985737718
+      WoodenSuspensionBridge_37: 983910942953131887
+      WoodenSuspensionBridge_38: 5829968090570401015
+      WoodenSuspensionBridge_39: 1626428538129665857
+      WoodenSuspensionBridge_4: -5146007736763925093
+      WoodenSuspensionBridge_40: -4108412678391607551
+      WoodenSuspensionBridge_41: -5182665323027111249
+      WoodenSuspensionBridge_42: 4629297257010980792
+      WoodenSuspensionBridge_43: -7258279297485085938
+      WoodenSuspensionBridge_44: -5931713909668413872
+      WoodenSuspensionBridge_45: -5926815609433523334
+      WoodenSuspensionBridge_46: -2754897706180836373
+      WoodenSuspensionBridge_47: 2962355386230155665
+      WoodenSuspensionBridge_48: -3702853598933963555
+      WoodenSuspensionBridge_49: 3985819854109768301
+      WoodenSuspensionBridge_5: -7011921547113572969
+      WoodenSuspensionBridge_50: 7173999239354472653
+      WoodenSuspensionBridge_51: -6084359571316527061
+      WoodenSuspensionBridge_52: -4122246557353388631
+      WoodenSuspensionBridge_53: 3686199832151346232
+      WoodenSuspensionBridge_54: -1000170739397586498
+      WoodenSuspensionBridge_6: 4202893545936913747
+      WoodenSuspensionBridge_7: -5593499617724803020
+      WoodenSuspensionBridge_8: 1064144117471658112
+      WoodenSuspensionBridge_9: 8764534333989619785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

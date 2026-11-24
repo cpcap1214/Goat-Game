@@ -5,6 +5,7 @@ public sealed class PlayerMotor2D : MonoBehaviour {
  public PlayerTuning tuning; public LayerMask worldMask;
  public Vector2 Position {get;private set;} public Vector2 Velocity {get;private set;}
  public bool Grounded {get;private set;} public int Facing {get;private set;}=1;
+ public void Face(int facing){Facing=facing<0?-1:1;}
  public Collider2D GroundCollider {get;private set;}
  public bool OnEcho {get;private set;}
  public int VisualState{get;private set;}public int VisualFrame{get;private set;}float poseTime,landingTime;
@@ -21,6 +22,7 @@ public sealed class PlayerMotor2D : MonoBehaviour {
  }
  public void Init(){body=GetComponent<Rigidbody2D>();body.bodyType=RigidbodyType2D.Kinematic;body.gravityScale=0;body.freezeRotation=true;var c=GetComponent<BoxCollider2D>();c.size=new Vector2(tuning.width,tuning.height);c.offset=new Vector2(0,tuning.height/2);Position=body.position;}
  public void ResetAt(Vector2 p){if(body==null)Init();Position=p;Velocity=Vector2.zero;Grounded=OnEcho=false;GroundCollider=null;droppedPlatform=null;coyote=buffer=poseTime=landingTime=0;VisualState=VisualFrame=0;body.position=p;transform.position=p;}
+ public void ReleaseEchoSupport(){if(!OnEcho)return;OnEcho=false;Grounded=false;GroundCollider=null;carriedCollider=null;coyote=0;}
  // A single motor owns every displacement, including platform carry. Echo has no solid side collider.
  public void Step(InputFrame input,float dt, bool echoActive=false,Vector2 echoOld=default,Vector2 echoNew=default,RoomPlatform[] platforms=null){
   if(body==null)Init();
@@ -31,6 +33,9 @@ public sealed class PlayerMotor2D : MonoBehaviour {
   if(GroundCollider!=null&&GroundCollider.TryGetComponent<RoomPlatform>(out var moving)){
    if(!moving.Active){Grounded=false;GroundCollider=null;}
    else if(Grounded&&!input.jump&&!input.drop){carriedCollider=GroundCollider;MoveAxis(moving.Delta.x,true);MoveAxis(moving.Delta.y,false);carriedCollider=null;}
+  }
+  if(Grounded&&GroundCollider!=null&&GroundCollider.TryGetComponent<IPlayerCarrier>(out var carrier)&&!input.jump&&!input.drop){
+   carriedCollider=GroundCollider;MoveAxis(carrier.CarryDelta.x,true);MoveAxis(carrier.CarryDelta.y,false);carriedCollider=null;
   }
   bool wasGrounded=Grounded;float previousY=Velocity.y;
   coyote=Grounded?tuning.coyoteTime:Mathf.Max(0,coyote-dt);

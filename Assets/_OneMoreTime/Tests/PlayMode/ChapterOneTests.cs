@@ -36,20 +36,22 @@ public class ChapterOneTests {
  [UnityTest]public IEnumerator KeyboardTutorialSimultaneousJumpFilterAndPause(){
   EditorSceneManager.LoadSceneInPlayMode("Assets/_OneMoreTime/Scenes/Chapter01_EchoFoothills.unity",new LoadSceneParameters(LoadSceneMode.Single));yield return null;
   g=Object.FindFirstObjectByType<NostalgiaChapter>();g.enabled=false;
+  // Isolate native focus/update clocks: Editor updates do not provide gameplay button edges.
+  var fixture=new InputTestFixture();fixture.Setup();KeyBindings.Reload();
   var previous=Keyboard.current;var keyboard=InputSystem.AddDevice<Keyboard>();keyboard.MakeCurrent();
   System.Action<Key[]> pump=keys=>{InputSystem.QueueStateEvent(keyboard,new KeyboardState(keys));InputSystem.Update();g.SendMessage("Update");g.SendMessage("FixedUpdate");};
   try{
    pump(new[]{Key.Enter});Assert.AreEqual(-1,g.Tutorial);pump(new Key[0]);
-   for(int i=0;i<40&&g.Tutorial<0;i++)pump(new[]{Key.D});Assert.IsTrue(g.Unlocked);Assert.AreEqual(1,g.Tutorial);
+   for(int i=0;i<40&&g.Tutorial<0;i++)pump(new[]{KeyBindings.Get(GameAction.MoveRight)});Assert.IsTrue(g.Unlocked);Assert.AreEqual(1,g.Tutorial);
    pump(new Key[0]);pump(new[]{Key.Enter});pump(new Key[0]);pump(new[]{Key.Enter});pump(new Key[0]);Assert.AreEqual(-1,g.Tutorial);
    var start=g.player.Position;int switches=g.Switches;
-   pump(new[]{Key.D,Key.Space,Key.F});for(int i=0;i<12;i++)pump(new[]{Key.D,Key.Space,Key.F});
-   Assert.IsTrue(g.Past);Assert.AreEqual(switches+1,g.Switches,"Held F must switch only once");Assert.Greater(g.player.Position.y,start.y+.5f);Assert.Greater(g.player.Position.x,start.x+.5f);
+   pump(new[]{KeyBindings.Get(GameAction.MoveRight),KeyBindings.Get(GameAction.Jump),KeyBindings.Get(GameAction.Filter)});for(int i=0;i<12;i++)pump(new[]{KeyBindings.Get(GameAction.MoveRight),KeyBindings.Get(GameAction.Jump),KeyBindings.Get(GameAction.Filter)});
+   Assert.IsTrue(g.Past);Assert.AreEqual(switches+1,g.Switches,"Held filter must switch only once");Assert.Greater(g.player.Position.y,start.y+.5f);Assert.Greater(g.player.Position.x,start.x+.5f);
    pump(new Key[0]);pump(new[]{Key.Escape});Assert.IsTrue(g.Paused);var paused=g.player.Position;var elapsed=g.Elapsed;
-   for(int i=0;i<10;i++)pump(new[]{Key.D,Key.F,Key.Space});Assert.AreEqual(paused,g.player.Position);Assert.AreEqual(elapsed,g.Elapsed);
-   pump(new Key[0]);pump(new[]{Key.Escape});pump(new Key[0]);pump(new[]{Key.R});Assert.IsFalse(g.Paused);Assert.IsFalse(g.Past);Assert.AreEqual(ChapterLayout.Checkpoints[g.Checkpoint],g.player.Position);
-   pump(new Key[0]);g.player.ResetAt(ChapterLayout.Devices[0]);pump(new[]{Key.F});pump(new Key[0]);pump(new[]{Key.X});Assert.IsTrue(g.Devices[0],"Keyboard X must activate past mechanism");
-  }finally{InputSystem.RemoveDevice(keyboard);if(previous!=null)previous.MakeCurrent();}
+   for(int i=0;i<10;i++)pump(new[]{KeyBindings.Get(GameAction.MoveRight),KeyBindings.Get(GameAction.Filter),KeyBindings.Get(GameAction.Jump)});Assert.AreEqual(paused,g.player.Position);Assert.AreEqual(elapsed,g.Elapsed);
+   pump(new Key[0]);pump(new[]{Key.Escape});pump(new Key[0]);pump(new[]{KeyBindings.Get(GameAction.Retry)});Assert.IsFalse(g.Paused);Assert.IsFalse(g.Past);Assert.AreEqual(ChapterLayout.Checkpoints[g.Checkpoint],g.player.Position);
+   pump(new Key[0]);g.player.ResetAt(ChapterLayout.Devices[0]);pump(new[]{KeyBindings.Get(GameAction.Filter)});pump(new Key[0]);pump(new[]{KeyBindings.Get(GameAction.Interact)});Assert.IsTrue(g.Devices[0],"Bound interact key must activate past mechanism");
+  }finally{InputSystem.RemoveDevice(keyboard);if(previous!=null)previous.MakeCurrent();fixture.TearDown();KeyBindings.Reload();}
  }
  IEnumerator Load(){EditorSceneManager.LoadSceneInPlayMode("Assets/_OneMoreTime/Scenes/Chapter01_EchoFoothills.unity",new LoadSceneParameters(LoadSceneMode.Single));yield return null;g=Object.FindFirstObjectByType<NostalgiaChapter>();g.AutoTick=false;g.AdvanceTutorial();Step(default,4);}
  void Step(InputFrame f,int n=1,bool flip=false){for(int i=0;i<n;i++){g.Tick(f,flip&&i==0);steps++;while(g.Guidance.IsOpen)g.AdvanceGuidance();f.jump=f.freeze=f.trace=f.retry=false;if(g.Tutorial>=0){g.AdvanceTutorial();if(g.Tutorial>=0)g.AdvanceTutorial();}Assert.Less(steps,20000,"Route exceeded fixed-step budget");}}
